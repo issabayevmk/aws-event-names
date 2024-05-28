@@ -25,6 +25,6 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add all-aws-events.txt
+          git add .
           git commit -m "Update all-aws-events.txt with new AWS events"
           git push origin main
