@@ -13,12 +13,12 @@ jobs:
       - name: Checkout self
         uses: actions/checkout@v2
 
-      - name: Checkput TryTryAgain aws-iam-actions
+      - name: Checkout TryTryAgain aws-iam-actions
         uses: actions/checkout@v2
         with:
           repository: TryTryAgain/aws-iam-actions-list
           path: monitored-repo
-          ref: main
+          ref: master
 
       - name: Run Python script
         run: |
