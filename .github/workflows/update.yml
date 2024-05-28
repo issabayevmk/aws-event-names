@@ -1,0 +1,50 @@
+name: Update AWS Event Names
+
+on:
+  schedule:
+    - cron: '*/15 * * * *' #Runs every 15 minutes
+  workflow_dispatch:
+
+jobs:
+  check_for_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout self
+        uses: actions/checkout@v2
+
+      - name: Checkput TryTryAgain aws-iam-actions
+        uses: actions/checkout@v2
+        with:
+          repository: TryTryAgain/aws-iam-actions-list
+          path: aws-iam-actions-list
+          ref: main
+
+      - name: Compare commit hashes
+        id: check
+        run: |
+          echo "Fetching latest commit hash"
+          git fetch origin
+          latest_commit=$(git rev-parse origin/main)
+          echo "Latest commit: $latest_commit"
+          echo "::set-output name=latest_commit::$latest_commit"
+          echo "Storing hash in a file for state management"
+          if [ -f latest_commit.txt ]; then
+            previous_commit=$(cat latest_commit.txt)
+            echo "Previous commit: $previous_commit"
+          else
+            previous_commit=""
+          fi
+          echo "$latest_commit" > latest_commit.txt
+          if [ "$latest_commit" = "$previous_commit" ]; then
+            echo "No changes detected"
+            exit 0
+          else
+            echo "Changes detected"
+          fi
+
+        - name: Run Python script
+          if: steps.check.outputs.latest_commit != ''
+          run: |
+            echo "Running Python script"
+            python3 aws-event-names/script.py
