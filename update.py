@@ -1,5 +1,5 @@
 try:
-    with open('monitored-repo/all-actions.txt') as infile, open('all-aws-events.txt') as outfile:
+    with open('monitored-repo/all-actions.txt', 'r') as infile, open('all-aws-events.txt', 'w') as outfile:
         for line in infile:
             line = line.strip()
             if ':' in line:
