@@ -53,6 +53,12 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
+      - name: Delete latest_commit.txt
+        run: rm -f latest_commit.txt
+
+      - name: Delete monitored repository directory
+        run: rm -rf monitored-repo/
+        
       - name: Commit and push changes
         run: |
           git add all-aws-events.txt
