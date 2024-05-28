@@ -20,31 +20,7 @@ jobs:
           path: aws-iam-actions-list
           ref: main
 
-      - name: Compare commit hashes
-        id: check
+      - name: Run Python script
         run: |
-          echo "Fetching latest commit hash"
-          git fetch origin
-          latest_commit=$(git rev-parse origin/main)
-          echo "Latest commit: $latest_commit"
-          echo "::set-output name=latest_commit::$latest_commit"
-          echo "Storing hash in a file for state management"
-          if [ -f latest_commit.txt ]; then
-            previous_commit=$(cat latest_commit.txt)
-            echo "Previous commit: $previous_commit"
-          else
-            previous_commit=""
-          fi
-          echo "$latest_commit" > latest_commit.txt
-          if [ "$latest_commit" = "$previous_commit" ]; then
-            echo "No changes detected"
-            exit 0
-          else
-            echo "Changes detected"
-          fi
-
-        - name: Run Python script
-          if: steps.check.outputs.latest_commit != ''
-          run: |
-            echo "Running Python script"
-            python3 aws-event-names/script.py
+          echo "Running Python script"
+          python3 aws-event-names/script.py
