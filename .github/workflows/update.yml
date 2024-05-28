@@ -13,36 +13,6 @@ jobs:
       - name: Checkout self
         uses: actions/checkout@v2
 
-      - name: Checkout TryTryAgain aws-iam-actions
-        uses: actions/checkout@v2
-        with:
-          repository: TryTryAgain/aws-iam-actions-list
-          path: monitored-repo
-          ref: master
-
-      - name: Compare commit hashes
-        id: check
-        run: |
-          echo "Fetching latest commit hash"
-          cd monitored-repo
-          latest_commit=$(git rev-parse HEAD)
-          echo "Latest commit: $latest_commit"
-          echo "::set-output name=latest_commit::$latest_commit"
-          echo "Storing hash in a file for state management"
-          if [ -f ../latest_commit.txt ]; then
-            previous_commit=$(cat ../latest_commit.txt)
-            echo "Previous commit: $previous_commit"
-          else
-            previous_commit=""
-          fi
-          echo "$latest_commit" > ../latest_commit.txt
-          if [ "$latest_commit" = "$previous_commit" ]; then
-            echo "No changes detected"
-            exit 0
-          else
-            echo "Changes detected"
-          fi
-
       - name: Run Python script
         run: |
           echo "Running update script"
@@ -53,12 +23,6 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Delete latest_commit.txt
-        run: rm -f latest_commit.txt
-
-      - name: Delete monitored repository directory
-        run: rm -rf monitored-repo/
-        
       - name: Commit and push changes
         run: |
           git add all-aws-events.txt
