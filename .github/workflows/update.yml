@@ -21,6 +21,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.name 'auto-updater[github-actions-bot]'
+          git config --global user.email 'issabayevmk@github.com'
     
       - name: Commit and push changes
         run: |
