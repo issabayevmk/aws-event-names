@@ -6,6 +6,7 @@ access-analyzer:CreateArchiveRule
 access-analyzer:DeleteAnalyzer
 access-analyzer:DeleteArchiveRule
 access-analyzer:StartPolicyGeneration
+access-analyzer:StartResourceScan
 access-analyzer:UpdateArchiveRule
 access-analyzer:UpdateFindings
 account:CloseAccount
