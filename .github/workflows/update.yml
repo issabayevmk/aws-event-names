@@ -36,7 +36,6 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: steps.branch_status.outputs.branch_status == 'out_of_date'
         run: |
           git add .
           git commit -m "Update all-aws-events.txt with new AWS events"
