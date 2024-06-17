@@ -13,7 +13,7 @@ jobs:
       - name: Checkout self
         uses: actions/checkout@v2
 
-      - name: Run Python script
+      - name: Run Auto-Updater
         run: |
           echo "Running update script"
           python3 update.py
@@ -22,9 +22,29 @@ jobs:
         run: |
           git config --global user.name 'auto-updater[github-actions-bot]'
           git config --global user.email 'issabayevmk@github.com'
-    
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes detected"
+            echo "::set-output name=changes_detected::false"
+          else
+            echo "Changes detected"
+            echo "::set-output name=changes_detected::true"
+          fi
+
       - name: Commit and push changes
+        if: steps.check_changes.outputs.changes_detected == 'true'
         run: |
           git add .
-          git commit -m "Update all-aws-events.txt with new AWS events"
+          git commit -m "Updated with new AWS events"
           git push origin main
+
+      - name: Log outcome
+        run: |
+          if [ "${{ steps.check_changes.outputs.changes_detected }}" == "true" ]; then
+            echo "Changes were detected and AWS Events were updated"
+          else
+            echo "No changes detected."
+          fi
