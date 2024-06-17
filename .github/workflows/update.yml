@@ -2,7 +2,7 @@ name: Update AWS Event Names
 
 on:
   schedule:
-    - cron: '0 */6 * * *' #Runs every 15 minutes
+    - cron: '0 */6 * * *' #Runs every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -20,21 +20,8 @@ jobs:
       
       - name: Configure Git
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-      
-      - name: Check if branch is up to date
-        id: branch_status
-        run: |
-          git fetch
-          LOCAL=$(git rev-parse @)
-          REMOTE=$(git rev-parse @{u})
-          if [ $LOCAL != $REMOTE ]; then
-            echo "::set-output name=branch_status::out_of_date"
-          else
-            echo "::set-output name=branch_status::up_to_date"
-          fi
-
+          git config --global user.name 'auto-updater[github-actions-bot]'
+    
       - name: Commit and push changes
         run: |
           git add .
