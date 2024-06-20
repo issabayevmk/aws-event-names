@@ -3403,6 +3403,7 @@ ExportEC2InstanceRecommendations:compute-optimizer
 ExportECSServiceRecommendations:compute-optimizer
 ExportLambdaFunctionRecommendations:compute-optimizer
 ExportLicenseRecommendations:compute-optimizer
+ExportRDSDatabaseRecommendations:compute-optimizer
 GetAutoScalingGroupRecommendations:compute-optimizer
 GetEBSVolumeRecommendations:compute-optimizer
 GetEC2InstanceRecommendations:compute-optimizer
@@ -3414,6 +3415,8 @@ GetEnrollmentStatus:compute-optimizer
 GetEnrollmentStatusesForOrganization:compute-optimizer
 GetLambdaFunctionRecommendations:compute-optimizer
 GetLicenseRecommendations:compute-optimizer
+GetRDSDatabaseRecommendationProjectedMetrics:compute-optimizer
+GetRDSDatabaseRecommendations:compute-optimizer
 GetRecommendationPreferences:compute-optimizer
 GetRecommendationSummaries:compute-optimizer
 PutRecommendationPreferences:compute-optimizer
@@ -3556,6 +3559,7 @@ BatchPutContact:connect
 ClaimPhoneNumber:connect
 CompleteAttachedFileUpload:connect
 CreateAgentStatus:connect
+CreateAuthenticationProfile:connect
 CreateContactFlow:connect
 CreateContactFlowModule:connect
 CreateEvaluationForm:connect
@@ -3604,6 +3608,7 @@ DeleteView:connect
 DeleteViewVersion:connect
 DeleteVocabulary:connect
 DescribeAgentStatus:connect
+DescribeAuthenticationProfile:connect
 DescribeContact:connect
 DescribeContactEvaluation:connect
 DescribeContactFlow:connect
@@ -3656,6 +3661,7 @@ GetTrafficDistribution:connect
 ImportPhoneNumber:connect
 ListAgentStatuses:connect
 ListApprovedOrigins:connect
+ListAuthenticationProfiles:connect
 ListBots:connect
 ListContactEvaluations:connect
 ListContactFlowModules:connect
@@ -3741,6 +3747,7 @@ TransferContact:connect
 UntagContact:connect
 UntagResource:connect
 UpdateAgentStatus:connect
+UpdateAuthenticationProfile:connect
 UpdateContact:connect
 UpdateContactAttributes:connect
 UpdateContactEvaluation:connect
