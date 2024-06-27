@@ -4051,6 +4051,7 @@ AssociateEnvironmentRole:datazone
 CancelMetadataGenerationRun:datazone
 CancelSubscription:datazone
 CreateAsset:datazone
+CreateAssetFilter:datazone
 CreateAssetRevision:datazone
 CreateAssetType:datazone
 CreateDataSource:datazone
@@ -4071,6 +4072,7 @@ CreateSubscriptionRequest:datazone
 CreateSubscriptionTarget:datazone
 CreateUserProfile:datazone
 DeleteAsset:datazone
+DeleteAssetFilter:datazone
 DeleteAssetType:datazone
 DeleteDataSource:datazone
 DeleteDomain:datazone
@@ -4092,6 +4094,7 @@ DeleteSubscriptionTarget:datazone
 DeleteTimeSeriesDataPoints:datazone
 DisassociateEnvironmentRole:datazone
 GetAsset:datazone
+GetAssetFilter:datazone
 GetAssetType:datazone
 GetDataSource:datazone
 GetDataSourceRun:datazone
@@ -4109,6 +4112,7 @@ GetGlossary:datazone
 GetGlossaryTerm:datazone
 GetGroupProfile:datazone
 GetIamPortalLoginUrl:datazone
+GetLineageNode:datazone
 GetListing:datazone
 GetMetadataGenerationRun:datazone
 GetProject:datazone
@@ -4120,6 +4124,7 @@ GetSubscriptionTarget:datazone
 GetTimeSeriesDataPoint:datazone
 GetUserProfile:datazone
 ListAccountEnvironments:datazone
+ListAssetFilters:datazone
 ListAssetRevisions:datazone
 ListDataSourceRunActivities:datazone
 ListDataSourceRuns:datazone
@@ -4132,6 +4137,7 @@ ListEnvironmentBlueprints:datazone
 ListEnvironmentProfiles:datazone
 ListEnvironments:datazone
 ListGroupsForUser:datazone
+ListLineageNodeHistory:datazone
 ListMetadataGenerationRuns:datazone
 ListNotifications:datazone
 ListPolicyGrants:datazone
@@ -4144,6 +4150,7 @@ ListSubscriptions:datazone
 ListTagsForResource:datazone
 ListTimeSeriesDataPoints:datazone
 ListWarehouseMetadata:datazone
+PostLineageEvent:datazone
 PostTimeSeriesDataPoints:datazone
 ProvisionDomain:datazone
 PutDomainSharingPolicy:datazone
@@ -4165,6 +4172,7 @@ StartMetadataGenerationRun:datazone
 StopMetadataGenerationRun:datazone
 TagResource:datazone
 UntagResource:datazone
+UpdateAssetFilter:datazone
 UpdateDataSource:datazone
 UpdateDataSourceRunActivities:datazone
 UpdateDomain:datazone
@@ -16922,6 +16930,7 @@ CreateUpdatedWorkspaceImage:workspaces
 CreateWorkspaceBundle:workspaces
 CreateWorkspaceImage:workspaces
 CreateWorkspaces:workspaces
+CreateWorkspacesPool:workspaces
 DeleteAccountLinkInvitation:workspaces
 DeleteClientBranding:workspaces
 DeleteConnectClientAddIn:workspaces
@@ -16953,6 +16962,8 @@ DescribeWorkspaceImages:workspaces
 DescribeWorkspaceSnapshots:workspaces
 DescribeWorkspaces:workspaces
 DescribeWorkspacesConnectionStatus:workspaces
+DescribeWorkspacesPoolSessions:workspaces
+DescribeWorkspacesPools:workspaces
 DisassociateConnectionAlias:workspaces
 DisassociateIpGroups:workspaces
 DisassociateWorkspaceApplication:workspaces
@@ -16967,6 +16978,7 @@ ModifyCertificateBasedAuthProperties:workspaces
 ModifyClientProperties:workspaces
 ModifySamlProperties:workspaces
 ModifySelfservicePermissions:workspaces
+ModifyStreamingProperties:workspaces
 ModifyWorkspaceAccessProperties:workspaces
 ModifyWorkspaceCreationProperties:workspaces
 ModifyWorkspaceProperties:workspaces
@@ -16978,14 +16990,19 @@ RejectAccountLinkInvitation:workspaces
 RestoreWorkspace:workspaces
 RevokeIpRules:workspaces
 StartWorkspaces:workspaces
+StartWorkspacesPool:workspaces
 StopWorkspaces:workspaces
+StopWorkspacesPool:workspaces
 Stream:workspaces
 TerminateWorkspaces:workspaces
+TerminateWorkspacesPool:workspaces
+TerminateWorkspacesPoolSession:workspaces
 UpdateConnectClientAddIn:workspaces
 UpdateConnectionAliasPermission:workspaces
 UpdateRulesOfIpGroup:workspaces
 UpdateWorkspaceBundle:workspaces
 UpdateWorkspaceImagePermission:workspaces
+UpdateWorkspacesPool:workspaces
 BatchGetTraceSummaryById:xray
 BatchGetTraces:xray
 CreateGroup:xray
