@@ -13798,6 +13798,7 @@ CreateExperiment:sagemaker
 CreateFeatureGroup:sagemaker
 CreateFlowDefinition:sagemaker
 CreateHub:sagemaker
+CreateHubContentReference:sagemaker
 CreateHumanTaskUi:sagemaker
 CreateHyperParameterTuningJob:sagemaker
 CreateImage:sagemaker
@@ -13857,6 +13858,7 @@ DeleteFeatureGroup:sagemaker
 DeleteFlowDefinition:sagemaker
 DeleteHub:sagemaker
 DeleteHubContent:sagemaker
+DeleteHubContentReference:sagemaker
 DeleteHumanLoop:sagemaker
 DeleteHumanTaskUi:sagemaker
 DeleteHyperParameterTuningJob:sagemaker
@@ -13889,6 +13891,7 @@ DeleteTrialComponent:sagemaker
 DeleteUserProfile:sagemaker
 DeleteWorkforce:sagemaker
 DeleteWorkteam:sagemaker
+DeployHubModel:sagemaker
 DeregisterDevices:sagemaker
 DescribeAction:sagemaker
 DescribeAlgorithm:sagemaker
@@ -15221,6 +15224,18 @@ UpdateRelatedItems:ssm-incidents
 UpdateReplicationSet:ssm-incidents
 UpdateResponsePlan:ssm-incidents
 UpdateTimelineEvent:ssm-incidents
+CreateConfigurationManager:ssm-quicksetup
+DeleteConfigurationManager:ssm-quicksetup
+GetConfigurationManager:ssm-quicksetup
+GetServiceSettings:ssm-quicksetup
+ListConfigurationManagers:ssm-quicksetup
+ListQuickSetupTypes:ssm-quicksetup
+ListTagsForResource:ssm-quicksetup
+TagResource:ssm-quicksetup
+UntagResource:ssm-quicksetup
+UpdateConfigurationDefinition:ssm-quicksetup
+UpdateConfigurationManager:ssm-quicksetup
+UpdateServiceSettings:ssm-quicksetup
 BackupDatabase:ssm-sap
 DeleteResourcePermission:ssm-sap
 DeregisterApplication:ssm-sap
