@@ -10405,6 +10405,7 @@ mediaconvert:ListPresets
 mediaconvert:ListQueues
 mediaconvert:ListTagsForResource
 mediaconvert:PutPolicy
+mediaconvert:SearchJobs
 mediaconvert:TagResource
 mediaconvert:UntagResource
 mediaconvert:UpdateJobTemplate
