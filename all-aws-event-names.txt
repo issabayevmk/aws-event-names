@@ -765,6 +765,11 @@ appstream:UpdateEntitlement
 appstream:UpdateFleet
 appstream:UpdateImagePermissions
 appstream:UpdateStack
+appstudio:GetAccountStatus
+appstudio:GetEnablementJobStatus
+appstudio:StartEnablementJob
+appstudio:StartRollbackEnablementJob
+appstudio:StartTeamDeployment
 appsync:AssociateApi
 appsync:AssociateMergedGraphqlApi
 appsync:AssociateSourceGraphqlApi
