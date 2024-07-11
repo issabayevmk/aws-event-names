@@ -8998,6 +8998,7 @@ DeleteChannel:ivs
 DeleteEncoderConfiguration:ivs
 DeletePlaybackKeyPair:ivs
 DeletePlaybackRestrictionPolicy:ivs
+DeletePublicKey:ivs
 DeleteRecordingConfiguration:ivs
 DeleteStage:ivs
 DeleteStorageConfiguration:ivs
@@ -9009,6 +9010,7 @@ GetEncoderConfiguration:ivs
 GetParticipant:ivs
 GetPlaybackKeyPair:ivs
 GetPlaybackRestrictionPolicy:ivs
+GetPublicKey:ivs
 GetRecordingConfiguration:ivs
 GetStage:ivs
 GetStageSession:ivs
@@ -9017,6 +9019,7 @@ GetStream:ivs
 GetStreamKey:ivs
 GetStreamSession:ivs
 ImportPlaybackKeyPair:ivs
+ImportPublicKey:ivs
 ListChannels:ivs
 ListCompositions:ivs
 ListEncoderConfigurations:ivs
@@ -9024,6 +9027,7 @@ ListParticipantEvents:ivs
 ListParticipants:ivs
 ListPlaybackKeyPairs:ivs
 ListPlaybackRestrictionPolicies:ivs
+ListPublicKeys:ivs
 ListRecordingConfigurations:ivs
 ListStageSessions:ivs
 ListStages:ivs
