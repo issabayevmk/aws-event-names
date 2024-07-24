@@ -13948,7 +13948,7 @@ sagemaker:DeleteModelQualityJobDefinition
 sagemaker:DeleteMonitoringSchedule
 sagemaker:DeleteNotebookInstance
 sagemaker:DeleteNotebookInstanceLifecycleConfig
-sagemaker:DeleteOptimization
+sagemaker:DeleteOptimizationJob
 sagemaker:DeletePipeline
 sagemaker:DeleteProject
 sagemaker:DeleteRecord
