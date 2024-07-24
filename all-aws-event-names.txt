@@ -2109,6 +2109,8 @@ cleanrooms:CreateConfiguredAudienceModelAssociation
 cleanrooms:CreateConfiguredTable
 cleanrooms:CreateConfiguredTableAnalysisRule
 cleanrooms:CreateConfiguredTableAssociation
+cleanrooms:CreateIdMappingTable
+cleanrooms:CreateIdNamespaceAssociation
 cleanrooms:CreateMembership
 cleanrooms:CreatePrivacyBudgetTemplate
 cleanrooms:DeleteAnalysisTemplate
@@ -2117,6 +2119,8 @@ cleanrooms:DeleteConfiguredAudienceModelAssociation
 cleanrooms:DeleteConfiguredTable
 cleanrooms:DeleteConfiguredTableAnalysisRule
 cleanrooms:DeleteConfiguredTableAssociation
+cleanrooms:DeleteIdMappingTable
+cleanrooms:DeleteIdNamespaceAssociation
 cleanrooms:DeleteMember
 cleanrooms:DeleteMembership
 cleanrooms:DeletePrivacyBudgetTemplate
@@ -2124,11 +2128,14 @@ cleanrooms:GetAnalysisTemplate
 cleanrooms:GetCollaboration
 cleanrooms:GetCollaborationAnalysisTemplate
 cleanrooms:GetCollaborationConfiguredAudienceModelAssociation
+cleanrooms:GetCollaborationIdNamespaceAssociation
 cleanrooms:GetCollaborationPrivacyBudgetTemplate
 cleanrooms:GetConfiguredAudienceModelAssociation
 cleanrooms:GetConfiguredTable
 cleanrooms:GetConfiguredTableAnalysisRule
 cleanrooms:GetConfiguredTableAssociation
+cleanrooms:GetIdMappingTable
+cleanrooms:GetIdNamespaceAssociation
 cleanrooms:GetMembership
 cleanrooms:GetPrivacyBudgetTemplate
 cleanrooms:GetProtectedQuery
@@ -2137,12 +2144,15 @@ cleanrooms:GetSchemaAnalysisRule
 cleanrooms:ListAnalysisTemplates
 cleanrooms:ListCollaborationAnalysisTemplates
 cleanrooms:ListCollaborationConfiguredAudienceModelAssociations
+cleanrooms:ListCollaborationIdNamespaceAssociations
 cleanrooms:ListCollaborationPrivacyBudgetTemplates
 cleanrooms:ListCollaborationPrivacyBudgets
 cleanrooms:ListCollaborations
 cleanrooms:ListConfiguredAudienceModelAssociations
 cleanrooms:ListConfiguredTableAssociations
 cleanrooms:ListConfiguredTables
+cleanrooms:ListIdMappingTables
+cleanrooms:ListIdNamespaceAssociations
 cleanrooms:ListMembers
 cleanrooms:ListMemberships
 cleanrooms:ListPrivacyBudgetTemplates
@@ -2150,6 +2160,7 @@ cleanrooms:ListPrivacyBudgets
 cleanrooms:ListProtectedQueries
 cleanrooms:ListSchemas
 cleanrooms:ListTagsForResource
+cleanrooms:PopulateIdMappingTable
 cleanrooms:PreviewPrivacyImpact
 cleanrooms:StartProtectedQuery
 cleanrooms:TagResource
@@ -2160,6 +2171,8 @@ cleanrooms:UpdateConfiguredAudienceModelAssociation
 cleanrooms:UpdateConfiguredTable
 cleanrooms:UpdateConfiguredTableAnalysisRule
 cleanrooms:UpdateConfiguredTableAssociation
+cleanrooms:UpdateIdMappingTable
+cleanrooms:UpdateIdNamespaceAssociation
 cleanrooms:UpdateMembership
 cleanrooms:UpdatePrivacyBudgetTemplate
 cleanrooms:UpdateProtectedQuery
@@ -6389,6 +6402,7 @@ entityresolution:UpdateIdNamespace
 entityresolution:UpdateMatchingWorkflow
 entityresolution:UpdateSchemaMapping
 entityresolution:UseIdNamespace
+entityresolution:UseWorkflow
 es:AcceptInboundConnection
 es:AcceptInboundCrossClusterSearchConnection
 es:AddDataSource
