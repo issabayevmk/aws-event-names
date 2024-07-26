@@ -2109,6 +2109,7 @@ CreateConfiguredAudienceModelAssociation:cleanrooms
 CreateConfiguredTable:cleanrooms
 CreateConfiguredTableAnalysisRule:cleanrooms
 CreateConfiguredTableAssociation:cleanrooms
+CreateConfiguredTableAssociationAnalysisRule:cleanrooms
 CreateIdMappingTable:cleanrooms
 CreateIdNamespaceAssociation:cleanrooms
 CreateMembership:cleanrooms
@@ -2119,6 +2120,7 @@ DeleteConfiguredAudienceModelAssociation:cleanrooms
 DeleteConfiguredTable:cleanrooms
 DeleteConfiguredTableAnalysisRule:cleanrooms
 DeleteConfiguredTableAssociation:cleanrooms
+DeleteConfiguredTableAssociationAnalysisRule:cleanrooms
 DeleteIdMappingTable:cleanrooms
 DeleteIdNamespaceAssociation:cleanrooms
 DeleteMember:cleanrooms
@@ -2134,6 +2136,7 @@ GetConfiguredAudienceModelAssociation:cleanrooms
 GetConfiguredTable:cleanrooms
 GetConfiguredTableAnalysisRule:cleanrooms
 GetConfiguredTableAssociation:cleanrooms
+GetConfiguredTableAssociationAnalysisRule:cleanrooms
 GetIdMappingTable:cleanrooms
 GetIdNamespaceAssociation:cleanrooms
 GetMembership:cleanrooms
@@ -2171,6 +2174,7 @@ UpdateConfiguredAudienceModelAssociation:cleanrooms
 UpdateConfiguredTable:cleanrooms
 UpdateConfiguredTableAnalysisRule:cleanrooms
 UpdateConfiguredTableAssociation:cleanrooms
+UpdateConfiguredTableAssociationAnalysisRule:cleanrooms
 UpdateIdMappingTable:cleanrooms
 UpdateIdNamespaceAssociation:cleanrooms
 UpdateMembership:cleanrooms
@@ -5805,7 +5809,7 @@ DescribeImages:ecr
 DescribePullThroughCacheRules:ecr
 DescribeRegistry:ecr
 DescribeRepositories:ecr
-DescribeRepositoryCreationTemplate:ecr
+DescribeRepositoryCreationTemplates:ecr
 GetAuthorizationToken:ecr
 GetDownloadUrlForLayer:ecr
 GetLifecyclePolicy:ecr
@@ -5830,6 +5834,7 @@ StartLifecyclePolicyPreview:ecr
 TagResource:ecr
 UntagResource:ecr
 UpdatePullThroughCacheRule:ecr
+UpdateRepositoryCreationTemplate:ecr
 UploadLayerPart:ecr
 ValidatePullThroughCacheRule:ecr
 CreateCapacityProvider:ecs
@@ -6141,6 +6146,7 @@ DeleteLoadBalancer:elasticloadbalancing
 DeleteLoadBalancerListeners:elasticloadbalancing
 DeleteLoadBalancerPolicy:elasticloadbalancing
 DeleteRule:elasticloadbalancing
+DeleteSharedTrustStoreAssociation:elasticloadbalancing
 DeleteTargetGroup:elasticloadbalancing
 DeleteTrustStore:elasticloadbalancing
 DeregisterInstancesFromLoadBalancer:elasticloadbalancing
@@ -6168,6 +6174,7 @@ DescribeTrustStores:elasticloadbalancing
 DetachLoadBalancerFromSubnets:elasticloadbalancing
 DisableAvailabilityZonesForLoadBalancer:elasticloadbalancing
 EnableAvailabilityZonesForLoadBalancer:elasticloadbalancing
+GetResourcePolicy:elasticloadbalancing
 GetTrustStoreCaCertificatesBundle:elasticloadbalancing
 GetTrustStoreRevocationContent:elasticloadbalancing
 ModifyListener:elasticloadbalancing
