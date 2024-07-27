@@ -3936,6 +3936,7 @@ cur:TagResource
 cur:UntagResource
 cur:ValidateReportDestination
 customer-verification:CreateCustomerVerificationDetails
+customer-verification:CreateUploadUrls
 customer-verification:GetCustomerVerificationDetails
 customer-verification:GetCustomerVerificationEligibility
 customer-verification:UpdateCustomerVerificationDetails
