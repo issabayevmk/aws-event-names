@@ -1430,6 +1430,7 @@ AllowVendedLogDeliveryForResource:bedrock
 ApplyGuardrail:bedrock
 AssociateAgentKnowledgeBase:bedrock
 AssociateThirdPartyKnowledgeBase:bedrock
+BatchDeleteEvaluationJob:bedrock
 CreateAgent:bedrock
 CreateAgentActionGroup:bedrock
 CreateAgentAlias:bedrock
