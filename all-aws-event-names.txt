@@ -1467,6 +1467,7 @@ bedrock:DeleteKnowledgeBase
 bedrock:DeleteModelInvocationLoggingConfiguration
 bedrock:DeletePrompt
 bedrock:DeleteProvisionedModelThroughput
+bedrock:DeleteResourcePolicy
 bedrock:DetectGeneratedContent
 bedrock:DisassociateAgentKnowledgeBase
 bedrock:GetAgent
@@ -1493,6 +1494,7 @@ bedrock:GetModelInvocationJob
 bedrock:GetModelInvocationLoggingConfiguration
 bedrock:GetPrompt
 bedrock:GetProvisionedModelThroughput
+bedrock:GetResourcePolicy
 bedrock:GetUseCaseForModelAccess
 bedrock:InvokeAgent
 bedrock:InvokeFlow
@@ -1525,6 +1527,7 @@ bedrock:PrepareAgent
 bedrock:PrepareFlow
 bedrock:PutFoundationModelEntitlement
 bedrock:PutModelInvocationLoggingConfiguration
+bedrock:PutResourcePolicy
 bedrock:PutUseCaseForModelAccess
 bedrock:Retrieve
 bedrock:RetrieveAndGenerate
