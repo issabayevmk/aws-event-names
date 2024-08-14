@@ -7373,6 +7373,7 @@ glue:GetPartitions
 glue:GetPlan
 glue:GetQueries
 glue:GetQuery
+glue:GetRecipeAction
 glue:GetRegistry
 glue:GetResourcePolicies
 glue:GetResourcePolicy
@@ -7453,6 +7454,7 @@ glue:RunDataPreviewStatement
 glue:RunStatement
 glue:SearchTables
 glue:SendFeedback
+glue:SendRecipeAction
 glue:StartBlueprintRun
 glue:StartColumnStatisticsTaskRun
 glue:StartCompletion
@@ -9325,11 +9327,13 @@ kinesisanalytics:DeleteApplicationSnapshot
 kinesisanalytics:DeleteApplicationVpcConfiguration
 kinesisanalytics:DescribeApplication
 kinesisanalytics:DescribeApplication
+kinesisanalytics:DescribeApplicationOperation
 kinesisanalytics:DescribeApplicationSnapshot
 kinesisanalytics:DescribeApplicationVersion
 kinesisanalytics:DiscoverInputSchema
 kinesisanalytics:DiscoverInputSchema
 kinesisanalytics:GetApplicationState
+kinesisanalytics:ListApplicationOperations
 kinesisanalytics:ListApplicationSnapshots
 kinesisanalytics:ListApplicationVersions
 kinesisanalytics:ListApplications
