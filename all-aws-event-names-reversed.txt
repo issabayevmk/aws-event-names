@@ -16741,6 +16741,7 @@ UpgradeProfileVersion:wellarchitected
 UpgradeReviewTemplateLensReview:wellarchitected
 CreateAdminSession:wickr
 CreateNetwork:wickr
+DeleteNetwork:wickr
 ListNetworks:wickr
 ListTagsForResource:wickr
 TagResource:wickr
