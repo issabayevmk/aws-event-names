@@ -1451,6 +1451,7 @@ bedrock:CreateKnowledgeBase
 bedrock:CreateModelCopyJob
 bedrock:CreateModelCustomizationJob
 bedrock:CreateModelEvaluationJob
+bedrock:CreateModelImportJob
 bedrock:CreateModelInvocationJob
 bedrock:CreatePrompt
 bedrock:CreatePromptVersion
@@ -1467,6 +1468,7 @@ bedrock:DeleteFlowAlias
 bedrock:DeleteFlowVersion
 bedrock:DeleteFoundationModelAgreement
 bedrock:DeleteGuardrail
+bedrock:DeleteImportedModel
 bedrock:DeleteKnowledgeBase
 bedrock:DeleteModelInvocationLoggingConfiguration
 bedrock:DeletePrompt
@@ -1489,11 +1491,14 @@ bedrock:GetFlowVersion
 bedrock:GetFoundationModel
 bedrock:GetFoundationModelAvailability
 bedrock:GetGuardrail
+bedrock:GetImportedModel
+bedrock:GetInferenceProfile
 bedrock:GetIngestionJob
 bedrock:GetKnowledgeBase
 bedrock:GetModelCopyJob
 bedrock:GetModelCustomizationJob
 bedrock:GetModelEvaluationJob
+bedrock:GetModelImportJob
 bedrock:GetModelInvocationJob
 bedrock:GetModelInvocationLoggingConfiguration
 bedrock:GetPrompt
@@ -1518,11 +1523,14 @@ bedrock:ListFlows
 bedrock:ListFoundationModelAgreementOffers
 bedrock:ListFoundationModels
 bedrock:ListGuardrails
+bedrock:ListImportedModels
+bedrock:ListInferenceProfiles
 bedrock:ListIngestionJobs
 bedrock:ListKnowledgeBases
 bedrock:ListModelCopyJobs
 bedrock:ListModelCustomizationJobs
 bedrock:ListModelEvaluationJobs
+bedrock:ListModelImportJobs
 bedrock:ListModelInvocationJobs
 bedrock:ListPrompts
 bedrock:ListProvisionedModelThroughputs
