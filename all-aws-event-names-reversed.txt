@@ -6722,6 +6722,7 @@ GetAction:fis
 GetExperiment:fis
 GetExperimentTargetAccountConfiguration:fis
 GetExperimentTemplate:fis
+GetSafetyLever:fis
 GetTargetAccountConfiguration:fis
 GetTargetResourceType:fis
 InjectApiInternalError:fis
@@ -6740,6 +6741,7 @@ StopExperiment:fis
 TagResource:fis
 UntagResource:fis
 UpdateExperimentTemplate:fis
+UpdateSafetyLeverState:fis
 UpdateTargetAccountConfiguration:fis
 AssociateAdminAccount:fms
 AssociateThirdPartyFirewall:fms
