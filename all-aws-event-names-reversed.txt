@@ -397,6 +397,7 @@ DeleteEnvironment:appconfig
 DeleteExtension:appconfig
 DeleteExtensionAssociation:appconfig
 DeleteHostedConfigurationVersion:appconfig
+GetAccountSettings:appconfig
 GetApplication:appconfig
 GetConfiguration:appconfig
 GetConfigurationProfile:appconfig
@@ -421,6 +422,7 @@ StartDeployment:appconfig
 StopDeployment:appconfig
 TagResource:appconfig
 UntagResource:appconfig
+UpdateAccountSettings:appconfig
 UpdateApplication:appconfig
 UpdateConfigurationProfile:appconfig
 UpdateDeploymentStrategy:appconfig
@@ -6188,6 +6190,7 @@ DeregisterInstancesFromLoadBalancer:elasticloadbalancing
 DeregisterTargets:elasticloadbalancing
 DescribeAccountLimits:elasticloadbalancing
 DescribeInstanceHealth:elasticloadbalancing
+DescribeListenerAttributes:elasticloadbalancing
 DescribeListenerCertificates:elasticloadbalancing
 DescribeListeners:elasticloadbalancing
 DescribeLoadBalancerAttributes:elasticloadbalancing
@@ -6213,6 +6216,7 @@ GetResourcePolicy:elasticloadbalancing
 GetTrustStoreCaCertificatesBundle:elasticloadbalancing
 GetTrustStoreRevocationContent:elasticloadbalancing
 ModifyListener:elasticloadbalancing
+ModifyListenerAttributes:elasticloadbalancing
 ModifyLoadBalancerAttributes:elasticloadbalancing
 ModifyLoadBalancerAttributes:elasticloadbalancing
 ModifyRule:elasticloadbalancing
@@ -10046,6 +10050,7 @@ DeleteResourcePolicy:logs
 DeleteRetentionPolicy:logs
 DeleteSubscriptionFilter:logs
 DescribeAccountPolicies:logs
+DescribeConfigurationTemplates:logs
 DescribeDeliveries:logs
 DescribeDeliveryDestinations:logs
 DescribeDeliverySources:logs
@@ -10101,6 +10106,7 @@ Unmask:logs
 UntagLogGroup:logs
 UntagResource:logs
 UpdateAnomaly:logs
+UpdateDeliveryConfiguration:logs
 UpdateLogAnomalyDetector:logs
 UpdateLogDelivery:logs
 CreateDataset:lookoutequipment
@@ -13776,6 +13782,7 @@ ListAllMyBuckets:s3
 ListBucket:s3
 ListBucketMultipartUploads:s3
 ListBucketVersions:s3
+ListCallerAccessGrants:s3
 ListJobs:s3
 ListMultiRegionAccessPoints:s3
 ListMultipartUploadParts:s3
