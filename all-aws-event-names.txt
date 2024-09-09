@@ -12660,6 +12660,7 @@ rds:ApplyPendingMaintenanceAction
 rds:AuthorizeDBSecurityGroupIngress
 rds:BacktrackDBCluster
 rds:CancelExportTask
+rds:CopyCustomDBEngineVersion
 rds:CopyDBClusterParameterGroup
 rds:CopyDBClusterSnapshot
 rds:CopyDBParameterGroup
@@ -12733,9 +12734,9 @@ rds:DescribeDBRecommendations
 rds:DescribeDBSecurityGroups
 rds:DescribeDBShardGroups
 rds:DescribeDBSnapshotAttributes
+rds:DescribeDBSnapshotTenantDatabases
 rds:DescribeDBSnapshots
 rds:DescribeDBSubnetGroups
-rds:DescribeDbSnapshotTenantDatabases
 rds:DescribeEngineDefaultClusterParameters
 rds:DescribeEngineDefaultParameters
 rds:DescribeEventCategories
