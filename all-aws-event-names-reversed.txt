@@ -9057,6 +9057,7 @@ BatchGetStreamKey:ivs
 BatchStartViewerSessionRevocation:ivs
 CreateChannel:ivs
 CreateEncoderConfiguration:ivs
+CreateIngestConfiguration:ivs
 CreateParticipantToken:ivs
 CreatePlaybackRestrictionPolicy:ivs
 CreateRecordingConfiguration:ivs
@@ -9065,6 +9066,7 @@ CreateStorageConfiguration:ivs
 CreateStreamKey:ivs
 DeleteChannel:ivs
 DeleteEncoderConfiguration:ivs
+DeleteIngestConfiguration:ivs
 DeletePlaybackKeyPair:ivs
 DeletePlaybackRestrictionPolicy:ivs
 DeletePublicKey:ivs
@@ -9076,6 +9078,7 @@ DisconnectParticipant:ivs
 GetChannel:ivs
 GetComposition:ivs
 GetEncoderConfiguration:ivs
+GetIngestConfiguration:ivs
 GetParticipant:ivs
 GetPlaybackKeyPair:ivs
 GetPlaybackRestrictionPolicy:ivs
@@ -9092,6 +9095,7 @@ ImportPublicKey:ivs
 ListChannels:ivs
 ListCompositions:ivs
 ListEncoderConfigurations:ivs
+ListIngestConfigurations:ivs
 ListParticipantEvents:ivs
 ListParticipants:ivs
 ListPlaybackKeyPairs:ivs
@@ -9113,6 +9117,7 @@ StopStream:ivs
 TagResource:ivs
 UntagResource:ivs
 UpdateChannel:ivs
+UpdateIngestConfiguration:ivs
 UpdatePlaybackRestrictionPolicy:ivs
 UpdateStage:ivs
 CreateChatToken:ivschat
@@ -12294,6 +12299,7 @@ StopQAppSession:qapps
 TagResource:qapps
 UntagResource:qapps
 UpdateLibraryItem:qapps
+UpdateLibraryItemMetadata:qapps
 UpdateQApp:qapps
 UpdateQAppSession:qapps
 UpdateQAppSessionMetadata:qapps
