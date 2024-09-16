@@ -11983,6 +11983,7 @@ UpdateCampaign:personalize
 UpdateDataset:personalize
 UpdateMetricAttribution:personalize
 UpdateRecommender:personalize
+UpdateSolution:personalize
 CreatePerformanceAnalysisReport:pi
 DeletePerformanceAnalysisReport:pi
 DescribeDimensionKeys:pi
