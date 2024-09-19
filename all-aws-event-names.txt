@@ -3625,6 +3625,7 @@ connect:CreateContactFlow
 connect:CreateContactFlowModule
 connect:CreateEvaluationForm
 connect:CreateHoursOfOperation
+connect:CreateHoursOfOperationOverride
 connect:CreateInstance
 connect:CreateIntegrationAssociation
 connect:CreateParticipant
@@ -3651,6 +3652,7 @@ connect:DeleteContactFlow
 connect:DeleteContactFlowModule
 connect:DeleteEvaluationForm
 connect:DeleteHoursOfOperation
+connect:DeleteHoursOfOperationOverride
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
 connect:DeletePredefinedAttribute
@@ -3677,6 +3679,7 @@ connect:DescribeContactFlowModule
 connect:DescribeEvaluationForm
 connect:DescribeForecastingPlanningSchedulingIntegration
 connect:DescribeHoursOfOperation
+connect:DescribeHoursOfOperationOverride
 connect:DescribeInstance
 connect:DescribeInstanceAttribute
 connect:DescribeInstanceStorageConfig
@@ -3712,6 +3715,7 @@ connect:GetAttachedFile
 connect:GetContactAttributes
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
+connect:GetEffectiveHoursOfOperations
 connect:GetFederationToken
 connect:GetFlowAssociation
 connect:GetMetricData
@@ -3732,6 +3736,7 @@ connect:ListDefaultVocabularies
 connect:ListEvaluationFormVersions
 connect:ListEvaluationForms
 connect:ListFlowAssociations
+connect:ListHoursOfOperationOverrides
 connect:ListHoursOfOperations
 connect:ListInstanceAttributes
 connect:ListInstanceStorageConfigs
@@ -3777,6 +3782,7 @@ connect:SearchAvailablePhoneNumbers
 connect:SearchContactFlowModules
 connect:SearchContactFlows
 connect:SearchContacts
+connect:SearchHoursOfOperationOverrides
 connect:SearchHoursOfOperations
 connect:SearchPredefinedAttributes
 connect:SearchPrompts
@@ -3789,6 +3795,7 @@ connect:SearchUserHierarchyGroups
 connect:SearchUsers
 connect:SearchVocabularies
 connect:SendChatIntegrationEvent
+connect:SendOutboundEmail
 connect:StartAttachedFileUpload
 connect:StartChatContact
 connect:StartContactEvaluation
@@ -3823,6 +3830,7 @@ connect:UpdateContactRoutingData
 connect:UpdateContactSchedule
 connect:UpdateEvaluationForm
 connect:UpdateHoursOfOperation
+connect:UpdateHoursOfOperationOverride
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
 connect:UpdateParticipantRoleConfig
@@ -4998,6 +5006,23 @@ drs:UpdateLaunchConfigurationTemplate
 drs:UpdateReplicationCertificateForDrs
 drs:UpdateReplicationConfiguration
 drs:UpdateReplicationConfigurationTemplate
+ds-data:AddGroupMember
+ds-data:CreateGroup
+ds-data:CreateUser
+ds-data:DeleteGroup
+ds-data:DeleteUser
+ds-data:DescribeGroup
+ds-data:DescribeUser
+ds-data:DisableUser
+ds-data:ListGroupMembers
+ds-data:ListGroups
+ds-data:ListGroupsForMember
+ds-data:ListUsers
+ds-data:RemoveGroupMember
+ds-data:SearchGroups
+ds-data:SearchUsers
+ds-data:UpdateGroup
+ds-data:UpdateUser
 ds:AcceptSharedDirectory
 ds:AccessDSData
 ds:AddIpRoutes
@@ -5027,6 +5052,7 @@ ds:DescribeCertificate
 ds:DescribeClientAuthenticationSettings
 ds:DescribeConditionalForwarders
 ds:DescribeDirectories
+ds:DescribeDirectoryDataAccess
 ds:DescribeDomainControllers
 ds:DescribeEventTopics
 ds:DescribeLDAPSSettings
@@ -5037,11 +5063,13 @@ ds:DescribeSnapshots
 ds:DescribeTrusts
 ds:DescribeUpdateDirectory
 ds:DisableClientAuthentication
+ds:DisableDirectoryDataAccess
 ds:DisableLDAPS
 ds:DisableRadius
 ds:DisableRoleAccess
 ds:DisableSso
 ds:EnableClientAuthentication
+ds:EnableDirectoryDataAccess
 ds:EnableLDAPS
 ds:EnableRadius
 ds:EnableRoleAccess
