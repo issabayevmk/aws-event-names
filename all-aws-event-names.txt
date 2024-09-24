@@ -13289,6 +13289,7 @@ resource-explorer:ListResourceTypes
 resource-explorer:ListResources
 resource-explorer:ListTags
 resource-groups:AssociateResource
+resource-groups:CancelTagSyncTask
 resource-groups:CreateGroup
 resource-groups:DeleteGroup
 resource-groups:DeleteGroupPolicy
@@ -13298,14 +13299,18 @@ resource-groups:GetGroup
 resource-groups:GetGroupConfiguration
 resource-groups:GetGroupPolicy
 resource-groups:GetGroupQuery
+resource-groups:GetTagSyncTask
 resource-groups:GetTags
 resource-groups:GroupResources
 resource-groups:ListGroupResources
+resource-groups:ListGroupingStatuses
 resource-groups:ListGroups
 resource-groups:ListResourceTypes
+resource-groups:ListTagSyncTasks
 resource-groups:PutGroupConfiguration
 resource-groups:PutGroupPolicy
 resource-groups:SearchResources
+resource-groups:StartTagSyncTask
 resource-groups:Tag
 resource-groups:UngroupResources
 resource-groups:Untag
