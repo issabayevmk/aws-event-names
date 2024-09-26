@@ -12324,6 +12324,7 @@ qapps:DeleteLibraryItem
 qapps:DeleteQApp
 qapps:DisassociateLibraryItemReview
 qapps:DisassociateQAppFromUser
+qapps:ExportQAppSessionData
 qapps:GetLibraryItem
 qapps:GetQApp
 qapps:GetQAppSession
@@ -12332,6 +12333,7 @@ qapps:ImportDocument
 qapps:ImportDocumentToQApp
 qapps:ImportDocumentToQAppSession
 qapps:ListLibraryItems
+qapps:ListQAppSessionData
 qapps:ListQApps
 qapps:ListTagsForResource
 qapps:PredictProblemStatementFromConversation
@@ -15116,6 +15118,7 @@ sms-voice:DeleteProtectConfiguration
 sms-voice:DeleteRegistration
 sms-voice:DeleteRegistrationAttachment
 sms-voice:DeleteRegistrationFieldValue
+sms-voice:DeleteResourcePolicy
 sms-voice:DeleteTextMessageSpendLimitOverride
 sms-voice:DeleteVerifiedDestinationNumber
 sms-voice:DeleteVoiceMessageSpendLimitOverride
@@ -15143,6 +15146,7 @@ sms-voice:DisassociateProtectConfiguration
 sms-voice:DiscardRegistrationVersion
 sms-voice:GetConfigurationSetEventDestinations
 sms-voice:GetProtectConfigurationCountryRuleSet
+sms-voice:GetResourcePolicy
 sms-voice:ListConfigurationSets
 sms-voice:ListPoolOriginationIdentities
 sms-voice:ListRegistrationAssociations
@@ -15150,6 +15154,7 @@ sms-voice:ListTagsForResource
 sms-voice:PutKeyword
 sms-voice:PutOptedOutNumber
 sms-voice:PutRegistrationFieldValue
+sms-voice:PutResourcePolicy
 sms-voice:ReleasePhoneNumber
 sms-voice:ReleaseSenderId
 sms-voice:RequestPhoneNumber
