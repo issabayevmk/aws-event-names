@@ -1508,6 +1508,7 @@ GetProvisionedModelThroughput:bedrock
 GetResourcePolicy:bedrock
 GetUseCaseForModelAccess:bedrock
 InvokeAgent:bedrock
+InvokeBuilder:bedrock
 InvokeFlow:bedrock
 InvokeModel:bedrock
 InvokeModelWithResponseStream:bedrock
@@ -1547,6 +1548,7 @@ Retrieve:bedrock
 RetrieveAndGenerate:bedrock
 StartIngestionJob:bedrock
 StopEvaluationJob:bedrock
+StopIngestionJob:bedrock
 StopModelCustomizationJob:bedrock
 StopModelInvocationJob:bedrock
 TagResource:bedrock
