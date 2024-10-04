@@ -15450,6 +15450,7 @@ UpdateContactChannel:ssm-contacts
 UpdateRotation:ssm-contacts
 CancelConnection:ssm-guiconnect
 GetConnection:ssm-guiconnect
+ListConnections:ssm-guiconnect
 StartConnection:ssm-guiconnect
 BatchGetIncidentFindings:ssm-incidents
 CreateReplicationSet:ssm-incidents
