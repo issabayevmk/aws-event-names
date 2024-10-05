@@ -12539,6 +12539,7 @@ quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
 quicksight:DescribeKeyRegistration
 quicksight:DescribeNamespace
+quicksight:DescribeQPersonalizationConfiguration
 quicksight:DescribeRefreshSchedule
 quicksight:DescribeRoleCustomPermission
 quicksight:DescribeTemplate
@@ -12641,6 +12642,7 @@ quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
 quicksight:UpdateKeyRegistration
 quicksight:UpdatePublicSharingSettings
+quicksight:UpdateQPersonalizationConfiguration
 quicksight:UpdateRefreshSchedule
 quicksight:UpdateResourcePermissions
 quicksight:UpdateRoleCustomPermission
