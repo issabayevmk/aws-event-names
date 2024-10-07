@@ -4372,6 +4372,7 @@ deadline:GetBudget
 deadline:GetFarm
 deadline:GetFleet
 deadline:GetJob
+deadline:GetJobTemplate
 deadline:GetLicenseEndpoint
 deadline:GetMonitor
 deadline:GetQueue
@@ -4392,6 +4393,7 @@ deadline:ListFarms
 deadline:ListFleetMembers
 deadline:ListFleets
 deadline:ListJobMembers
+deadline:ListJobParameterDefinitions
 deadline:ListJobs
 deadline:ListLicenseEndpoints
 deadline:ListMeteredProducts
