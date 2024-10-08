@@ -1185,6 +1185,7 @@ aws-marketplace:DisassociateProductsFromPrivateMarketplace
 aws-marketplace:GetAgreementApprovalRequest
 aws-marketplace:GetAgreementRequest
 aws-marketplace:GetAgreementTerms
+aws-marketplace:GetBuyerDashboard
 aws-marketplace:GetEntitlements
 aws-marketplace:GetResourcePolicy
 aws-marketplace:GetSellerDashboard
@@ -16894,6 +16895,10 @@ wickr:TagResource
 wickr:UntagResource
 wickr:UpdateNetworkDetails
 wisdom:ActivateMessageTemplate
+wisdom:CreateAIAgent
+wisdom:CreateAIAgentVersion
+wisdom:CreateAIPrompt
+wisdom:CreateAIPromptVersion
 wisdom:CreateAssistant
 wisdom:CreateAssistantAssociation
 wisdom:CreateContent
@@ -16905,6 +16910,10 @@ wisdom:CreateMessageTemplateVersion
 wisdom:CreateQuickResponse
 wisdom:CreateSession
 wisdom:DeactivateMessageTemplate
+wisdom:DeleteAIAgent
+wisdom:DeleteAIAgentVersion
+wisdom:DeleteAIPrompt
+wisdom:DeleteAIPromptVersion
 wisdom:DeleteAssistant
 wisdom:DeleteAssistantAssociation
 wisdom:DeleteContent
@@ -16914,6 +16923,8 @@ wisdom:DeleteKnowledgeBase
 wisdom:DeleteMessageTemplate
 wisdom:DeleteMessageTemplateAttachment
 wisdom:DeleteQuickResponse
+wisdom:GetAIAgent
+wisdom:GetAIPrompt
 wisdom:GetAssistant
 wisdom:GetAssistantAssociation
 wisdom:GetContent
@@ -16925,6 +16936,10 @@ wisdom:GetMessageTemplate
 wisdom:GetQuickResponse
 wisdom:GetRecommendations
 wisdom:GetSession
+wisdom:ListAIAgentVersions
+wisdom:ListAIAgents
+wisdom:ListAIPromptVersions
+wisdom:ListAIPrompts
 wisdom:ListAssistantAssociations
 wisdom:ListAssistants
 wisdom:ListContentAssociations
@@ -16938,6 +16953,7 @@ wisdom:ListTagsForResource
 wisdom:NotifyRecommendationsReceived
 wisdom:PutFeedback
 wisdom:QueryAssistant
+wisdom:RemoveAssistantAIAgent
 wisdom:RemoveKnowledgeBaseTemplateUri
 wisdom:RenderMessageTemplate
 wisdom:SearchContent
@@ -16948,12 +16964,16 @@ wisdom:StartContentUpload
 wisdom:StartImportJob
 wisdom:TagResource
 wisdom:UntagResource
+wisdom:UpdateAIAgent
+wisdom:UpdateAIPrompt
+wisdom:UpdateAssistantAIAgent
 wisdom:UpdateContent
 wisdom:UpdateKnowledgeBaseTemplateUri
 wisdom:UpdateMessageTemplate
 wisdom:UpdateMessageTemplateMetadata
 wisdom:UpdateQuickResponse
 wisdom:UpdateSession
+wisdom:UpdateSessionData
 workdocs:AbortDocumentVersionUpload
 workdocs:ActivateUser
 workdocs:AddNotificationPermissions
