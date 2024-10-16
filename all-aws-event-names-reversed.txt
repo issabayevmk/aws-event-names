@@ -12616,6 +12616,7 @@ SetGroupMapping:quicksight
 StartAssetBundleExportJob:quicksight
 StartAssetBundleImportJob:quicksight
 StartDashboardSnapshotJob:quicksight
+StartDashboardSnapshotJobSchedule:quicksight
 Subscribe:quicksight
 TagResource:quicksight
 Unsubscribe:quicksight
