@@ -12306,6 +12306,7 @@ purchase-orders:UpdatePurchaseOrderStatus
 purchase-orders:ViewPurchaseOrders
 q:CreateAssignment
 q:DeleteAssignment
+q:GenerateCodeFromCommands
 q:GetConversation
 q:GetIdentityMetadata
 q:GetTroubleshootingResults
@@ -12950,6 +12951,7 @@ redshift:AssociateDataShareConsumer
 redshift:AuthorizeClusterSecurityGroupIngress
 redshift:AuthorizeDataShare
 redshift:AuthorizeEndpointAccess
+redshift:AuthorizeInboundIntegration
 redshift:AuthorizeSnapshotAccess
 redshift:BatchDeleteClusterSnapshots
 redshift:BatchModifyClusterSnapshots
@@ -12969,6 +12971,8 @@ redshift:CreateEndpointAccess
 redshift:CreateEventSubscription
 redshift:CreateHsmClientCertificate
 redshift:CreateHsmConfiguration
+redshift:CreateInboundIntegration
+redshift:CreateIntegration
 redshift:CreateQev2IdcApplication
 redshift:CreateRedshiftIdcApplication
 redshift:CreateSavedQuery
@@ -12989,6 +12993,7 @@ redshift:DeleteEndpointAccess
 redshift:DeleteEventSubscription
 redshift:DeleteHsmClientCertificate
 redshift:DeleteHsmConfiguration
+redshift:DeleteIntegration
 redshift:DeletePartner
 redshift:DeleteQev2IdcApplication
 redshift:DeleteRedshiftIdcApplication
@@ -13023,6 +13028,7 @@ redshift:DescribeEvents
 redshift:DescribeHsmClientCertificates
 redshift:DescribeHsmConfigurations
 redshift:DescribeInboundIntegrations
+redshift:DescribeIntegrations
 redshift:DescribeLoggingStatus
 redshift:DescribeNodeConfigurationOptions
 redshift:DescribeOrderableClusterOptions
@@ -13075,6 +13081,7 @@ redshift:ModifyClusterSubnetGroup
 redshift:ModifyCustomDomainAssociation
 redshift:ModifyEndpointAccess
 redshift:ModifyEventSubscription
+redshift:ModifyIntegration
 redshift:ModifyQev2IdcApplication
 redshift:ModifyRedshiftIdcApplication
 redshift:ModifySavedQuery
