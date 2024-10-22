@@ -12361,6 +12361,7 @@ UpdateQApp:qapps
 UpdateQAppSession:qapps
 UpdateQAppSessionMetadata:qapps
 AddUserLicenses:qbusiness
+AllowVendedLogDeliveryForResource:qbusiness
 BatchDeleteDocument:qbusiness
 BatchPutDocument:qbusiness
 CancelSubscription:qbusiness
