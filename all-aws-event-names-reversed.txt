@@ -16923,6 +16923,7 @@ TagResource:wickr
 UntagResource:wickr
 UpdateNetworkDetails:wickr
 ActivateMessageTemplate:wisdom
+AllowVendedLogDeliveryForResource:wisdom
 CreateAIAgent:wisdom
 CreateAIAgentVersion:wisdom
 CreateAIPrompt:wisdom

@@ -16923,6 +16923,7 @@ wickr:TagResource
 wickr:UntagResource
 wickr:UpdateNetworkDetails
 wisdom:ActivateMessageTemplate
+wisdom:AllowVendedLogDeliveryForResource
 wisdom:CreateAIAgent
 wisdom:CreateAIAgentVersion
 wisdom:CreateAIPrompt
