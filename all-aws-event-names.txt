@@ -16383,6 +16383,7 @@ transfer:ListAgreements
 transfer:ListCertificates
 transfer:ListConnectors
 transfer:ListExecutions
+transfer:ListFileTransferResults
 transfer:ListHostKeys
 transfer:ListProfiles
 transfer:ListSecurityPolicies
