@@ -5937,6 +5937,8 @@ ecs:DeregisterTaskDefinition
 ecs:DescribeCapacityProviders
 ecs:DescribeClusters
 ecs:DescribeContainerInstances
+ecs:DescribeServiceDeployments
+ecs:DescribeServiceRevisions
 ecs:DescribeServices
 ecs:DescribeTaskDefinition
 ecs:DescribeTaskSets
@@ -5948,6 +5950,7 @@ ecs:ListAccountSettings
 ecs:ListAttributes
 ecs:ListClusters
 ecs:ListContainerInstances
+ecs:ListServiceDeployments
 ecs:ListServices
 ecs:ListServicesByNamespace
 ecs:ListTagsForResource
