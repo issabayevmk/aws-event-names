@@ -14036,6 +14036,7 @@ UpdateRun:sagemaker-mlflow
 AddAssociation:sagemaker
 AddTags:sagemaker
 AssociateTrialComponent:sagemaker
+BatchDeleteClusterNodes:sagemaker
 BatchDescribeModelPackage:sagemaker
 BatchGetMetrics:sagemaker
 BatchGetRecord:sagemaker
