@@ -512,6 +512,7 @@ application-signals:CreateServiceLevelObjective
 application-signals:DeleteServiceLevelObjective
 application-signals:GetService
 application-signals:GetServiceLevelObjective
+application-signals:ListObservedEntities
 application-signals:ListServiceDependencies
 application-signals:ListServiceDependents
 application-signals:ListServiceLevelObjectives
