@@ -16207,6 +16207,7 @@ tag:TagResources
 tag:UntagResources
 tax:BatchDeleteTaxRegistration
 tax:BatchPutTaxRegistration
+tax:DeleteSupplementalTaxRegistration
 tax:DeleteTaxRegistration
 tax:GetExemptions
 tax:GetTaxInfoReportingDocument
@@ -16214,7 +16215,9 @@ tax:GetTaxInheritance
 tax:GetTaxInterview
 tax:GetTaxRegistration
 tax:GetTaxRegistrationDocument
+tax:ListSupplementalTaxRegistrations
 tax:ListTaxRegistrations
+tax:PutSupplementalTaxRegistration
 tax:PutTaxInheritance
 tax:PutTaxInterview
 tax:PutTaxRegistration
