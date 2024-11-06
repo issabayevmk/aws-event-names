@@ -2687,6 +2687,7 @@ cloudwatch:GetTopologyDiscoveryStatus
 cloudwatch:GetTopologyMap
 cloudwatch:Link
 cloudwatch:ListDashboards
+cloudwatch:ListEntitiesForMetric
 cloudwatch:ListManagedInsightRules
 cloudwatch:ListMetricStreams
 cloudwatch:ListMetrics
@@ -16262,6 +16263,7 @@ thinclient:DeleteDevice
 thinclient:DeleteEnvironment
 thinclient:DeregisterDevice
 thinclient:GetDevice
+thinclient:GetDeviceDetails
 thinclient:GetEnvironment
 thinclient:GetSoftwareSet
 thinclient:ListDeviceSessions
