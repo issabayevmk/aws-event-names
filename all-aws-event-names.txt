@@ -12474,6 +12474,7 @@ qbusiness:GetRetriever
 qbusiness:GetUser
 qbusiness:GetWebExperience
 qbusiness:ListApplications
+qbusiness:ListAttachments
 qbusiness:ListConversations
 qbusiness:ListDataSourceSyncJobs
 qbusiness:ListDataSources
