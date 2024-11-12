@@ -6547,6 +6547,7 @@ AcceptInboundCrossClusterSearchConnection:es
 AddDataSource:es
 AddTags:es
 AssociatePackage:es
+AssociatePackages:es
 AuthorizeVpcEndpointAccess:es
 CancelDomainConfigChange:es
 CancelElasticsearchServiceSoftwareUpdate:es
@@ -6595,6 +6596,7 @@ DescribeReservedInstanceOfferings:es
 DescribeReservedInstances:es
 DescribeVpcEndpoints:es
 DissociatePackage:es
+DissociatePackages:es
 ESCrossClusterGet:es
 ESHttpDelete:es
 ESHttpGet:es
@@ -6640,6 +6642,7 @@ UpdateDataSource:es
 UpdateDomainConfig:es
 UpdateElasticsearchDomainConfig:es
 UpdatePackage:es
+UpdatePackageScope:es
 UpdateScheduledAction:es
 UpdateVpcEndpoint:es
 UpgradeDomain:es
