@@ -4162,6 +4162,8 @@ datazone:AcceptSubscriptionRequest
 datazone:AddEntityOwner
 datazone:AddPolicyGrant
 datazone:AssociateEnvironmentRole
+datazone:BatchDeleteLinkedTypes
+datazone:BatchPutLinkedTypes
 datazone:CancelMetadataGenerationRun
 datazone:CancelSubscription
 datazone:CreateAsset
@@ -4265,6 +4267,7 @@ datazone:ListEnvironmentProfiles
 datazone:ListEnvironments
 datazone:ListGroupsForUser
 datazone:ListLineageNodeHistory
+datazone:ListLinkedTypes
 datazone:ListMetadataGenerationRuns
 datazone:ListNotifications
 datazone:ListPolicyGrants
@@ -11892,7 +11895,9 @@ outposts:GetOutpostSupportedInstanceTypes
 outposts:GetPrivateConnectivityConfig
 outposts:GetSite
 outposts:GetSiteAddress
+outposts:ListAssetInstances
 outposts:ListAssets
+outposts:ListBlockingInstancesForCapacityTask
 outposts:ListCapacityTasks
 outposts:ListCatalogItems
 outposts:ListOrders
