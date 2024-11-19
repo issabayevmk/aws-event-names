@@ -4237,6 +4237,7 @@ CreateListingChangeSet:datazone
 CreateProject:datazone
 CreateProjectMembership:datazone
 CreateProjectProfile:datazone
+CreateRule:datazone
 CreateSubscriptionGrant:datazone
 CreateSubscriptionRequest:datazone
 CreateSubscriptionTarget:datazone
@@ -4261,6 +4262,7 @@ DeleteListing:datazone
 DeleteProject:datazone
 DeleteProjectMembership:datazone
 DeleteProjectProfile:datazone
+DeleteRule:datazone
 DeleteSubscriptionGrant:datazone
 DeleteSubscriptionRequest:datazone
 DeleteSubscriptionTarget:datazone
@@ -4292,6 +4294,7 @@ GetListing:datazone
 GetMetadataGenerationRun:datazone
 GetProject:datazone
 GetProjectProfile:datazone
+GetRule:datazone
 GetSubscription:datazone
 GetSubscriptionEligibility:datazone
 GetSubscriptionGrant:datazone
@@ -4324,6 +4327,7 @@ ListPolicyGrants:datazone
 ListProjectMemberships:datazone
 ListProjectProfiles:datazone
 ListProjects:datazone
+ListRules:datazone
 ListSubscriptionGrants:datazone
 ListSubscriptionRequests:datazone
 ListSubscriptionTargets:datazone
@@ -4345,6 +4349,7 @@ RevokeSubscription:datazone
 Search:datazone
 SearchGroupProfiles:datazone
 SearchListings:datazone
+SearchRules:datazone
 SearchTypes:datazone
 SearchUserProfiles:datazone
 SsoLogin:datazone
@@ -4370,6 +4375,7 @@ UpdateGlossaryTerm:datazone
 UpdateGroupProfile:datazone
 UpdateProject:datazone
 UpdateProjectProfile:datazone
+UpdateRule:datazone
 UpdateSubscriptionGrantStatus:datazone
 UpdateSubscriptionRequest:datazone
 UpdateSubscriptionTarget:datazone
@@ -8920,6 +8926,7 @@ CreateAssetModel:iotsitewise
 CreateAssetModelCompositeModel:iotsitewise
 CreateBulkImportJob:iotsitewise
 CreateDashboard:iotsitewise
+CreateDataset:iotsitewise
 CreateGateway:iotsitewise
 CreatePortal:iotsitewise
 CreateProject:iotsitewise
@@ -8928,6 +8935,7 @@ DeleteAsset:iotsitewise
 DeleteAssetModel:iotsitewise
 DeleteAssetModelCompositeModel:iotsitewise
 DeleteDashboard:iotsitewise
+DeleteDataset:iotsitewise
 DeleteGateway:iotsitewise
 DeletePortal:iotsitewise
 DeleteProject:iotsitewise
@@ -8941,6 +8949,7 @@ DescribeAssetModelCompositeModel:iotsitewise
 DescribeAssetProperty:iotsitewise
 DescribeBulkImportJob:iotsitewise
 DescribeDashboard:iotsitewise
+DescribeDataset:iotsitewise
 DescribeDefaultEncryptionConfiguration:iotsitewise
 DescribeGateway:iotsitewise
 DescribeGatewayCapabilityConfiguration:iotsitewise
@@ -8958,6 +8967,7 @@ GetAssetPropertyAggregates:iotsitewise
 GetAssetPropertyValue:iotsitewise
 GetAssetPropertyValueHistory:iotsitewise
 GetInterpolatedAssetPropertyValues:iotsitewise
+InvokeAssistant:iotsitewise
 ListAccessPolicies:iotsitewise
 ListActions:iotsitewise
 ListAssetModelCompositeModels:iotsitewise
@@ -8970,6 +8980,7 @@ ListAssociatedAssets:iotsitewise
 ListBulkImportJobs:iotsitewise
 ListCompositionRelationships:iotsitewise
 ListDashboards:iotsitewise
+ListDatasets:iotsitewise
 ListGateways:iotsitewise
 ListPortals:iotsitewise
 ListProjectAssets:iotsitewise
@@ -8988,6 +8999,7 @@ UpdateAssetModelCompositeModel:iotsitewise
 UpdateAssetModelPropertyRouting:iotsitewise
 UpdateAssetProperty:iotsitewise
 UpdateDashboard:iotsitewise
+UpdateDataset:iotsitewise
 UpdateGateway:iotsitewise
 UpdateGatewayCapabilityConfiguration:iotsitewise
 UpdatePortal:iotsitewise
@@ -13412,6 +13424,8 @@ TagResource:rekognition
 UntagResource:rekognition
 UpdateDatasetEntries:rekognition
 UpdateStreamProcessor:rekognition
+BatchAddRole:repostspace
+BatchRemoveRole:repostspace
 CreateSpace:repostspace
 DeleteSpace:repostspace
 DeregisterAdmin:repostspace
@@ -15357,6 +15371,7 @@ DeleteOptOutList:sms-voice
 DeleteOptedOutNumber:sms-voice
 DeletePool:sms-voice
 DeleteProtectConfiguration:sms-voice
+DeleteProtectConfigurationRuleSetNumberOverride:sms-voice
 DeleteRegistration:sms-voice
 DeleteRegistrationAttachment:sms-voice
 DeleteRegistrationFieldValue:sms-voice
@@ -15391,10 +15406,13 @@ GetProtectConfigurationCountryRuleSet:sms-voice
 GetResourcePolicy:sms-voice
 ListConfigurationSets:sms-voice
 ListPoolOriginationIdentities:sms-voice
+ListProtectConfigurationRuleSetNumberOverrides:sms-voice
 ListRegistrationAssociations:sms-voice
 ListTagsForResource:sms-voice
 PutKeyword:sms-voice
+PutMessageFeedback:sms-voice
 PutOptedOutNumber:sms-voice
+PutProtectConfigurationRuleSetNumberOverride:sms-voice
 PutRegistrationFieldValue:sms-voice
 PutResourcePolicy:sms-voice
 ReleasePhoneNumber:sms-voice
@@ -15407,6 +15425,7 @@ SendTextMessage:sms-voice
 SendVoiceMessage:sms-voice
 SendVoiceMessage:sms-voice
 SetAccountDefaultProtectConfiguration:sms-voice
+SetDefaultMessageFeedbackEnabled:sms-voice
 SetDefaultMessageType:sms-voice
 SetDefaultSenderId:sms-voice
 SetMediaMessageSpendLimitOverride:sms-voice
