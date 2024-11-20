@@ -1207,6 +1207,7 @@ aws-marketplace:GetEntitlements
 aws-marketplace:GetResourcePolicy
 aws-marketplace:GetSellerDashboard
 aws-marketplace:ListAgreementApprovalRequests
+aws-marketplace:ListAgreementCharges
 aws-marketplace:ListAgreementRequests
 aws-marketplace:ListAssessments
 aws-marketplace:ListBuilds
@@ -1235,6 +1236,7 @@ aws-marketplace:Unsubscribe
 aws-marketplace:UntagResource
 aws-marketplace:UntagResource
 aws-marketplace:UpdateAgreementApprovalRequest
+aws-marketplace:UpdatePurchaseOrders
 aws-marketplace:UpdateTask
 aws-marketplace:ViewSubscriptions
 aws-portal:GetConsoleActionSetEnforced
@@ -14341,6 +14343,8 @@ sagemaker:CreateMonitoringSchedule
 sagemaker:CreateNotebookInstance
 sagemaker:CreateNotebookInstanceLifecycleConfig
 sagemaker:CreateOptimizationJob
+sagemaker:CreatePartnerApp
+sagemaker:CreatePartnerAppPresignedUrl
 sagemaker:CreatePipeline
 sagemaker:CreatePresignedDomainUrl
 sagemaker:CreatePresignedMlflowTrackingServerUrl
@@ -14401,6 +14405,7 @@ sagemaker:DeleteMonitoringSchedule
 sagemaker:DeleteNotebookInstance
 sagemaker:DeleteNotebookInstanceLifecycleConfig
 sagemaker:DeleteOptimizationJob
+sagemaker:DeletePartnerApp
 sagemaker:DeletePipeline
 sagemaker:DeleteProject
 sagemaker:DeleteRecord
@@ -14464,6 +14469,7 @@ sagemaker:DescribeMonitoringSchedule
 sagemaker:DescribeNotebookInstance
 sagemaker:DescribeNotebookInstanceLifecycleConfig
 sagemaker:DescribeOptimizationJob
+sagemaker:DescribePartnerApp
 sagemaker:DescribePipeline
 sagemaker:DescribePipelineDefinitionForExecution
 sagemaker:DescribePipelineExecution
@@ -14555,6 +14561,7 @@ sagemaker:ListMonitoringSchedules
 sagemaker:ListNotebookInstanceLifecycleConfigs
 sagemaker:ListNotebookInstances
 sagemaker:ListOptimizationJobs
+sagemaker:ListPartnerApps
 sagemaker:ListPipelineExecutionSteps
 sagemaker:ListPipelineExecutions
 sagemaker:ListPipelineParametersForExecution
@@ -14643,6 +14650,7 @@ sagemaker:UpdateMonitoringAlert
 sagemaker:UpdateMonitoringSchedule
 sagemaker:UpdateNotebookInstance
 sagemaker:UpdateNotebookInstanceLifecycleConfig
+sagemaker:UpdatePartnerApp
 sagemaker:UpdatePipeline
 sagemaker:UpdatePipelineExecution
 sagemaker:UpdateProject
