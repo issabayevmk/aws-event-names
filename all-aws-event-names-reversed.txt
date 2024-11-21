@@ -1535,6 +1535,7 @@ GetUseCaseForModelAccess:bedrock
 InvokeAgent:bedrock
 InvokeBuilder:bedrock
 InvokeFlow:bedrock
+InvokeInlineAgent:bedrock
 InvokeModel:bedrock
 InvokeModelWithResponseStream:bedrock
 ListAgentActionGroups:bedrock
@@ -2461,8 +2462,10 @@ GetKey:cloudfront-keyvaluestore
 ListKeys:cloudfront-keyvaluestore
 PutKey:cloudfront-keyvaluestore
 UpdateKeys:cloudfront-keyvaluestore
+AllowVendedLogDeliveryForResource:cloudfront
 AssociateAlias:cloudfront
 CopyDistribution:cloudfront
+CreateAnycastIpList:cloudfront
 CreateCachePolicy:cloudfront
 CreateCloudFrontOriginAccessIdentity:cloudfront
 CreateContinuousDeploymentPolicy:cloudfront
@@ -2482,6 +2485,8 @@ CreateResponseHeadersPolicy:cloudfront
 CreateSavingsPlan:cloudfront
 CreateStreamingDistribution:cloudfront
 CreateStreamingDistributionWithTags:cloudfront
+CreateVpcOrigin:cloudfront
+DeleteAnycastIpList:cloudfront
 DeleteCachePolicy:cloudfront
 DeleteCloudFrontOriginAccessIdentity:cloudfront
 DeleteContinuousDeploymentPolicy:cloudfront
@@ -2498,8 +2503,10 @@ DeletePublicKey:cloudfront
 DeleteRealtimeLogConfig:cloudfront
 DeleteResponseHeadersPolicy:cloudfront
 DeleteStreamingDistribution:cloudfront
+DeleteVpcOrigin:cloudfront
 DescribeFunction:cloudfront
 DescribeKeyValueStore:cloudfront
+GetAnycastIpList:cloudfront
 GetCachePolicy:cloudfront
 GetCachePolicyConfig:cloudfront
 GetCloudFrontOriginAccessIdentity:cloudfront
@@ -2529,17 +2536,21 @@ GetResponseHeadersPolicyConfig:cloudfront
 GetSavingsPlan:cloudfront
 GetStreamingDistribution:cloudfront
 GetStreamingDistributionConfig:cloudfront
+GetVpcOrigin:cloudfront
+ListAnycastIpLists:cloudfront
 ListCachePolicies:cloudfront
 ListCloudFrontOriginAccessIdentities:cloudfront
 ListConflictingAliases:cloudfront
 ListContinuousDeploymentPolicies:cloudfront
 ListDistributions:cloudfront
+ListDistributionsByAnycastIpListId:cloudfront
 ListDistributionsByCachePolicyId:cloudfront
 ListDistributionsByKeyGroup:cloudfront
 ListDistributionsByLambdaFunction:cloudfront
 ListDistributionsByOriginRequestPolicyId:cloudfront
 ListDistributionsByRealtimeLogConfig:cloudfront
 ListDistributionsByResponseHeadersPolicyId:cloudfront
+ListDistributionsByVpcOriginId:cloudfront
 ListDistributionsByWebACLId:cloudfront
 ListFieldLevelEncryptionConfigs:cloudfront
 ListFieldLevelEncryptionProfiles:cloudfront
@@ -2557,6 +2568,7 @@ ListSavingsPlans:cloudfront
 ListStreamingDistributions:cloudfront
 ListTagsForResource:cloudfront
 ListUsages:cloudfront
+ListVpcOrigins:cloudfront
 PublishFunction:cloudfront
 TagResource:cloudfront
 TestFunction:cloudfront
@@ -2578,6 +2590,7 @@ UpdateRealtimeLogConfig:cloudfront
 UpdateResponseHeadersPolicy:cloudfront
 UpdateSavingsPlan:cloudfront
 UpdateStreamingDistribution:cloudfront
+UpdateVpcOrigin:cloudfront
 CopyBackupToRegion:cloudhsm
 CreateCluster:cloudhsm
 CreateHsm:cloudhsm
@@ -3526,6 +3539,7 @@ ExportAutoScalingGroupRecommendations:compute-optimizer
 ExportEBSVolumeRecommendations:compute-optimizer
 ExportEC2InstanceRecommendations:compute-optimizer
 ExportECSServiceRecommendations:compute-optimizer
+ExportIdleRecommendations:compute-optimizer
 ExportLambdaFunctionRecommendations:compute-optimizer
 ExportLicenseRecommendations:compute-optimizer
 ExportRDSDatabaseRecommendations:compute-optimizer
@@ -3538,6 +3552,7 @@ GetECSServiceRecommendations:compute-optimizer
 GetEffectiveRecommendationPreferences:compute-optimizer
 GetEnrollmentStatus:compute-optimizer
 GetEnrollmentStatusesForOrganization:compute-optimizer
+GetIdleRecommendations:compute-optimizer
 GetLambdaFunctionRecommendations:compute-optimizer
 GetLicenseRecommendations:compute-optimizer
 GetRDSDatabaseRecommendationProjectedMetrics:compute-optimizer
@@ -3701,6 +3716,7 @@ CreateAgentStatus:connect
 CreateAuthenticationProfile:connect
 CreateContactFlow:connect
 CreateContactFlowModule:connect
+CreateContactFlowVersion:connect
 CreateEvaluationForm:connect
 CreateHoursOfOperation:connect
 CreateHoursOfOperationOverride:connect
@@ -3810,6 +3826,7 @@ ListAuthenticationProfiles:connect
 ListBots:connect
 ListContactEvaluations:connect
 ListContactFlowModules:connect
+ListContactFlowVersions:connect
 ListContactFlows:connect
 ListContactReferences:connect
 ListDefaultVocabularies:connect
@@ -6354,6 +6371,7 @@ DeleteTrustStore:elasticloadbalancing
 DeregisterInstancesFromLoadBalancer:elasticloadbalancing
 DeregisterTargets:elasticloadbalancing
 DescribeAccountLimits:elasticloadbalancing
+DescribeCapacityReservation:elasticloadbalancing
 DescribeInstanceHealth:elasticloadbalancing
 DescribeListenerAttributes:elasticloadbalancing
 DescribeListenerCertificates:elasticloadbalancing
@@ -6380,6 +6398,7 @@ EnableAvailabilityZonesForLoadBalancer:elasticloadbalancing
 GetResourcePolicy:elasticloadbalancing
 GetTrustStoreCaCertificatesBundle:elasticloadbalancing
 GetTrustStoreRevocationContent:elasticloadbalancing
+ModifyCapacityReservation:elasticloadbalancing
 ModifyListener:elasticloadbalancing
 ModifyListenerAttributes:elasticloadbalancing
 ModifyLoadBalancerAttributes:elasticloadbalancing
