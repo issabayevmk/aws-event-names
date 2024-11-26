@@ -7676,6 +7676,7 @@ glue:GetJob
 glue:GetJobBookmark
 glue:GetJobRun
 glue:GetJobRuns
+glue:GetJobUpgradeAnalysis
 glue:GetJobs
 glue:GetLogParsingStatus
 glue:GetMLTaskRun
@@ -7740,6 +7741,7 @@ glue:ListDataQualityRulesetEvaluationRuns
 glue:ListDataQualityRulesets
 glue:ListDevEndpoints
 glue:ListEntities
+glue:ListJobUpgradeAnalyses
 glue:ListJobs
 glue:ListMLTransforms
 glue:ListRegistries
@@ -7784,6 +7786,7 @@ glue:StartDataQualityRulesetEvaluationRun
 glue:StartExportLabelsTaskRun
 glue:StartImportLabelsTaskRun
 glue:StartJobRun
+glue:StartJobUpgradeAnalysis
 glue:StartMLEvaluationTaskRun
 glue:StartMLLabelingSetGenerationTaskRun
 glue:StartNotebook
@@ -7793,6 +7796,7 @@ glue:StopColumnStatisticsTaskRun
 glue:StopColumnStatisticsTaskRunSchedule
 glue:StopCrawler
 glue:StopCrawlerSchedule
+glue:StopJobUpgradeAnalysis
 glue:StopSession
 glue:StopTrigger
 glue:StopWorkflowRun
@@ -7827,6 +7831,7 @@ glue:UpdateTrigger
 glue:UpdateUsageProfile
 glue:UpdateUserDefinedFunction
 glue:UpdateWorkflow
+glue:UpgradeJob
 glue:UseGlueStudio
 glue:UseMLTransforms
 grafana:AssociateLicense
