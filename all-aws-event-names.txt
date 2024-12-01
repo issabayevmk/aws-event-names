@@ -10378,6 +10378,7 @@ logs:DeleteDeliveryDestinationPolicy
 logs:DeleteDeliverySource
 logs:DeleteDestination
 logs:DeleteIndexPolicy
+logs:DeleteIntegration
 logs:DeleteLogAnomalyDetector
 logs:DeleteLogDelivery
 logs:DeleteLogGroup
@@ -10411,6 +10412,7 @@ logs:GetDelivery
 logs:GetDeliveryDestination
 logs:GetDeliveryDestinationPolicy
 logs:GetDeliverySource
+logs:GetIntegration
 logs:GetLogAnomalyDetector
 logs:GetLogDelivery
 logs:GetLogEvents
@@ -10421,6 +10423,7 @@ logs:GetTransformer
 logs:Link
 logs:ListAnomalies
 logs:ListEntitiesForLogGroup
+logs:ListIntegrations
 logs:ListLogAnomalyDetectors
 logs:ListLogDeliveries
 logs:ListLogGroupsForEntity
@@ -10435,6 +10438,7 @@ logs:PutDeliverySource
 logs:PutDestination
 logs:PutDestinationPolicy
 logs:PutIndexPolicy
+logs:PutIntegration
 logs:PutLogEvents
 logs:PutMetricFilter
 logs:PutQueryDefinition
