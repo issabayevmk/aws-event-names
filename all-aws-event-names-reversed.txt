@@ -6704,6 +6704,7 @@ UseWorkflow:entityresolution
 AcceptInboundConnection:es
 AcceptInboundCrossClusterSearchConnection:es
 AddDataSource:es
+AddDirectQueryDataSource:es
 AddTags:es
 AssociatePackage:es
 AssociatePackages:es
@@ -6722,6 +6723,7 @@ CreateServiceRole:es
 CreateVpcEndpoint:es
 DeleteApplication:es
 DeleteDataSource:es
+DeleteDirectQueryDataSource:es
 DeleteDomain:es
 DeleteElasticsearchDomain:es
 DeleteElasticsearchServiceRole:es
@@ -6767,12 +6769,14 @@ GetApplication:es
 GetCompatibleElasticsearchVersions:es
 GetCompatibleVersions:es
 GetDataSource:es
+GetDirectQueryDataSource:es
 GetDomainMaintenanceStatus:es
 GetPackageVersionHistory:es
 GetUpgradeHistory:es
 GetUpgradeStatus:es
 ListApplications:es
 ListDataSources:es
+ListDirectQueryDataSources:es
 ListDomainMaintenances:es
 ListDomainNames:es
 ListDomainsForPackage:es
@@ -6798,6 +6802,7 @@ StartElasticsearchServiceSoftwareUpdate:es
 StartServiceSoftwareUpdate:es
 UpdateApplication:es
 UpdateDataSource:es
+UpdateDirectQueryDataSource:es
 UpdateDomainConfig:es
 UpdateElasticsearchDomainConfig:es
 UpdatePackage:es
@@ -11984,6 +11989,10 @@ UpdateDeviceInstance:one
 UpdateSite:one
 UpdateSiteAddress:one
 ApplicationAccessAll:opensearch
+CancelDirectQuery:opensearch
+GetDirectQuery:opensearch
+GetDirectQueryResult:opensearch
+StartDirectQuery:opensearch
 AssociateNode:opsworks-cm
 CreateBackup:opsworks-cm
 CreateServer:opsworks-cm
