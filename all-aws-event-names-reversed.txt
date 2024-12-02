@@ -1883,6 +1883,7 @@ AssociatePhoneNumberWithUser:chime
 AssociatePhoneNumbersWithVoiceConnector:chime
 AssociatePhoneNumbersWithVoiceConnectorGroup:chime
 AssociateSigninDelegateGroupsWithAccount:chime
+AssociateVoiceConnectorConnect:chime
 AuthorizeDirectory:chime
 BatchCreateAttendee:chime
 BatchCreateChannelMembership:chime
@@ -1910,6 +1911,8 @@ CreateChannelBan:chime
 CreateChannelFlow:chime
 CreateChannelMembership:chime
 CreateChannelModerator:chime
+CreateConnectAnalyticsConnector:chime
+CreateConnectCallTransferConnector:chime
 CreateMediaCapturePipeline:chime
 CreateMediaConcatenationPipeline:chime
 CreateMediaInsightsPipeline:chime
@@ -1966,6 +1969,7 @@ DeleteSipMediaApplication:chime
 DeleteSipRule:chime
 DeleteVoiceConnector:chime
 DeleteVoiceConnectorEmergencyCallingConfiguration:chime
+DeleteVoiceConnectorExternalSystemsConfiguration:chime
 DeleteVoiceConnectorGroup:chime
 DeleteVoiceConnectorOrigination:chime
 DeleteVoiceConnectorProxy:chime
@@ -1992,6 +1996,7 @@ DisassociatePhoneNumberFromUser:chime
 DisassociatePhoneNumbersFromVoiceConnector:chime
 DisassociatePhoneNumbersFromVoiceConnectorGroup:chime
 DisassociateSigninDelegateGroupsFromAccount:chime
+DisassociateVoiceConnectorConnect:chime
 DisconnectDirectory:chime
 GetAccount:chime
 GetAccountResource:chime
@@ -2034,6 +2039,7 @@ GetUserByEmail:chime
 GetUserSettings:chime
 GetVoiceConnector:chime
 GetVoiceConnectorEmergencyCallingConfiguration:chime
+GetVoiceConnectorExternalSystemsConfiguration:chime
 GetVoiceConnectorGroup:chime
 GetVoiceConnectorLoggingConfiguration:chime
 GetVoiceConnectorOrigination:chime
@@ -2110,6 +2116,7 @@ PutRetentionSettings:chime
 PutSipMediaApplicationAlexaSkillConfiguration:chime
 PutSipMediaApplicationLoggingConfiguration:chime
 PutVoiceConnectorEmergencyCallingConfiguration:chime
+PutVoiceConnectorExternalSystemsConfiguration:chime
 PutVoiceConnectorLoggingConfiguration:chime
 PutVoiceConnectorOrigination:chime
 PutVoiceConnectorProxy:chime
@@ -8428,6 +8435,7 @@ GetImageRecipePolicy:imagebuilder
 GetInfrastructureConfiguration:imagebuilder
 GetLifecycleExecution:imagebuilder
 GetLifecyclePolicy:imagebuilder
+GetMarketplaceResource:imagebuilder
 GetWorkflow:imagebuilder
 GetWorkflowExecution:imagebuilder
 GetWorkflowStepExecution:imagebuilder
