@@ -14522,6 +14522,7 @@ PutTableMaintenanceConfiguration:s3tables
 PutTablePolicy:s3tables
 RenameTable:s3tables
 UpdateTableMetadataLocation:s3tables
+SendConversation:sagemaker-data-science-assistant
 DeleteEarthObservationJob:sagemaker-geospatial
 DeleteVectorEnrichmentJob:sagemaker-geospatial
 ExportEarthObservationJob:sagemaker-geospatial
