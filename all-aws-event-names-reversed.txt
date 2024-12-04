@@ -3989,12 +3989,14 @@ SearchUserHierarchyGroups:connect
 SearchUsers:connect
 SearchVocabularies:connect
 SendChatIntegrationEvent:connect
+SendIntegrationEvent:connect
 SendOutboundEmail:connect
 StartAttachedFileUpload:connect
 StartChatContact:connect
 StartContactEvaluation:connect
 StartContactRecording:connect
 StartContactStreaming:connect
+StartEmailContact:connect
 StartForecastingPlanningSchedulingIntegration:connect
 StartOutboundChatContact:connect
 StartOutboundVoiceContact:connect
@@ -13015,6 +13017,7 @@ DeleteDashboard:quicksight
 DeleteDataSet:quicksight
 DeleteDataSetRefreshProperties:quicksight
 DeleteDataSource:quicksight
+DeleteDefaultQBusinessApplication:quicksight
 DeleteEmailCustomizationTemplate:quicksight
 DeleteFolder:quicksight
 DeleteFolderMembership:quicksight
@@ -13057,6 +13060,7 @@ DescribeDataSetPermissions:quicksight
 DescribeDataSetRefreshProperties:quicksight
 DescribeDataSource:quicksight
 DescribeDataSourcePermissions:quicksight
+DescribeDefaultQBusinessApplication:quicksight
 DescribeEmailCustomizationTemplate:quicksight
 DescribeFolder:quicksight
 DescribeFolderPermissions:quicksight
@@ -13069,6 +13073,7 @@ DescribeIpRestriction:quicksight
 DescribeKeyRegistration:quicksight
 DescribeNamespace:quicksight
 DescribeQPersonalizationConfiguration:quicksight
+DescribeQuickSightQSearchConfiguration:quicksight
 DescribeRefreshSchedule:quicksight
 DescribeRoleCustomPermission:quicksight
 DescribeTemplate:quicksight
@@ -13085,6 +13090,7 @@ DescribeUser:quicksight
 DescribeVPCConnection:quicksight
 GenerateEmbedUrlForAnonymousUser:quicksight
 GenerateEmbedUrlForRegisteredUser:quicksight
+GenerateEmbedUrlForRegisteredUserWithIdentity:quicksight
 GetAnonymousUserEmbedUrl:quicksight
 GetAuthCode:quicksight
 GetDashboardEmbedUrl:quicksight
@@ -13128,6 +13134,7 @@ ListUsers:quicksight
 ListVPCConnections:quicksight
 PassDataSet:quicksight
 PassDataSource:quicksight
+PredictQAResults:quicksight
 PutDataSetRefreshProperties:quicksight
 RegisterCustomerManagedKey:quicksight
 RegisterUser:quicksight
@@ -13156,6 +13163,7 @@ UpdateAccountCustomization:quicksight
 UpdateAccountSettings:quicksight
 UpdateAnalysis:quicksight
 UpdateAnalysisPermissions:quicksight
+UpdateApplicationWithTokenExchangeGrant:quicksight
 UpdateBrand:quicksight
 UpdateBrandAssignment:quicksight
 UpdateBrandPublishedVersion:quicksight
@@ -13169,6 +13177,7 @@ UpdateDataSet:quicksight
 UpdateDataSetPermissions:quicksight
 UpdateDataSource:quicksight
 UpdateDataSourcePermissions:quicksight
+UpdateDefaultQBusinessApplication:quicksight
 UpdateEmailCustomizationTemplate:quicksight
 UpdateFolder:quicksight
 UpdateFolderPermissions:quicksight
@@ -13179,6 +13188,7 @@ UpdateIpRestriction:quicksight
 UpdateKeyRegistration:quicksight
 UpdatePublicSharingSettings:quicksight
 UpdateQPersonalizationConfiguration:quicksight
+UpdateQuickSightQSearchConfiguration:quicksight
 UpdateRefreshSchedule:quicksight
 UpdateResourcePermissions:quicksight
 UpdateRoleCustomPermission:quicksight
@@ -14319,6 +14329,7 @@ CreateAccessGrantsLocation:s3
 CreateAccessPoint:s3
 CreateAccessPointForObjectLambda:s3
 CreateBucket:s3
+CreateBucketMetadataTableConfiguration:s3
 CreateJob:s3
 CreateMultiRegionAccessPoint:s3
 CreateStorageLensGroup:s3
@@ -14331,6 +14342,7 @@ DeleteAccessPointForObjectLambda:s3
 DeleteAccessPointPolicy:s3
 DeleteAccessPointPolicyForObjectLambda:s3
 DeleteBucket:s3
+DeleteBucketMetadataTableConfiguration:s3
 DeleteBucketPolicy:s3
 DeleteBucketWebsite:s3
 DeleteJobTagging:s3
@@ -14364,6 +14376,7 @@ GetBucketAcl:s3
 GetBucketCORS:s3
 GetBucketLocation:s3
 GetBucketLogging:s3
+GetBucketMetadataTableConfiguration:s3
 GetBucketNotification:s3
 GetBucketObjectLockConfiguration:s3
 GetBucketOwnershipControls:s3
