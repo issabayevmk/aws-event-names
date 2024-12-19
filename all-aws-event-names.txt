@@ -4094,6 +4094,7 @@ connect:UpdateHoursOfOperation
 connect:UpdateHoursOfOperationOverride
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
+connect:UpdateParticipantAuthentication
 connect:UpdateParticipantRoleConfig
 connect:UpdatePhoneNumber
 connect:UpdatePhoneNumberMetadata
@@ -8921,6 +8922,7 @@ iot:GetPolicyVersion
 iot:GetRegistrationCode
 iot:GetRetainedMessage
 iot:GetStatistics
+iot:GetThingConnectivityData
 iot:GetThingShadow
 iot:GetTopicRule
 iot:GetTopicRuleDestination
