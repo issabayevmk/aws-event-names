@@ -15622,6 +15622,7 @@ PutServiceQuotaIncreaseRequestIntoTemplate:servicequotas
 RequestServiceQuotaIncrease:servicequotas
 TagResource:servicequotas
 UntagResource:servicequotas
+AllowVendedLogDeliveryForResource:ses
 BatchGetMetricData:ses
 CancelExportJob:ses
 CloneReceiptRuleSet:ses
