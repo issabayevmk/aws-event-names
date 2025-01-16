@@ -12526,6 +12526,7 @@ ListOpportunities:partnercentral
 ListResourceSnapshotJobs:partnercentral
 ListResourceSnapshots:partnercentral
 ListSolutions:partnercentral
+ListTagsForResource:partnercentral
 PutSellingSystemSettings:partnercentral
 RejectEngagementInvitation:partnercentral
 StartEngagementByAcceptingInvitationTask:partnercentral
@@ -12533,6 +12534,8 @@ StartEngagementFromOpportunityTask:partnercentral
 StartResourceSnapshotJob:partnercentral
 StopResourceSnapshotJob:partnercentral
 SubmitOpportunity:partnercentral
+TagResource:partnercentral
+UntagResource:partnercentral
 UpdateOpportunity:partnercentral
 CreateAlias:payment-cryptography
 CreateKey:payment-cryptography
