@@ -2858,6 +2858,7 @@ PutResourcePolicy:cloudtrail
 RegisterOrganizationDelegatedAdmin:cloudtrail
 RemoveTags:cloudtrail
 RestoreEventDataStore:cloudtrail
+SearchSampleQueries:cloudtrail
 StartDashboardRefresh:cloudtrail
 StartEventDataStoreIngestion:cloudtrail
 StartImport:cloudtrail
