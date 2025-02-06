@@ -15679,6 +15679,8 @@ CancelExportJob:ses
 CloneReceiptRuleSet:ses
 CreateAddonInstance:ses
 CreateAddonSubscription:ses
+CreateAddressList:ses
+CreateAddressListImportJob:ses
 CreateArchive:ses
 CreateConfigurationSet:ses
 CreateConfigurationSet:ses
@@ -15712,6 +15714,7 @@ CreateTemplate:ses
 CreateTrafficPolicy:ses
 DeleteAddonInstance:ses
 DeleteAddonSubscription:ses
+DeleteAddressList:ses
 DeleteArchive:ses
 DeleteConfigurationSet:ses
 DeleteConfigurationSet:ses
@@ -15743,6 +15746,7 @@ DeleteSuppressedDestination:ses
 DeleteTemplate:ses
 DeleteTrafficPolicy:ses
 DeleteVerifiedEmailAddress:ses
+DeregisterMemberFromAddressList:ses
 DescribeActiveReceiptRuleSet:ses
 DescribeConfigurationSet:ses
 DescribeReceiptRule:ses
@@ -15752,6 +15756,8 @@ GetAccount:ses
 GetAccountSendingEnabled:ses
 GetAddonInstance:ses
 GetAddonSubscription:ses
+GetAddressList:ses
+GetAddressListImportJob:ses
 GetArchive:ses
 GetArchiveExport:ses
 GetArchiveMessage:ses
@@ -15793,6 +15799,7 @@ GetIdentityPolicies:ses
 GetIdentityVerificationAttributes:ses
 GetImportJob:ses
 GetIngressPoint:ses
+GetMemberOfAddressList:ses
 GetMessageInsights:ses
 GetMultiRegionEndpoint:ses
 GetRelay:ses
@@ -15804,6 +15811,8 @@ GetTemplate:ses
 GetTrafficPolicy:ses
 ListAddonInstances:ses
 ListAddonSubscriptions:ses
+ListAddressListImportJobs:ses
+ListAddressLists:ses
 ListArchiveExports:ses
 ListArchiveSearches:ses
 ListArchives:ses
@@ -15828,6 +15837,7 @@ ListIdentities:ses
 ListIdentityPolicies:ses
 ListImportJobs:ses
 ListIngressPoints:ses
+ListMembersOfAddressList:ses
 ListMultiRegionEndpoints:ses
 ListReceiptFilters:ses
 ListReceiptRuleSets:ses
@@ -15876,6 +15886,7 @@ PutEmailIdentityMailFromAttributes:ses
 PutEmailIdentityMailFromAttributes:ses
 PutIdentityPolicy:ses
 PutSuppressedDestination:ses
+RegisterMemberToAddressList:ses
 ReorderReceiptRuleSet:ses
 ReplicateEmailIdentityDkimSigningKey:ses
 SendBounce:ses
@@ -15895,8 +15906,10 @@ SetIdentityHeadersInNotificationsEnabled:ses
 SetIdentityMailFromDomain:ses
 SetIdentityNotificationTopic:ses
 SetReceiptRulePosition:ses
+StartAddressListImportJob:ses
 StartArchiveExport:ses
 StartArchiveSearch:ses
+StopAddressListImportJob:ses
 StopArchiveExport:ses
 StopArchiveSearch:ses
 TagResource:ses
