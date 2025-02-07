@@ -229,6 +229,7 @@ PublishMetrics:airflow
 TagResource:airflow
 UntagResource:airflow
 UpdateEnvironment:airflow
+AssociateWebACL:amplify
 CreateApp:amplify
 CreateBackendEnvironment:amplify
 CreateBranch:amplify
@@ -241,6 +242,7 @@ DeleteBranch:amplify
 DeleteDomainAssociation:amplify
 DeleteJob:amplify
 DeleteWebHook:amplify
+DisassociateWebACL:amplify
 GenerateAccessLogs:amplify
 GetApp:amplify
 GetArtifactUrl:amplify
@@ -248,6 +250,7 @@ GetBackendEnvironment:amplify
 GetBranch:amplify
 GetDomainAssociation:amplify
 GetJob:amplify
+GetWebACLForResource:amplify
 GetWebHook:amplify
 ListApps:amplify
 ListArtifacts:amplify
@@ -255,6 +258,7 @@ ListBackendEnvironments:amplify
 ListBranches:amplify
 ListDomainAssociations:amplify
 ListJobs:amplify
+ListResourcesForWebACL:amplify
 ListTagsForResource:amplify
 ListWebHooks:amplify
 StartDeployment:amplify
@@ -2530,6 +2534,7 @@ CreateGeneratedTemplate:cloudformation
 CreateResource:cloudformation
 CreateStack:cloudformation
 CreateStackInstances:cloudformation
+CreateStackRefactor:cloudformation
 CreateStackSet:cloudformation
 CreateUploadBucket:cloudformation
 DeactivateOrganizationsAccess:cloudformation
@@ -2551,6 +2556,7 @@ DescribeResourceScan:cloudformation
 DescribeStackDriftDetectionStatus:cloudformation
 DescribeStackEvents:cloudformation
 DescribeStackInstance:cloudformation
+DescribeStackRefactor:cloudformation
 DescribeStackResource:cloudformation
 DescribeStackResourceDrifts:cloudformation
 DescribeStackResources:cloudformation
@@ -2564,6 +2570,7 @@ DetectStackResourceDrift:cloudformation
 DetectStackSetDrift:cloudformation
 EstimateTemplateCost:cloudformation
 ExecuteChangeSet:cloudformation
+ExecuteStackRefactor:cloudformation
 GetGeneratedTemplate:cloudformation
 GetResource:cloudformation
 GetResourceRequestStatus:cloudformation
@@ -2583,6 +2590,8 @@ ListResourceScans:cloudformation
 ListResources:cloudformation
 ListStackInstanceResourceDrifts:cloudformation
 ListStackInstances:cloudformation
+ListStackRefactorActions:cloudformation
+ListStackRefactors:cloudformation
 ListStackResources:cloudformation
 ListStackSetAutoDeploymentTargets:cloudformation
 ListStackSetOperationResults:cloudformation
