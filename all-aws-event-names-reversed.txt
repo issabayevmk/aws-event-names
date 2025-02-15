@@ -6813,6 +6813,7 @@ UpdateCaseStatus:elemental-support-cases
 UpdateMultipartUpload:elemental-support-cases
 Query:elemental-support-content
 CancelJobRun:emr-containers
+CreateCertificate:emr-containers
 CreateJobTemplate:emr-containers
 CreateManagedEndpoint:emr-containers
 CreateSecurityConfiguration:emr-containers
