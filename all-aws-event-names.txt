@@ -11919,14 +11919,18 @@ network-firewall:DescribeRuleGroup
 network-firewall:DescribeRuleGroupMetadata
 network-firewall:DescribeTLSInspectionConfiguration
 network-firewall:DisassociateSubnets
+network-firewall:GetAnalysisReportResults
+network-firewall:ListAnalysisReports
 network-firewall:ListFirewallPolicies
 network-firewall:ListFirewalls
 network-firewall:ListRuleGroups
 network-firewall:ListTLSInspectionConfigurations
 network-firewall:ListTagsForResource
 network-firewall:PutResourcePolicy
+network-firewall:StartAnalysisReport
 network-firewall:TagResource
 network-firewall:UntagResource
+network-firewall:UpdateFirewallAnalysisSettings
 network-firewall:UpdateFirewallDeleteProtection
 network-firewall:UpdateFirewallDescription
 network-firewall:UpdateFirewallEncryptionConfiguration
@@ -16874,6 +16878,7 @@ storagegateway:AssociateFileSystem
 storagegateway:AttachVolume
 storagegateway:BypassGovernanceRetention
 storagegateway:CancelArchival
+storagegateway:CancelCacheReport
 storagegateway:CancelRetrieval
 storagegateway:CreateCachediSCSIVolume
 storagegateway:CreateNFSFileShare
@@ -16886,6 +16891,7 @@ storagegateway:CreateTapeWithBarcode
 storagegateway:CreateTapes
 storagegateway:DeleteAutomaticTapeCreationPolicy
 storagegateway:DeleteBandwidthRateLimit
+storagegateway:DeleteCacheReport
 storagegateway:DeleteChapCredentials
 storagegateway:DeleteFileShare
 storagegateway:DeleteGateway
@@ -16898,6 +16904,7 @@ storagegateway:DescribeAvailabilityMonitorTest
 storagegateway:DescribeBandwidthRateLimit
 storagegateway:DescribeBandwidthRateLimitSchedule
 storagegateway:DescribeCache
+storagegateway:DescribeCacheReport
 storagegateway:DescribeCachediSCSIVolumes
 storagegateway:DescribeChapCredentials
 storagegateway:DescribeFileSystemAssociations
@@ -16919,6 +16926,7 @@ storagegateway:DisableGateway
 storagegateway:DisassociateFileSystem
 storagegateway:JoinDomain
 storagegateway:ListAutomaticTapeCreationPolicies
+storagegateway:ListCacheReports
 storagegateway:ListFileShares
 storagegateway:ListFileSystemAssociations
 storagegateway:ListGateways
@@ -16939,6 +16947,7 @@ storagegateway:SetLocalConsolePassword
 storagegateway:SetSMBGuestPassword
 storagegateway:ShutdownGateway
 storagegateway:StartAvailabilityMonitorTest
+storagegateway:StartCacheReport
 storagegateway:StartGateway
 storagegateway:UpdateAutomaticTapeCreationPolicy
 storagegateway:UpdateBandwidthRateLimit
