@@ -2812,6 +2812,7 @@ cloudsearch:UpdateServiceAccessPolicies
 cloudsearch:document
 cloudsearch:search
 cloudsearch:suggest
+cloudshell:ApproveCommand
 cloudshell:CreateEnvironment
 cloudshell:CreateSession
 cloudshell:DeleteEnvironment
