@@ -15901,6 +15901,7 @@ ses:PutAccountSendingAttributes
 ses:PutAccountSendingAttributes
 ses:PutAccountSuppressionAttributes
 ses:PutAccountVdmAttributes
+ses:PutConfigurationSetArchivingOptions
 ses:PutConfigurationSetDeliveryOptions
 ses:PutConfigurationSetDeliveryOptions
 ses:PutConfigurationSetDeliveryOptions
