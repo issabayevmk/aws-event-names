@@ -15239,6 +15239,7 @@ sagemaker:StopPipelineExecution
 sagemaker:StopProcessingJob
 sagemaker:StopTrainingJob
 sagemaker:StopTransformJob
+sagemaker:TrainHubModel
 sagemaker:UpdateAction
 sagemaker:UpdateAppImageConfig
 sagemaker:UpdateArtifact
@@ -15257,6 +15258,8 @@ sagemaker:UpdateExperiment
 sagemaker:UpdateFeatureGroup
 sagemaker:UpdateFeatureMetadata
 sagemaker:UpdateHub
+sagemaker:UpdateHubContent
+sagemaker:UpdateHubContentReference
 sagemaker:UpdateImage
 sagemaker:UpdateImageVersion
 sagemaker:UpdateInferenceComponent
