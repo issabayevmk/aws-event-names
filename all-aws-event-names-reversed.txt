@@ -13745,6 +13745,7 @@ GetResourcePolicy:redshift-serverless
 GetScheduledAction:redshift-serverless
 GetSnapshot:redshift-serverless
 GetTableRestoreStatus:redshift-serverless
+GetTrack:redshift-serverless
 GetUsageLimit:redshift-serverless
 GetWorkgroup:redshift-serverless
 ListCustomDomainAssociations:redshift-serverless
@@ -13757,6 +13758,7 @@ ListSnapshotCopyConfigurations:redshift-serverless
 ListSnapshots:redshift-serverless
 ListTableRestoreStatus:redshift-serverless
 ListTagsForResource:redshift-serverless
+ListTracks:redshift-serverless
 ListUsageLimits:redshift-serverless
 ListWorkgroups:redshift-serverless
 PutResourcePolicy:redshift-serverless
