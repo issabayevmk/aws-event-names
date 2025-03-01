@@ -13221,6 +13221,13 @@ UpdateRetriever:qbusiness
 UpdateSubscription:qbusiness
 UpdateUser:qbusiness
 UpdateWebExperience:qbusiness
+ExportArtifact:qdeveloper
+ImportArtifact:qdeveloper
+ListTagsForResource:qdeveloper
+StartAgentSession:qdeveloper
+TagResource:qdeveloper
+TransformCode:qdeveloper
+UntagResource:qdeveloper
 CancelJournalKinesisStream:qldb
 CreateLedger:qldb
 DeleteLedger:qldb
