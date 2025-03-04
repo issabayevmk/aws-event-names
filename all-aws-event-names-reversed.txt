@@ -17007,6 +17007,7 @@ DescribeWorkingStorage:storagegateway
 DetachVolume:storagegateway
 DisableGateway:storagegateway
 DisassociateFileSystem:storagegateway
+EvictFilesFailingUpload:storagegateway
 JoinDomain:storagegateway
 ListAutomaticTapeCreationPolicies:storagegateway
 ListCacheReports:storagegateway
