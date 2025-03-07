@@ -16787,6 +16787,7 @@ GetUserId:sso-directory
 GetUserPoolInfo:sso-directory
 ImportExternalIdPCertificate:sso-directory
 IsMemberInGroup:sso-directory
+IsMemberInGroups:sso-directory
 ListBearerTokens:sso-directory
 ListExternalIdPCertificates:sso-directory
 ListExternalIdPConfigurationsForDirectory:sso-directory
@@ -18464,6 +18465,7 @@ MigrateWorkspace:workspaces
 ModifyAccount:workspaces
 ModifyCertificateBasedAuthProperties:workspaces
 ModifyClientProperties:workspaces
+ModifyEndpointEncryptionMode:workspaces
 ModifySamlProperties:workspaces
 ModifySelfservicePermissions:workspaces
 ModifyStreamingProperties:workspaces
