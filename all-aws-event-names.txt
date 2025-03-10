@@ -17109,6 +17109,7 @@ support:DescribeTrustedAdvisorCheckRefreshStatuses
 support:DescribeTrustedAdvisorCheckResult
 support:DescribeTrustedAdvisorCheckSummaries
 support:DescribeTrustedAdvisorChecks
+support:GetInteraction
 support:InitiateCallForCase
 support:InitiateChatForCase
 support:PutCaseAttributes
@@ -17116,6 +17117,7 @@ support:RateCaseCommunication
 support:RefreshTrustedAdvisorCheck
 support:ResolveCase
 support:SearchForCases
+support:StartInteraction
 supportapp:CreateSlackChannelConfiguration
 supportapp:DeleteAccountAlias
 supportapp:DeleteSlackChannelConfiguration
