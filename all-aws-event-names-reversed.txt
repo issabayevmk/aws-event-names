@@ -1577,6 +1577,7 @@ CreateModelEvaluationJob:bedrock
 CreateModelImportJob:bedrock
 CreateModelInvocationJob:bedrock
 CreatePrompt:bedrock
+CreatePromptRouter:bedrock
 CreatePromptVersion:bedrock
 CreateProvisionedModelThroughput:bedrock
 CreateSession:bedrock
@@ -1602,6 +1603,7 @@ DeleteMarketplaceModelAgreement:bedrock
 DeleteMarketplaceModelEndpoint:bedrock
 DeleteModelInvocationLoggingConfiguration:bedrock
 DeletePrompt:bedrock
+DeletePromptRouter:bedrock
 DeleteProvisionedModelThroughput:bedrock
 DeleteResourcePolicy:bedrock
 DeleteSession:bedrock
