@@ -538,6 +538,7 @@ ListReportDefinitions:application-cost-profiler
 PutReportDefinition:application-cost-profiler
 UpdateReportDefinition:application-cost-profiler
 BatchGetServiceLevelObjectiveBudgetReport:application-signals
+BatchUpdateExclusionWindows:application-signals
 CreateServiceLevelObjective:application-signals
 DeleteServiceLevelObjective:application-signals
 GetService:application-signals
@@ -546,6 +547,7 @@ Link:application-signals
 ListObservedEntities:application-signals
 ListServiceDependencies:application-signals
 ListServiceDependents:application-signals
+ListServiceLevelObjectiveExclusionWindows:application-signals
 ListServiceLevelObjectives:application-signals
 ListServiceOperations:application-signals
 ListServices:application-signals
