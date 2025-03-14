@@ -14,7 +14,6 @@ DeleteAlternateContact:account
 DisableRegion:account
 EnableRegion:account
 PutAlternateContact:account
-PutChallengeQuestions:account
 PutContactInformation:account
 CreateCertificateAuthority:acm-pca
 CreateCertificateAuthorityAuditReport:acm-pca
