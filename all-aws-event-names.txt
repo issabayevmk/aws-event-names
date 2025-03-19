@@ -2411,6 +2411,7 @@ cleanrooms:GetIdMappingTable
 cleanrooms:GetIdNamespaceAssociation
 cleanrooms:GetMembership
 cleanrooms:GetPrivacyBudgetTemplate
+cleanrooms:GetProtectedJob
 cleanrooms:GetProtectedQuery
 cleanrooms:GetSchema
 cleanrooms:GetSchemaAnalysisRule
@@ -2430,6 +2431,7 @@ cleanrooms:ListMembers
 cleanrooms:ListMemberships
 cleanrooms:ListPrivacyBudgetTemplates
 cleanrooms:ListPrivacyBudgets
+cleanrooms:ListProtectedJobs
 cleanrooms:ListProtectedQueries
 cleanrooms:ListSchemas
 cleanrooms:ListTagsForResource
@@ -2437,6 +2439,7 @@ cleanrooms:PassCollaboration
 cleanrooms:PassMembership
 cleanrooms:PopulateIdMappingTable
 cleanrooms:PreviewPrivacyImpact
+cleanrooms:StartProtectedJob
 cleanrooms:StartProtectedQuery
 cleanrooms:TagResource
 cleanrooms:UntagResource
@@ -2451,6 +2454,7 @@ cleanrooms:UpdateIdMappingTable
 cleanrooms:UpdateIdNamespaceAssociation
 cleanrooms:UpdateMembership
 cleanrooms:UpdatePrivacyBudgetTemplate
+cleanrooms:UpdateProtectedJob
 cleanrooms:UpdateProtectedQuery
 cloud9:ActivateEC2Remote
 cloud9:CreateEnvironmentEC2
