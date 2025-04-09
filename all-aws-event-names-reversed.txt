@@ -13157,8 +13157,10 @@ CreateAuthGrant:q
 CreateOAuthAppConnection:q
 CreatePlugin:q
 DeleteAssignment:q
+DeleteOAuthAppConnection:q
 DeletePlugin:q
 GenerateCodeFromCommands:q
+GenerateCodeRecommendations:q
 GetConnector:q
 GetConversation:q
 GetIdentityMetadata:q
@@ -13182,6 +13184,7 @@ UpdateAuthGrant:q
 UpdateOAuthAppConnection:q
 UpdateTroubleshootingCommandResult:q
 UsePlugin:q
+VerifyOAuthAppConnection:q
 AssociateLibraryItemReview:qapps
 AssociateQAppWithUser:qapps
 BatchCreateCategory:qapps
