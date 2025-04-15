@@ -11223,6 +11223,7 @@ CreateNetwork:medialive
 CreateNode:medialive
 CreateNodeRegistrationScript:medialive
 CreatePartnerInput:medialive
+CreateSdiSource:medialive
 CreateSignalMap:medialive
 CreateTags:medialive
 DeleteChannel:medialive
@@ -11240,6 +11241,7 @@ DeleteNetwork:medialive
 DeleteNode:medialive
 DeleteReservation:medialive
 DeleteSchedule:medialive
+DeleteSdiSource:medialive
 DeleteSignalMap:medialive
 DeleteTags:medialive
 DescribeAccountConfiguration:medialive
@@ -11257,6 +11259,7 @@ DescribeNode:medialive
 DescribeOffering:medialive
 DescribeReservation:medialive
 DescribeSchedule:medialive
+DescribeSdiSource:medialive
 DescribeThumbnails:medialive
 GetCloudWatchAlarmTemplate:medialive
 GetCloudWatchAlarmTemplateGroup:medialive
@@ -11280,6 +11283,7 @@ ListNetworks:medialive
 ListNodes:medialive
 ListOfferings:medialive
 ListReservations:medialive
+ListSdiSource:medialive
 ListSignalMaps:medialive
 ListTagsForResource:medialive
 ListVersions:medialive
@@ -11318,6 +11322,7 @@ UpdateNetwork:medialive
 UpdateNode:medialive
 UpdateNodeState:medialive
 UpdateReservation:medialive
+UpdateSdiSource:medialive
 ConfigureLogs:mediapackage-vod
 CreateAsset:mediapackage-vod
 CreatePackagingConfiguration:mediapackage-vod
