@@ -17506,6 +17506,8 @@ ListWorkflows:transfer
 SendWorkflowStepState:transfer
 StartDirectoryListing:transfer
 StartFileTransfer:transfer
+StartRemoteDelete:transfer
+StartRemoteMove:transfer
 StartServer:transfer
 StopServer:transfer
 TagResource:transfer
