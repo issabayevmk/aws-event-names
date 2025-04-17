@@ -936,6 +936,7 @@ DescribeLoggingConfiguration:aps
 DescribeRuleGroupsNamespace:aps
 DescribeScraper:aps
 DescribeWorkspace:aps
+DescribeWorkspaceConfiguration:aps
 GetAlertManagerSilence:aps
 GetAlertManagerStatus:aps
 GetDefaultScraperConfiguration:aps
@@ -962,6 +963,7 @@ UntagResource:aps
 UpdateLoggingConfiguration:aps
 UpdateScraper:aps
 UpdateWorkspaceAlias:aps
+UpdateWorkspaceConfiguration:aps
 CancelZonalShift:arc-zonal-shift
 CreatePracticeRunConfiguration:arc-zonal-shift
 DeletePracticeRunConfiguration:arc-zonal-shift
