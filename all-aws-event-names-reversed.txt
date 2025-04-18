@@ -12326,6 +12326,7 @@ CreateSequenceStore:omics
 CreateShare:omics
 CreateVariantStore:omics
 CreateWorkflow:omics
+CreateWorkflowVersion:omics
 DeleteAnnotationStore:omics
 DeleteAnnotationStoreVersions:omics
 DeleteReference:omics
@@ -12338,6 +12339,7 @@ DeleteSequenceStore:omics
 DeleteShare:omics
 DeleteVariantStore:omics
 DeleteWorkflow:omics
+DeleteWorkflowVersion:omics
 GetAnnotationImportJob:omics
 GetAnnotationStore:omics
 GetAnnotationStoreVersion:omics
@@ -12360,6 +12362,7 @@ GetShare:omics
 GetVariantImportJob:omics
 GetVariantStore:omics
 GetWorkflow:omics
+GetWorkflowVersion:omics
 ListAnnotationImportJobs:omics
 ListAnnotationStoreVersions:omics
 ListAnnotationStores:omics
@@ -12381,6 +12384,7 @@ ListShares:omics
 ListTagsForResource:omics
 ListVariantImportJobs:omics
 ListVariantStores:omics
+ListWorkflowVersions:omics
 ListWorkflows:omics
 PutS3AccessPolicy:omics
 StartAnnotationImportJob:omics
@@ -12399,6 +12403,7 @@ UpdateRunGroup:omics
 UpdateSequenceStore:omics
 UpdateVariantStore:omics
 UpdateWorkflow:omics
+UpdateWorkflowVersion:omics
 UploadReadSetPart:omics
 CreateDeviceActivationQrCode:one
 CreateDeviceConfigurationTemplate:one
