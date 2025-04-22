@@ -13251,6 +13251,7 @@ qbusiness:BatchPutDocument
 qbusiness:CancelSubscription
 qbusiness:Chat
 qbusiness:ChatSync
+qbusiness:CheckDocumentAccess
 qbusiness:CreateApplication
 qbusiness:CreateDataAccessor
 qbusiness:CreateDataSource
