@@ -13201,6 +13201,7 @@ TagResource:q
 UntagResource:q
 UpdateAuthGrant:q
 UpdateOAuthAppConnection:q
+UpdatePlugin:q
 UpdateTroubleshootingCommandResult:q
 UsePlugin:q
 VerifyOAuthAppConnection:q
