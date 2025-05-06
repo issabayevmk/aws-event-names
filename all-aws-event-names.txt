@@ -13283,6 +13283,7 @@ qbusiness:CancelSubscription
 qbusiness:Chat
 qbusiness:ChatSync
 qbusiness:CheckDocumentAccess
+qbusiness:CreateAnonymousWebExperienceUrl
 qbusiness:CreateApplication
 qbusiness:CreateDataAccessor
 qbusiness:CreateDataSource
@@ -17711,7 +17712,10 @@ verifiedpermissions:ListIdentitySources
 verifiedpermissions:ListPolicies
 verifiedpermissions:ListPolicyStores
 verifiedpermissions:ListPolicyTemplates
+verifiedpermissions:ListTagsForResource
 verifiedpermissions:PutSchema
+verifiedpermissions:TagResource
+verifiedpermissions:UntagResource
 verifiedpermissions:UpdateIdentitySource
 verifiedpermissions:UpdatePolicy
 verifiedpermissions:UpdatePolicyStore
