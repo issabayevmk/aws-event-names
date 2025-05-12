@@ -11317,7 +11317,7 @@ medialive:ListNetworks
 medialive:ListNodes
 medialive:ListOfferings
 medialive:ListReservations
-medialive:ListSdiSource
+medialive:ListSdiSources
 medialive:ListSignalMaps
 medialive:ListTagsForResource
 medialive:ListVersions
@@ -13203,6 +13203,7 @@ q:CreateAuthGrant
 q:CreateOAuthAppConnection
 q:CreatePlugin
 q:DeleteAssignment
+q:DeleteConversation
 q:DeleteOAuthAppConnection
 q:DeletePlugin
 q:GenerateCodeFromCommands
@@ -13227,6 +13228,7 @@ q:StartTroubleshootingResolutionExplanation
 q:TagResource
 q:UntagResource
 q:UpdateAuthGrant
+q:UpdateConversation
 q:UpdateOAuthAppConnection
 q:UpdatePlugin
 q:UpdateTroubleshootingCommandResult
