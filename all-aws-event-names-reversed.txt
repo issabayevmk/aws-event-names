@@ -5478,6 +5478,7 @@ UpdateRadius:ds
 UpdateSettings:ds
 UpdateTrust:ds
 VerifyTrust:ds
+AddPeerCluster:dsql
 CreateCluster:dsql
 CreateMultiRegionClusters:dsql
 DbConnect:dsql
@@ -5488,6 +5489,9 @@ GetCluster:dsql
 GetVpcEndpointServiceName:dsql
 ListClusters:dsql
 ListTagsForResource:dsql
+PutMultiRegionProperties:dsql
+PutWitnessRegion:dsql
+RemovePeerCluster:dsql
 TagResource:dsql
 UntagResource:dsql
 UpdateCluster:dsql
