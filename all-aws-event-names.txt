@@ -11523,6 +11523,9 @@ medical-imaging:ListDICOMImportJobs
 medical-imaging:ListDatastores
 medical-imaging:ListImageSetVersions
 medical-imaging:ListTagsForResource
+medical-imaging:SearchDICOMInstances
+medical-imaging:SearchDICOMSeries
+medical-imaging:SearchDICOMStudies
 medical-imaging:SearchImageSets
 medical-imaging:StartDICOMImportJob
 medical-imaging:TagResource
@@ -17604,6 +17607,13 @@ transfer:UpdateServer
 transfer:UpdateUser
 transfer:UpdateWebApp
 transfer:UpdateWebAppCustomization
+transform:AssociateConnectorResource
+transform:CreateProfile
+transform:DeleteProfile
+transform:GetConnector
+transform:ListProfiles
+transform:RejectConnector
+transform:UpdateProfile
 translate:CreateParallelData
 translate:DeleteParallelData
 translate:DeleteTerminology
