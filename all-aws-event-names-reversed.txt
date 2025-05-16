@@ -17209,6 +17209,7 @@ AddCommunicationToCase:support
 CreateCase:support
 DescribeAttachment:support
 DescribeCaseAttributes:support
+DescribeCaseOptions:support
 DescribeCases:support
 DescribeCommunication:support
 DescribeCommunications:support
@@ -17231,6 +17232,7 @@ RefreshTrustedAdvisorCheck:support
 ResolveCase:support
 SearchForCases:support
 StartInteraction:support
+UpdateCaseSeverity:support
 CreateSlackChannelConfiguration:supportapp
 DeleteAccountAlias:supportapp
 DeleteSlackChannelConfiguration:supportapp
