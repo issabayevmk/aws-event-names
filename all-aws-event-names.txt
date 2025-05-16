@@ -13018,6 +13018,7 @@ profile:BatchGetCalculatedAttributeForProfile
 profile:BatchGetProfile
 profile:CreateCalculatedAttributeDefinition
 profile:CreateDomain
+profile:CreateDomainLayout
 profile:CreateEventStream
 profile:CreateEventTrigger
 profile:CreateIntegrationWorkflow
@@ -13028,6 +13029,7 @@ profile:CreateSegmentSnapshot
 profile:CreateSnapshot
 profile:DeleteCalculatedAttributeDefinition
 profile:DeleteDomain
+profile:DeleteDomainLayout
 profile:DeleteEventStream
 profile:DeleteEventTrigger
 profile:DeleteIntegration
@@ -13042,6 +13044,7 @@ profile:GetAutoMergingPreview
 profile:GetCalculatedAttributeDefinition
 profile:GetCalculatedAttributeForProfile
 profile:GetDomain
+profile:GetDomainLayout
 profile:GetEventStream
 profile:GetEventTrigger
 profile:GetIdentityResolutionJob
@@ -13060,6 +13063,7 @@ profile:GetWorkflowSteps
 profile:ListAccountIntegrations
 profile:ListCalculatedAttributeDefinitions
 profile:ListCalculatedAttributesForProfile
+profile:ListDomainLayouts
 profile:ListDomains
 profile:ListEventStreams
 profile:ListEventTriggers
@@ -13083,6 +13087,7 @@ profile:TagResource
 profile:UntagResource
 profile:UpdateCalculatedAttributeDefinition
 profile:UpdateDomain
+profile:UpdateDomainLayout
 profile:UpdateEventTrigger
 profile:UpdateProfile
 proton:AcceptEnvironmentAccountConnection
