@@ -3394,6 +3394,7 @@ codepipeline:GetPipelineState
 codepipeline:GetThirdPartyJobDetails
 codepipeline:ListActionExecutions
 codepipeline:ListActionTypes
+codepipeline:ListDeployActionExecutionTargets
 codepipeline:ListPipelineExecutions
 codepipeline:ListPipelines
 codepipeline:ListRuleExecutions
