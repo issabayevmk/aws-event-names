@@ -1640,8 +1640,10 @@ GetDataAutomationProject:bedrock
 GetDataAutomationStatus:bedrock
 GetDataSource:bedrock
 GetEvaluationJob:bedrock
+GetExecutionFlowSnapshot:bedrock
 GetFlow:bedrock
 GetFlowAlias:bedrock
+GetFlowExecution:bedrock
 GetFlowVersion:bedrock
 GetFoundationModel:bedrock
 GetFoundationModelAvailability:bedrock
@@ -1687,6 +1689,8 @@ ListDataAutomationProjects:bedrock
 ListDataSources:bedrock
 ListEvaluationJobs:bedrock
 ListFlowAliases:bedrock
+ListFlowExecutionEvents:bedrock
+ListFlowExecutions:bedrock
 ListFlowVersions:bedrock
 ListFlows:bedrock
 ListFoundationModelAgreementOffers:bedrock
@@ -1723,8 +1727,10 @@ RenderPrompt:bedrock
 Rerank:bedrock
 Retrieve:bedrock
 RetrieveAndGenerate:bedrock
+StartFlowExecution:bedrock
 StartIngestionJob:bedrock
 StopEvaluationJob:bedrock
+StopFlowExecution:bedrock
 StopIngestionJob:bedrock
 StopModelCustomizationJob:bedrock
 StopModelInvocationJob:bedrock
@@ -13271,7 +13277,6 @@ BatchUpdateCategory:qapps
 CopyQApp:qapps
 CreateLibraryItem:qapps
 CreateLibraryItemReview:qapps
-CreatePresignedUrl:qapps
 CreateQApp:qapps
 CreateSubscriptionToken:qapps
 DeleteLibraryItem:qapps
@@ -13285,8 +13290,6 @@ GetQApp:qapps
 GetQAppSession:qapps
 GetQAppSessionMetadata:qapps
 ImportDocument:qapps
-ImportDocumentToQApp:qapps
-ImportDocumentToQAppSession:qapps
 ListCategories:qapps
 ListLibraryItems:qapps
 ListQAppSessionData:qapps
