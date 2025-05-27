@@ -1229,7 +1229,6 @@ aws-marketplace:BatchMeterUsage
 aws-marketplace:CancelAgreement
 aws-marketplace:CancelAgreementRequest
 aws-marketplace:CancelChangeSet
-aws-marketplace:CompleteTask
 aws-marketplace:CreateAgreementRequest
 aws-marketplace:CreatePrivateMarketplaceRequests
 aws-marketplace:DeleteResourcePolicy
@@ -1240,7 +1239,6 @@ aws-marketplace:DescribeChangeSet
 aws-marketplace:DescribeEntity
 aws-marketplace:DescribePrivateMarketplaceRequests
 aws-marketplace:DescribeProcurementSystemConfiguration
-aws-marketplace:DescribeTask
 aws-marketplace:DisassociateProductsFromPrivateMarketplace
 aws-marketplace:GetAgreementApprovalRequest
 aws-marketplace:GetAgreementEntitlements
@@ -1262,7 +1260,6 @@ aws-marketplace:ListPrivateListings
 aws-marketplace:ListPrivateMarketplaceRequests
 aws-marketplace:ListTagsForResource
 aws-marketplace:ListTagsForResource
-aws-marketplace:ListTasks
 aws-marketplace:MeterUsage
 aws-marketplace:PutDeploymentParameter
 aws-marketplace:PutProcurementSystemConfiguration
@@ -1281,7 +1278,6 @@ aws-marketplace:UntagResource
 aws-marketplace:UntagResource
 aws-marketplace:UpdateAgreementApprovalRequest
 aws-marketplace:UpdatePurchaseOrders
-aws-marketplace:UpdateTask
 aws-marketplace:ViewSubscriptions
 aws-portal:GetConsoleActionSetEnforced
 aws-portal:ModifyAccount
