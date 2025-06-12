@@ -4247,6 +4247,7 @@ GetAccountBillingRole:consolidatedbilling
 ListLinkedAccounts:consolidatedbilling
 GetControl:controlcatalog
 ListCommonControls:controlcatalog
+ListControlMappings:controlcatalog
 ListControls:controlcatalog
 ListDomains:controlcatalog
 ListObjectives:controlcatalog
@@ -7175,6 +7176,17 @@ UpdateFeature:evidently
 UpdateLaunch:evidently
 UpdateProject:evidently
 UpdateProjectDataDelivery:evidently
+CreateEnvironment:evs
+CreateEnvironmentHost:evs
+DeleteEnvironment:evs
+DeleteEnvironmentHost:evs
+GetEnvironment:evs
+ListEnvironmentHosts:evs
+ListEnvironmentVlans:evs
+ListEnvironments:evs
+ListTagsForResource:evs
+TagResource:evs
+UntagResource:evs
 InvalidateCache:execute-api
 Invoke:execute-api
 ManageConnections:execute-api
