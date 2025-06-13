@@ -3616,6 +3616,7 @@ cognito-idp:GetGroup
 cognito-idp:GetIdentityProviderByIdentifier
 cognito-idp:GetLogDeliveryConfiguration
 cognito-idp:GetSigningCertificate
+cognito-idp:GetTokensFromRefreshToken
 cognito-idp:GetUICustomization
 cognito-idp:GetUser
 cognito-idp:GetUserAttributeVerificationCode
