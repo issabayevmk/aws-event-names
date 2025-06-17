@@ -1806,7 +1806,6 @@ billingconductor:UpdateCustomLineItem
 billingconductor:UpdatePricingPlan
 billingconductor:UpdatePricingRule
 braket:AcceptUserAgreement
-braket:AccessBraketFeature
 braket:CancelJob
 braket:CancelQuantumTask
 braket:CreateJob
@@ -12095,6 +12094,8 @@ neptune-graph:TagResource
 neptune-graph:UntagResource
 neptune-graph:UpdateGraph
 neptune-graph:WriteDataViaQuery
+network-firewall:AcceptNetworkFirewallTransitGatewayAttachment
+network-firewall:AssociateAvailabilityZones
 network-firewall:AssociateFirewallPolicy
 network-firewall:AssociateSubnets
 network-firewall:CreateFirewall
@@ -12104,6 +12105,7 @@ network-firewall:CreateTLSInspectionConfiguration
 network-firewall:CreateVpcEndpointAssociation
 network-firewall:DeleteFirewall
 network-firewall:DeleteFirewallPolicy
+network-firewall:DeleteNetworkFirewallTransitGatewayAttachment
 network-firewall:DeleteResourcePolicy
 network-firewall:DeleteRuleGroup
 network-firewall:DeleteTLSInspectionConfiguration
@@ -12118,6 +12120,7 @@ network-firewall:DescribeRuleGroup
 network-firewall:DescribeRuleGroupMetadata
 network-firewall:DescribeTLSInspectionConfiguration
 network-firewall:DescribeVpcEndpointAssociation
+network-firewall:DisassociateAvailabilityZones
 network-firewall:DisassociateSubnets
 network-firewall:GetAnalysisReportResults
 network-firewall:ListAnalysisReports
@@ -12130,11 +12133,13 @@ network-firewall:ListTLSInspectionConfigurations
 network-firewall:ListTagsForResource
 network-firewall:ListVpcEndpointAssociations
 network-firewall:PutResourcePolicy
+network-firewall:RejectNetworkFirewallTransitGatewayAttachment
 network-firewall:StartAnalysisReport
 network-firewall:StartFlowCapture
 network-firewall:StartFlowFlush
 network-firewall:TagResource
 network-firewall:UntagResource
+network-firewall:UpdateAvailabilityZoneChangeProtection
 network-firewall:UpdateFirewallAnalysisSettings
 network-firewall:UpdateFirewallDeleteProtection
 network-firewall:UpdateFirewallDescription
@@ -15731,12 +15736,12 @@ securityhub:GetInsights
 securityhub:GetInvitationsCount
 securityhub:GetMasterAccount
 securityhub:GetMembers
-securityhub:GetResourceStatisticsV2
+securityhub:GetResourcesStatisticsV2
 securityhub:GetResourcesV2
 securityhub:GetSecurityControlDefinition
 securityhub:GetUsage
 securityhub:InviteMembers
-securityhub:ListAggregatorV2s
+securityhub:ListAggregatorsV2
 securityhub:ListAutomationRules
 securityhub:ListAutomationRulesV2
 securityhub:ListConfigurationPolicies
