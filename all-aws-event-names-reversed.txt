@@ -217,6 +217,7 @@ UntagResource:aiops
 UpdateInvestigation:aiops
 UpdateInvestigationEvent:aiops
 UpdateInvestigationGroup:aiops
+ValidateInvestigationGroup:aiops
 CreateCliToken:airflow
 CreateEnvironment:airflow
 CreateWebLoginToken:airflow
