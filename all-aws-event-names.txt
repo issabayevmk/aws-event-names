@@ -2503,7 +2503,6 @@ cloud9:UpdateEnvironmentSettings
 cloud9:UpdateMembershipSettings
 cloud9:UpdateSSHRemote
 cloud9:UpdateUserSettings
-cloud9:ValidateEnvironmentName
 clouddirectory:AddFacetToObject
 clouddirectory:ApplySchema
 clouddirectory:AttachObject
@@ -7517,6 +7516,7 @@ fsx:BypassSnaplockEnterpriseRetention
 fsx:CancelDataRepositoryTask
 fsx:CopyBackup
 fsx:CopySnapshotAndUpdateVolume
+fsx:CreateAndAttachS3AccessPoint
 fsx:CreateBackup
 fsx:CreateDataRepositoryAssociation
 fsx:CreateDataRepositoryTask
@@ -7542,10 +7542,12 @@ fsx:DescribeDataRepositoryTasks
 fsx:DescribeFileCaches
 fsx:DescribeFileSystemAliases
 fsx:DescribeFileSystems
+fsx:DescribeS3AccessPointAttachments
 fsx:DescribeSharedVpcConfiguration
 fsx:DescribeSnapshots
 fsx:DescribeStorageVirtualMachines
 fsx:DescribeVolumes
+fsx:DetachAndDeleteS3AccessPoint
 fsx:DisassociateFileGateway
 fsx:DisassociateFileSystemAliases
 fsx:GetResourcePolicy
