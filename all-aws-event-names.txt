@@ -13399,6 +13399,7 @@ qbusiness:CheckDocumentAccess
 qbusiness:CreateAnonymousWebExperienceUrl
 qbusiness:CreateApplication
 qbusiness:CreateDataAccessor
+qbusiness:CreateDataAccessorWithTti
 qbusiness:CreateDataSource
 qbusiness:CreateIndex
 qbusiness:CreateIntegration
