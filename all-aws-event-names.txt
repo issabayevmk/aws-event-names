@@ -16415,6 +16415,7 @@ shield:DeleteProtection
 shield:DeleteProtectionGroup
 shield:DeleteSubscription
 shield:DescribeAttack
+shield:DescribeAttackContributors
 shield:DescribeAttackStatistics
 shield:DescribeDRTAccess
 shield:DescribeEmergencyContactSettings
@@ -16428,8 +16429,10 @@ shield:DisassociateDRTRole
 shield:DisassociateHealthCheck
 shield:EnableApplicationLayerAutomaticResponse
 shield:EnableProactiveEngagement
+shield:GetGlobalThreatData
 shield:GetSubscriptionState
 shield:ListAttacks
+shield:ListMitigations
 shield:ListProtectionGroups
 shield:ListProtections
 shield:ListResourcesInProtectionGroup
