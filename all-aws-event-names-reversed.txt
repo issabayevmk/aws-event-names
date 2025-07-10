@@ -7526,9 +7526,13 @@ ListSubscriptions:freertos
 UpdateEmailRecipients:freertos
 UpdateSoftwareConfiguration:freertos
 VerifyEmail:freertos
+GetAccountActivity:freetier
+GetAccountPlanState:freetier
 GetFreeTierAlertPreference:freetier
 GetFreeTierUsage:freetier
+ListAccountActivities:freetier
 PutFreeTierAlertPreference:freetier
+UpgradeAccountPlan:freetier
 AssociateFileGateway:fsx
 AssociateFileSystemAliases:fsx
 BypassSnaplockEnterpriseRetention:fsx
