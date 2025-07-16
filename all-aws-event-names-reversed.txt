@@ -15153,6 +15153,8 @@ SubmitMultiRegionAccessPointRoutes:s3
 TagResource:s3
 UntagResource:s3
 UpdateAccessGrantsLocation:s3
+UpdateBucketMetadataInventoryTableConfiguration:s3
+UpdateBucketMetadataJournalTableConfiguration:s3
 UpdateJobPriority:s3
 UpdateJobStatus:s3
 UpdateStorageLensGroup:s3
@@ -17522,8 +17524,6 @@ GetSupportPlan:supportplans
 GetSupportPlanUpdateStatus:supportplans
 ListSupportPlanModifiers:supportplans
 StartSupportPlanUpdate:supportplans
-GetSupportTroubleshootingResponse:supportrecommendations
-StartSupportTroubleshooting:supportrecommendations
 GetCarbonFootprintSummary:sustainability
 CancelTimer:swf
 CancelWorkflowExecution:swf
