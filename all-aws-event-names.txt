@@ -11752,6 +11752,7 @@ memorydb:FailoverShard
 memorydb:ListAllowedMultiRegionClusterUpdates
 memorydb:ListAllowedNodeTypeUpdates
 memorydb:ListTags
+memorydb:PauseMultiRegionClusterReplication
 memorydb:PurchaseReservedNodesOffering
 memorydb:ResetParameterGroup
 memorydb:TagResource
