@@ -8913,6 +8913,8 @@ ListJobs:importexport
 UpdateJob:importexport
 ScanSbom:inspector-scan
 AssociateMember:inspector2
+BatchAssociateCodeSecurityScanConfiguration:inspector2
+BatchDisassociateCodeSecurityScanConfiguration:inspector2
 BatchGetAccountStatus:inspector2
 BatchGetCodeSnippet:inspector2
 BatchGetFindingDetails:inspector2
@@ -8922,10 +8924,14 @@ BatchUpdateMemberEc2DeepInspectionStatus:inspector2
 CancelFindingsReport:inspector2
 CancelSbomExport:inspector2
 CreateCisScanConfiguration:inspector2
+CreateCodeSecurityIntegration:inspector2
+CreateCodeSecurityScanConfiguration:inspector2
 CreateFilter:inspector2
 CreateFindingsReport:inspector2
 CreateSbomExport:inspector2
 DeleteCisScanConfiguration:inspector2
+DeleteCodeSecurityIntegration:inspector2
+DeleteCodeSecurityScanConfiguration:inspector2
 DeleteFilter:inspector2
 DescribeOrganizationConfiguration:inspector2
 Disable:inspector2
@@ -8936,6 +8942,9 @@ EnableDelegatedAdminAccount:inspector2
 GetCisScanReport:inspector2
 GetCisScanResultDetails:inspector2
 GetClustersForImage:inspector2
+GetCodeSecurityIntegration:inspector2
+GetCodeSecurityScan:inspector2
+GetCodeSecurityScanConfiguration:inspector2
 GetConfiguration:inspector2
 GetDelegatedAdminAccount:inspector2
 GetEc2DeepInspectionConfiguration:inspector2
@@ -8948,6 +8957,9 @@ ListCisScanConfigurations:inspector2
 ListCisScanResultsAggregatedByChecks:inspector2
 ListCisScanResultsAggregatedByTargetResource:inspector2
 ListCisScans:inspector2
+ListCodeSecurityIntegrations:inspector2
+ListCodeSecurityScanConfigurationAssociations:inspector2
+ListCodeSecurityScanConfigurations:inspector2
 ListCoverage:inspector2
 ListCoverageStatistics:inspector2
 ListDelegatedAdminAccounts:inspector2
@@ -8962,10 +8974,13 @@ SearchVulnerabilities:inspector2
 SendCisSessionHealth:inspector2
 SendCisSessionTelemetry:inspector2
 StartCisSession:inspector2
+StartCodeSecurityScan:inspector2
 StopCisSession:inspector2
 TagResource:inspector2
 UntagResource:inspector2
 UpdateCisScanConfiguration:inspector2
+UpdateCodeSecurityIntegration:inspector2
+UpdateCodeSecurityScanConfiguration:inspector2
 UpdateConfiguration:inspector2
 UpdateEc2DeepInspectionConfiguration:inspector2
 UpdateEncryptionKey:inspector2
