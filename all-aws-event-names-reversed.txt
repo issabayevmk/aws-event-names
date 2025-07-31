@@ -7201,6 +7201,7 @@ UpdateVpcEndpoint:es
 UpgradeDomain:es
 UpgradeElasticsearchDomain:es
 ActivateEventSource:events
+AllowVendedLogDeliveryForResource:events
 CancelReplay:events
 CreateApiDestination:events
 CreateArchive:events
@@ -18952,6 +18953,7 @@ CreateAccountLinkInvitation:workspaces
 CreateConnectClientAddIn:workspaces
 CreateConnectionAlias:workspaces
 CreateIpGroup:workspaces
+CreateRootClientCertificate:workspaces
 CreateStandbyWorkspaces:workspaces
 CreateTags:workspaces
 CreateUpdatedWorkspaceImage:workspaces
@@ -18964,6 +18966,7 @@ DeleteClientBranding:workspaces
 DeleteConnectClientAddIn:workspaces
 DeleteConnectionAlias:workspaces
 DeleteIpGroup:workspaces
+DeleteRootClientCertificate:workspaces
 DeleteTags:workspaces
 DeleteWorkspaceBundle:workspaces
 DeleteWorkspaceImage:workspaces
@@ -18981,6 +18984,7 @@ DescribeConnectionAliasPermissions:workspaces
 DescribeConnectionAliases:workspaces
 DescribeImageAssociations:workspaces
 DescribeIpGroups:workspaces
+DescribeRootClientCertificates:workspaces
 DescribeTags:workspaces
 DescribeWorkspaceAssociations:workspaces
 DescribeWorkspaceBundles:workspaces
@@ -18992,6 +18996,7 @@ DescribeWorkspaces:workspaces
 DescribeWorkspacesConnectionStatus:workspaces
 DescribeWorkspacesPoolSessions:workspaces
 DescribeWorkspacesPools:workspaces
+DirectoryAccessManagement:workspaces
 DisassociateConnectionAlias:workspaces
 DisassociateIpGroups:workspaces
 DisassociateWorkspaceApplication:workspaces
@@ -19028,6 +19033,7 @@ TerminateWorkspacesPool:workspaces
 TerminateWorkspacesPoolSession:workspaces
 UpdateConnectClientAddIn:workspaces
 UpdateConnectionAliasPermission:workspaces
+UpdateRootClientCertificate:workspaces
 UpdateRulesOfIpGroup:workspaces
 UpdateWorkspaceBundle:workspaces
 UpdateWorkspaceImagePermission:workspaces
