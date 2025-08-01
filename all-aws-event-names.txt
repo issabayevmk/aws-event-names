@@ -16369,6 +16369,8 @@ ses:CreateReceiptRuleSet
 ses:CreateRelay
 ses:CreateRuleSet
 ses:CreateTemplate
+ses:CreateTenant
+ses:CreateTenantResourceAssociation
 ses:CreateTrafficPolicy
 ses:DeleteAddonInstance
 ses:DeleteAddonSubscription
@@ -16402,6 +16404,8 @@ ses:DeleteRelay
 ses:DeleteRuleSet
 ses:DeleteSuppressedDestination
 ses:DeleteTemplate
+ses:DeleteTenant
+ses:DeleteTenantResourceAssociation
 ses:DeleteTrafficPolicy
 ses:DeleteVerifiedEmailAddress
 ses:DeregisterMemberFromAddressList
@@ -16461,11 +16465,13 @@ ses:GetMemberOfAddressList
 ses:GetMessageInsights
 ses:GetMultiRegionEndpoint
 ses:GetRelay
+ses:GetReputationEntity
 ses:GetRuleSet
 ses:GetSendQuota
 ses:GetSendStatistics
 ses:GetSuppressedDestination
 ses:GetTemplate
+ses:GetTenant
 ses:GetTrafficPolicy
 ses:ListAddonInstances
 ses:ListAddonSubscriptions
@@ -16501,12 +16507,16 @@ ses:ListReceiptFilters
 ses:ListReceiptRuleSets
 ses:ListRecommendations
 ses:ListRelays
+ses:ListReputationEntities
+ses:ListResourceTenants
 ses:ListRuleSets
 ses:ListSuppressedDestinations
 ses:ListTagsForResource
 ses:ListTagsForResource
 ses:ListTagsForResource
 ses:ListTemplates
+ses:ListTenantResources
+ses:ListTenants
 ses:ListTrafficPolicies
 ses:ListVerifiedEmailAddresses
 ses:PutAccountDedicatedIpWarmupAttributes
@@ -16596,6 +16606,8 @@ ses:UpdateEmailTemplate
 ses:UpdateIngressPoint
 ses:UpdateReceiptRule
 ses:UpdateRelay
+ses:UpdateReputationEntityCustomerManagedStatus
+ses:UpdateReputationEntityPolicy
 ses:UpdateRuleSet
 ses:UpdateTemplate
 ses:UpdateTrafficPolicy
