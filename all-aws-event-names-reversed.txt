@@ -983,6 +983,29 @@ UpdateQueryLoggingConfiguration:aps
 UpdateScraper:aps
 UpdateWorkspaceAlias:aps
 UpdateWorkspaceConfiguration:aps
+ApprovePlanExecutionStep:arc-region-switch
+CancelPlanExecution:arc-region-switch
+CreatePlan:arc-region-switch
+DeletePlan:arc-region-switch
+DeleteResourcePolicy:arc-region-switch
+GetPlan:arc-region-switch
+GetPlanEvaluationStatus:arc-region-switch
+GetPlanExecution:arc-region-switch
+GetPlanInRegion:arc-region-switch
+GetResourcePolicy:arc-region-switch
+ListPlanExecutionEvents:arc-region-switch
+ListPlanExecutions:arc-region-switch
+ListPlans:arc-region-switch
+ListPlansInRegion:arc-region-switch
+ListRoute53HealthChecks:arc-region-switch
+ListTagsForResource:arc-region-switch
+PutResourcePolicy:arc-region-switch
+StartPlanExecution:arc-region-switch
+TagResource:arc-region-switch
+UntagResource:arc-region-switch
+UpdatePlan:arc-region-switch
+UpdatePlanExecution:arc-region-switch
+UpdatePlanExecutionStep:arc-region-switch
 CancelZonalShift:arc-zonal-shift
 CreatePracticeRunConfiguration:arc-zonal-shift
 DeletePracticeRunConfiguration:arc-zonal-shift
@@ -5538,11 +5561,13 @@ CreateAlias:ds
 CreateComputer:ds
 CreateConditionalForwarder:ds
 CreateDirectory:ds
+CreateHybridAD:ds
 CreateIdentityPoolDirectory:ds
 CreateLogSubscription:ds
 CreateMicrosoftAD:ds
 CreateSnapshot:ds
 CreateTrust:ds
+DeleteADAssessment:ds
 DeleteConditionalForwarder:ds
 DeleteDirectory:ds
 DeleteLogSubscription:ds
@@ -5550,6 +5575,7 @@ DeleteSnapshot:ds
 DeleteTrust:ds
 DeregisterCertificate:ds
 DeregisterEventTopic:ds
+DescribeADAssessment:ds
 DescribeCertificate:ds
 DescribeClientAuthenticationSettings:ds
 DescribeConditionalForwarders:ds
@@ -5557,6 +5583,7 @@ DescribeDirectories:ds
 DescribeDirectoryDataAccess:ds
 DescribeDomainControllers:ds
 DescribeEventTopics:ds
+DescribeHybridADUpdate:ds
 DescribeLDAPSSettings:ds
 DescribeRegions:ds
 DescribeSettings:ds
@@ -5579,6 +5606,7 @@ EnableSso:ds
 GetAuthorizedApplicationDetails:ds
 GetDirectoryLimits:ds
 GetSnapshotLimits:ds
+ListADAssessments:ds
 ListAuthorizedApplications:ds
 ListCertificates:ds
 ListIpRoutes:ds
@@ -5594,6 +5622,7 @@ RemoveTagsFromResource:ds
 ResetUserPassword:ds
 RestoreFromSnapshot:ds
 ShareDirectory:ds
+StartADAssessment:ds
 StartSchemaExtension:ds
 UnauthorizeApplication:ds
 UnshareDirectory:ds
@@ -5601,6 +5630,7 @@ UpdateAuthorizedApplication:ds
 UpdateConditionalForwarder:ds
 UpdateDirectory:ds
 UpdateDirectorySetup:ds
+UpdateHybridAD:ds
 UpdateNumberOfDomainControllers:ds
 UpdateRadius:ds
 UpdateSettings:ds
@@ -18879,6 +18909,7 @@ AssociateBrowserSettings:workspaces-web
 AssociateDataProtectionSettings:workspaces-web
 AssociateIpAccessSettings:workspaces-web
 AssociateNetworkSettings:workspaces-web
+AssociateSessionLogger:workspaces-web
 AssociateTrustStore:workspaces-web
 AssociateUserAccessLoggingSettings:workspaces-web
 AssociateUserSettings:workspaces-web
@@ -18888,6 +18919,7 @@ CreateIdentityProvider:workspaces-web
 CreateIpAccessSettings:workspaces-web
 CreateNetworkSettings:workspaces-web
 CreatePortal:workspaces-web
+CreateSessionLogger:workspaces-web
 CreateTrustStore:workspaces-web
 CreateUserAccessLoggingSettings:workspaces-web
 CreateUserSettings:workspaces-web
@@ -18897,6 +18929,7 @@ DeleteIdentityProvider:workspaces-web
 DeleteIpAccessSettings:workspaces-web
 DeleteNetworkSettings:workspaces-web
 DeletePortal:workspaces-web
+DeleteSessionLogger:workspaces-web
 DeleteTrustStore:workspaces-web
 DeleteUserAccessLoggingSettings:workspaces-web
 DeleteUserSettings:workspaces-web
@@ -18904,6 +18937,7 @@ DisassociateBrowserSettings:workspaces-web
 DisassociateDataProtectionSettings:workspaces-web
 DisassociateIpAccessSettings:workspaces-web
 DisassociateNetworkSettings:workspaces-web
+DisassociateSessionLogger:workspaces-web
 DisassociateTrustStore:workspaces-web
 DisassociateUserAccessLoggingSettings:workspaces-web
 DisassociateUserSettings:workspaces-web
@@ -18916,6 +18950,7 @@ GetNetworkSettings:workspaces-web
 GetPortal:workspaces-web
 GetPortalServiceProviderMetadata:workspaces-web
 GetSession:workspaces-web
+GetSessionLogger:workspaces-web
 GetTrustStore:workspaces-web
 GetTrustStoreCertificate:workspaces-web
 GetUserAccessLoggingSettings:workspaces-web
@@ -18926,6 +18961,7 @@ ListIdentityProviders:workspaces-web
 ListIpAccessSettings:workspaces-web
 ListNetworkSettings:workspaces-web
 ListPortals:workspaces-web
+ListSessionLoggers:workspaces-web
 ListSessions:workspaces-web
 ListTagsForResource:workspaces-web
 ListTrustStoreCertificates:workspaces-web
@@ -18940,6 +18976,7 @@ UpdateIdentityProvider:workspaces-web
 UpdateIpAccessSettings:workspaces-web
 UpdateNetworkSettings:workspaces-web
 UpdatePortal:workspaces-web
+UpdateSessionLogger:workspaces-web
 UpdateTrustStore:workspaces-web
 UpdateUserAccessLoggingSettings:workspaces-web
 UpdateUserSettings:workspaces-web
