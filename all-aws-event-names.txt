@@ -1643,7 +1643,7 @@ bedrock-agentcore:GetWorkloadAccessToken
 bedrock-agentcore:GetWorkloadAccessTokenForJWT
 bedrock-agentcore:GetWorkloadAccessTokenForUserId
 bedrock-agentcore:GetWorkloadIdentity
-bedrock-agentcore:InvokeAgentRuntimeEndpoint
+bedrock-agentcore:InvokeAgentRuntime
 bedrock-agentcore:InvokeCodeInterpreter
 bedrock-agentcore:ListActors
 bedrock-agentcore:ListAgentRuntimeEndpoints
