@@ -1685,9 +1685,13 @@ bedrock:AssociateAgentKnowledgeBase
 bedrock:AssociateThirdPartyKnowledgeBase
 bedrock:BatchDeleteEvaluationJob
 bedrock:CallWithBearerToken
+bedrock:CancelAutomatedReasoningPolicyBuildWorkflow
 bedrock:CreateAgent
 bedrock:CreateAgentActionGroup
 bedrock:CreateAgentAlias
+bedrock:CreateAutomatedReasoningPolicy
+bedrock:CreateAutomatedReasoningPolicyTestCase
+bedrock:CreateAutomatedReasoningPolicyVersion
 bedrock:CreateBlueprint
 bedrock:CreateBlueprintVersion
 bedrock:CreateCustomModel
@@ -1720,6 +1724,9 @@ bedrock:DeleteAgentActionGroup
 bedrock:DeleteAgentAlias
 bedrock:DeleteAgentMemory
 bedrock:DeleteAgentVersion
+bedrock:DeleteAutomatedReasoningPolicy
+bedrock:DeleteAutomatedReasoningPolicyBuildWorkflow
+bedrock:DeleteAutomatedReasoningPolicyTestCase
 bedrock:DeleteBlueprint
 bedrock:DeleteCustomModel
 bedrock:DeleteCustomModelDeployment
@@ -1747,6 +1754,7 @@ bedrock:DetectGeneratedContent
 bedrock:DisassociateAgentCollaborator
 bedrock:DisassociateAgentKnowledgeBase
 bedrock:EndSession
+bedrock:ExportAutomatedReasoningPolicyVersion
 bedrock:GenerateQuery
 bedrock:GetAgent
 bedrock:GetAgentActionGroup
@@ -1756,6 +1764,13 @@ bedrock:GetAgentKnowledgeBase
 bedrock:GetAgentMemory
 bedrock:GetAgentVersion
 bedrock:GetAsyncInvoke
+bedrock:GetAutomatedReasoningPolicy
+bedrock:GetAutomatedReasoningPolicyAnnotations
+bedrock:GetAutomatedReasoningPolicyBuildWorkflow
+bedrock:GetAutomatedReasoningPolicyBuildWorkflowResultAssets
+bedrock:GetAutomatedReasoningPolicyNextScenario
+bedrock:GetAutomatedReasoningPolicyTestCase
+bedrock:GetAutomatedReasoningPolicyTestResult
 bedrock:GetBlueprint
 bedrock:GetBlueprintRecommendation
 bedrock:GetCustomModel
@@ -1793,6 +1808,7 @@ bedrock:GetSession
 bedrock:GetUseCaseForModelAccess
 bedrock:IngestKnowledgeBaseDocuments
 bedrock:InvokeAgent
+bedrock:InvokeAutomatedReasoningPolicy
 bedrock:InvokeBlueprintRecommendationAsync
 bedrock:InvokeBuilder
 bedrock:InvokeDataAutomationAsync
@@ -1807,6 +1823,10 @@ bedrock:ListAgentKnowledgeBases
 bedrock:ListAgentVersions
 bedrock:ListAgents
 bedrock:ListAsyncInvokes
+bedrock:ListAutomatedReasoningPolicies
+bedrock:ListAutomatedReasoningPolicyBuildWorkflows
+bedrock:ListAutomatedReasoningPolicyTestCases
+bedrock:ListAutomatedReasoningPolicyTestResults
 bedrock:ListBlueprints
 bedrock:ListCustomModelDeployments
 bedrock:ListCustomModels
@@ -1852,6 +1872,8 @@ bedrock:RenderPrompt
 bedrock:Rerank
 bedrock:Retrieve
 bedrock:RetrieveAndGenerate
+bedrock:StartAutomatedReasoningPolicyBuildWorkflow
+bedrock:StartAutomatedReasoningPolicyTestWorkflow
 bedrock:StartFlowExecution
 bedrock:StartIngestionJob
 bedrock:StopEvaluationJob
@@ -1866,6 +1888,9 @@ bedrock:UpdateAgentActionGroup
 bedrock:UpdateAgentAlias
 bedrock:UpdateAgentCollaborator
 bedrock:UpdateAgentKnowledgeBase
+bedrock:UpdateAutomatedReasoningPolicy
+bedrock:UpdateAutomatedReasoningPolicyAnnotations
+bedrock:UpdateAutomatedReasoningPolicyTestCase
 bedrock:UpdateBlueprint
 bedrock:UpdateDataAutomationProject
 bedrock:UpdateDataSource
@@ -13660,8 +13685,6 @@ qapps:UpdateQApp
 qapps:UpdateQAppPermissions
 qapps:UpdateQAppSession
 qapps:UpdateQAppSessionMetadata
-qbusiness:AddUserLicenses
-qbusiness:AllowVendedLogDeliveryForResource
 qbusiness:AssociatePermission
 qbusiness:BatchDeleteDocument
 qbusiness:BatchPutDocument
@@ -13677,7 +13700,6 @@ qbusiness:CreateDataAccessorWithTti
 qbusiness:CreateDataSource
 qbusiness:CreateIndex
 qbusiness:CreateIntegration
-qbusiness:CreateLicense
 qbusiness:CreatePlugin
 qbusiness:CreateRetriever
 qbusiness:CreateSubscription
@@ -13704,10 +13726,10 @@ qbusiness:GetChatControlsConfiguration
 qbusiness:GetChatResponseConfiguration
 qbusiness:GetDataAccessor
 qbusiness:GetDataSource
+qbusiness:GetDocumentContent
 qbusiness:GetGroup
 qbusiness:GetIndex
 qbusiness:GetIntegration
-qbusiness:GetLicense
 qbusiness:GetMedia
 qbusiness:GetPlugin
 qbusiness:GetPolicy
@@ -13733,12 +13755,10 @@ qbusiness:ListPlugins
 qbusiness:ListRetrievers
 qbusiness:ListSubscriptions
 qbusiness:ListTagsForResource
-qbusiness:ListUserLicenses
 qbusiness:ListWebExperiences
 qbusiness:PutFeedback
 qbusiness:PutGroup
 qbusiness:PutResourcePolicy
-qbusiness:RemoveUserLicenses
 qbusiness:SearchRelevantContent
 qbusiness:StartDataSourceSyncJob
 qbusiness:StartDeployment
