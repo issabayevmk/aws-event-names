@@ -2540,6 +2540,7 @@ cleanrooms-ml:ListConfiguredModelAlgorithms
 cleanrooms-ml:ListMLInputChannels
 cleanrooms-ml:ListTagsForResource
 cleanrooms-ml:ListTrainedModelInferenceJobs
+cleanrooms-ml:ListTrainedModelVersions
 cleanrooms-ml:ListTrainedModels
 cleanrooms-ml:ListTrainingDatasets
 cleanrooms-ml:PutConfiguredAudienceModelPolicy
