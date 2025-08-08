@@ -2028,6 +2028,7 @@ cases:CreateField
 cases:CreateLayout
 cases:CreateRelatedItem
 cases:CreateTemplate
+cases:DeleteCase
 cases:DeleteCaseRule
 cases:DeleteDomain
 cases:DeleteField
