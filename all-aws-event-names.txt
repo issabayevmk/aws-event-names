@@ -9223,6 +9223,7 @@ iot:DeleteCertificate
 iot:DeleteCertificateProvider
 iot:DeleteCommand
 iot:DeleteCommandExecution
+iot:DeleteConnection
 iot:DeleteCustomMetric
 iot:DeleteDimension
 iot:DeleteDomainConfiguration
