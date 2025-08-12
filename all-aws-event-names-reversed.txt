@@ -17480,6 +17480,7 @@ GetApplicationAssignmentConfiguration:sso
 GetApplicationAuthenticationMethod:sso
 GetApplicationGrant:sso
 GetApplicationInstance:sso
+GetApplicationSessionConfiguration:sso
 GetApplicationTemplate:sso
 GetInlinePolicyForPermissionSet:sso
 GetManagedApplicationInstance:sso
@@ -17524,6 +17525,7 @@ PutApplicationAccessScope:sso
 PutApplicationAssignmentConfiguration:sso
 PutApplicationAuthenticationMethod:sso
 PutApplicationGrant:sso
+PutApplicationSessionConfiguration:sso
 PutInlinePolicyToPermissionSet:sso
 PutMfaDeviceManagementForDirectory:sso
 PutPermissionsBoundaryToPermissionSet:sso
