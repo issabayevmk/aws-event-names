@@ -1010,6 +1010,7 @@ UntagResource:arc-region-switch
 UpdatePlan:arc-region-switch
 UpdatePlanExecution:arc-region-switch
 UpdatePlanExecutionStep:arc-region-switch
+CancelPracticeRun:arc-zonal-shift
 CancelZonalShift:arc-zonal-shift
 CreatePracticeRunConfiguration:arc-zonal-shift
 DeletePracticeRunConfiguration:arc-zonal-shift
@@ -1018,6 +1019,7 @@ GetManagedResource:arc-zonal-shift
 ListAutoshifts:arc-zonal-shift
 ListManagedResources:arc-zonal-shift
 ListZonalShifts:arc-zonal-shift
+StartPracticeRun:arc-zonal-shift
 StartZonalShift:arc-zonal-shift
 UpdateAutoshiftObserverNotificationStatus:arc-zonal-shift
 UpdatePracticeRunConfiguration:arc-zonal-shift
@@ -1609,6 +1611,7 @@ UpdateBillScenarioUsageModification:bcm-pricing-calculator
 UpdatePreferences:bcm-pricing-calculator
 UpdateWorkloadEstimate:bcm-pricing-calculator
 UpdateWorkloadEstimateUsage:bcm-pricing-calculator
+ListRecommendedActions:bcm-recommended-actions
 AllowVendedLogDeliveryForResource:bedrock-agentcore
 ConnectBrowserAutomationStream:bedrock-agentcore
 ConnectBrowserLiveViewStream:bedrock-agentcore
@@ -16358,6 +16361,7 @@ CreatePrivateDnsNamespace:servicediscovery
 CreatePublicDnsNamespace:servicediscovery
 CreateService:servicediscovery
 DeleteNamespace:servicediscovery
+DeleteResourcePolicy:servicediscovery
 DeleteService:servicediscovery
 DeleteServiceAttributes:servicediscovery
 DeregisterInstance:servicediscovery
@@ -16367,6 +16371,7 @@ GetInstance:servicediscovery
 GetInstancesHealthStatus:servicediscovery
 GetNamespace:servicediscovery
 GetOperation:servicediscovery
+GetResourcePolicy:servicediscovery
 GetService:servicediscovery
 GetServiceAttributes:servicediscovery
 ListInstances:servicediscovery
@@ -16374,6 +16379,7 @@ ListNamespaces:servicediscovery
 ListOperations:servicediscovery
 ListServices:servicediscovery
 ListTagsForResource:servicediscovery
+PutResourcePolicy:servicediscovery
 RegisterInstance:servicediscovery
 TagResource:servicediscovery
 UntagResource:servicediscovery
@@ -18211,6 +18217,9 @@ ListApplicationClaims:user-subscriptions
 ListClaims:user-subscriptions
 ListUserSubscriptions:user-subscriptions
 UpdateClaim:user-subscriptions
+DeleteAccountColor:uxc
+GetAccountColor:uxc
+PutAccountColor:uxc
 ActivateSecurityProfile:vendor-insights
 AssociateDataSource:vendor-insights
 CreateDataSource:vendor-insights
@@ -19106,6 +19115,8 @@ DescribeClientProperties:workspaces
 DescribeConnectClientAddIns:workspaces
 DescribeConnectionAliasPermissions:workspaces
 DescribeConnectionAliases:workspaces
+DescribeConsent:workspaces
+DescribeCustomWorkspaceImageImport:workspaces
 DescribeImageAssociations:workspaces
 DescribeIpGroups:workspaces
 DescribeRootClientCertificates:workspaces
@@ -19126,6 +19137,7 @@ DisassociateIpGroups:workspaces
 DisassociateWorkspaceApplication:workspaces
 GetAccountLink:workspaces
 ImportClientBranding:workspaces
+ImportCustomWorkspaceImage:workspaces
 ImportWorkspaceImage:workspaces
 ListAccountLinks:workspaces
 ListAvailableManagementCidrRanges:workspaces
@@ -19157,6 +19169,7 @@ TerminateWorkspacesPool:workspaces
 TerminateWorkspacesPoolSession:workspaces
 UpdateConnectClientAddIn:workspaces
 UpdateConnectionAliasPermission:workspaces
+UpdateConsent:workspaces
 UpdateRootClientCertificate:workspaces
 UpdateRulesOfIpGroup:workspaces
 UpdateWorkspaceBundle:workspaces
