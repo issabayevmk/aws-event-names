@@ -13724,6 +13724,7 @@ UpdateQApp:qapps
 UpdateQAppPermissions:qapps
 UpdateQAppSession:qapps
 UpdateQAppSessionMetadata:qapps
+AllowVendedLogDeliveryForResource:qbusiness
 AssociatePermission:qbusiness
 BatchDeleteDocument:qbusiness
 BatchPutDocument:qbusiness
