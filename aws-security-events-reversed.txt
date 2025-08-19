@@ -772,7 +772,6 @@ DeleteInstanceAccessControlAttributeConfiguration:sso
 DeleteManagedApplicationInstance:sso
 DeletePermissionSet:sso
 DeletePermissionsBoundaryFromPermissionSet:sso
-DeletePermissionsPolicy:sso
 DeleteProfile:sso
 DeleteTrustedTokenIssuer:sso
 DetachCustomerManagedPolicyReferenceFromPermissionSet:sso
@@ -797,7 +796,6 @@ UpdateApplicationInstanceResponseSchemaConfiguration:sso
 UpdateApplicationInstanceSecurityConfiguration:sso
 UpdateApplicationInstanceServiceProviderConfiguration:sso
 UpdateApplicationInstanceStatus:sso
-UpdateDirectoryAssociation:sso
 UpdateInstance:sso
 UpdateInstanceAccessControlAttributeConfiguration:sso
 UpdateManagedApplicationInstanceStatus:sso

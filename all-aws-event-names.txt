@@ -8102,6 +8102,7 @@ glue:CreateCustomEntityType
 glue:CreateDataQualityRuleset
 glue:CreateDatabase
 glue:CreateDevEndpoint
+glue:CreateGlueIdentityCenterConfiguration
 glue:CreateInboundIntegration
 glue:CreateIntegration
 glue:CreateIntegrationResourceProperty
@@ -8133,6 +8134,7 @@ glue:DeleteCustomEntityType
 glue:DeleteDataQualityRuleset
 glue:DeleteDatabase
 glue:DeleteDevEndpoint
+glue:DeleteGlueIdentityCenterConfiguration
 glue:DeleteIntegration
 glue:DeleteIntegrationTableProperties
 glue:DeleteJob
@@ -8196,6 +8198,7 @@ glue:GetEnvironment
 glue:GetExecutors
 glue:GetExecutorsThreads
 glue:GetGeneratedCode
+glue:GetGlueIdentityCenterConfiguration
 glue:GetIntegrationResourceProperty
 glue:GetIntegrationTableProperties
 glue:GetJob
@@ -8342,6 +8345,7 @@ glue:UpdateCrawlerSchedule
 glue:UpdateDataQualityRuleset
 glue:UpdateDatabase
 glue:UpdateDevEndpoint
+glue:UpdateGlueIdentityCenterConfiguration
 glue:UpdateIntegrationResourceProperty
 glue:UpdateIntegrationTableProperties
 glue:UpdateJob
@@ -17476,7 +17480,6 @@ sso:DeleteInstanceAccessControlAttributeConfiguration
 sso:DeleteManagedApplicationInstance
 sso:DeletePermissionSet
 sso:DeletePermissionsBoundaryFromPermissionSet
-sso:DeletePermissionsPolicy
 sso:DeleteProfile
 sso:DeleteTrustedTokenIssuer
 sso:DescribeAccountAssignmentCreationStatus
@@ -17484,15 +17487,12 @@ sso:DescribeAccountAssignmentDeletionStatus
 sso:DescribeApplication
 sso:DescribeApplicationAssignment
 sso:DescribeApplicationProvider
-sso:DescribeDirectories
 sso:DescribeInstance
 sso:DescribeInstanceAccessControlAttributeConfiguration
 sso:DescribePermissionSet
 sso:DescribePermissionSetProvisioningStatus
-sso:DescribePermissionsPolicies
 sso:DescribeRegisteredRegions
 sso:DescribeTrustedTokenIssuer
-sso:DescribeTrusts
 sso:DetachCustomerManagedPolicyReferenceFromPermissionSet
 sso:DetachManagedPolicyFromPermissionSet
 sso:DisassociateDirectory
@@ -17509,7 +17509,6 @@ sso:GetManagedApplicationInstance
 sso:GetMfaDeviceManagementForDirectory
 sso:GetPermissionSet
 sso:GetPermissionsBoundaryForPermissionSet
-sso:GetPermissionsPolicy
 sso:GetProfile
 sso:GetSSOStatus
 sso:GetSharedSsoConfiguration
@@ -17565,7 +17564,6 @@ sso:UpdateApplicationInstanceResponseSchemaConfiguration
 sso:UpdateApplicationInstanceSecurityConfiguration
 sso:UpdateApplicationInstanceServiceProviderConfiguration
 sso:UpdateApplicationInstanceStatus
-sso:UpdateDirectoryAssociation
 sso:UpdateInstance
 sso:UpdateInstanceAccessControlAttributeConfiguration
 sso:UpdateManagedApplicationInstanceStatus
