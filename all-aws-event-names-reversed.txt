@@ -4708,6 +4708,7 @@ AcceptSubscriptionRequest:datazone
 AddEntityOwner:datazone
 AddPolicyGrant:datazone
 AssociateEnvironmentRole:datazone
+AssociateGovernedTerms:datazone
 BatchDeleteLinkedTypes:datazone
 BatchPutLinkedTypes:datazone
 CancelMetadataGenerationRun:datazone
@@ -4768,6 +4769,7 @@ DeleteSubscriptionRequest:datazone
 DeleteSubscriptionTarget:datazone
 DeleteTimeSeriesDataPoints:datazone
 DisassociateEnvironmentRole:datazone
+DisassociateGovernedTerms:datazone
 GetAccountPool:datazone
 GetAsset:datazone
 GetAssetFilter:datazone
