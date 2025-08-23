@@ -5708,6 +5708,7 @@ GetBackupJob:dsql
 GetCluster:dsql
 GetRestoreJob:dsql
 GetVpcEndpointServiceName:dsql
+InjectError:dsql
 ListClusters:dsql
 ListTagsForResource:dsql
 PutMultiRegionProperties:dsql
