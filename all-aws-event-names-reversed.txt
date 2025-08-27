@@ -6686,6 +6686,7 @@ DescribeEksAnywhereSubscription:eks
 DescribeFargateProfile:eks
 DescribeIdentityProviderConfig:eks
 DescribeInsight:eks
+DescribeInsightsRefresh:eks
 DescribeNodegroup:eks
 DescribePodIdentityAssociation:eks
 DescribeUpdate:eks
@@ -6707,6 +6708,7 @@ ListPodIdentityAssociations:eks
 ListTagsForResource:eks
 ListUpdates:eks
 RegisterCluster:eks
+StartInsightsRefresh:eks
 TagResource:eks
 UntagResource:eks
 UpdateAccessEntry:eks
