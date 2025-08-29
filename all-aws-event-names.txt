@@ -5639,6 +5639,7 @@ ds:DeleteTrust
 ds:DeregisterCertificate
 ds:DeregisterEventTopic
 ds:DescribeADAssessment
+ds:DescribeCAEnrollmentPolicy
 ds:DescribeCertificate
 ds:DescribeClientAuthenticationSettings
 ds:DescribeConditionalForwarders
@@ -5654,12 +5655,14 @@ ds:DescribeSharedDirectories
 ds:DescribeSnapshots
 ds:DescribeTrusts
 ds:DescribeUpdateDirectory
+ds:DisableCAEnrollmentPolicy
 ds:DisableClientAuthentication
 ds:DisableDirectoryDataAccess
 ds:DisableLDAPS
 ds:DisableRadius
 ds:DisableRoleAccess
 ds:DisableSso
+ds:EnableCAEnrollmentPolicy
 ds:EnableClientAuthentication
 ds:EnableDirectoryDataAccess
 ds:EnableLDAPS
@@ -12421,7 +12424,9 @@ neptune-graph:ReadDataViaQuery
 neptune-graph:ResetGraph
 neptune-graph:RestoreGraphFromSnapshot
 neptune-graph:StartExportTask
+neptune-graph:StartGraph
 neptune-graph:StartImportTask
+neptune-graph:StopGraph
 neptune-graph:TagResource
 neptune-graph:UntagResource
 neptune-graph:UpdateGraph
