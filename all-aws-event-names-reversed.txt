@@ -11569,6 +11569,7 @@ CreateJob:mediaconvert
 CreateJobTemplate:mediaconvert
 CreatePreset:mediaconvert
 CreateQueue:mediaconvert
+CreateResourceShare:mediaconvert
 DeleteJobTemplate:mediaconvert
 DeletePolicy:mediaconvert
 DeletePreset:mediaconvert
@@ -13073,10 +13074,12 @@ LeaveOrganization:organizations
 ListAWSServiceAccessForOrganization:organizations
 ListAccounts:organizations
 ListAccountsForParent:organizations
+ListAccountsWithInvalidEffectivePolicy:organizations
 ListChildren:organizations
 ListCreateAccountStatus:organizations
 ListDelegatedAdministrators:organizations
 ListDelegatedServicesForAccount:organizations
+ListEffectivePolicyValidationErrors:organizations
 ListHandshakesForAccount:organizations
 ListHandshakesForOrganization:organizations
 ListOrganizationalUnitsForParent:organizations
