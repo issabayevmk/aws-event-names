@@ -18191,10 +18191,15 @@ UpdateWebApp:transfer
 UpdateWebAppCustomization:transfer
 AssociateConnectorResource:transform
 CreateProfile:transform
+DeleteConnector:transform
 DeleteProfile:transform
 GetConnector:transform
+ListConnectors:transform
 ListProfiles:transform
+ListTagsForResource:transform
 RejectConnector:transform
+TagResource:transform
+UntagResource:transform
 UpdateProfile:transform
 CreateParallelData:translate
 DeleteParallelData:translate
