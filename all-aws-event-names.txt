@@ -13934,6 +13934,7 @@ quicksight:CreateTopic
 quicksight:CreateTopicRefreshSchedule
 quicksight:CreateUser
 quicksight:CreateVPCConnection
+quicksight:DeleteAccountCustomPermission
 quicksight:DeleteAccountCustomization
 quicksight:DeleteAccountSubscription
 quicksight:DeleteAnalysis
@@ -13966,6 +13967,7 @@ quicksight:DeleteUser
 quicksight:DeleteUserByPrincipalId
 quicksight:DeleteUserCustomPermission
 quicksight:DeleteVPCConnection
+quicksight:DescribeAccountCustomPermission
 quicksight:DescribeAccountCustomization
 quicksight:DescribeAccountSettings
 quicksight:DescribeAccountSubscription
@@ -14086,6 +14088,7 @@ quicksight:Subscribe
 quicksight:TagResource
 quicksight:Unsubscribe
 quicksight:UntagResource
+quicksight:UpdateAccountCustomPermission
 quicksight:UpdateAccountCustomization
 quicksight:UpdateAccountSettings
 quicksight:UpdateAnalysis
