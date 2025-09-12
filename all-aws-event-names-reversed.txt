@@ -8939,9 +8939,11 @@ BatchGetSession:identitystore-auth
 ListSessions:identitystore-auth
 CreateGroup:identitystore
 CreateGroupMembership:identitystore
+CreateIdentityStore:identitystore
 CreateUser:identitystore
 DeleteGroup:identitystore
 DeleteGroupMembership:identitystore
+DeleteIdentityStore:identitystore
 DeleteUser:identitystore
 DescribeGroup:identitystore
 DescribeGroupMembership:identitystore
@@ -8955,6 +8957,7 @@ ListGroupMembershipsForMember:identitystore
 ListGroups:identitystore
 ListUsers:identitystore
 UpdateGroup:identitystore
+UpdateIdentityStore:identitystore
 UpdateUser:identitystore
 CancelImageCreation:imagebuilder
 CancelLifecycleExecution:imagebuilder
