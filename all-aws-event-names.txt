@@ -18839,6 +18839,7 @@ wisdom:QueryAssistant
 wisdom:RemoveAssistantAIAgent
 wisdom:RemoveKnowledgeBaseTemplateUri
 wisdom:RenderMessageTemplate
+wisdom:Retrieve
 wisdom:SearchContent
 wisdom:SearchMessageTemplates
 wisdom:SearchQuickResponses
