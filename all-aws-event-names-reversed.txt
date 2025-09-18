@@ -7408,10 +7408,12 @@ UpdateFeature:evidently
 UpdateLaunch:evidently
 UpdateProject:evidently
 UpdateProjectDataDelivery:evidently
+AssociateEipToVlan:evs
 CreateEnvironment:evs
 CreateEnvironmentHost:evs
 DeleteEnvironment:evs
 DeleteEnvironmentHost:evs
+DisassociateEipFromVlan:evs
 GetEnvironment:evs
 ListEnvironmentHosts:evs
 ListEnvironmentVlans:evs
@@ -19214,7 +19216,6 @@ DescribeConsent:workspaces
 DescribeCustomWorkspaceImageImport:workspaces
 DescribeImageAssociations:workspaces
 DescribeIpGroups:workspaces
-DescribeRootClientCertificates:workspaces
 DescribeTags:workspaces
 DescribeWorkspaceAssociations:workspaces
 DescribeWorkspaceBundles:workspaces
