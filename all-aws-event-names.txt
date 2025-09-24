@@ -6647,6 +6647,7 @@ ecs:PutAccountSetting
 ecs:PutAccountSettingDefault
 ecs:PutAttributes
 ecs:PutClusterCapacityProviders
+ecs:PutSystemLogEvents
 ecs:RegisterContainerInstance
 ecs:RegisterTaskDefinition
 ecs:RunTask
