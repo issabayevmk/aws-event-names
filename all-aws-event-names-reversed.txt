@@ -17531,6 +17531,8 @@ UpdateUser:sso-directory
 UpdateUserName:sso-directory
 VerifyEmail:sso-directory
 CreateTokenWithIAM:sso-oauth
+IntrospectTokenWithIAM:sso-oauth
+RevokeTokenWithIAM:sso-oauth
 AssociateDirectory:sso
 AssociateProfile:sso
 AttachCustomerManagedPolicyReferenceToPermissionSet:sso
