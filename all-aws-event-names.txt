@@ -1935,9 +1935,11 @@ bedrock:UpdatePrompt
 bedrock:UpdateProvisionedModelThroughput
 bedrock:UpdateSession
 bedrock:ValidateFlowDefinition
+billing:AssociateSourceViews
 billing:CreateBillingView
 billing:DeleteBillingView
 billing:DeleteResourcePolicy
+billing:DisassociateSourceViews
 billing:GetBillingData
 billing:GetBillingDetails
 billing:GetBillingNotifications
@@ -1960,6 +1962,7 @@ billing:UntagResource
 billing:UpdateBillingPreferences
 billing:UpdateBillingView
 billing:UpdateIAMAccessPreference
+billing:UseSourceView
 billingconductor:AssociateAccounts
 billingconductor:AssociatePricingRules
 billingconductor:BatchAssociateResourcesToCustomLineItem
