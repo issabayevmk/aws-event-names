@@ -13350,6 +13350,7 @@ pcs:ListTagsForResource
 pcs:RegisterComputeNodeGroupInstance
 pcs:TagResource
 pcs:UntagResource
+pcs:UpdateCluster
 pcs:UpdateComputeNodeGroup
 pcs:UpdateQueue
 personalize:CreateBatchInferenceJob
