@@ -1625,6 +1625,9 @@ UpdateWorkloadEstimate:bcm-pricing-calculator
 UpdateWorkloadEstimateUsage:bcm-pricing-calculator
 ListRecommendedActions:bcm-recommended-actions
 AllowVendedLogDeliveryForResource:bedrock-agentcore
+BatchCreateMemoryRecords:bedrock-agentcore
+BatchDeleteMemoryRecords:bedrock-agentcore
+BatchUpdateMemoryRecords:bedrock-agentcore
 ConnectBrowserAutomationStream:bedrock-agentcore
 ConnectBrowserLiveViewStream:bedrock-agentcore
 CreateAgentRuntime:bedrock-agentcore
@@ -1650,6 +1653,7 @@ DeleteMemory:bedrock-agentcore
 DeleteMemoryRecord:bedrock-agentcore
 DeleteOauth2CredentialProvider:bedrock-agentcore
 DeleteWorkloadIdentity:bedrock-agentcore
+GetAgentCard:bedrock-agentcore
 GetAgentRuntime:bedrock-agentcore
 GetAgentRuntimeEndpoint:bedrock-agentcore
 GetApiKeyCredentialProvider:bedrock-agentcore
@@ -1696,6 +1700,7 @@ StartBrowserSession:bedrock-agentcore
 StartCodeInterpreterSession:bedrock-agentcore
 StopBrowserSession:bedrock-agentcore
 StopCodeInterpreterSession:bedrock-agentcore
+StopRuntimeSession:bedrock-agentcore
 SynchronizeGatewayTargets:bedrock-agentcore
 TagResource:bedrock-agentcore
 UntagResource:bedrock-agentcore
