@@ -187,6 +187,7 @@ RequestCertificate:acm
 ResendValidationEmail:acm
 RevokeCertificate:acm
 UpdateCertificateOptions:acm
+ListRecommendedActions:action-recommendations
 CreateForm:activate
 GetAccountContact:activate
 GetContentInfo:activate
