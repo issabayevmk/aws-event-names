@@ -12839,6 +12839,7 @@ TagResource:odb
 UntagResource:odb
 UpdateCloudExadataInfrastructure:odb
 UpdateOdbNetwork:odb
+UpdateOdbPeeringConnection:odb
 AbortMultipartReadSetUpload:omics
 AcceptShare:omics
 BatchDeleteReadSet:omics
