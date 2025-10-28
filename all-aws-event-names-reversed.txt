@@ -1250,6 +1250,7 @@ EnterStandby:autoscaling
 ExecutePolicy:autoscaling
 ExitStandby:autoscaling
 GetPredictiveScalingForecast:autoscaling
+LaunchInstances:autoscaling
 PutLifecycleHook:autoscaling
 PutNotificationConfiguration:autoscaling
 PutScalingPolicy:autoscaling
