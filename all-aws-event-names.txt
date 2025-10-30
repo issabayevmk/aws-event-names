@@ -10378,6 +10378,7 @@ kinesis:StopStreamEncryption
 kinesis:SubscribeToShard
 kinesis:TagResource
 kinesis:UntagResource
+kinesis:UpdateMaxRecordSize
 kinesis:UpdateShardCount
 kinesis:UpdateStreamMode
 kinesisanalytics:AddApplicationCloudWatchLoggingOption
@@ -17931,6 +17932,7 @@ support:DescribeTrustedAdvisorChecks
 support:GetInteraction
 support:InitiateCallForCase
 support:InitiateChatForCase
+support:InitiateLiveContactForCase
 support:PutCaseAttributes
 support:RateCaseCommunication
 support:RefreshTrustedAdvisorCheck
