@@ -3812,6 +3812,7 @@ CreateGroup:cognito-idp
 CreateIdentityProvider:cognito-idp
 CreateManagedLoginBranding:cognito-idp
 CreateResourceServer:cognito-idp
+CreateTerms:cognito-idp
 CreateUserImportJob:cognito-idp
 CreateUserPool:cognito-idp
 CreateUserPoolClient:cognito-idp
@@ -3820,6 +3821,7 @@ DeleteGroup:cognito-idp
 DeleteIdentityProvider:cognito-idp
 DeleteManagedLoginBranding:cognito-idp
 DeleteResourceServer:cognito-idp
+DeleteTerms:cognito-idp
 DeleteUser:cognito-idp
 DeleteUserAttributes:cognito-idp
 DeleteUserPool:cognito-idp
@@ -3830,6 +3832,7 @@ DescribeManagedLoginBranding:cognito-idp
 DescribeManagedLoginBrandingByClient:cognito-idp
 DescribeResourceServer:cognito-idp
 DescribeRiskConfiguration:cognito-idp
+DescribeTerms:cognito-idp
 DescribeUserImportJob:cognito-idp
 DescribeUserPool:cognito-idp
 DescribeUserPoolClient:cognito-idp
@@ -3857,6 +3860,7 @@ ListIdentityProviders:cognito-idp
 ListResourceServers:cognito-idp
 ListResourcesForWebACL:cognito-idp
 ListTagsForResource:cognito-idp
+ListTerms:cognito-idp
 ListUserImportJobs:cognito-idp
 ListUserPoolClients:cognito-idp
 ListUserPools:cognito-idp
@@ -3882,6 +3886,7 @@ UpdateGroup:cognito-idp
 UpdateIdentityProvider:cognito-idp
 UpdateManagedLoginBranding:cognito-idp
 UpdateResourceServer:cognito-idp
+UpdateTerms:cognito-idp
 UpdateUserAttributes:cognito-idp
 UpdateUserPool:cognito-idp
 UpdateUserPoolClient:cognito-idp
