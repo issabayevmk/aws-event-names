@@ -1875,6 +1875,7 @@ bedrock:InvokeFlow
 bedrock:InvokeInlineAgent
 bedrock:InvokeModel
 bedrock:InvokeModelWithResponseStream
+bedrock:InvokeTool
 bedrock:ListAgentActionGroups
 bedrock:ListAgentAliases
 bedrock:ListAgentCollaborators
