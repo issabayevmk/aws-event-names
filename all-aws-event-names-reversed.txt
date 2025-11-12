@@ -4410,6 +4410,7 @@ SearchUsers:connect
 SearchVocabularies:connect
 SendChatIntegrationEvent:connect
 SendIntegrationEvent:connect
+SendOutboundChatMessage:connect
 SendOutboundEmail:connect
 StartAttachedFileUpload:connect
 StartChatContact:connect
