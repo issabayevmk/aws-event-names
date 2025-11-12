@@ -5456,6 +5456,8 @@ AddTagsToResource:dms
 ApplyPendingMaintenanceAction:dms
 AssociateExtensionPack:dms
 BatchStartRecommendations:dms
+CancelMetadataModelConversion:dms
+CancelMetadataModelCreation:dms
 CancelReplicationTaskAssessmentRun:dms
 CreateDataMigration:dms
 CreateDataProvider:dms
@@ -5501,6 +5503,9 @@ DescribeFleetAdvisorDatabases:dms
 DescribeFleetAdvisorLsaAnalysis:dms
 DescribeFleetAdvisorSchemaObjectSummary:dms
 DescribeFleetAdvisorSchemas:dms
+DescribeMetadataModel:dms
+DescribeMetadataModelChildren:dms
+DescribeMetadataModelCreations:dms
 DescribeMetadataModelImports:dms
 DescribeOrderableReplicationInstances:dms
 DescribePendingMaintenanceActions:dms
@@ -5520,6 +5525,7 @@ DescribeReplications:dms
 DescribeSchemas:dms
 DescribeTableStatistics:dms
 ExportMetadataModelAssessment:dms
+GetTargetSelectionRules:dms
 ImportCertificate:dms
 ListDataProviders:dms
 ListExtensionPacks:dms
@@ -5549,6 +5555,7 @@ RunFleetAdvisorLsaAnalysis:dms
 StartDataMigration:dms
 StartMetadataModelAssessment:dms
 StartMetadataModelConversion:dms
+StartMetadataModelCreation:dms
 StartMetadataModelExportAsScripts:dms
 StartMetadataModelExportToTarget:dms
 StartMetadataModelImport:dms
@@ -15796,6 +15803,9 @@ UpdateExperiment:sagemaker-mlflow
 UpdateModelVersion:sagemaker-mlflow
 UpdateRegisteredModel:sagemaker-mlflow
 UpdateRun:sagemaker-mlflow
+CallPrivilegedTool:sagemaker-unified-studio-mcp
+CallReadOnlyTool:sagemaker-unified-studio-mcp
+InvokeMcp:sagemaker-unified-studio-mcp
 AddAssociation:sagemaker
 AddTags:sagemaker
 AssociateTrialComponent:sagemaker
