@@ -8291,6 +8291,7 @@ glue:DescribeConnectionType
 glue:DescribeEntity
 glue:DescribeInboundIntegrations
 glue:DescribeIntegrations
+glue:FederateAuthorization
 glue:GetBlueprint
 glue:GetBlueprintRun
 glue:GetBlueprintRuns
