@@ -2841,6 +2841,7 @@ DeregisterType:cloudformation
 DescribeAccountLimits:cloudformation
 DescribeChangeSet:cloudformation
 DescribeChangeSetHooks:cloudformation
+DescribeEvents:cloudformation
 DescribeGeneratedTemplate:cloudformation
 DescribeOrganizationsAccess:cloudformation
 DescribePublisher:cloudformation
@@ -13622,6 +13623,14 @@ GetAttributeValues:pricing
 GetPriceListFileUrl:pricing
 GetProducts:pricing
 ListPriceLists:pricing
+AssociateResourcesToSubscription:pricingplanmanager
+CancelSubscription:pricingplanmanager
+CancelSubscriptionChange:pricingplanmanager
+CreateSubscription:pricingplanmanager
+DisassociateResourcesFromSubscription:pricingplanmanager
+GetSubscription:pricingplanmanager
+ListSubscriptions:pricingplanmanager
+UpdateSubscription:pricingplanmanager
 AcknowledgeOrderReceipt:private-networks
 ActivateDeviceIdentifier:private-networks
 ActivateNetworkSite:private-networks
