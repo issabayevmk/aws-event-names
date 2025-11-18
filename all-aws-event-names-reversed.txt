@@ -775,6 +775,7 @@ AssociateAppBlockBuilderAppBlock:appstream
 AssociateApplicationFleet:appstream
 AssociateApplicationToEntitlement:appstream
 AssociateFleet:appstream
+AssociateSoftwareToImageBuilder:appstream
 BatchAssociateUserStack:appstream
 BatchDisassociateUserStack:appstream
 CopyImage:appstream
@@ -784,9 +785,11 @@ CreateAppBlockBuilderStreamingURL:appstream
 CreateApplication:appstream
 CreateDirectoryConfig:appstream
 CreateEntitlement:appstream
+CreateExportImageTask:appstream
 CreateFleet:appstream
 CreateImageBuilder:appstream
 CreateImageBuilderStreamingURL:appstream
+CreateImportedImage:appstream
 CreateStack:appstream
 CreateStreamingURL:appstream
 CreateThemeForStack:appstream
@@ -809,6 +812,7 @@ DeleteUser:appstream
 DescribeAppBlockBuilderAppBlockAssociations:appstream
 DescribeAppBlockBuilders:appstream
 DescribeAppBlocks:appstream
+DescribeAppLicenseUsage:appstream
 DescribeApplicationFleetAssociations:appstream
 DescribeApplications:appstream
 DescribeDirectoryConfigs:appstream
@@ -818,6 +822,7 @@ DescribeImageBuilders:appstream
 DescribeImagePermissions:appstream
 DescribeImages:appstream
 DescribeSessions:appstream
+DescribeSoftwareAssociations:appstream
 DescribeStacks:appstream
 DescribeThemeForStack:appstream
 DescribeUsageReportSubscriptions:appstream
@@ -828,15 +833,19 @@ DisassociateAppBlockBuilderAppBlock:appstream
 DisassociateApplicationFleet:appstream
 DisassociateApplicationFromEntitlement:appstream
 DisassociateFleet:appstream
+DisassociateSoftwareFromImageBuilder:appstream
 EnableUser:appstream
 ExpireSession:appstream
+GetExportImageTask:appstream
 ListAssociatedFleets:appstream
 ListAssociatedStacks:appstream
 ListEntitledApplications:appstream
+ListExportImageTasks:appstream
 ListTagsForResource:appstream
 StartAppBlockBuilder:appstream
 StartFleet:appstream
 StartImageBuilder:appstream
+StartSoftwareDeploymentToImageBuilder:appstream
 StopAppBlockBuilder:appstream
 StopFleet:appstream
 StopImageBuilder:appstream
@@ -6781,6 +6790,9 @@ UpdateServicePrimaryTaskSet:ecs
 UpdateTaskProtection:ecs
 UpdateTaskSet:ecs
 AssumeRoleForPodIdentity:eks-auth
+CallPrivilegedTool:eks-mcp
+CallReadOnlyTool:eks-mcp
+InvokeMcp:eks-mcp
 AccessKubernetesApi:eks
 AssociateAccessPolicy:eks
 AssociateEncryptionConfig:eks
@@ -7334,6 +7346,7 @@ CreateApplication:es
 CreateDomain:es
 CreateElasticsearchDomain:es
 CreateElasticsearchServiceRole:es
+CreateIndex:es
 CreateOutboundConnection:es
 CreateOutboundCrossClusterSearchConnection:es
 CreatePackage:es
@@ -7347,6 +7360,7 @@ DeleteElasticsearchDomain:es
 DeleteElasticsearchServiceRole:es
 DeleteInboundConnection:es
 DeleteInboundCrossClusterSearchConnection:es
+DeleteIndex:es
 DeleteOutboundConnection:es
 DeleteOutboundCrossClusterSearchConnection:es
 DeletePackage:es
@@ -7389,6 +7403,7 @@ GetCompatibleVersions:es
 GetDataSource:es
 GetDirectQueryDataSource:es
 GetDomainMaintenanceStatus:es
+GetIndex:es
 GetPackageVersionHistory:es
 GetUpgradeHistory:es
 GetUpgradeStatus:es
@@ -7423,6 +7438,7 @@ UpdateDataSource:es
 UpdateDirectQueryDataSource:es
 UpdateDomainConfig:es
 UpdateElasticsearchDomainConfig:es
+UpdateIndex:es
 UpdatePackage:es
 UpdatePackageScope:es
 UpdateScheduledAction:es
@@ -8777,6 +8793,7 @@ ListTagsForResource:guardduty
 ListThreatEntitySets:guardduty
 ListThreatIntelSets:guardduty
 ListTrustedEntitySets:guardduty
+SendObjectMalwareScan:guardduty
 SendSecurityTelemetry:guardduty
 StartMalwareScan:guardduty
 StartMonitoringMembers:guardduty
