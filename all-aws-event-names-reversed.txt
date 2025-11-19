@@ -11237,6 +11237,7 @@ CreateLogAnomalyDetector:logs
 CreateLogDelivery:logs
 CreateLogGroup:logs
 CreateLogStream:logs
+CreateScheduledQuery:logs
 DeleteAccountPolicy:logs
 DeleteDataProtectionPolicy:logs
 DeleteDelivery:logs
@@ -11254,6 +11255,7 @@ DeleteMetricFilter:logs
 DeleteQueryDefinition:logs
 DeleteResourcePolicy:logs
 DeleteRetentionPolicy:logs
+DeleteScheduledQuery:logs
 DeleteSubscriptionFilter:logs
 DeleteTransformer:logs
 DescribeAccountPolicies:logs
@@ -11286,6 +11288,8 @@ GetLogEvents:logs
 GetLogGroupFields:logs
 GetLogRecord:logs
 GetQueryResults:logs
+GetScheduledQuery:logs
+GetScheduledQueryHistory:logs
 GetTransformer:logs
 Link:logs
 ListAnomalies:logs
@@ -11296,6 +11300,7 @@ ListLogDeliveries:logs
 ListLogGroups:logs
 ListLogGroupsForEntity:logs
 ListLogGroupsForQuery:logs
+ListScheduledQueries:logs
 ListTagsForResource:logs
 ListTagsLogGroup:logs
 PutAccountPolicy:logs
@@ -11329,6 +11334,7 @@ UpdateAnomaly:logs
 UpdateDeliveryConfiguration:logs
 UpdateLogAnomalyDetector:logs
 UpdateLogDelivery:logs
+UpdateScheduledQuery:logs
 CreateDataset:lookoutequipment
 CreateInferenceScheduler:lookoutequipment
 CreateLabel:lookoutequipment
@@ -17102,6 +17108,8 @@ SignPayload:signer
 StartSigningJob:signer
 TagResource:signer
 UntagResource:signer
+AuthorizeOAuth2Access:signin
+CreateOAuth2Token:signin
 CreateTrustedIdentityPropagationApplicationForConsole:signin
 ListTrustedIdentityPropagationApplicationsForConsole:signin
 CreateSnapshot:simspaceweaver
