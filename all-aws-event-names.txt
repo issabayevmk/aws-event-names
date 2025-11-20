@@ -1471,6 +1471,7 @@ backup:AssociateBackupVaultMpaApprovalTeam
 backup:CancelLegalHold
 backup:CopyFromBackupVault
 backup:CopyIntoBackupVault
+backup:CreateBackupAccessPoint
 backup:CreateBackupPlan
 backup:CreateBackupSelection
 backup:CreateBackupVault
@@ -1482,6 +1483,7 @@ backup:CreateRestoreAccessBackupVault
 backup:CreateRestoreTestingPlan
 backup:CreateRestoreTestingSelection
 backup:CreateTieringConfiguration
+backup:DeleteBackupAccessPoint
 backup:DeleteBackupPlan
 backup:DeleteBackupSelection
 backup:DeleteBackupVault
@@ -1495,6 +1497,7 @@ backup:DeleteReportPlan
 backup:DeleteRestoreTestingPlan
 backup:DeleteRestoreTestingSelection
 backup:DeleteTieringConfiguration
+backup:DescribeBackupAccessPoint
 backup:DescribeBackupJob
 backup:DescribeBackupVault
 backup:DescribeCopyJob
@@ -1506,6 +1509,7 @@ backup:DescribeRegionSettings
 backup:DescribeReportJob
 backup:DescribeReportPlan
 backup:DescribeRestoreJob
+backup:DescribeScanJob
 backup:DisassociateBackupVaultMpaApprovalTeam
 backup:DisassociateRecoveryPoint
 backup:DisassociateRecoveryPointFromParent
@@ -1552,6 +1556,8 @@ backup:ListRestoreJobs
 backup:ListRestoreJobsByProtectedResource
 backup:ListRestoreTestingPlans
 backup:ListRestoreTestingSelections
+backup:ListScanJobSummaries
+backup:ListScanJobs
 backup:ListTags
 backup:ListTieringConfigurations
 backup:PutBackupVaultAccessPolicy
@@ -1565,6 +1571,7 @@ backup:StartBackupJob
 backup:StartCopyJob
 backup:StartReportJob
 backup:StartRestoreJob
+backup:StartScanJob
 backup:StopBackupJob
 backup:TagResource
 backup:UntagResource
