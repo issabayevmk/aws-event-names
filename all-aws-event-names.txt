@@ -10617,6 +10617,7 @@ kinesisvideo:DescribeMediaStorageConfiguration
 kinesisvideo:DescribeNotificationConfiguration
 kinesisvideo:DescribeSignalingChannel
 kinesisvideo:DescribeStream
+kinesisvideo:DescribeStreamStorageConfiguration
 kinesisvideo:GetClip
 kinesisvideo:GetDASHStreamingSessionURL
 kinesisvideo:GetDataEndpoint
@@ -10647,6 +10648,7 @@ kinesisvideo:UpdateMediaStorageConfiguration
 kinesisvideo:UpdateNotificationConfiguration
 kinesisvideo:UpdateSignalingChannel
 kinesisvideo:UpdateStream
+kinesisvideo:UpdateStreamStorageConfiguration
 kms:CancelKeyDeletion
 kms:ConnectCustomKeyStore
 kms:CreateAlias
