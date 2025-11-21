@@ -585,6 +585,7 @@ application-signals:GetService
 application-signals:GetServiceLevelObjective
 application-signals:Link
 application-signals:ListAuditFindings
+application-signals:ListEntityEvents
 application-signals:ListGroupingAttributeDefinitions
 application-signals:ListObservedEntities
 application-signals:ListServiceDependencies
@@ -1255,6 +1256,7 @@ autoscaling:DeleteScheduledAction
 autoscaling:DeleteTags
 autoscaling:DeleteWarmPool
 autoscaling:DescribeAccountLimits
+autoscaling:DescribeAccountSettings
 autoscaling:DescribeAdjustmentTypes
 autoscaling:DescribeAutoScalingGroups
 autoscaling:DescribeAutoScalingInstances
@@ -1286,6 +1288,7 @@ autoscaling:ExecutePolicy
 autoscaling:ExitStandby
 autoscaling:GetPredictiveScalingForecast
 autoscaling:LaunchInstances
+autoscaling:PutAccountSetting
 autoscaling:PutLifecycleHook
 autoscaling:PutNotificationConfiguration
 autoscaling:PutScalingPolicy
@@ -1908,6 +1911,7 @@ bedrock:InvokeAgent
 bedrock:InvokeAutomatedReasoningPolicy
 bedrock:InvokeBlueprintRecommendationAsync
 bedrock:InvokeBuilder
+bedrock:InvokeDataAutomation
 bedrock:InvokeDataAutomationAsync
 bedrock:InvokeFlow
 bedrock:InvokeInlineAgent
@@ -2066,6 +2070,8 @@ braket:CancelJob
 braket:CancelQuantumTask
 braket:CreateJob
 braket:CreateQuantumTask
+braket:CreateSpendingLimit
+braket:DeleteSpendingLimit
 braket:GetDevice
 braket:GetJob
 braket:GetQuantumTask
@@ -2075,8 +2081,10 @@ braket:ListTagsForResource
 braket:SearchDevices
 braket:SearchJobs
 braket:SearchQuantumTasks
+braket:SearchSpendingLimits
 braket:TagResource
 braket:UntagResource
+braket:UpdateSpendingLimit
 budgets:CreateBudgetAction
 budgets:DeleteBudgetAction
 budgets:DescribeBudgetAction
@@ -3193,6 +3201,7 @@ cloudtrail:ListDashboards
 cloudtrail:ListEventDataStores
 cloudtrail:ListImportFailures
 cloudtrail:ListImports
+cloudtrail:ListInsightsData
 cloudtrail:ListPublicKeys
 cloudtrail:ListQueries
 cloudtrail:ListServiceLinkedChannels
@@ -5507,6 +5516,7 @@ dms:CreateEventSubscription
 dms:CreateFleetAdvisorCollector
 dms:CreateInstanceProfile
 dms:CreateMigrationProject
+dms:CreateOutboundIntegration
 dms:CreateReplicationConfig
 dms:CreateReplicationInstance
 dms:CreateReplicationSubnetGroup
@@ -5582,6 +5592,7 @@ dms:ModifyEndpoint
 dms:ModifyEventSubscription
 dms:ModifyFleetAdvisorCollector
 dms:ModifyFleetAdvisorCollectorStatuses
+dms:ModifyOutboundIntegration
 dms:ModifyReplicationConfig
 dms:ModifyReplicationInstance
 dms:ModifyReplicationSubnetGroup
@@ -9167,6 +9178,7 @@ imagebuilder:DeleteImageRecipe
 imagebuilder:DeleteInfrastructureConfiguration
 imagebuilder:DeleteLifecyclePolicy
 imagebuilder:DeleteWorkflow
+imagebuilder:DistributeImage
 imagebuilder:GetComponent
 imagebuilder:GetComponentPolicy
 imagebuilder:GetContainerRecipe
@@ -9213,6 +9225,7 @@ imagebuilder:PutComponentPolicy
 imagebuilder:PutContainerRecipePolicy
 imagebuilder:PutImagePolicy
 imagebuilder:PutImageRecipePolicy
+imagebuilder:RetryImage
 imagebuilder:SendWorkflowStepAction
 imagebuilder:StartImagePipelineExecution
 imagebuilder:StartResourceStateUpdate
@@ -15672,6 +15685,7 @@ s3:GetAccessPointPolicyStatus
 s3:GetAccessPointPolicyStatusForObjectLambda
 s3:GetAccountPublicAccessBlock
 s3:GetAnalyticsConfiguration
+s3:GetBucketAbac
 s3:GetBucketAcl
 s3:GetBucketCORS
 s3:GetBucketLocation
@@ -15743,6 +15757,7 @@ s3:PutAccessPointPolicyForObjectLambda
 s3:PutAccessPointPublicAccessBlock
 s3:PutAccountPublicAccessBlock
 s3:PutAnalyticsConfiguration
+s3:PutBucketAbac
 s3:PutBucketAcl
 s3:PutBucketCORS
 s3:PutBucketLogging
