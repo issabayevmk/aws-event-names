@@ -16213,6 +16213,7 @@ sagemaker:BatchDescribeModelPackage
 sagemaker:BatchGetMetrics
 sagemaker:BatchGetRecord
 sagemaker:BatchPutMetrics
+sagemaker:CallMlflowAppApi
 sagemaker:CallPartnerAppApi
 sagemaker:CreateAction
 sagemaker:CreateAlgorithm
@@ -16250,6 +16251,7 @@ sagemaker:CreateInferenceExperiment
 sagemaker:CreateInferenceRecommendationsJob
 sagemaker:CreateLabelingJob
 sagemaker:CreateLineageGroupPolicy
+sagemaker:CreateMlflowApp
 sagemaker:CreateMlflowTrackingServer
 sagemaker:CreateModel
 sagemaker:CreateModelBiasJobDefinition
@@ -16267,6 +16269,7 @@ sagemaker:CreatePartnerApp
 sagemaker:CreatePartnerAppPresignedUrl
 sagemaker:CreatePipeline
 sagemaker:CreatePresignedDomainUrl
+sagemaker:CreatePresignedMlflowAppUrl
 sagemaker:CreatePresignedMlflowTrackingServerUrl
 sagemaker:CreatePresignedNotebookInstanceUrl
 sagemaker:CreateProcessingJob
@@ -16316,6 +16319,7 @@ sagemaker:DeleteImageVersion
 sagemaker:DeleteInferenceComponent
 sagemaker:DeleteInferenceExperiment
 sagemaker:DeleteLineageGroupPolicy
+sagemaker:DeleteMlflowApp
 sagemaker:DeleteMlflowTrackingServer
 sagemaker:DeleteModel
 sagemaker:DeleteModelBiasJobDefinition
@@ -16384,6 +16388,7 @@ sagemaker:DescribeInferenceExperiment
 sagemaker:DescribeInferenceRecommendationsJob
 sagemaker:DescribeLabelingJob
 sagemaker:DescribeLineageGroup
+sagemaker:DescribeMlflowApp
 sagemaker:DescribeMlflowTrackingServer
 sagemaker:DescribeModel
 sagemaker:DescribeModelBiasJobDefinition
@@ -16477,6 +16482,7 @@ sagemaker:ListInferenceRecommendationsJobs
 sagemaker:ListLabelingJobs
 sagemaker:ListLabelingJobsForWorkteam
 sagemaker:ListLineageGroups
+sagemaker:ListMlflowApps
 sagemaker:ListMlflowTrackingServers
 sagemaker:ListModelBiasJobDefinitions
 sagemaker:ListModelCardExportJobs
@@ -16588,6 +16594,7 @@ sagemaker:UpdateImageVersion
 sagemaker:UpdateInferenceComponent
 sagemaker:UpdateInferenceComponentRuntimeConfig
 sagemaker:UpdateInferenceExperiment
+sagemaker:UpdateMlflowApp
 sagemaker:UpdateMlflowTrackingServer
 sagemaker:UpdateModelCard
 sagemaker:UpdateModelPackage
