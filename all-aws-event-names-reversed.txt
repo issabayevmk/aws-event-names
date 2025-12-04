@@ -1868,6 +1868,13 @@ UpdateOnlineEvaluationConfig:bedrock-agentcore
 UpdatePolicy:bedrock-agentcore
 UpdatePolicyEngine:bedrock-agentcore
 UpdateWorkloadIdentity:bedrock-agentcore
+CallWithBearerToken:bedrock-mantle
+CancelInference:bedrock-mantle
+CreateInference:bedrock-mantle
+DeleteInference:bedrock-mantle
+GetInference:bedrock-mantle
+GetModel:bedrock-mantle
+ListModels:bedrock-mantle
 AllowVendedLogDeliveryForResource:bedrock
 ApplyGuardrail:bedrock
 AssociateAgentCollaborator:bedrock
