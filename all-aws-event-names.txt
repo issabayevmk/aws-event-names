@@ -6166,6 +6166,7 @@ ec2:AssociateTransitGatewayRouteTable
 ec2:AssociateTrunkInterface
 ec2:AssociateVerifiedAccessInstanceWebAcl
 ec2:AssociateVpcCidrBlock
+ec2:AttachApplianceToNatGateway
 ec2:AttachClassicLinkVpc
 ec2:AttachInternetGateway
 ec2:AttachNetworkInterface
@@ -6217,9 +6218,13 @@ ec2:CreateInstanceConnectEndpoint
 ec2:CreateInstanceEventWindow
 ec2:CreateInstanceExportTask
 ec2:CreateInternetGateway
+ec2:CreateInterruptibleCapacityReservationAllocation
 ec2:CreateIpam
 ec2:CreateIpamExternalResourceVerificationToken
+ec2:CreateIpamPolicy
 ec2:CreateIpamPool
+ec2:CreateIpamPrefixListResolver
+ec2:CreateIpamPrefixListResolverTarget
 ec2:CreateIpamResourceDiscovery
 ec2:CreateIpamScope
 ec2:CreateKeyPair
@@ -6241,6 +6246,7 @@ ec2:CreateNetworkInsightsAccessScope
 ec2:CreateNetworkInsightsPath
 ec2:CreateNetworkInterface
 ec2:CreateNetworkInterfacePermission
+ec2:CreateOdbNetworkPeering
 ec2:CreatePlacementGroup
 ec2:CreatePublicIpv4Pool
 ec2:CreateReplaceRootVolumeTask
@@ -6266,6 +6272,8 @@ ec2:CreateTrafficMirrorTarget
 ec2:CreateTransitGateway
 ec2:CreateTransitGatewayConnect
 ec2:CreateTransitGatewayConnectPeer
+ec2:CreateTransitGatewayMeteringPolicy
+ec2:CreateTransitGatewayMeteringPolicyEntry
 ec2:CreateTransitGatewayMulticastDomain
 ec2:CreateTransitGatewayPeeringAttachment
 ec2:CreateTransitGatewayPolicyTable
@@ -6281,10 +6289,12 @@ ec2:CreateVerifiedAccessTrustProvider
 ec2:CreateVolume
 ec2:CreateVpc
 ec2:CreateVpcBlockPublicAccessExclusion
+ec2:CreateVpcEncryptionControl
 ec2:CreateVpcEndpoint
 ec2:CreateVpcEndpointConnectionNotification
 ec2:CreateVpcEndpointServiceConfiguration
 ec2:CreateVpcPeeringConnection
+ec2:CreateVpnConcentrator
 ec2:CreateVpnConnection
 ec2:CreateVpnConnectionRoute
 ec2:CreateVpnGateway
@@ -6307,7 +6317,10 @@ ec2:DeleteInstanceEventWindow
 ec2:DeleteInternetGateway
 ec2:DeleteIpam
 ec2:DeleteIpamExternalResourceVerificationToken
+ec2:DeleteIpamPolicy
 ec2:DeleteIpamPool
+ec2:DeleteIpamPrefixListResolver
+ec2:DeleteIpamPrefixListResolverTarget
 ec2:DeleteIpamResourceDiscovery
 ec2:DeleteIpamScope
 ec2:DeleteKeyPair
@@ -6330,6 +6343,7 @@ ec2:DeleteNetworkInsightsAnalysis
 ec2:DeleteNetworkInsightsPath
 ec2:DeleteNetworkInterface
 ec2:DeleteNetworkInterfacePermission
+ec2:DeleteOdbNetworkPeering
 ec2:DeletePlacementGroup
 ec2:DeletePublicIpv4Pool
 ec2:DeleteQueuedReservedInstances
@@ -6352,6 +6366,8 @@ ec2:DeleteTrafficMirrorTarget
 ec2:DeleteTransitGateway
 ec2:DeleteTransitGatewayConnect
 ec2:DeleteTransitGatewayConnectPeer
+ec2:DeleteTransitGatewayMeteringPolicy
+ec2:DeleteTransitGatewayMeteringPolicyEntry
 ec2:DeleteTransitGatewayMulticastDomain
 ec2:DeleteTransitGatewayPeeringAttachment
 ec2:DeleteTransitGatewayPolicyTable
@@ -6367,10 +6383,12 @@ ec2:DeleteVerifiedAccessTrustProvider
 ec2:DeleteVolume
 ec2:DeleteVpc
 ec2:DeleteVpcBlockPublicAccessExclusion
+ec2:DeleteVpcEncryptionControl
 ec2:DeleteVpcEndpointConnectionNotifications
 ec2:DeleteVpcEndpointServiceConfigurations
 ec2:DeleteVpcEndpoints
 ec2:DeleteVpcPeeringConnection
+ec2:DeleteVpnConcentrator
 ec2:DeleteVpnConnection
 ec2:DeleteVpnConnectionRoute
 ec2:DeleteVpnGateway
@@ -6399,6 +6417,7 @@ ec2:DescribeCapacityBlocks
 ec2:DescribeCapacityManagerDataExports
 ec2:DescribeCapacityReservationBillingRequests
 ec2:DescribeCapacityReservationFleets
+ec2:DescribeCapacityReservationTopology
 ec2:DescribeCapacityReservations
 ec2:DescribeCarrierGateways
 ec2:DescribeClassicLinkInstances
@@ -6443,6 +6462,8 @@ ec2:DescribeInstanceCreditSpecifications
 ec2:DescribeInstanceEventNotificationAttributes
 ec2:DescribeInstanceEventWindows
 ec2:DescribeInstanceImageMetadata
+ec2:DescribeInstanceSqlHaHistoryStates
+ec2:DescribeInstanceSqlHaStates
 ec2:DescribeInstanceStatus
 ec2:DescribeInstanceTopology
 ec2:DescribeInstanceTypeOfferings
@@ -6451,7 +6472,10 @@ ec2:DescribeInstances
 ec2:DescribeInternetGateways
 ec2:DescribeIpamByoasn
 ec2:DescribeIpamExternalResourceVerificationTokens
+ec2:DescribeIpamPolicies
 ec2:DescribeIpamPools
+ec2:DescribeIpamPrefixListResolverTargets
+ec2:DescribeIpamPrefixListResolvers
 ec2:DescribeIpamResourceDiscoveries
 ec2:DescribeIpamResourceDiscoveryAssociations
 ec2:DescribeIpamScopes
@@ -6523,6 +6547,7 @@ ec2:DescribeTrafficMirrorTargets
 ec2:DescribeTransitGatewayAttachments
 ec2:DescribeTransitGatewayConnectPeers
 ec2:DescribeTransitGatewayConnects
+ec2:DescribeTransitGatewayMeteringPolicies
 ec2:DescribeTransitGatewayMulticastDomains
 ec2:DescribeTransitGatewayPeeringAttachments
 ec2:DescribeTransitGatewayPolicyTables
@@ -6546,6 +6571,7 @@ ec2:DescribeVpcBlockPublicAccessExclusions
 ec2:DescribeVpcBlockPublicAccessOptions
 ec2:DescribeVpcClassicLink
 ec2:DescribeVpcClassicLinkDnsSupport
+ec2:DescribeVpcEncryptionControls
 ec2:DescribeVpcEndpointAssociations
 ec2:DescribeVpcEndpointConnectionNotifications
 ec2:DescribeVpcEndpointConnections
@@ -6555,8 +6581,10 @@ ec2:DescribeVpcEndpointServices
 ec2:DescribeVpcEndpoints
 ec2:DescribeVpcPeeringConnections
 ec2:DescribeVpcs
+ec2:DescribeVpnConcentrators
 ec2:DescribeVpnConnections
 ec2:DescribeVpnGateways
+ec2:DetachApplianceFromNatGateway
 ec2:DetachClassicLinkVpc
 ec2:DetachInternetGateway
 ec2:DetachNetworkInterface
@@ -6574,7 +6602,9 @@ ec2:DisableImage
 ec2:DisableImageBlockPublicAccess
 ec2:DisableImageDeprecation
 ec2:DisableImageDeregistrationProtection
+ec2:DisableInstanceSqlHaStandbyDetections
 ec2:DisableIpamOrganizationAdminAccount
+ec2:DisableIpamPolicy
 ec2:DisableRouteServerPropagation
 ec2:DisableSerialConsoleAccess
 ec2:DisableSnapshotBlockPublicAccess
@@ -6612,7 +6642,9 @@ ec2:EnableImage
 ec2:EnableImageBlockPublicAccess
 ec2:EnableImageDeprecation
 ec2:EnableImageDeregistrationProtection
+ec2:EnableInstanceSqlHaStandbyDetections
 ec2:EnableIpamOrganizationAdminAccount
+ec2:EnableIpamPolicy
 ec2:EnableReachabilityAnalyzerOrganizationSharing
 ec2:EnableRouteServerPropagation
 ec2:EnableSerialConsoleAccess
@@ -6643,9 +6675,11 @@ ec2:GetDeclarativePoliciesReportSummary
 ec2:GetDefaultCreditSpecification
 ec2:GetEbsDefaultKmsKeyId
 ec2:GetEbsEncryptionByDefault
+ec2:GetEnabledIpamPolicy
 ec2:GetFlowLogsIntegrationTemplate
 ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
+ec2:GetImageAncestry
 ec2:GetImageBlockPublicAccessState
 ec2:GetInstanceMetadataDefaults
 ec2:GetInstanceTpmEkPub
@@ -6655,8 +6689,13 @@ ec2:GetIpamAddressHistory
 ec2:GetIpamDiscoveredAccounts
 ec2:GetIpamDiscoveredPublicAddresses
 ec2:GetIpamDiscoveredResourceCidrs
+ec2:GetIpamPolicyAllocationRules
+ec2:GetIpamPolicyOrganizationTargets
 ec2:GetIpamPoolAllocations
 ec2:GetIpamPoolCidrs
+ec2:GetIpamPrefixListResolverRules
+ec2:GetIpamPrefixListResolverVersionEntries
+ec2:GetIpamPrefixListResolverVersions
 ec2:GetIpamResourceCidrs
 ec2:GetLaunchTemplateData
 ec2:GetManagedPrefixListAssociations
@@ -6675,6 +6714,7 @@ ec2:GetSnapshotBlockPublicAccessState
 ec2:GetSpotPlacementScores
 ec2:GetSubnetCidrReservations
 ec2:GetTransitGatewayAttachmentPropagations
+ec2:GetTransitGatewayMeteringPolicyEntries
 ec2:GetTransitGatewayMulticastDomainAssociations
 ec2:GetTransitGatewayPolicyTableAssociations
 ec2:GetTransitGatewayPolicyTableEntries
@@ -6685,6 +6725,7 @@ ec2:GetVerifiedAccessEndpointPolicy
 ec2:GetVerifiedAccessEndpointTargets
 ec2:GetVerifiedAccessGroupPolicy
 ec2:GetVerifiedAccessInstanceWebAcl
+ec2:GetVpcResourcesBlockingEncryptionEnforcement
 ec2:GetVpnConnectionDeviceSampleConfiguration
 ec2:GetVpnConnectionDeviceTypes
 ec2:GetVpnTunnelReplacementStatus
@@ -6698,6 +6739,7 @@ ec2:ImportVolume
 ec2:InjectApiError
 ec2:ListImagesInRecycleBin
 ec2:ListSnapshotsInRecycleBin
+ec2:ListVolumesInRecycleBin
 ec2:LockSnapshot
 ec2:ModifyAddressAttribute
 ec2:ModifyAvailabilityZoneGroup
@@ -6725,7 +6767,10 @@ ec2:ModifyInstanceMetadataOptions
 ec2:ModifyInstanceNetworkPerformanceOptions
 ec2:ModifyInstancePlacement
 ec2:ModifyIpam
+ec2:ModifyIpamPolicyAllocationRules
 ec2:ModifyIpamPool
+ec2:ModifyIpamPrefixListResolver
+ec2:ModifyIpamPrefixListResolverTarget
 ec2:ModifyIpamResourceCidr
 ec2:ModifyIpamResourceDiscovery
 ec2:ModifyIpamScope
@@ -6733,6 +6778,7 @@ ec2:ModifyLaunchTemplate
 ec2:ModifyLocalGatewayRoute
 ec2:ModifyManagedPrefixList
 ec2:ModifyNetworkInterfaceAttribute
+ec2:ModifyOdbNetworkPeering
 ec2:ModifyPrivateDnsNameOptions
 ec2:ModifyPublicIpDnsNameOptions
 ec2:ModifyReservedInstances
@@ -6746,6 +6792,7 @@ ec2:ModifyTrafficMirrorFilterNetworkServices
 ec2:ModifyTrafficMirrorFilterRule
 ec2:ModifyTrafficMirrorSession
 ec2:ModifyTransitGateway
+ec2:ModifyTransitGatewayMeteringPolicy
 ec2:ModifyTransitGatewayPrefixListReference
 ec2:ModifyTransitGatewayVpcAttachment
 ec2:ModifyVerifiedAccessEndpoint
@@ -6760,6 +6807,7 @@ ec2:ModifyVolumeAttribute
 ec2:ModifyVpcAttribute
 ec2:ModifyVpcBlockPublicAccessExclusion
 ec2:ModifyVpcBlockPublicAccessOptions
+ec2:ModifyVpcEncryptionControl
 ec2:ModifyVpcEndpoint
 ec2:ModifyVpcEndpointConnectionNotification
 ec2:ModifyVpcEndpointServiceConfiguration
@@ -6823,6 +6871,7 @@ ec2:RestoreImageFromRecycleBin
 ec2:RestoreManagedPrefixListVersion
 ec2:RestoreSnapshotFromRecycleBin
 ec2:RestoreSnapshotTier
+ec2:RestoreVolumeFromRecycleBin
 ec2:RevokeClientVpnIngress
 ec2:RevokeSecurityGroupEgress
 ec2:RevokeSecurityGroupIngress
@@ -6847,6 +6896,7 @@ ec2:UnassignPrivateNatGatewayAddress
 ec2:UnlockSnapshot
 ec2:UnmonitorInstances
 ec2:UpdateCapacityManagerOrganizationsAccess
+ec2:UpdateInterruptibleCapacityReservationAllocation
 ec2:UpdateSecurityGroupRuleDescriptionsEgress
 ec2:UpdateSecurityGroupRuleDescriptionsIngress
 ec2:WithdrawByoipCidr
