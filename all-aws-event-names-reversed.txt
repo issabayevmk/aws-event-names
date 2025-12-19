@@ -2880,6 +2880,7 @@ TagResource:cleanrooms
 UntagResource:cleanrooms
 UpdateAnalysisTemplate:cleanrooms
 UpdateCollaboration:cleanrooms
+UpdateCollaborationChangeRequest:cleanrooms
 UpdateConfiguredAudienceModelAssociation:cleanrooms
 UpdateConfiguredTable:cleanrooms
 UpdateConfiguredTableAllowedColumns:cleanrooms
