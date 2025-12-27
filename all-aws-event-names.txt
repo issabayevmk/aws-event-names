@@ -15176,6 +15176,7 @@ redshift-serverless:GetTableRestoreStatus
 redshift-serverless:GetTrack
 redshift-serverless:GetUsageLimit
 redshift-serverless:GetWorkgroup
+redshift-serverless:ListAutonomicsDenylist
 redshift-serverless:ListCustomDomainAssociations
 redshift-serverless:ListEndpointAccess
 redshift-serverless:ListManagedWorkgroups
@@ -15198,6 +15199,7 @@ redshift-serverless:RestoreTableFromRecoveryPoint
 redshift-serverless:RestoreTableFromSnapshot
 redshift-serverless:TagResource
 redshift-serverless:UntagResource
+redshift-serverless:UpdateAutonomicsDenylist
 redshift-serverless:UpdateCustomDomainAssociation
 redshift-serverless:UpdateEndpointAccess
 redshift-serverless:UpdateNamespace
@@ -15268,6 +15270,7 @@ redshift:DeleteUsageLimit
 redshift:DeregisterNamespace
 redshift:DescribeAccountAttributes
 redshift:DescribeAuthenticationProfiles
+redshift:DescribeAutonomicsDenylist
 redshift:DescribeClusterDbRevisions
 redshift:DescribeClusterParameterGroups
 redshift:DescribeClusterParameters
@@ -15332,6 +15335,7 @@ redshift:ListSchemas
 redshift:ListTables
 redshift:ModifyAquaConfiguration
 redshift:ModifyAuthenticationProfile
+redshift:ModifyAutonomicsDenylist
 redshift:ModifyCluster
 redshift:ModifyClusterDbRevision
 redshift:ModifyClusterIamRoles
