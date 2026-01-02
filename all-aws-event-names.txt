@@ -14649,6 +14649,8 @@ quicksight:AccountConfigurations
 quicksight:AllowVendedLogDeliveryForResource
 quicksight:BatchCreateTopicReviewedAnswer
 quicksight:BatchDeleteTopicReviewedAnswer
+quicksight:BatchGetPreferences
+quicksight:BatchUpdatePreferences
 quicksight:CancelIngestion
 quicksight:CreateAccountCustomization
 quicksight:CreateAccountSubscription
@@ -14760,6 +14762,7 @@ quicksight:DescribeQuickIndexCapacity
 quicksight:DescribeQuickSightQSearchConfiguration
 quicksight:DescribeRefreshSchedule
 quicksight:DescribeRoleCustomPermission
+quicksight:DescribeSelfUpgradeConfiguration
 quicksight:DescribeTemplate
 quicksight:DescribeTemplateAlias
 quicksight:DescribeTemplatePermissions
@@ -14811,6 +14814,7 @@ quicksight:ListKMSKeysForUser
 quicksight:ListNamespaces
 quicksight:ListRefreshSchedules
 quicksight:ListRoleMemberships
+quicksight:ListSelfUpgrades
 quicksight:ListTagsForResource
 quicksight:ListTemplateAliases
 quicksight:ListTemplateVersions
@@ -14898,6 +14902,8 @@ quicksight:UpdateRefreshSchedule
 quicksight:UpdateResourcePermissions
 quicksight:UpdateRoleCustomPermission
 quicksight:UpdateSPICECapacityConfiguration
+quicksight:UpdateSelfUpgrade
+quicksight:UpdateSelfUpgradeConfiguration
 quicksight:UpdateTemplate
 quicksight:UpdateTemplateAlias
 quicksight:UpdateTemplatePermissions
