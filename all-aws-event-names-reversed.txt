@@ -427,12 +427,15 @@ UpdateComponent:amplifyuibuilder
 UpdateForm:amplifyuibuilder
 UpdateTheme:amplifyuibuilder
 APIAccessAll:aoss
+AddCollectionToCollectionGroup:aoss
 BatchGetCollection:aoss
+BatchGetCollectionGroup:aoss
 BatchGetEffectiveLifecyclePolicy:aoss
 BatchGetLifecyclePolicy:aoss
 BatchGetVpcEndpoint:aoss
 CreateAccessPolicy:aoss
 CreateCollection:aoss
+CreateCollectionGroup:aoss
 CreateIndex:aoss
 CreateLifecyclePolicy:aoss
 CreateSecurityConfig:aoss
@@ -441,6 +444,7 @@ CreateVpcEndpoint:aoss
 DashboardsAccessAll:aoss
 DeleteAccessPolicy:aoss
 DeleteCollection:aoss
+DeleteCollectionGroup:aoss
 DeleteIndex:aoss
 DeleteLifecyclePolicy:aoss
 DeleteSecurityConfig:aoss
@@ -453,6 +457,7 @@ GetPoliciesStats:aoss
 GetSecurityConfig:aoss
 GetSecurityPolicy:aoss
 ListAccessPolicies:aoss
+ListCollectionGroups:aoss
 ListCollections:aoss
 ListLifecyclePolicies:aoss
 ListSecurityConfigs:aoss
@@ -464,6 +469,7 @@ UntagResource:aoss
 UpdateAccessPolicy:aoss
 UpdateAccountSettings:aoss
 UpdateCollection:aoss
+UpdateCollectionGroup:aoss
 UpdateIndex:aoss
 UpdateLifecyclePolicy:aoss
 UpdateSecurityConfig:aoss
@@ -964,6 +970,7 @@ StartTeamDeployment:appstudio
 AssociateApi:appsync
 AssociateMergedGraphqlApi:appsync
 AssociateSourceGraphqlApi:appsync
+AssociateWebACL:appsync
 CreateApi:appsync
 CreateApiCache:appsync
 CreateApiKey:appsync
@@ -988,6 +995,7 @@ DeleteType:appsync
 DisassociateApi:appsync
 DisassociateMergedGraphqlApi:appsync
 DisassociateSourceGraphqlApi:appsync
+DisassociateWebACL:appsync
 EvaluateCode:appsync
 EvaluateMappingTemplate:appsync
 EventConnect:appsync
@@ -1010,6 +1018,7 @@ GetResourcePolicy:appsync
 GetSchemaCreationStatus:appsync
 GetSourceApiAssociation:appsync
 GetType:appsync
+GetWebACLForResource:appsync
 GraphQL:appsync
 ListApiKeys:appsync
 ListApis:appsync
@@ -1020,6 +1029,7 @@ ListFunctions:appsync
 ListGraphqlApis:appsync
 ListResolvers:appsync
 ListResolversByFunction:appsync
+ListResourcesForWebACL:appsync
 ListSourceApiAssociations:appsync
 ListTagsForResource:appsync
 ListTypes:appsync
