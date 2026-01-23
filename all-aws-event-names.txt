@@ -5093,6 +5093,7 @@ datazone:DeleteAssetType
 datazone:DeleteCell
 datazone:DeleteCellRun
 datazone:DeleteConnection
+datazone:DeleteDataExportConfiguration
 datazone:DeleteDataProduct
 datazone:DeleteDataSource
 datazone:DeleteDomain
@@ -5214,6 +5215,7 @@ datazone:PutCellRunResult
 datazone:PutDataExportConfiguration
 datazone:PutDomainSharingPolicy
 datazone:PutEnvironmentBlueprintConfiguration
+datazone:QueryGraph
 datazone:RefreshToken
 datazone:RejectPredictions
 datazone:RejectSubscriptionRequest
@@ -11102,6 +11104,7 @@ launchwizard:DescribeProvisionedApp
 launchwizard:DescribeProvisioningEvents
 launchwizard:DescribeSettingsSet
 launchwizard:GetDeployment
+launchwizard:GetDeploymentPatternVersion
 launchwizard:GetInfrastructureSuggestion
 launchwizard:GetIpAddress
 launchwizard:GetResourceCostEstimate
@@ -11114,6 +11117,7 @@ launchwizard:GetWorkloadDeploymentPattern
 launchwizard:ListAdditionalNodes
 launchwizard:ListAllowedResources
 launchwizard:ListDeploymentEvents
+launchwizard:ListDeploymentPatternVersions
 launchwizard:ListDeployments
 launchwizard:ListProvisionedApps
 launchwizard:ListResourceCostEstimates
@@ -11126,6 +11130,7 @@ launchwizard:PutSettingsSet
 launchwizard:StartProvisioning
 launchwizard:TagResource
 launchwizard:UntagResource
+launchwizard:UpdateDeployment
 launchwizard:UpdateSettingsSet
 lex:BatchCreateCustomVocabularyItem
 lex:BatchDeleteCustomVocabularyItem
