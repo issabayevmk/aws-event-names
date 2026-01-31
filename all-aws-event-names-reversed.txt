@@ -15152,6 +15152,7 @@ DescribeOneTimeCredit:redshift-serverless
 GetCredentials:redshift-serverless
 GetCustomDomainAssociation:redshift-serverless
 GetEndpointAccess:redshift-serverless
+GetIdentityCenterAuthToken:redshift-serverless
 GetManagedWorkgroup:redshift-serverless
 GetNamespace:redshift-serverless
 GetRecoveryPoint:redshift-serverless
@@ -15312,6 +15313,7 @@ FailoverPrimaryCompute:redshift
 FetchResults:redshift
 GetClusterCredentials:redshift
 GetClusterCredentialsWithIAM:redshift
+GetIdentityCenterAuthToken:redshift
 GetReservedNodeExchangeConfigurationOptions:redshift
 GetReservedNodeExchangeOfferings:redshift
 GetResourcePolicy:redshift
