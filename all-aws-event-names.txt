@@ -8571,6 +8571,7 @@ glue:DeleteColumnStatisticsForPartition
 glue:DeleteColumnStatisticsForTable
 glue:DeleteColumnStatisticsTaskSettings
 glue:DeleteConnection
+glue:DeleteConnectionType
 glue:DeleteCrawler
 glue:DeleteCustomEntityType
 glue:DeleteDataQualityRuleset
@@ -8737,6 +8738,7 @@ glue:PutSchemaVersionMetadata
 glue:PutWorkflowRunProperties
 glue:QuerySchemaVersionMetadata
 glue:RefreshOAuth2Tokens
+glue:RegisterConnectionType
 glue:RegisterSchemaVersion
 glue:RemoveSchemaVersionMetadata
 glue:RenameTable
