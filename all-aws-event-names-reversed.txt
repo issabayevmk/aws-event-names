@@ -1813,6 +1813,7 @@ CreateAgentRuntime:bedrock-agentcore
 CreateAgentRuntimeEndpoint:bedrock-agentcore
 CreateApiKeyCredentialProvider:bedrock-agentcore
 CreateBrowser:bedrock-agentcore
+CreateBrowserProfile:bedrock-agentcore
 CreateCodeInterpreter:bedrock-agentcore
 CreateEvaluator:bedrock-agentcore
 CreateEvent:bedrock-agentcore
@@ -1828,6 +1829,7 @@ DeleteAgentRuntime:bedrock-agentcore
 DeleteAgentRuntimeEndpoint:bedrock-agentcore
 DeleteApiKeyCredentialProvider:bedrock-agentcore
 DeleteBrowser:bedrock-agentcore
+DeleteBrowserProfile:bedrock-agentcore
 DeleteCodeInterpreter:bedrock-agentcore
 DeleteEvaluator:bedrock-agentcore
 DeleteEvent:bedrock-agentcore
@@ -1847,6 +1849,7 @@ GetAgentRuntime:bedrock-agentcore
 GetAgentRuntimeEndpoint:bedrock-agentcore
 GetApiKeyCredentialProvider:bedrock-agentcore
 GetBrowser:bedrock-agentcore
+GetBrowserProfile:bedrock-agentcore
 GetBrowserSession:bedrock-agentcore
 GetCodeInterpreter:bedrock-agentcore
 GetCodeInterpreterSession:bedrock-agentcore
@@ -1880,6 +1883,7 @@ ListAgentRuntimeEndpoints:bedrock-agentcore
 ListAgentRuntimeVersions:bedrock-agentcore
 ListAgentRuntimes:bedrock-agentcore
 ListApiKeyCredentialProviders:bedrock-agentcore
+ListBrowserProfiles:bedrock-agentcore
 ListBrowserSessions:bedrock-agentcore
 ListBrowsers:bedrock-agentcore
 ListCodeInterpreterSessions:bedrock-agentcore
@@ -1905,6 +1909,7 @@ ManageResourceScopedPolicy:bedrock-agentcore
 PartiallyAuthorizeActions:bedrock-agentcore
 PutResourcePolicy:bedrock-agentcore
 RetrieveMemoryRecords:bedrock-agentcore
+SaveBrowserSessionProfile:bedrock-agentcore
 SetTokenVaultCMK:bedrock-agentcore
 StartBrowserSession:bedrock-agentcore
 StartCodeInterpreterSession:bedrock-agentcore
