@@ -1957,6 +1957,7 @@ AssociateThirdPartyKnowledgeBase:bedrock
 BatchDeleteEvaluationJob:bedrock
 CallWithBearerToken:bedrock
 CancelAutomatedReasoningPolicyBuildWorkflow:bedrock
+CopyBlueprintStage:bedrock
 CountTokens:bedrock
 CreateAgent:bedrock
 CreateAgentActionGroup:bedrock
@@ -2045,6 +2046,7 @@ GetAutomatedReasoningPolicyNextScenario:bedrock
 GetAutomatedReasoningPolicyTestCase:bedrock
 GetAutomatedReasoningPolicyTestResult:bedrock
 GetBlueprint:bedrock
+GetBlueprintOptimizationStatus:bedrock
 GetBlueprintRecommendation:bedrock
 GetCustomModel:bedrock
 GetCustomModelDeployment:bedrock
@@ -2082,6 +2084,7 @@ GetUseCaseForModelAccess:bedrock
 IngestKnowledgeBaseDocuments:bedrock
 InvokeAgent:bedrock
 InvokeAutomatedReasoningPolicy:bedrock
+InvokeBlueprintOptimizationAsync:bedrock
 InvokeBlueprintRecommendationAsync:bedrock
 InvokeBuilder:bedrock
 InvokeDataAutomation:bedrock
@@ -4446,6 +4449,7 @@ AssociateInstanceStorageConfig:connect
 AssociateLambdaFunction:connect
 AssociateLexBot:connect
 AssociatePhoneNumberContactFlow:connect
+AssociateQueueEmailAddresses:connect
 AssociateQueueQuickConnects:connect
 AssociateRoutingProfileQueues:connect
 AssociateSecurityKey:connect
@@ -4480,6 +4484,7 @@ CreateHoursOfOperation:connect
 CreateHoursOfOperationOverride:connect
 CreateInstance:connect
 CreateIntegrationAssociation:connect
+CreateNotification:connect
 CreateParticipant:connect
 CreatePersistentContactAssociation:connect
 CreatePredefinedAttribute:connect
@@ -4516,6 +4521,7 @@ DeleteHoursOfOperation:connect
 DeleteHoursOfOperationOverride:connect
 DeleteInstance:connect
 DeleteIntegrationAssociation:connect
+DeleteNotification:connect
 DeletePredefinedAttribute:connect
 DeletePrompt:connect
 DeletePushNotificationRegistration:connect
@@ -4552,6 +4558,7 @@ DescribeHoursOfOperationOverride:connect
 DescribeInstance:connect
 DescribeInstanceAttribute:connect
 DescribeInstanceStorageConfig:connect
+DescribeNotification:connect
 DescribePhoneNumber:connect
 DescribePredefinedAttribute:connect
 DescribePrompt:connect
@@ -4577,6 +4584,7 @@ DisassociateInstanceStorageConfig:connect
 DisassociateLambdaFunction:connect
 DisassociateLexBot:connect
 DisassociatePhoneNumberContactFlow:connect
+DisassociateQueueEmailAddresses:connect
 DisassociateQueueQuickConnects:connect
 DisassociateRoutingProfileQueues:connect
 DisassociateSecurityKey:connect
@@ -4632,10 +4640,12 @@ ListInstances:connect
 ListIntegrationAssociations:connect
 ListLambdaFunctions:connect
 ListLexBots:connect
+ListNotifications:connect
 ListPhoneNumbers:connect
 ListPhoneNumbersV2:connect
 ListPredefinedAttributes:connect
 ListPrompts:connect
+ListQueueEmailAddresses:connect
 ListQueueQuickConnects:connect
 ListQueues:connect
 ListQuickConnects:connect
@@ -4656,6 +4666,7 @@ ListTrafficDistributionGroupUsers:connect
 ListTrafficDistributionGroups:connect
 ListUseCases:connect
 ListUserHierarchyGroups:connect
+ListUserNotifications:connect
 ListUserProficiencies:connect
 ListUsers:connect
 ListViewVersions:connect
@@ -4681,6 +4692,7 @@ SearchEmailAddresses:connect
 SearchEvaluationForms:connect
 SearchHoursOfOperationOverrides:connect
 SearchHoursOfOperations:connect
+SearchNotifications:connect
 SearchPredefinedAttributes:connect
 SearchPrompts:connect
 SearchQueues:connect
@@ -4746,6 +4758,7 @@ UpdateHoursOfOperation:connect
 UpdateHoursOfOperationOverride:connect
 UpdateInstanceAttribute:connect
 UpdateInstanceStorageConfig:connect
+UpdateNotificationContent:connect
 UpdateParticipantAuthentication:connect
 UpdateParticipantRoleConfig:connect
 UpdatePhoneNumber:connect
@@ -4773,6 +4786,7 @@ UpdateUserHierarchy:connect
 UpdateUserHierarchyGroupName:connect
 UpdateUserHierarchyStructure:connect
 UpdateUserIdentityInfo:connect
+UpdateUserNotificationStatus:connect
 UpdateUserPhoneConfig:connect
 UpdateUserProficiencies:connect
 UpdateUserRoutingProfile:connect
