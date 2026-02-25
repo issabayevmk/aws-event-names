@@ -3428,6 +3428,7 @@ UpdateTrail:cloudtrail
 BatchGetServiceLevelIndicatorReport:cloudwatch
 BatchGetServiceLevelObjectiveBudgetReport:cloudwatch
 CreateServiceLevelObjective:cloudwatch
+DeleteAlarmMuteRule:cloudwatch
 DeleteAlarms:cloudwatch
 DeleteAnomalyDetector:cloudwatch
 DeleteDashboards:cloudwatch
@@ -3446,6 +3447,7 @@ EnableInsightRules:cloudwatch
 EnableTopologyDiscovery:cloudwatch
 GenerateQuery:cloudwatch
 GenerateQueryResultsSummary:cloudwatch
+GetAlarmMuteRule:cloudwatch
 GetDashboard:cloudwatch
 GetInsightRuleReport:cloudwatch
 GetMetricData:cloudwatch
@@ -3458,6 +3460,7 @@ GetServiceLevelObjective:cloudwatch
 GetTopologyDiscoveryStatus:cloudwatch
 GetTopologyMap:cloudwatch
 Link:cloudwatch
+ListAlarmMuteRules:cloudwatch
 ListDashboards:cloudwatch
 ListEntitiesForMetric:cloudwatch
 ListManagedInsightRules:cloudwatch
@@ -3466,6 +3469,7 @@ ListMetrics:cloudwatch
 ListServiceLevelObjectives:cloudwatch
 ListServices:cloudwatch
 ListTagsForResource:cloudwatch
+PutAlarmMuteRule:cloudwatch
 PutAnomalyDetector:cloudwatch
 PutCompositeAlarm:cloudwatch
 PutDashboard:cloudwatch
