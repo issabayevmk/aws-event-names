@@ -11226,6 +11226,7 @@ DeleteBot:lex
 DeleteBot:lex
 DeleteBotAlias:lex
 DeleteBotAlias:lex
+DeleteBotAnalyzerRecommendation:lex
 DeleteBotChannel:lex
 DeleteBotChannelAssociation:lex
 DeleteBotLocale:lex
@@ -11251,6 +11252,7 @@ DeleteUtterances:lex
 DeleteUtterances:lex
 DescribeBot:lex
 DescribeBotAlias:lex
+DescribeBotAnalyzerRecommendation:lex
 DescribeBotChannel:lex
 DescribeBotLocale:lex
 DescribeBotRecommendation:lex
@@ -11297,6 +11299,7 @@ GetUtterancesView:lex
 ListAggregatedUtterances:lex
 ListBotAliasReplicas:lex
 ListBotAliases:lex
+ListBotAnalyzerRecommendations:lex
 ListBotChannels:lex
 ListBotLocales:lex
 ListBotRecommendations:lex
@@ -11336,6 +11339,7 @@ PutSlotType:lex
 RecognizeText:lex
 RecognizeUtterance:lex
 SearchAssociatedTranscripts:lex
+StartBotAnalyzer:lex
 StartBotRecommendation:lex
 StartBotResourceGeneration:lex
 StartConversation:lex
@@ -11344,6 +11348,7 @@ StartImport:lex
 StartMigration:lex
 StartTestExecution:lex
 StartTestSetGeneration:lex
+StopBotAnalyzer:lex
 StopBotRecommendation:lex
 TagResource:lex
 TagResource:lex
@@ -19756,6 +19761,7 @@ GetRateBasedStatementManagedKeys:wafv2
 GetRegexPatternSet:wafv2
 GetRuleGroup:wafv2
 GetSampledRequests:wafv2
+GetTopPathStatisticsByTraffic:wafv2
 GetWebACL:wafv2
 GetWebACLForResource:wafv2
 ListAPIKeys:wafv2
