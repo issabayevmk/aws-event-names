@@ -17185,6 +17185,7 @@ BatchGetPentestJobTasks:securityagent
 BatchGetPentestJobs:securityagent
 BatchGetPentests:securityagent
 BatchGetSecurityTestContentMetadata:securityagent
+BatchGetTargetDomains:securityagent
 BatchGetTasks:securityagent
 CreateAgentInstance:securityagent
 CreateAgentSpace:securityagent
@@ -17196,6 +17197,7 @@ CreateMembership:securityagent
 CreateOneTimeLoginSession:securityagent
 CreatePentest:securityagent
 CreateSecurityRequirement:securityagent
+CreateTargetDomain:securityagent
 DeleteAgentInstance:securityagent
 DeleteAgentSpace:securityagent
 DeleteApplication:securityagent
@@ -17206,6 +17208,7 @@ DeleteDocumentReview:securityagent
 DeleteIntegration:securityagent
 DeleteMembership:securityagent
 DeleteSecurityRequirement:securityagent
+DeleteTargetDomain:securityagent
 DescribeFindings:securityagent
 GetApplication:securityagent
 GetArtifact:securityagent
@@ -17213,6 +17216,7 @@ GetCodeReviewTask:securityagent
 GetControl:securityagent
 GetDesignReview:securityagent
 GetDesignReviewArtifact:securityagent
+GetDesignReviewFeedback:securityagent
 GetDocReviewTask:securityagent
 GetDocumentReview:securityagent
 GetDocumentReviewArtifact:securityagent
@@ -17241,7 +17245,9 @@ ListPentestJobsForPentest:securityagent
 ListPentests:securityagent
 ListResourcesFromIntegration:securityagent
 ListSecurityRequirements:securityagent
+ListTargetDomains:securityagent
 ListTasks:securityagent
+PutDesignReviewFeedback:securityagent
 StartCodeRemediation:securityagent
 StartPentestExecution:securityagent
 StartPentestJob:securityagent
@@ -17257,6 +17263,7 @@ UpdateFinding:securityagent
 UpdateIntegratedResources:securityagent
 UpdatePentest:securityagent
 UpdateSecurityRequirement:securityagent
+UpdateTargetDomain:securityagent
 VerifyTargetDomain:securityagent
 AcceptAdministratorInvitation:securityhub
 AcceptInvitation:securityhub
