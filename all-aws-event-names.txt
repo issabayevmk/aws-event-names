@@ -4043,6 +4043,7 @@ cognito-identity:UnlinkIdentity
 cognito-identity:UntagResource
 cognito-identity:UpdateIdentityPool
 cognito-idp:AddCustomAttributes
+cognito-idp:AddUserPoolClientSecret
 cognito-idp:AdminAddUserToGroup
 cognito-idp:AdminConfirmSignUp
 cognito-idp:AdminCreateUser
@@ -4093,6 +4094,7 @@ cognito-idp:DeleteUser
 cognito-idp:DeleteUserAttributes
 cognito-idp:DeleteUserPool
 cognito-idp:DeleteUserPoolClient
+cognito-idp:DeleteUserPoolClientSecret
 cognito-idp:DeleteUserPoolDomain
 cognito-idp:DescribeIdentityProvider
 cognito-idp:DescribeManagedLoginBranding
@@ -4129,6 +4131,7 @@ cognito-idp:ListResourcesForWebACL
 cognito-idp:ListTagsForResource
 cognito-idp:ListTerms
 cognito-idp:ListUserImportJobs
+cognito-idp:ListUserPoolClientSecrets
 cognito-idp:ListUserPoolClients
 cognito-idp:ListUserPools
 cognito-idp:ListUsers
@@ -15063,6 +15066,7 @@ ram:ListReplacePermissionAssociationsWork
 ram:ListResourceSharePermissions
 ram:ListResourceTypes
 ram:ListResources
+ram:ListSourceAssociations
 ram:PromotePermissionCreatedFromPolicy
 ram:PromoteResourceShareCreatedFromPolicy
 ram:RejectResourceShareInvitation
