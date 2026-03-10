@@ -7769,6 +7769,8 @@ es:RejectInboundConnection
 es:RejectInboundCrossClusterSearchConnection
 es:RemoveTags
 es:RevokeVpcEndpointAccess
+es:RollbackElasticsearchServiceSoftwareUpdate
+es:RollbackServiceSoftwareUpdate
 es:StartDomainMaintenance
 es:StartElasticsearchServiceSoftwareUpdate
 es:StartServiceSoftwareUpdate
