@@ -1878,6 +1878,7 @@ GetWorkloadAccessTokenForJWT:bedrock-agentcore
 GetWorkloadAccessTokenForUserId:bedrock-agentcore
 GetWorkloadIdentity:bedrock-agentcore
 InvokeAgentRuntime:bedrock-agentcore
+InvokeAgentRuntimeCommand:bedrock-agentcore
 InvokeAgentRuntimeForUser:bedrock-agentcore
 InvokeAgentRuntimeWithWebSocketStream:bedrock-agentcore
 InvokeAgentRuntimeWithWebSocketStreamForUser:bedrock-agentcore
@@ -7743,6 +7744,7 @@ GetApplication:es
 GetCompatibleElasticsearchVersions:es
 GetCompatibleVersions:es
 GetDataSource:es
+GetDefaultApplicationSetting:es
 GetDirectQueryDataSource:es
 GetDomainMaintenanceStatus:es
 GetIndex:es
@@ -7768,6 +7770,7 @@ ListVpcEndpoints:es
 ListVpcEndpointsForDomain:es
 PurchaseReservedElasticsearchInstanceOffering:es
 PurchaseReservedInstanceOffering:es
+PutDefaultApplicationSetting:es
 RejectInboundConnection:es
 RejectInboundCrossClusterSearchConnection:es
 RemoveTags:es
@@ -19507,7 +19510,10 @@ SetOverageConfig:user-subscriptions
 UpdateClaim:user-subscriptions
 DeleteAccountColor:uxc
 GetAccountColor:uxc
+GetAccountCustomizations:uxc
+ListServices:uxc
 PutAccountColor:uxc
+UpdateAccountCustomizations:uxc
 ActivateSecurityProfile:vendor-insights
 AssociateDataSource:vendor-insights
 CreateDataSource:vendor-insights
