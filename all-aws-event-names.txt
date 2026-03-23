@@ -8349,6 +8349,7 @@ gamelift:GetComputeAccess
 gamelift:GetComputeAuthToken
 gamelift:GetGameSessionLogUrl
 gamelift:GetInstanceAccess
+gamelift:GetPlayerConnectionDetails
 gamelift:ListAliases
 gamelift:ListBuilds
 gamelift:ListCompute
