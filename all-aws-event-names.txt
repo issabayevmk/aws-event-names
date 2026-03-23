@@ -14312,6 +14312,7 @@ polly:GetSpeechSynthesisTask
 polly:ListLexicons
 polly:ListSpeechSynthesisTasks
 polly:PutLexicon
+polly:StartSpeechSynthesisStream
 polly:StartSpeechSynthesisTask
 polly:SynthesizeSpeech
 pricing:DescribeServices
