@@ -11738,6 +11738,7 @@ CreateLogAnomalyDetector:logs
 CreateLogDelivery:logs
 CreateLogGroup:logs
 CreateLogStream:logs
+CreateLookupTable:logs
 CreateScheduledQuery:logs
 DeleteAccountPolicy:logs
 DeleteDataProtectionPolicy:logs
@@ -11752,6 +11753,7 @@ DeleteLogAnomalyDetector:logs
 DeleteLogDelivery:logs
 DeleteLogGroup:logs
 DeleteLogStream:logs
+DeleteLookupTable:logs
 DeleteMetricFilter:logs
 DeletePipelineRule:logs
 DeleteQueryDefinition:logs
@@ -11773,6 +11775,7 @@ DescribeImportTasks:logs
 DescribeIndexPolicies:logs
 DescribeLogGroups:logs
 DescribeLogStreams:logs
+DescribeLookupTables:logs
 DescribeMetricFilters:logs
 DescribeQueries:logs
 DescribeQueryDefinitions:logs
@@ -11793,6 +11796,7 @@ GetLogEvents:logs
 GetLogFields:logs
 GetLogGroupFields:logs
 GetLogRecord:logs
+GetLookupTable:logs
 GetQueryResults:logs
 GetScheduledQuery:logs
 GetScheduledQueryHistory:logs
@@ -11847,6 +11851,7 @@ UpdateAnomaly:logs
 UpdateDeliveryConfiguration:logs
 UpdateLogAnomalyDetector:logs
 UpdateLogDelivery:logs
+UpdateLookupTable:logs
 UpdateScheduledQuery:logs
 CreateDataset:lookoutequipment
 CreateInferenceScheduler:lookoutequipment
@@ -14903,6 +14908,7 @@ DescribeAnalysis:quicksight
 DescribeAnalysisPermissions:quicksight
 DescribeAssetBundleExportJob:quicksight
 DescribeAssetBundleImportJob:quicksight
+DescribeAutomationJob:quicksight
 DescribeBrand:quicksight
 DescribeBrandAssignment:quicksight
 DescribeBrandPublishedVersion:quicksight
@@ -15027,6 +15033,7 @@ SearchUsers:quicksight
 SetGroupMapping:quicksight
 StartAssetBundleExportJob:quicksight
 StartAssetBundleImportJob:quicksight
+StartAutomationJob:quicksight
 StartDashboardSnapshotJob:quicksight
 StartDashboardSnapshotJobSchedule:quicksight
 Subscribe:quicksight
@@ -16800,12 +16807,14 @@ DeleteNotebookInstanceLifecycleConfig:sagemaker
 DeleteOptimizationJob:sagemaker
 DeletePartnerApp:sagemaker
 DeletePipeline:sagemaker
+DeleteProcessingJob:sagemaker
 DeleteProject:sagemaker
 DeleteRecord:sagemaker
 DeleteResourcePolicy:sagemaker
 DeleteSpace:sagemaker
 DeleteStudioLifecycleConfig:sagemaker
 DeleteTags:sagemaker
+DeleteTrainingJob:sagemaker
 DeleteTrial:sagemaker
 DeleteTrialComponent:sagemaker
 DeleteUserProfile:sagemaker
@@ -17007,6 +17016,7 @@ SendHeartbeat:sagemaker
 SendPipelineExecutionStepFailure:sagemaker
 SendPipelineExecutionStepSuccess:sagemaker
 SendSharedModelEvent:sagemaker
+StartClusterHealthCheck:sagemaker
 StartEdgeDeploymentStage:sagemaker
 StartHumanLoop:sagemaker
 StartInferenceExperiment:sagemaker
@@ -19019,6 +19029,8 @@ GetSupportPlanUpdateStatus:supportplans
 ListSupportPlanModifiers:supportplans
 StartSupportPlanUpdate:supportplans
 GetCarbonFootprintSummary:sustainability
+GetEstimatedCarbonEmissions:sustainability
+GetEstimatedCarbonEmissionsDimensionValues:sustainability
 CancelTimer:swf
 CancelWorkflowExecution:swf
 CompleteWorkflowExecution:swf
