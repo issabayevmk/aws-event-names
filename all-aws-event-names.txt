@@ -19518,6 +19518,7 @@ transform:GetAccountSettings
 transform:GetAgent
 transform:GetAgentRuntimeConfiguration
 transform:GetConnector
+transform:GetWebAppUrl
 transform:ListAgents
 transform:ListConnectors
 transform:ListProfiles
