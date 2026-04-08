@@ -5482,6 +5482,7 @@ GetJobTemplate:deadline
 GetLicenseEndpoint:deadline
 GetLimit:deadline
 GetMonitor:deadline
+GetMonitorSettings:deadline
 GetQueue:deadline
 GetQueueEnvironment:deadline
 GetQueueFleetAssociation:deadline
@@ -5537,6 +5538,7 @@ UpdateFleet:deadline
 UpdateJob:deadline
 UpdateLimit:deadline
 UpdateMonitor:deadline
+UpdateMonitorSettings:deadline
 UpdateQueue:deadline
 UpdateQueueEnvironment:deadline
 UpdateQueueFleetAssociation:deadline
