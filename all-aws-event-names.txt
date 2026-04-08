@@ -8885,6 +8885,7 @@ glue:ListTableOptimizerRuns
 glue:ListTriggers
 glue:ListUsageProfiles
 glue:ListWorkflows
+glue:ManagedConnector
 glue:ModifyIntegration
 glue:NotifyEvent
 glue:PassConnection
