@@ -1807,14 +1807,20 @@ UpdateSchedulingPolicy:batch
 UpdateServiceEnvironment:batch
 UpdateServiceJob:batch
 CreateDashboard:bcm-dashboards
+CreateScheduledReport:bcm-dashboards
 DeleteDashboard:bcm-dashboards
+DeleteScheduledReport:bcm-dashboards
+ExecuteScheduledReport:bcm-dashboards
 GetDashboard:bcm-dashboards
 GetResourcePolicy:bcm-dashboards
+GetScheduledReport:bcm-dashboards
 ListDashboards:bcm-dashboards
+ListScheduledReports:bcm-dashboards
 ListTagsForResource:bcm-dashboards
 TagResource:bcm-dashboards
 UntagResource:bcm-dashboards
 UpdateDashboard:bcm-dashboards
+UpdateScheduledReport:bcm-dashboards
 CreateExport:bcm-data-exports
 DeleteExport:bcm-data-exports
 GetExecution:bcm-data-exports
@@ -7816,6 +7822,7 @@ DeleteOutboundConnection:es
 DeleteOutboundCrossClusterSearchConnection:es
 DeletePackage:es
 DeleteVpcEndpoint:es
+DeregisterCapability:es
 DescribeDomain:es
 DescribeDomainAutoTunes:es
 DescribeDomainChangeProgress:es
@@ -7850,6 +7857,7 @@ ESHttpPatch:es
 ESHttpPost:es
 ESHttpPut:es
 GetApplication:es
+GetCapability:es
 GetCompatibleElasticsearchVersions:es
 GetCompatibleVersions:es
 GetDataSource:es
@@ -7881,6 +7889,7 @@ ListVpcEndpointsForDomain:es
 PurchaseReservedElasticsearchInstanceOffering:es
 PurchaseReservedInstanceOffering:es
 PutDefaultApplicationSetting:es
+RegisterCapability:es
 RejectInboundConnection:es
 RejectInboundCrossClusterSearchConnection:es
 RemoveTags:es
