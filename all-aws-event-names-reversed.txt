@@ -9166,6 +9166,7 @@ DeleteDataflowEndpointGroup:groundstation
 DeleteEphemeris:groundstation
 DeleteMissionProfile:groundstation
 DescribeContact:groundstation
+DescribeContactVersion:groundstation
 DescribeEphemeris:groundstation
 GetAgentConfiguration:groundstation
 GetAgentTaskResponseUrl:groundstation
@@ -9174,10 +9175,13 @@ GetDataflowEndpointGroup:groundstation
 GetMinuteUsage:groundstation
 GetMissionProfile:groundstation
 GetSatellite:groundstation
+ListAntennas:groundstation
 ListConfigs:groundstation
+ListContactVersions:groundstation
 ListContacts:groundstation
 ListDataflowEndpointGroups:groundstation
 ListEphemerides:groundstation
+ListGroundStationReservations:groundstation
 ListGroundStations:groundstation
 ListMissionProfiles:groundstation
 ListSatellites:groundstation
@@ -9188,6 +9192,7 @@ TagResource:groundstation
 UntagResource:groundstation
 UpdateAgentStatus:groundstation
 UpdateConfig:groundstation
+UpdateContact:groundstation
 UpdateEphemeris:groundstation
 UpdateMissionProfile:groundstation
 AssociatePatchToManifestJob:groundtruthlabeling
