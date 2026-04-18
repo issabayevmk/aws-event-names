@@ -4527,6 +4527,7 @@ connect-campaigns:DeleteCampaign
 connect-campaigns:DeleteCampaignChannelSubtypeConfig
 connect-campaigns:DeleteCampaignCommunicationLimits
 connect-campaigns:DeleteCampaignCommunicationTime
+connect-campaigns:DeleteCampaignEntryLimits
 connect-campaigns:DeleteConnectInstanceConfig
 connect-campaigns:DeleteConnectInstanceIntegration
 connect-campaigns:DeleteInstanceOnboardingJob
@@ -4555,6 +4556,7 @@ connect-campaigns:UpdateCampaignChannelSubtypeConfig
 connect-campaigns:UpdateCampaignCommunicationLimits
 connect-campaigns:UpdateCampaignCommunicationTime
 connect-campaigns:UpdateCampaignDialerConfig
+connect-campaigns:UpdateCampaignEntryLimits
 connect-campaigns:UpdateCampaignFlowAssociation
 connect-campaigns:UpdateCampaignName
 connect-campaigns:UpdateCampaignOutboundCallConfig
