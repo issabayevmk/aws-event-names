@@ -1892,6 +1892,7 @@ CreateEvaluator:bedrock-agentcore
 CreateEvent:bedrock-agentcore
 CreateGateway:bedrock-agentcore
 CreateGatewayTarget:bedrock-agentcore
+CreateHarness:bedrock-agentcore
 CreateMemory:bedrock-agentcore
 CreateOauth2CredentialProvider:bedrock-agentcore
 CreateOnlineEvaluationConfig:bedrock-agentcore
@@ -1910,6 +1911,7 @@ DeleteEvaluator:bedrock-agentcore
 DeleteEvent:bedrock-agentcore
 DeleteGateway:bedrock-agentcore
 DeleteGatewayTarget:bedrock-agentcore
+DeleteHarness:bedrock-agentcore
 DeleteMemory:bedrock-agentcore
 DeleteMemoryRecord:bedrock-agentcore
 DeleteOauth2CredentialProvider:bedrock-agentcore
@@ -1934,6 +1936,7 @@ GetEvaluator:bedrock-agentcore
 GetEvent:bedrock-agentcore
 GetGateway:bedrock-agentcore
 GetGatewayTarget:bedrock-agentcore
+GetHarness:bedrock-agentcore
 GetMemory:bedrock-agentcore
 GetMemoryRecord:bedrock-agentcore
 GetOauth2CredentialProvider:bedrock-agentcore
@@ -1958,6 +1961,7 @@ InvokeAgentRuntimeWithWebSocketStream:bedrock-agentcore
 InvokeAgentRuntimeWithWebSocketStreamForUser:bedrock-agentcore
 InvokeCodeInterpreter:bedrock-agentcore
 InvokeGateway:bedrock-agentcore
+InvokeHarness:bedrock-agentcore
 InvokeRegistryMcp:bedrock-agentcore
 ListActors:bedrock-agentcore
 ListAgentRuntimeEndpoints:bedrock-agentcore
@@ -1973,6 +1977,7 @@ ListEvaluators:bedrock-agentcore
 ListEvents:bedrock-agentcore
 ListGatewayTargets:bedrock-agentcore
 ListGateways:bedrock-agentcore
+ListHarnesses:bedrock-agentcore
 ListMemories:bedrock-agentcore
 ListMemoryExtractionJobs:bedrock-agentcore
 ListMemoryRecords:bedrock-agentcore
@@ -2013,6 +2018,7 @@ UpdateBrowserStream:bedrock-agentcore
 UpdateEvaluator:bedrock-agentcore
 UpdateGateway:bedrock-agentcore
 UpdateGatewayTarget:bedrock-agentcore
+UpdateHarness:bedrock-agentcore
 UpdateMemory:bedrock-agentcore
 UpdateOauth2CredentialProvider:bedrock-agentcore
 UpdateOnlineEvaluationConfig:bedrock-agentcore
@@ -8587,6 +8593,7 @@ BatchPutGeofence:geo
 BatchUpdateDevicePosition:geo
 CalculateRoute:geo
 CalculateRouteMatrix:geo
+CancelJob:geo
 CreateGeofenceCollection:geo
 CreateKey:geo
 CreateMap:geo
@@ -8610,6 +8617,7 @@ ForecastGeofenceEvents:geo
 GetDevicePosition:geo
 GetDevicePositionHistory:geo
 GetGeofence:geo
+GetJob:geo
 GetMapGlyphs:geo
 GetMapSprites:geo
 GetMapStyleDescriptor:geo
@@ -8618,6 +8626,7 @@ GetPlace:geo
 ListDevicePositions:geo
 ListGeofenceCollections:geo
 ListGeofences:geo
+ListJobs:geo
 ListKeys:geo
 ListMaps:geo
 ListPlaceIndexes:geo
@@ -8629,6 +8638,7 @@ PutGeofence:geo
 SearchPlaceIndexForPosition:geo
 SearchPlaceIndexForSuggestions:geo
 SearchPlaceIndexForText:geo
+StartJob:geo
 TagResource:geo
 UntagResource:geo
 UpdateGeofenceCollection:geo
