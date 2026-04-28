@@ -11241,6 +11241,7 @@ kms:GenerateDataKeyPairWithoutPlaintext
 kms:GenerateDataKeyWithoutPlaintext
 kms:GenerateMac
 kms:GenerateRandom
+kms:GetKeyLastUsage
 kms:GetKeyPolicy
 kms:GetKeyRotationStatus
 kms:GetParametersForImport
@@ -19677,9 +19678,6 @@ translate:TranslateText
 translate:UntagResource
 translate:UpdateParallelData
 trustedadvisor:BatchUpdateRecommendationResourceExclusion
-trustedadvisor:CreateEngagement
-trustedadvisor:CreateEngagementAttachment
-trustedadvisor:CreateEngagementCommunication
 trustedadvisor:DeleteNotificationConfigurationForDelegatedAdmin
 trustedadvisor:DescribeAccount
 trustedadvisor:DescribeAccountAccess
@@ -19700,17 +19698,11 @@ trustedadvisor:DescribeServiceMetadata
 trustedadvisor:DownloadRisk
 trustedadvisor:ExcludeCheckItems
 trustedadvisor:GenerateReport
-trustedadvisor:GetEngagement
-trustedadvisor:GetEngagementAttachment
-trustedadvisor:GetEngagementType
 trustedadvisor:GetOrganizationRecommendation
 trustedadvisor:GetRecommendation
 trustedadvisor:IncludeCheckItems
 trustedadvisor:ListAccountsForParent
 trustedadvisor:ListChecks
-trustedadvisor:ListEngagementCommunications
-trustedadvisor:ListEngagementTypes
-trustedadvisor:ListEngagements
 trustedadvisor:ListOrganizationRecommendationAccounts
 trustedadvisor:ListOrganizationRecommendationResources
 trustedadvisor:ListOrganizationRecommendations
@@ -19721,8 +19713,6 @@ trustedadvisor:ListRoots
 trustedadvisor:RefreshCheck
 trustedadvisor:SetAccountAccess
 trustedadvisor:SetOrganizationAccess
-trustedadvisor:UpdateEngagement
-trustedadvisor:UpdateEngagementStatus
 trustedadvisor:UpdateNotificationConfigurations
 trustedadvisor:UpdateNotificationPreferences
 trustedadvisor:UpdateOrganizationRecommendationLifecycle
