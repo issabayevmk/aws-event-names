@@ -8473,6 +8473,7 @@ gamelift:DescribeBuild
 gamelift:DescribeCompute
 gamelift:DescribeContainerFleet
 gamelift:DescribeContainerGroupDefinition
+gamelift:DescribeContainerGroupPortMappings
 gamelift:DescribeEC2InstanceLimits
 gamelift:DescribeFleetAttributes
 gamelift:DescribeFleetCapacity
