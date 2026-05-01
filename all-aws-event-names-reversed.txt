@@ -3599,6 +3599,7 @@ UpdateServiceLinkedChannel:cloudtrail
 UpdateTrail:cloudtrail
 BatchGetServiceLevelIndicatorReport:cloudwatch
 BatchGetServiceLevelObjectiveBudgetReport:cloudwatch
+CallWithBearerToken:cloudwatch
 CreateServiceLevelObjective:cloudwatch
 DeleteAlarmMuteRule:cloudwatch
 DeleteAlarms:cloudwatch
