@@ -1570,9 +1570,6 @@ UntagResource:aws-marketplace
 UpdateAgreementApprovalRequest:aws-marketplace
 UpdatePurchaseOrders:aws-marketplace
 ViewSubscriptions:aws-marketplace
-CallReadOnlyTool:aws-mcp
-CallReadWriteTool:aws-mcp
-InvokeMcp:aws-mcp
 GetConsoleActionSetEnforced:aws-portal
 ModifyAccount:aws-portal
 ModifyBilling:aws-portal
