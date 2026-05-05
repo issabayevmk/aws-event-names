@@ -106,8 +106,10 @@ access-analyzer:CheckNoPublicAccess
 access-analyzer:CreateAccessPreview
 access-analyzer:CreateAnalyzer
 access-analyzer:CreateArchiveRule
+access-analyzer:CreateServiceLinkedAnalyzer
 access-analyzer:DeleteAnalyzer
 access-analyzer:DeleteArchiveRule
+access-analyzer:DeleteServiceLinkedAnalyzer
 access-analyzer:GenerateFindingRecommendation
 access-analyzer:GetAccessPreview
 access-analyzer:GetAnalyzedResource
@@ -15914,6 +15916,12 @@ repostspace:TagResource
 repostspace:UntagResource
 repostspace:UpdateChannel
 repostspace:UpdateSpace
+researchstudio:AssignPrincipal
+researchstudio:CreateApplication
+researchstudio:DeleteApplication
+researchstudio:DeletePrincipal
+researchstudio:GetApplication
+researchstudio:ListApplications
 resiliencehub:AcceptResourceGroupingRecommendations
 resiliencehub:AddDraftAppVersionResourceMappings
 resiliencehub:BatchUpdateRecommendationStatus
