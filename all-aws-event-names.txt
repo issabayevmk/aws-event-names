@@ -251,6 +251,7 @@ aidevops:DeleteKnowledgeItem
 aidevops:DeletePrivateConnection
 aidevops:DeregisterService
 aidevops:DescribePrivateConnection
+aidevops:DescribeServices
 aidevops:DescribeSupportLevel
 aidevops:DisableOperatorApp
 aidevops:DisassociateService
@@ -20384,7 +20385,9 @@ wisdom:ListKnowledgeBases
 wisdom:ListMessageTemplateVersions
 wisdom:ListMessageTemplates
 wisdom:ListMessages
+wisdom:ListModels
 wisdom:ListQuickResponses
+wisdom:ListSpans
 wisdom:ListTagsForResource
 wisdom:NotifyRecommendationsReceived
 wisdom:PutFeedback
