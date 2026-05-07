@@ -1520,6 +1520,7 @@ GetBillingAdjustmentRequest:aws-marketplace
 GetBuyerDashboard:aws-marketplace
 GetEntitlements:aws-marketplace
 GetInvoiceSubmissionTask:aws-marketplace
+GetIssuedTaxInvoice:aws-marketplace
 GetListing:aws-marketplace
 GetOffer:aws-marketplace
 GetOfferSet:aws-marketplace
@@ -1541,6 +1542,7 @@ ListEntities:aws-marketplace
 ListEntitlementDetails:aws-marketplace
 ListFulfillmentOptions:aws-marketplace
 ListInvoiceSubmissionTasks:aws-marketplace
+ListIssuedTaxInvoices:aws-marketplace
 ListPayables:aws-marketplace
 ListPrivateListings:aws-marketplace
 ListPrivateMarketplaceRequests:aws-marketplace
