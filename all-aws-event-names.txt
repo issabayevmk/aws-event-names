@@ -13814,6 +13814,7 @@ observabilityadmin:UpdateTelemetryRule
 observabilityadmin:UpdateTelemetryRuleForOrganization
 observabilityadmin:ValidateTelemetryPipelineConfiguration
 odb:AcceptMarketplaceRegistration
+odb:AssociateIamRoleToResource
 odb:CreateCloudAutonomousVmCluster
 odb:CreateCloudExadataInfrastructure
 odb:CreateCloudVmCluster
@@ -13830,6 +13831,7 @@ odb:DeleteGrantShare
 odb:DeleteOdbNetwork
 odb:DeleteOdbPeeringConnection
 odb:DeleteResourcePolicy
+odb:DisassociateIamRoleFromResource
 odb:GetCloudAutonomousVmCluster
 odb:GetCloudExadataInfrastructure
 odb:GetCloudExadataInfrastructureUnallocatedResources
