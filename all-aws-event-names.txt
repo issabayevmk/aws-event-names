@@ -15161,6 +15161,7 @@ quicksight:CreateGroupMembership
 quicksight:CreateIAMPolicyAssignment
 quicksight:CreateIngestion
 quicksight:CreateNamespace
+quicksight:CreateOAuthClientApplication
 quicksight:CreateReader
 quicksight:CreateRefreshSchedule
 quicksight:CreateRoleMembership
@@ -15193,7 +15194,9 @@ quicksight:DeleteGroup
 quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
 quicksight:DeleteIdentityPropagationConfig
+quicksight:DeleteKnowledgeBase
 quicksight:DeleteNamespace
+quicksight:DeleteOAuthClientApplication
 quicksight:DeleteRefreshSchedule
 quicksight:DeleteRoleCustomPermission
 quicksight:DeleteRoleMembership
@@ -15247,7 +15250,10 @@ quicksight:DescribeIAMPolicyAssignment
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
 quicksight:DescribeKeyRegistration
+quicksight:DescribeKnowledgeBase
+quicksight:DescribeKnowledgeBasePermissions
 quicksight:DescribeNamespace
+quicksight:DescribeOAuthClientApplication
 quicksight:DescribeQPersonalizationConfiguration
 quicksight:DescribeQuickIndexCapacity
 quicksight:DescribeQuickSightQSearchConfiguration
@@ -15302,7 +15308,9 @@ quicksight:ListIAMPolicyAssignmentsForUser
 quicksight:ListIdentityPropagationConfigs
 quicksight:ListIngestions
 quicksight:ListKMSKeysForUser
+quicksight:ListKnowledgeBases
 quicksight:ListNamespaces
+quicksight:ListOAuthClientApplications
 quicksight:ListRefreshSchedules
 quicksight:ListRoleMemberships
 quicksight:ListSelfUpgrades
@@ -15339,6 +15347,7 @@ quicksight:SearchDirectoryGroups
 quicksight:SearchFlows
 quicksight:SearchFolders
 quicksight:SearchGroups
+quicksight:SearchKnowledgeBases
 quicksight:SearchTopics
 quicksight:SearchUsers
 quicksight:SetGroupMapping
@@ -15386,6 +15395,8 @@ quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
 quicksight:UpdateKeyRegistration
+quicksight:UpdateKnowledgeBasePermissions
+quicksight:UpdateOAuthClientApplication
 quicksight:UpdatePublicSharingSettings
 quicksight:UpdateQPersonalizationConfiguration
 quicksight:UpdateQuickIndexCapacity
