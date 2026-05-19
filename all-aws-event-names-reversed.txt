@@ -7286,6 +7286,7 @@ UploadLayerPart:ecr
 ValidatePullThroughCacheRule:ecr
 InvokeReadOnlyTools:ecs-mcp
 UseMcp:ecs-mcp
+ContinueServiceDeployment:ecs
 CreateCapacityProvider:ecs
 CreateCluster:ecs
 CreateDaemon:ecs
