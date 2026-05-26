@@ -14611,6 +14611,7 @@ pi:GetResourceMetadata
 pi:GetResourceMetrics
 pi:ListAvailableResourceDimensions
 pi:ListAvailableResourceMetrics
+pi:ListPerformanceAnalysisReportRecommendations
 pi:ListPerformanceAnalysisReports
 pi:ListTagsForResource
 pi:TagResource
