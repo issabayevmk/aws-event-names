@@ -10224,6 +10224,7 @@ iot:GetBucketsAggregation
 iot:GetCardinality
 iot:GetCommand
 iot:GetCommandExecution
+iot:GetConnection
 iot:GetEffectivePolicies
 iot:GetIndexingConfiguration
 iot:GetJobDocument
@@ -10293,6 +10294,7 @@ iot:ListScheduledAudits
 iot:ListSecurityProfiles
 iot:ListSecurityProfilesForTarget
 iot:ListStreams
+iot:ListSubscriptions
 iot:ListTagsForResource
 iot:ListTargetsForPolicy
 iot:ListTargetsForSecurityProfile
@@ -10326,6 +10328,7 @@ iot:ReplaceTopicRule
 iot:RetainPublish
 iot:RotateTunnelAccessToken
 iot:SearchIndex
+iot:SendDirectMessage
 iot:SetDefaultAuthorizer
 iot:SetDefaultPolicyVersion
 iot:SetLoggingOptions
