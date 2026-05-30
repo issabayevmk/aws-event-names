@@ -18320,6 +18320,7 @@ ses:PutEmailIdentityMailFromAttributes
 ses:PutEmailIdentityMailFromAttributes
 ses:PutIdentityPolicy
 ses:PutSuppressedDestination
+ses:PutTenantSuppressionAttributes
 ses:RegisterMemberToAddressList
 ses:ReorderReceiptRuleSet
 ses:ReplicateEmailIdentityDkimSigningKey
