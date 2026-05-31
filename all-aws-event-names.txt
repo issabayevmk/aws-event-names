@@ -13084,6 +13084,7 @@ mgn:StartNetworkMigrationDeployment
 mgn:StartNetworkMigrationMapping
 mgn:StartNetworkMigrationMappingUpdate
 mgn:StartReplication
+mgn:StartSnapshotGroupForMgn
 mgn:StartTest
 mgn:StopReplication
 mgn:TagResource
