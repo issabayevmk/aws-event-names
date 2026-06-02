@@ -15164,6 +15164,7 @@ CreateAccountCustomization:quicksight
 CreateAccountSubscription:quicksight
 CreateActionConnector:quicksight
 CreateAdmin:quicksight
+CreateAgent:quicksight
 CreateAnalysis:quicksight
 CreateBrand:quicksight
 CreateCustomPermissions:quicksight
@@ -15172,6 +15173,7 @@ CreateDataSet:quicksight
 CreateDataSource:quicksight
 CreateEmailCustomizationTemplate:quicksight
 CreateExtensionAccess:quicksight
+CreateFlow:quicksight
 CreateFolder:quicksight
 CreateFolderMembership:quicksight
 CreateGroup:quicksight
@@ -15182,6 +15184,7 @@ CreateNamespace:quicksight
 CreateReader:quicksight
 CreateRefreshSchedule:quicksight
 CreateRoleMembership:quicksight
+CreateSpace:quicksight
 CreateTemplate:quicksight
 CreateTemplateAlias:quicksight
 CreateTheme:quicksight
@@ -15194,6 +15197,7 @@ DeleteAccountCustomPermission:quicksight
 DeleteAccountCustomization:quicksight
 DeleteAccountSubscription:quicksight
 DeleteActionConnector:quicksight
+DeleteAgent:quicksight
 DeleteAnalysis:quicksight
 DeleteBrand:quicksight
 DeleteBrandAssignment:quicksight
@@ -15205,6 +15209,7 @@ DeleteDataSource:quicksight
 DeleteDefaultQBusinessApplication:quicksight
 DeleteEmailCustomizationTemplate:quicksight
 DeleteExtensionAccess:quicksight
+DeleteFlow:quicksight
 DeleteFolder:quicksight
 DeleteFolderMembership:quicksight
 DeleteGroup:quicksight
@@ -15215,6 +15220,7 @@ DeleteNamespace:quicksight
 DeleteRefreshSchedule:quicksight
 DeleteRoleCustomPermission:quicksight
 DeleteRoleMembership:quicksight
+DeleteSpace:quicksight
 DeleteTemplate:quicksight
 DeleteTemplateAlias:quicksight
 DeleteTheme:quicksight
@@ -15256,6 +15262,7 @@ DescribeDataSourcePermissions:quicksight
 DescribeDefaultQBusinessApplication:quicksight
 DescribeEmailCustomizationTemplate:quicksight
 DescribeExtensionAccess:quicksight
+DescribeFlow:quicksight
 DescribeFolder:quicksight
 DescribeFolderPermissions:quicksight
 DescribeFolderResolvedPermissions:quicksight
@@ -15272,6 +15279,8 @@ DescribeQuickSightQSearchConfiguration:quicksight
 DescribeRefreshSchedule:quicksight
 DescribeRoleCustomPermission:quicksight
 DescribeSelfUpgradeConfiguration:quicksight
+DescribeSpace:quicksight
+DescribeSpacePermissions:quicksight
 DescribeTemplate:quicksight
 DescribeTemplateAlias:quicksight
 DescribeTemplatePermissions:quicksight
@@ -15324,6 +15333,8 @@ ListNamespaces:quicksight
 ListRefreshSchedules:quicksight
 ListRoleMemberships:quicksight
 ListSelfUpgrades:quicksight
+ListSpaceResources:quicksight
+ListSpaces:quicksight
 ListTagsForResource:quicksight
 ListTemplateAliases:quicksight
 ListTemplateVersions:quicksight
@@ -15357,6 +15368,7 @@ SearchDirectoryGroups:quicksight
 SearchFlows:quicksight
 SearchFolders:quicksight
 SearchGroups:quicksight
+SearchSpaces:quicksight
 SearchTopics:quicksight
 SearchUsers:quicksight
 SetGroupMapping:quicksight
@@ -15375,6 +15387,7 @@ UpdateAccountCustomization:quicksight
 UpdateAccountSettings:quicksight
 UpdateActionConnector:quicksight
 UpdateActionConnectorPermissions:quicksight
+UpdateAgent:quicksight
 UpdateAgentPermissions:quicksight
 UpdateAnalysis:quicksight
 UpdateAnalysisPermissions:quicksight
@@ -15396,6 +15409,7 @@ UpdateDataSourcePermissions:quicksight
 UpdateDefaultQBusinessApplication:quicksight
 UpdateEmailCustomizationTemplate:quicksight
 UpdateExtensionAccess:quicksight
+UpdateFlow:quicksight
 UpdateFlowPermissions:quicksight
 UpdateFolder:quicksight
 UpdateFolderPermissions:quicksight
@@ -15414,6 +15428,9 @@ UpdateRoleCustomPermission:quicksight
 UpdateSPICECapacityConfiguration:quicksight
 UpdateSelfUpgrade:quicksight
 UpdateSelfUpgradeConfiguration:quicksight
+UpdateSpace:quicksight
+UpdateSpacePermissions:quicksight
+UpdateSpaceResources:quicksight
 UpdateTemplate:quicksight
 UpdateTemplateAlias:quicksight
 UpdateTemplatePermissions:quicksight
