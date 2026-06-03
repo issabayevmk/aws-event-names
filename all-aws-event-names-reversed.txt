@@ -17126,6 +17126,8 @@ BatchGetRecord:sagemaker
 BatchPutMetrics:sagemaker
 CallMlflowAppApi:sagemaker
 CallPartnerAppApi:sagemaker
+CallWithBearerToken:sagemaker
+CompleteRollout:sagemaker
 CreateAIBenchmarkJob:sagemaker
 CreateAIRecommendationJob:sagemaker
 CreateAIWorkloadConfig:sagemaker
@@ -17163,6 +17165,7 @@ CreateImageVersion:sagemaker
 CreateInferenceComponent:sagemaker
 CreateInferenceExperiment:sagemaker
 CreateInferenceRecommendationsJob:sagemaker
+CreateJob:sagemaker
 CreateLabelingJob:sagemaker
 CreateLineageGroupPolicy:sagemaker
 CreateMlflowApp:sagemaker
@@ -17235,6 +17238,7 @@ DeleteImage:sagemaker
 DeleteImageVersion:sagemaker
 DeleteInferenceComponent:sagemaker
 DeleteInferenceExperiment:sagemaker
+DeleteJob:sagemaker
 DeleteLineageGroupPolicy:sagemaker
 DeleteMlflowApp:sagemaker
 DeleteMlflowTrackingServer:sagemaker
@@ -17308,6 +17312,8 @@ DescribeImageVersion:sagemaker
 DescribeInferenceComponent:sagemaker
 DescribeInferenceExperiment:sagemaker
 DescribeInferenceRecommendationsJob:sagemaker
+DescribeJob:sagemaker
+DescribeJobSchemaVersion:sagemaker
 DescribeLabelingJob:sagemaker
 DescribeLineageGroup:sagemaker
 DescribeMlflowApp:sagemaker
@@ -17404,6 +17410,8 @@ ListInferenceComponents:sagemaker
 ListInferenceExperiments:sagemaker
 ListInferenceRecommendationsJobSteps:sagemaker
 ListInferenceRecommendationsJobs:sagemaker
+ListJobSchemaVersions:sagemaker
+ListJobs:sagemaker
 ListLabelingJobs:sagemaker
 ListLabelingJobsForWorkteam:sagemaker
 ListLineageGroups:sagemaker
@@ -17461,6 +17469,8 @@ QueryLineage:sagemaker
 RegisterDevices:sagemaker
 RenderUiTemplate:sagemaker
 RetryPipelineExecution:sagemaker
+Sample:sagemaker
+SampleWithResponseStream:sagemaker
 Search:sagemaker
 SearchTrainingPlanOfferings:sagemaker
 SendHeartbeat:sagemaker
@@ -17486,6 +17496,7 @@ StopHumanLoop:sagemaker
 StopHyperParameterTuningJob:sagemaker
 StopInferenceExperiment:sagemaker
 StopInferenceRecommendationsJob:sagemaker
+StopJob:sagemaker
 StopLabelingJob:sagemaker
 StopMlflowTrackingServer:sagemaker
 StopMonitoringSchedule:sagemaker
@@ -17535,6 +17546,7 @@ UpdatePipeline:sagemaker
 UpdatePipelineExecution:sagemaker
 UpdatePipelineVersion:sagemaker
 UpdateProject:sagemaker
+UpdateReward:sagemaker
 UpdateSharedModel:sagemaker
 UpdateSpace:sagemaker
 UpdateTrainingJob:sagemaker
@@ -19887,6 +19899,7 @@ UpdateCampaign:transform-custom
 UpdateCampaignRepositoryStatus:transform-custom
 UpdateKnowledgeItemConfiguration:transform-custom
 UpdateKnowledgeItemStatus:transform-custom
+AccessTransformProfile:transform
 AssociateConnectorResource:transform
 CreateProfile:transform
 DeleteAgentRuntimeConfiguration:transform
