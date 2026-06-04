@@ -9097,6 +9097,7 @@ GetSchemaVersionsDiff:glue
 GetSecurityConfiguration:glue
 GetSecurityConfigurations:glue
 GetSession:glue
+GetSessionEndpoint:glue
 GetStage:glue
 GetStageAttempt:glue
 GetStageAttemptTaskList:glue
