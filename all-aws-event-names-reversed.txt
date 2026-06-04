@@ -9539,6 +9539,7 @@ DeleteIntegration:health-agent
 GetAgent:health-agent
 GetCareTeamProvider:health-agent
 GetDomain:health-agent
+GetDomainAnalytics:health-agent
 GetIntegration:health-agent
 GetMedicalScribeListeningSession:health-agent
 GetPatient:health-agent
@@ -9554,6 +9555,7 @@ ListIntegrations:health-agent
 ListPatientAppointments:health-agent
 ListPatientInsuranceCoverages:health-agent
 ListProviders:health-agent
+ListSessionRecords:health-agent
 ListSubscriptions:health-agent
 ListTagsForResource:health-agent
 MatchPatient:health-agent
@@ -15215,6 +15217,7 @@ UpdateLedgerPermissionsMode:qldb
 AccountConfigurations:quicksight
 AllowVendedLogDeliveryForResource:quicksight
 BatchCreateTopicReviewedAnswer:quicksight
+BatchDeleteKnowledgeBase:quicksight
 BatchDeleteTopicReviewedAnswer:quicksight
 BatchGetPreferences:quicksight
 BatchUpdatePreferences:quicksight
@@ -15240,6 +15243,7 @@ CreateGroupMembership:quicksight
 CreateIAMPolicyAssignment:quicksight
 CreateIngestion:quicksight
 CreateNamespace:quicksight
+CreateOAuthClientApplication:quicksight
 CreateReader:quicksight
 CreateRefreshSchedule:quicksight
 CreateRoleMembership:quicksight
@@ -15275,7 +15279,9 @@ DeleteGroup:quicksight
 DeleteGroupMembership:quicksight
 DeleteIAMPolicyAssignment:quicksight
 DeleteIdentityPropagationConfig:quicksight
+DeleteKnowledgeBase:quicksight
 DeleteNamespace:quicksight
+DeleteOAuthClientApplication:quicksight
 DeleteRefreshSchedule:quicksight
 DeleteRoleCustomPermission:quicksight
 DeleteRoleMembership:quicksight
@@ -15331,7 +15337,10 @@ DescribeIAMPolicyAssignment:quicksight
 DescribeIngestion:quicksight
 DescribeIpRestriction:quicksight
 DescribeKeyRegistration:quicksight
+DescribeKnowledgeBase:quicksight
+DescribeKnowledgeBasePermissions:quicksight
 DescribeNamespace:quicksight
+DescribeOAuthClientApplication:quicksight
 DescribeQPersonalizationConfiguration:quicksight
 DescribeQuickIndexCapacity:quicksight
 DescribeQuickSightQSearchConfiguration:quicksight
@@ -15388,7 +15397,9 @@ ListIAMPolicyAssignmentsForUser:quicksight
 ListIdentityPropagationConfigs:quicksight
 ListIngestions:quicksight
 ListKMSKeysForUser:quicksight
+ListKnowledgeBases:quicksight
 ListNamespaces:quicksight
+ListOAuthClientApplications:quicksight
 ListRefreshSchedules:quicksight
 ListRoleMemberships:quicksight
 ListSelfUpgrades:quicksight
@@ -15406,6 +15417,7 @@ ListTopicReviewedAnswers:quicksight
 ListTopics:quicksight
 ListUserGroups:quicksight
 ListUsers:quicksight
+ListUsersIndexCapacity:quicksight
 ListVPCConnections:quicksight
 PassDataSet:quicksight
 PassDataSource:quicksight
@@ -15427,6 +15439,7 @@ SearchDirectoryGroups:quicksight
 SearchFlows:quicksight
 SearchFolders:quicksight
 SearchGroups:quicksight
+SearchKnowledgeBases:quicksight
 SearchSpaces:quicksight
 SearchTopics:quicksight
 SearchUsers:quicksight
@@ -15477,6 +15490,8 @@ UpdateIAMPolicyAssignment:quicksight
 UpdateIdentityPropagationConfig:quicksight
 UpdateIpRestriction:quicksight
 UpdateKeyRegistration:quicksight
+UpdateKnowledgeBasePermissions:quicksight
+UpdateOAuthClientApplication:quicksight
 UpdatePublicSharingSettings:quicksight
 UpdateQPersonalizationConfiguration:quicksight
 UpdateQuickIndexCapacity:quicksight
