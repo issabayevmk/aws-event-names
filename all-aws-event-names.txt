@@ -11089,6 +11089,7 @@ ivs:StopParticipantReplication
 ivs:StopStream
 ivs:TagResource
 ivs:UntagResource
+ivs:UpdateAdConfiguration
 ivs:UpdateChannel
 ivs:UpdateIngestConfiguration
 ivs:UpdatePlaybackRestrictionPolicy
