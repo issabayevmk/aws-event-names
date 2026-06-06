@@ -2068,6 +2068,7 @@ bedrock-agentcore:GetWorkloadAccessTokenForUserId
 bedrock-agentcore:GetWorkloadIdentity
 bedrock-agentcore:InvokeAgentRuntime
 bedrock-agentcore:InvokeAgentRuntimeCommand
+bedrock-agentcore:InvokeAgentRuntimeCommandShell
 bedrock-agentcore:InvokeAgentRuntimeForUser
 bedrock-agentcore:InvokeAgentRuntimeWithWebSocketStream
 bedrock-agentcore:InvokeAgentRuntimeWithWebSocketStreamForUser
