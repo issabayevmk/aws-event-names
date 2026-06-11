@@ -248,11 +248,13 @@ CreateChat:aidevops
 CreateKnowledgeItem:aidevops
 CreateOneTimeLoginSession:aidevops
 CreatePrivateConnection:aidevops
+CreateTrigger:aidevops
 DeleteAgentSpace:aidevops
 DeleteAsset:aidevops
 DeleteAssetFile:aidevops
 DeleteKnowledgeItem:aidevops
 DeletePrivateConnection:aidevops
+DeleteTrigger:aidevops
 DeregisterService:aidevops
 DescribePrivateConnection:aidevops
 DescribeServices:aidevops
@@ -273,6 +275,7 @@ GetKnowledgeItem:aidevops
 GetOperatorApp:aidevops
 GetRecommendation:aidevops
 GetService:aidevops
+GetTrigger:aidevops
 InitiateChatForCase:aidevops
 ListAgentSpaces:aidevops
 ListAssetFiles:aidevops
@@ -292,6 +295,7 @@ ListPrivateConnections:aidevops
 ListRecommendations:aidevops
 ListServices:aidevops
 ListTagsForResource:aidevops
+ListTriggers:aidevops
 ListWebhooks:aidevops
 RegisterService:aidevops
 SearchServiceAccessibleResource:aidevops
@@ -308,6 +312,7 @@ UpdateKnowledgeItem:aidevops
 UpdateOperatorAppIdpConfig:aidevops
 UpdatePrivateConnectionCertificate:aidevops
 UpdateRecommendation:aidevops
+UpdateTrigger:aidevops
 ValidateAwsAssociations:aidevops
 CreateInvestigation:aiops
 CreateInvestigationEvent:aiops
@@ -14338,8 +14343,11 @@ CancelOrder:outposts
 CreateOrder:outposts
 CreateOutpost:outposts
 CreatePrivateConnectivityConfig:outposts
+CreateQuote:outposts
+CreateRenewal:outposts
 CreateSite:outposts
 DeleteOutpost:outposts
+DeleteQuote:outposts
 DeleteSite:outposts
 GetCapacityTask:outposts
 GetCatalogItem:outposts
@@ -14350,6 +14358,8 @@ GetOutpostBillingInformation:outposts
 GetOutpostInstanceTypes:outposts
 GetOutpostSupportedInstanceTypes:outposts
 GetPrivateConnectivityConfig:outposts
+GetQuote:outposts
+GetRenewalPricing:outposts
 GetSite:outposts
 GetSiteAddress:outposts
 ListAssetInstances:outposts
@@ -14357,8 +14367,10 @@ ListAssets:outposts
 ListBlockingInstancesForCapacityTask:outposts
 ListCapacityTasks:outposts
 ListCatalogItems:outposts
+ListOrderableInstanceTypes:outposts
 ListOrders:outposts
 ListOutposts:outposts
+ListQuotes:outposts
 ListSites:outposts
 ListTagsForResource:outposts
 StartCapacityTask:outposts
@@ -14366,6 +14378,7 @@ StartConnection:outposts
 TagResource:outposts
 UntagResource:outposts
 UpdateOutpost:outposts
+UpdateQuote:outposts
 UpdateSite:outposts
 UpdateSiteAddress:outposts
 UpdateSiteRackPhysicalProperties:outposts
