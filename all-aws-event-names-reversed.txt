@@ -5446,6 +5446,7 @@ DeleteEnvironmentProfile:datazone
 DeleteFormType:datazone
 DeleteGlossary:datazone
 DeleteGlossaryTerm:datazone
+DeleteLineageEvent:datazone
 DeleteListing:datazone
 DeleteNotebook:datazone
 DeleteProject:datazone
