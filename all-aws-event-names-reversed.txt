@@ -1991,6 +1991,7 @@ CreateGateway:bedrock-agentcore
 CreateGatewayRule:bedrock-agentcore
 CreateGatewayTarget:bedrock-agentcore
 CreateHarness:bedrock-agentcore
+CreateHarnessEndpoint:bedrock-agentcore
 CreateMemory:bedrock-agentcore
 CreateOauth2CredentialProvider:bedrock-agentcore
 CreateOnlineEvaluationConfig:bedrock-agentcore
@@ -2019,6 +2020,7 @@ DeleteGateway:bedrock-agentcore
 DeleteGatewayRule:bedrock-agentcore
 DeleteGatewayTarget:bedrock-agentcore
 DeleteHarness:bedrock-agentcore
+DeleteHarnessEndpoint:bedrock-agentcore
 DeleteMemory:bedrock-agentcore
 DeleteMemoryRecord:bedrock-agentcore
 DeleteOauth2CredentialProvider:bedrock-agentcore
@@ -2036,6 +2038,10 @@ DeleteRegistryRecord:bedrock-agentcore
 DeleteResourcePolicy:bedrock-agentcore
 DeleteWorkloadIdentity:bedrock-agentcore
 Evaluate:bedrock-agentcore
+GatewayAssociateWebACL:bedrock-agentcore
+GatewayDisassociateWebACL:bedrock-agentcore
+GatewayGetWebACLForResource:bedrock-agentcore
+GatewayListResourcesForWebACL:bedrock-agentcore
 GetABTest:bedrock-agentcore
 GetAgentCard:bedrock-agentcore
 GetAgentRuntime:bedrock-agentcore
@@ -2055,6 +2061,7 @@ GetGateway:bedrock-agentcore
 GetGatewayRule:bedrock-agentcore
 GetGatewayTarget:bedrock-agentcore
 GetHarness:bedrock-agentcore
+GetHarnessEndpoint:bedrock-agentcore
 GetMemory:bedrock-agentcore
 GetMemoryRecord:bedrock-agentcore
 GetOauth2CredentialProvider:bedrock-agentcore
@@ -2093,6 +2100,7 @@ InvokeCodeInterpreter:bedrock-agentcore
 InvokeGateway:bedrock-agentcore
 InvokeHarness:bedrock-agentcore
 InvokeRegistryMcp:bedrock-agentcore
+InvokeWebSearch:bedrock-agentcore
 ListABTests:bedrock-agentcore
 ListActors:bedrock-agentcore
 ListAgentRuntimeEndpoints:bedrock-agentcore
@@ -2112,6 +2120,7 @@ ListEvents:bedrock-agentcore
 ListGatewayRules:bedrock-agentcore
 ListGatewayTargets:bedrock-agentcore
 ListGateways:bedrock-agentcore
+ListHarnessEndpoints:bedrock-agentcore
 ListHarnesses:bedrock-agentcore
 ListMemories:bedrock-agentcore
 ListMemoryExtractionJobs:bedrock-agentcore
@@ -2170,6 +2179,7 @@ UpdateGateway:bedrock-agentcore
 UpdateGatewayRule:bedrock-agentcore
 UpdateGatewayTarget:bedrock-agentcore
 UpdateHarness:bedrock-agentcore
+UpdateHarnessEndpoint:bedrock-agentcore
 UpdateMemory:bedrock-agentcore
 UpdateOauth2CredentialProvider:bedrock-agentcore
 UpdateOnlineEvaluationConfig:bedrock-agentcore
