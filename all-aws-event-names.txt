@@ -8029,6 +8029,7 @@ es:AddDirectQueryDataSource
 es:AddTags
 es:AssociatePackage
 es:AssociatePackages
+es:AttachDataSource
 es:AuthorizeVpcEndpointAccess
 es:CancelDomainConfigChange
 es:CancelElasticsearchServiceSoftwareUpdate
@@ -8057,6 +8058,7 @@ es:DeleteOutboundCrossClusterSearchConnection
 es:DeletePackage
 es:DeleteVpcEndpoint
 es:DeregisterCapability
+es:DescribeDataSourceAttachment
 es:DescribeDomain
 es:DescribeDomainAutoTunes
 es:DescribeDomainChangeProgress
@@ -8081,6 +8083,7 @@ es:DescribeReservedElasticsearchInstances
 es:DescribeReservedInstanceOfferings
 es:DescribeReservedInstances
 es:DescribeVpcEndpoints
+es:DetachDataSource
 es:DissociatePackage
 es:DissociatePackages
 es:ESCrossClusterGet
@@ -8103,6 +8106,7 @@ es:GetPackageVersionHistory
 es:GetUpgradeHistory
 es:GetUpgradeStatus
 es:ListApplications
+es:ListDataSourceAttachments
 es:ListDataSources
 es:ListDirectQueryDataSources
 es:ListDomainMaintenances
