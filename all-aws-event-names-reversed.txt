@@ -223,6 +223,8 @@ GetCredits:activate
 GetMemberInfo:activate
 GetProgram:activate
 PutMemberInfo:activate
+CallForwardedTool:agentaccess-mcp
+CheckConnectionStatus:agentaccess-mcp
 DoubleClick:agentaccess-mcp
 GetScreenshot:agentaccess-mcp
 HoldKey:agentaccess-mcp
@@ -3753,6 +3755,7 @@ GenerateQuery:cloudwatch
 GenerateQueryResultsSummary:cloudwatch
 GetAlarmMuteRule:cloudwatch
 GetDashboard:cloudwatch
+GetDataset:cloudwatch
 GetInsightRuleReport:cloudwatch
 GetMetricData:cloudwatch
 GetMetricStatistics:cloudwatch
@@ -3779,6 +3782,7 @@ PutAnomalyDetector:cloudwatch
 PutCompositeAlarm:cloudwatch
 PutDashboard:cloudwatch
 PutInsightRule:cloudwatch
+PutLogAlarm:cloudwatch
 PutManagedInsightRules:cloudwatch
 PutMetricAlarm:cloudwatch
 PutMetricData:cloudwatch
@@ -13492,6 +13496,7 @@ DescribeBrokerEngineTypes:mq
 DescribeBrokerInstanceOptions:mq
 DescribeConfiguration:mq
 DescribeConfigurationRevision:mq
+DescribeSharedResources:mq
 DescribeUser:mq
 ListBrokers:mq
 ListConfigurationRevisions:mq
