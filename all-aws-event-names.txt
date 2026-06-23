@@ -9528,6 +9528,7 @@ guardduty:ArchiveFindings
 guardduty:CreateDetector
 guardduty:CreateFilter
 guardduty:CreateIPSet
+guardduty:CreateInvestigation
 guardduty:CreateMalwareProtectionPlan
 guardduty:CreateMembers
 guardduty:CreatePublishingDestination
@@ -9561,6 +9562,7 @@ guardduty:GetFilter
 guardduty:GetFindings
 guardduty:GetFindingsStatistics
 guardduty:GetIPSet
+guardduty:GetInvestigation
 guardduty:GetInvitationsCount
 guardduty:GetMalwareProtectionPlan
 guardduty:GetMalwareScan
@@ -9580,6 +9582,7 @@ guardduty:ListDetectors
 guardduty:ListFilters
 guardduty:ListFindings
 guardduty:ListIPSets
+guardduty:ListInvestigations
 guardduty:ListInvitations
 guardduty:ListMalwareProtectionPlans
 guardduty:ListMalwareScans
