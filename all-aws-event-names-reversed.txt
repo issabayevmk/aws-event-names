@@ -4639,6 +4639,7 @@ DeleteConfigRule:config
 DeleteConfigurationAggregator:config
 DeleteConfigurationRecorder:config
 DeleteConformancePack:config
+DeleteConnector:config
 DeleteDeliveryChannel:config
 DeleteEvaluationResults:config
 DeleteOrganizationConfigRule:config
@@ -4688,6 +4689,7 @@ GetComplianceSummaryByConfigRule:config
 GetComplianceSummaryByResourceType:config
 GetConformancePackComplianceDetails:config
 GetConformancePackComplianceSummary:config
+GetConnector:config
 GetCustomRulePolicy:config
 GetDiscoveredResourceCounts:config
 GetOrganizationConfigRuleDetailedStatus:config
@@ -4699,6 +4701,7 @@ GetStoredQuery:config
 ListAggregateDiscoveredResources:config
 ListConfigurationRecorders:config
 ListConformancePackComplianceScores:config
+ListConnectors:config
 ListDiscoveredResources:config
 ListResourceEvaluations:config
 ListStoredQueries:config
@@ -4708,6 +4711,7 @@ PutConfigRule:config
 PutConfigurationAggregator:config
 PutConfigurationRecorder:config
 PutConformancePack:config
+PutConnector:config
 PutDeliveryChannel:config
 PutEvaluations:config
 PutExternalEvaluation:config
@@ -4719,6 +4723,7 @@ PutResourceConfig:config
 PutRetentionConfiguration:config
 PutServiceLinkedConfigurationRecorder:config
 PutStoredQuery:config
+PutThirdPartyServiceLinkedConfigurationRecorder:config
 SelectAggregateResourceConfig:config
 SelectResourceConfig:config
 StartConfigRulesEvaluation:config
@@ -10086,12 +10091,14 @@ CancelSbomExport:inspector2
 CreateCisScanConfiguration:inspector2
 CreateCodeSecurityIntegration:inspector2
 CreateCodeSecurityScanConfiguration:inspector2
+CreateConnector:inspector2
 CreateFilter:inspector2
 CreateFindingsReport:inspector2
 CreateSbomExport:inspector2
 DeleteCisScanConfiguration:inspector2
 DeleteCodeSecurityIntegration:inspector2
 DeleteCodeSecurityScanConfiguration:inspector2
+DeleteConnector:inspector2
 DeleteFilter:inspector2
 DescribeOrganizationConfiguration:inspector2
 Disable:inspector2
@@ -10120,6 +10127,8 @@ ListCisScans:inspector2
 ListCodeSecurityIntegrations:inspector2
 ListCodeSecurityScanConfigurationAssociations:inspector2
 ListCodeSecurityScanConfigurations:inspector2
+ListConnectorScanConfigurations:inspector2
+ListConnectors:inspector2
 ListCoverage:inspector2
 ListCoverageStatistics:inspector2
 ListDelegatedAdminAccounts:inspector2
@@ -10142,6 +10151,8 @@ UpdateCisScanConfiguration:inspector2
 UpdateCodeSecurityIntegration:inspector2
 UpdateCodeSecurityScanConfiguration:inspector2
 UpdateConfiguration:inspector2
+UpdateConnector:inspector2
+UpdateConnectorScanConfiguration:inspector2
 UpdateEc2DeepInspectionConfiguration:inspector2
 UpdateEncryptionKey:inspector2
 UpdateFilter:inspector2
