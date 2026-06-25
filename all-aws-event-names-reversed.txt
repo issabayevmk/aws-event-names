@@ -19265,6 +19265,7 @@ CancelMaintenanceWindowExecution:ssm
 CreateActivation:ssm
 CreateAssociation:ssm
 CreateAssociationBatch:ssm
+CreateCloudConnector:ssm
 CreateDocument:ssm
 CreateMaintenanceWindow:ssm
 CreateOpsItem:ssm
@@ -19273,6 +19274,7 @@ CreatePatchBaseline:ssm
 CreateResourceDataSync:ssm
 DeleteActivation:ssm
 DeleteAssociation:ssm
+DeleteCloudConnector:ssm
 DeleteDocument:ssm
 DeleteInventory:ssm
 DeleteMaintenanceWindow:ssm
@@ -19327,6 +19329,7 @@ GetAccessToken:ssm
 GetAutomationExecution:ssm
 GetCalendar:ssm
 GetCalendarState:ssm
+GetCloudConnector:ssm
 GetCommandInvocation:ssm
 GetConnectionStatus:ssm
 GetDefaultPatchBaseline:ssm
@@ -19355,6 +19358,7 @@ GetServiceSetting:ssm
 LabelParameterVersion:ssm
 ListAssociationVersions:ssm
 ListAssociations:ssm
+ListCloudConnectors:ssm
 ListCommandInvocations:ssm
 ListCommands:ssm
 ListComplianceItems:ssm
@@ -19400,6 +19404,7 @@ TerminateSession:ssm
 UnlabelParameterVersion:ssm
 UpdateAssociation:ssm
 UpdateAssociationStatus:ssm
+UpdateCloudConnector:ssm
 UpdateDocument:ssm
 UpdateDocumentDefaultVersion:ssm
 UpdateDocumentMetadata:ssm
@@ -19414,6 +19419,7 @@ UpdateOpsMetadata:ssm
 UpdatePatchBaseline:ssm
 UpdateResourceDataSync:ssm
 UpdateServiceSetting:ssm
+ValidateCloudConnector:ssm
 CreateControlChannel:ssmmessages
 CreateDataChannel:ssmmessages
 OpenControlChannel:ssmmessages
