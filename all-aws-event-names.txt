@@ -18106,6 +18106,7 @@ securityhub:CreateAggregatorV2
 securityhub:CreateAutomationRule
 securityhub:CreateAutomationRuleV2
 securityhub:CreateConfigurationPolicy
+securityhub:CreateConnector
 securityhub:CreateConnectorV2
 securityhub:CreateFindingAggregator
 securityhub:CreateInsight
@@ -18116,6 +18117,7 @@ securityhub:DeleteActionTarget
 securityhub:DeleteAggregatorV2
 securityhub:DeleteAutomationRuleV2
 securityhub:DeleteConfigurationPolicy
+securityhub:DeleteConnector
 securityhub:DeleteConnectorV2
 securityhub:DeleteFindingAggregator
 securityhub:DeleteInsight
@@ -18132,6 +18134,7 @@ securityhub:DescribeStandardsControls
 securityhub:DisableImportFindingsForProduct
 securityhub:DisableOrganizationAdminAccount
 securityhub:DisableSecurityHub
+securityhub:DisableSecurityHubFeatureV2
 securityhub:DisableSecurityHubV2
 securityhub:DisassociateFromAdministratorAccount
 securityhub:DisassociateFromMasterAccount
@@ -18139,6 +18142,7 @@ securityhub:DisassociateMembers
 securityhub:EnableImportFindingsForProduct
 securityhub:EnableOrganizationAdminAccount
 securityhub:EnableSecurityHub
+securityhub:EnableSecurityHubFeatureV2
 securityhub:EnableSecurityHubV2
 securityhub:GenerateRecommendedPolicyV2
 securityhub:GetAdhocInsightResults
@@ -18147,6 +18151,7 @@ securityhub:GetAggregatorV2
 securityhub:GetAutomationRuleV2
 securityhub:GetConfigurationPolicy
 securityhub:GetConfigurationPolicyAssociation
+securityhub:GetConnector
 securityhub:GetConnectorV2
 securityhub:GetControlFindingSummary
 securityhub:GetEnabledStandards
@@ -18176,6 +18181,7 @@ securityhub:ListAutomationRules
 securityhub:ListAutomationRulesV2
 securityhub:ListConfigurationPolicies
 securityhub:ListConfigurationPolicyAssociations
+securityhub:ListConnectors
 securityhub:ListConnectorsV2
 securityhub:ListControlEvaluationSummaries
 securityhub:ListEnabledProductsForImport
@@ -18196,6 +18202,7 @@ securityhub:UpdateActionTarget
 securityhub:UpdateAggregatorV2
 securityhub:UpdateAutomationRuleV2
 securityhub:UpdateConfigurationPolicy
+securityhub:UpdateConnector
 securityhub:UpdateConnectorV2
 securityhub:UpdateFindingAggregator
 securityhub:UpdateFindings
