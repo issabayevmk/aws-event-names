@@ -8128,6 +8128,7 @@ GetIndex:es
 GetPackageVersionHistory:es
 GetUpgradeHistory:es
 GetUpgradeStatus:es
+InsightFeedback:es
 ListApplications:es
 ListDataSourceAttachments:es
 ListDataSources:es
