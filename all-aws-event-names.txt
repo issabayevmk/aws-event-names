@@ -4851,6 +4851,7 @@ connect:BatchUpdateDataTableValue
 connect:ClaimPhoneNumber
 connect:CompleteAttachedFileUpload
 connect:CreateAgentStatus
+connect:CreateAttachedFile
 connect:CreateAuthenticationProfile
 connect:CreateContact
 connect:CreateContactFlow
@@ -4982,6 +4983,7 @@ connect:GetContactMetrics
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
 connect:GetEffectiveHoursOfOperations
+connect:GetEvaluationFormValidation
 connect:GetFederationToken
 connect:GetFlowAssociation
 connect:GetMetricData
@@ -5095,11 +5097,13 @@ connect:SendOutboundEmail
 connect:SendOutboundWebNotification
 connect:StartAttachedFileUpload
 connect:StartChatContact
+connect:StartContactConversationalAnalyticsJob
 connect:StartContactEvaluation
 connect:StartContactMediaProcessing
 connect:StartContactRecording
 connect:StartContactStreaming
 connect:StartEmailContact
+connect:StartEvaluationFormValidation
 connect:StartForecastingPlanningSchedulingIntegration
 connect:StartOutboundChatContact
 connect:StartOutboundEmailContact
@@ -17456,6 +17460,7 @@ sagemaker:BatchDescribeModelPackage
 sagemaker:BatchGetMetrics
 sagemaker:BatchGetRecord
 sagemaker:BatchPutMetrics
+sagemaker:BatchWriteRecord
 sagemaker:CallMlflowAppApi
 sagemaker:CallPartnerAppApi
 sagemaker:CallWithBearerToken
@@ -17774,6 +17779,7 @@ sagemaker:ListPipelineVersions
 sagemaker:ListPipelines
 sagemaker:ListProcessingJobs
 sagemaker:ListProjects
+sagemaker:ListRecords
 sagemaker:ListResourceCatalogs
 sagemaker:ListSharedModelEvents
 sagemaker:ListSharedModelVersions
