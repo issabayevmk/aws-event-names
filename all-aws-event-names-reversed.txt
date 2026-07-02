@@ -7441,6 +7441,7 @@ UploadLayerPart:ecr
 ValidatePullThroughCacheRule:ecr
 InvokeReadOnlyTools:ecs-mcp
 UseMcp:ecs-mcp
+AllowVendedLogDeliveryForResource:ecs
 ContinueServiceDeployment:ecs
 CreateCapacityProvider:ecs
 CreateCluster:ecs
@@ -8890,6 +8891,7 @@ AddStreamGroupLocations:gameliftstreams
 AssociateApplications:gameliftstreams
 CreateApplication:gameliftstreams
 CreateStreamGroup:gameliftstreams
+CreateStreamSessionAdminShell:gameliftstreams
 CreateStreamSessionConnection:gameliftstreams
 DeleteApplication:gameliftstreams
 DeleteStreamGroup:gameliftstreams
@@ -13697,6 +13699,7 @@ AssociateAvailabilityZones:network-firewall
 AssociateFirewallPolicy:network-firewall
 AssociateSubnets:network-firewall
 AttachRuleGroupsToProxyConfiguration:network-firewall
+CreateContainerAssociation:network-firewall
 CreateFirewall:network-firewall
 CreateFirewallPolicy:network-firewall
 CreateProxy:network-firewall
@@ -13706,6 +13709,7 @@ CreateProxyRules:network-firewall
 CreateRuleGroup:network-firewall
 CreateTLSInspectionConfiguration:network-firewall
 CreateVpcEndpointAssociation:network-firewall
+DeleteContainerAssociation:network-firewall
 DeleteFirewall:network-firewall
 DeleteFirewallPolicy:network-firewall
 DeleteNetworkFirewallTransitGatewayAttachment:network-firewall
@@ -13717,6 +13721,7 @@ DeleteResourcePolicy:network-firewall
 DeleteRuleGroup:network-firewall
 DeleteTLSInspectionConfiguration:network-firewall
 DeleteVpcEndpointAssociation:network-firewall
+DescribeContainerAssociation:network-firewall
 DescribeFirewall:network-firewall
 DescribeFirewallMetadata:network-firewall
 DescribeFirewallPolicy:network-firewall
@@ -13737,6 +13742,7 @@ DisassociateAvailabilityZones:network-firewall
 DisassociateSubnets:network-firewall
 GetAnalysisReportResults:network-firewall
 ListAnalysisReports:network-firewall
+ListContainerAssociations:network-firewall
 ListFirewallPolicies:network-firewall
 ListFirewalls:network-firewall
 ListFlowOperationResults:network-firewall
@@ -13756,6 +13762,7 @@ StartFlowFlush:network-firewall
 TagResource:network-firewall
 UntagResource:network-firewall
 UpdateAvailabilityZoneChangeProtection:network-firewall
+UpdateContainerAssociation:network-firewall
 UpdateFirewallAnalysisSettings:network-firewall
 UpdateFirewallDeleteProtection:network-firewall
 UpdateFirewallDescription:network-firewall
