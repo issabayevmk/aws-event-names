@@ -14323,6 +14323,7 @@ GetDirectQueryResult:opensearch
 ListAutoOptimizeJobs:opensearch
 StartDirectQuery:opensearch
 SubmitAutoOptimizeJob:opensearch
+ViewLoginPage:opensearch
 AssociateNode:opsworks-cm
 CreateBackup:opsworks-cm
 CreateServer:opsworks-cm
@@ -15498,6 +15499,7 @@ CreateGroup:quicksight
 CreateGroupMembership:quicksight
 CreateIAMPolicyAssignment:quicksight
 CreateIngestion:quicksight
+CreateKnowledgeBase:quicksight
 CreateLimitsProfile:quicksight
 CreateNamespace:quicksight
 CreateOAuthClientApplication:quicksight
@@ -15757,6 +15759,7 @@ UpdateIAMPolicyAssignment:quicksight
 UpdateIdentityPropagationConfig:quicksight
 UpdateIpRestriction:quicksight
 UpdateKeyRegistration:quicksight
+UpdateKnowledgeBase:quicksight
 UpdateKnowledgeBasePermissions:quicksight
 UpdateLimitsProfile:quicksight
 UpdateOAuthClientApplication:quicksight
