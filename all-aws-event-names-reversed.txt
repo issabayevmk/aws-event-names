@@ -2543,9 +2543,7 @@ GetBillingViewData:billing
 GetContractInformation:billing
 GetCreditAllocationHistory:billing
 GetCredits:billing
-GetCumulativeTracking:billing
 GetIAMAccessPreference:billing
-GetMonthlyTracking:billing
 GetResourcePolicy:billing
 GetSellerOfRecord:billing
 ListBillingViews:billing
