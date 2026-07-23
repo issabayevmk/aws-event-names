@@ -5090,6 +5090,7 @@ connect:SearchQueues
 connect:SearchQuickConnects
 connect:SearchResourceTags
 connect:SearchRoutingProfiles
+connect:SearchRules
 connect:SearchSecurityProfiles
 connect:SearchUserHierarchyGroups
 connect:SearchUsers
