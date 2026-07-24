@@ -1288,6 +1288,7 @@ ListReportVersions:artifact
 ListReports:artifact
 ListTagsForResource:artifact
 PutAccountSettings:artifact
+PutComplianceInquiryFeedback:artifact
 TagResource:artifact
 TerminateAgreement:artifact
 UntagResource:artifact
@@ -2014,6 +2015,7 @@ UpdatePreferences:bcm-pricing-calculator
 UpdateWorkloadEstimate:bcm-pricing-calculator
 UpdateWorkloadEstimateUsage:bcm-pricing-calculator
 ListRecommendedActions:bcm-recommended-actions
+AddDatasetExamples:bedrock-agentcore
 AllowVendedLogDeliveryForResource:bedrock-agentcore
 AuthorizeAction:bedrock-agentcore
 BatchCreateMemoryRecords:bedrock-agentcore
@@ -2030,6 +2032,8 @@ CreateBrowser:bedrock-agentcore
 CreateBrowserProfile:bedrock-agentcore
 CreateCodeInterpreter:bedrock-agentcore
 CreateConfigurationBundle:bedrock-agentcore
+CreateDataset:bedrock-agentcore
+CreateDatasetVersion:bedrock-agentcore
 CreateEvaluator:bedrock-agentcore
 CreateEvent:bedrock-agentcore
 CreateGateway:bedrock-agentcore
@@ -2059,6 +2063,8 @@ DeleteBrowser:bedrock-agentcore
 DeleteBrowserProfile:bedrock-agentcore
 DeleteCodeInterpreter:bedrock-agentcore
 DeleteConfigurationBundle:bedrock-agentcore
+DeleteDataset:bedrock-agentcore
+DeleteDatasetExamples:bedrock-agentcore
 DeleteEvaluator:bedrock-agentcore
 DeleteEvent:bedrock-agentcore
 DeleteGateway:bedrock-agentcore
@@ -2100,6 +2106,7 @@ GetCodeInterpreter:bedrock-agentcore
 GetCodeInterpreterSession:bedrock-agentcore
 GetConfigurationBundle:bedrock-agentcore
 GetConfigurationBundleVersion:bedrock-agentcore
+GetDataset:bedrock-agentcore
 GetEvaluator:bedrock-agentcore
 GetEvent:bedrock-agentcore
 GetGateway:bedrock-agentcore
@@ -2160,6 +2167,9 @@ ListCodeInterpreterSessions:bedrock-agentcore
 ListCodeInterpreters:bedrock-agentcore
 ListConfigurationBundleVersions:bedrock-agentcore
 ListConfigurationBundles:bedrock-agentcore
+ListDatasetExamples:bedrock-agentcore
+ListDatasetVersions:bedrock-agentcore
+ListDatasets:bedrock-agentcore
 ListEvaluators:bedrock-agentcore
 ListEvents:bedrock-agentcore
 ListGatewayRules:bedrock-agentcore
@@ -2219,6 +2229,8 @@ UpdateAgentRuntimeEndpoint:bedrock-agentcore
 UpdateApiKeyCredentialProvider:bedrock-agentcore
 UpdateBrowserStream:bedrock-agentcore
 UpdateConfigurationBundle:bedrock-agentcore
+UpdateDataset:bedrock-agentcore
+UpdateDatasetExamples:bedrock-agentcore
 UpdateEvaluator:bedrock-agentcore
 UpdateGateway:bedrock-agentcore
 UpdateGatewayRule:bedrock-agentcore
@@ -15551,6 +15563,7 @@ DeleteAccountSubscription:quicksight
 DeleteActionConnector:quicksight
 DeleteAgent:quicksight
 DeleteAnalysis:quicksight
+DeleteApp:quicksight
 DeleteBrand:quicksight
 DeleteBrandAssignment:quicksight
 DeleteCustomPermissions:quicksight
@@ -15596,6 +15609,8 @@ DescribeAgent:quicksight
 DescribeAgentPermissions:quicksight
 DescribeAnalysis:quicksight
 DescribeAnalysisPermissions:quicksight
+DescribeApp:quicksight
+DescribeAppPermissions:quicksight
 DescribeAssetBundleExportJob:quicksight
 DescribeAssetBundleImportJob:quicksight
 DescribeAutomationGroup:quicksight
@@ -15669,6 +15684,7 @@ GetSessionEmbedUrl:quicksight
 ListActionConnectors:quicksight
 ListAgents:quicksight
 ListAnalyses:quicksight
+ListApps:quicksight
 ListAssetBundleExportJobs:quicksight
 ListAssetBundleImportJobs:quicksight
 ListAssignmentsForPrincipal:quicksight
@@ -15729,6 +15745,7 @@ ScopeDownPolicy:quicksight
 SearchActionConnectors:quicksight
 SearchAgents:quicksight
 SearchAnalyses:quicksight
+SearchApps:quicksight
 SearchAutomationGroups:quicksight
 SearchDashboards:quicksight
 SearchDataSets:quicksight
@@ -15761,6 +15778,7 @@ UpdateAgent:quicksight
 UpdateAgentPermissions:quicksight
 UpdateAnalysis:quicksight
 UpdateAnalysisPermissions:quicksight
+UpdateAppPermissions:quicksight
 UpdateApplicationWithTokenExchangeGrant:quicksight
 UpdateAutomationGroupPermissions:quicksight
 UpdateBrand:quicksight
@@ -16048,6 +16066,7 @@ GetStagingBucketLocation:redshift-data
 GetStatementResult:redshift-data
 ListDatabases:redshift-data
 ListSchemas:redshift-data
+ListSessions:redshift-data
 ListStatements:redshift-data
 ListTables:redshift-data
 ConvertRecoveryPointToSnapshot:redshift-serverless
