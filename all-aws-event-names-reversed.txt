@@ -14204,6 +14204,7 @@ ListCloudVmClusters:odb
 ListDbNodes:odb
 ListDbServers:odb
 ListDbSystemShapes:odb
+ListFlexComponents:odb
 ListGiVersions:odb
 ListOdbNetworks:odb
 ListOdbPeeringConnections:odb
@@ -14743,7 +14744,6 @@ PutAllianceLeadContact:partnercentral
 PutBusinessPlan:partnercentral
 PutProfileVisibility:partnercentral
 PutSellingSystemSettings:partnercentral
-QueryDataset:partnercentral
 RecallBenefitApplication:partnercentral
 RejectChannelHandshake:partnercentral
 RejectConnectionInvitation:partnercentral
@@ -20509,6 +20509,7 @@ ListOrganizationRecommendations:trustedadvisor
 ListOrganizationalUnitsForParent:trustedadvisor
 ListRecommendationResources:trustedadvisor
 ListRecommendations:trustedadvisor
+ListRecommendationsForResource:trustedadvisor
 ListRoots:trustedadvisor
 RefreshCheck:trustedadvisor
 SetAccountAccess:trustedadvisor
