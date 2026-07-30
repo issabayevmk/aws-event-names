@@ -15078,6 +15078,7 @@ GetAttributeValues:pricing
 GetPriceListFileUrl:pricing
 GetProducts:pricing
 ListPriceLists:pricing
+ApprovePaidSubscription:pricingplanmanager
 AssociateResourcesToSubscription:pricingplanmanager
 CancelSubscription:pricingplanmanager
 CancelSubscriptionChange:pricingplanmanager
