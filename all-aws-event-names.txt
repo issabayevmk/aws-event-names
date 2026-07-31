@@ -2177,6 +2177,7 @@ bedrock-agentcore:ListGatewayRules
 bedrock-agentcore:ListGatewayTargets
 bedrock-agentcore:ListGateways
 bedrock-agentcore:ListHarnessEndpoints
+bedrock-agentcore:ListHarnessVersions
 bedrock-agentcore:ListHarnesses
 bedrock-agentcore:ListMemories
 bedrock-agentcore:ListMemoryExtractionJobs
@@ -6085,6 +6086,7 @@ directconnect:DescribeVirtualGateways
 directconnect:DescribeVirtualInterfaces
 directconnect:DisassociateConnectionFromLag
 directconnect:DisassociateMacSecKey
+directconnect:ListVirtualInterfaceRoutes
 directconnect:ListVirtualInterfaceTestHistory
 directconnect:StartBgpFailoverTest
 directconnect:StopBgpFailoverTest
@@ -10350,6 +10352,8 @@ invoicing:ListInvoiceCorrections
 invoicing:ListInvoiceSummaries
 invoicing:ListInvoiceUnits
 invoicing:ListProcurementPortalPreferences
+invoicing:ListProcurementPortalSuppliers
+invoicing:ListProcurementPortals
 invoicing:ListTagsForResource
 invoicing:PutInvoiceEmailDeliveryPreferences
 invoicing:PutProcurementPortalPreference
