@@ -18834,6 +18834,7 @@ ses:ListVerifiedEmailAddresses
 ses:PutAccountDedicatedIpWarmupAttributes
 ses:PutAccountDedicatedIpWarmupAttributes
 ses:PutAccountDetails
+ses:PutAccountPricingAttributes
 ses:PutAccountSendingAttributes
 ses:PutAccountSendingAttributes
 ses:PutAccountSuppressionAttributes
