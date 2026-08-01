@@ -16516,6 +16516,7 @@ resiliencehub:CreateService
 resiliencehub:CreateServiceFunction
 resiliencehub:CreateServiceFunctionResources
 resiliencehub:CreateSystem
+resiliencehub:CreateTest
 resiliencehub:CreateUserJourney
 resiliencehub:DeleteApp
 resiliencehub:DeleteAppAssessment
@@ -16531,6 +16532,8 @@ resiliencehub:DeleteService
 resiliencehub:DeleteServiceFunction
 resiliencehub:DeleteServiceFunctionResources
 resiliencehub:DeleteSystem
+resiliencehub:DeleteTest
+resiliencehub:DeleteTestSources
 resiliencehub:DeleteUserJourney
 resiliencehub:DescribeApp
 resiliencehub:DescribeAppAssessment
@@ -16547,6 +16550,9 @@ resiliencehub:GetFailureModeFinding
 resiliencehub:GetPolicy
 resiliencehub:GetService
 resiliencehub:GetSystem
+resiliencehub:GetTest
+resiliencehub:GetTestRun
+resiliencehub:GetTestTemplate
 resiliencehub:GetUserJourney
 resiliencehub:ImportApp
 resiliencehub:ImportPolicy
@@ -16573,6 +16579,7 @@ resiliencehub:ListPolicies
 resiliencehub:ListRecommendationTemplates
 resiliencehub:ListReports
 resiliencehub:ListResiliencyPolicies
+resiliencehub:ListResolvedTestRunTargetResources
 resiliencehub:ListResourceGroupingRecommendations
 resiliencehub:ListResources
 resiliencehub:ListServiceEvents
@@ -16585,10 +16592,17 @@ resiliencehub:ListSystemEvents
 resiliencehub:ListSystems
 resiliencehub:ListTagsForResource
 resiliencehub:ListTestRecommendations
+resiliencehub:ListTestRunEvents
+resiliencehub:ListTestRunSources
+resiliencehub:ListTestRuns
+resiliencehub:ListTestSources
+resiliencehub:ListTestTemplates
+resiliencehub:ListTests
 resiliencehub:ListUnsupportedAppVersionResources
 resiliencehub:ListUserJourneys
 resiliencehub:PublishAppVersion
 resiliencehub:PutDraftAppVersionTemplate
+resiliencehub:PutTestSources
 resiliencehub:RejectResourceGroupingRecommendations
 resiliencehub:RemoveDraftAppVersionResourceMappings
 resiliencehub:ResolveAppVersionResources
@@ -16596,6 +16610,8 @@ resiliencehub:StartAppAssessment
 resiliencehub:StartFailureModeAssessment
 resiliencehub:StartMetricsExport
 resiliencehub:StartResourceGroupingRecommendationTask
+resiliencehub:StartTestRun
+resiliencehub:StopTestRun
 resiliencehub:TagResource
 resiliencehub:UntagResource
 resiliencehub:UpdateApp
@@ -16610,6 +16626,7 @@ resiliencehub:UpdateResiliencyPolicy
 resiliencehub:UpdateService
 resiliencehub:UpdateServiceFunction
 resiliencehub:UpdateSystem
+resiliencehub:UpdateTest
 resiliencehub:UpdateUserJourney
 resource-explorer-2:AssociateDefaultView
 resource-explorer-2:BatchGetView
