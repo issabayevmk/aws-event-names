@@ -2288,6 +2288,9 @@ TagResource:bedrock-mantle
 UntagResource:bedrock-mantle
 UpdateProject:bedrock-mantle
 UpdateReservation:bedrock-mantle
+ExternalWebAccess:bedrock-websearch
+InvokeFetch:bedrock-websearch
+InvokeSearch:bedrock-websearch
 AgenticRetrieveStream:bedrock
 AllowVendedLogDeliveryForResource:bedrock
 ApplyGuardrail:bedrock
@@ -15806,6 +15809,7 @@ ListUsersIndexCapacity:quicksight
 ListVPCConnections:quicksight
 PassDataSet:quicksight
 PassDataSource:quicksight
+PassTopic:quicksight
 PredictQAResults:quicksight
 PutDataSetRefreshProperties:quicksight
 QuickSuiteUsageMetrics:quicksight
