@@ -8219,6 +8219,7 @@ GetDefaultApplicationSetting:es
 GetDirectQueryDataSource:es
 GetDomainMaintenanceStatus:es
 GetIndex:es
+GetMigration:es
 GetPackageVersionHistory:es
 GetUpgradeHistory:es
 GetUpgradeStatus:es
@@ -8235,6 +8236,7 @@ ListElasticsearchInstanceTypes:es
 ListElasticsearchVersions:es
 ListInsights:es
 ListInstanceTypeDetails:es
+ListMigrations:es
 ListPackagesForDomain:es
 ListScheduledActions:es
 ListTags:es
@@ -8254,6 +8256,7 @@ RollbackElasticsearchServiceSoftwareUpdate:es
 RollbackServiceSoftwareUpdate:es
 StartDomainMaintenance:es
 StartElasticsearchServiceSoftwareUpdate:es
+StartMigration:es
 StartServiceSoftwareUpdate:es
 UpdateApplication:es
 UpdateDataSource:es
@@ -20253,14 +20256,18 @@ UntagResource:thinclient
 UpdateDevice:thinclient
 UpdateEnvironment:thinclient
 UpdateSoftwareSet:thinclient
+CreateDbBackup:timestream-influxdb
 CreateDbCluster:timestream-influxdb
 CreateDbInstance:timestream-influxdb
 CreateDbParameterGroup:timestream-influxdb
+DeleteDbBackup:timestream-influxdb
 DeleteDbCluster:timestream-influxdb
 DeleteDbInstance:timestream-influxdb
+GetDbBackup:timestream-influxdb
 GetDbCluster:timestream-influxdb
 GetDbInstance:timestream-influxdb
 GetDbParameterGroup:timestream-influxdb
+ListDbBackups:timestream-influxdb
 ListDbClusters:timestream-influxdb
 ListDbInstances:timestream-influxdb
 ListDbInstancesForCluster:timestream-influxdb
@@ -20268,6 +20275,7 @@ ListDbParameterGroups:timestream-influxdb
 ListTagsForResource:timestream-influxdb
 RebootDbCluster:timestream-influxdb
 RebootDbInstance:timestream-influxdb
+RestoreFromDbBackup:timestream-influxdb
 TagResource:timestream-influxdb
 UntagResource:timestream-influxdb
 UpdateDbCluster:timestream-influxdb
