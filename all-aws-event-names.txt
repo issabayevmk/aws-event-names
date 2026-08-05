@@ -6574,6 +6574,7 @@ dynamodb:RestoreTableFromAwsBackup
 dynamodb:RestoreTableFromBackup
 dynamodb:RestoreTableToPointInTime
 dynamodb:Scan
+dynamodb:SearchVectors
 dynamodb:StartAwsBackupJob
 dynamodb:TagResource
 dynamodb:UntagResource
@@ -7923,6 +7924,8 @@ elasticmapreduce:GetClusterSessionCredentials
 elasticmapreduce:GetManagedScalingPolicy
 elasticmapreduce:GetOnClusterAppUIPresignedURL
 elasticmapreduce:GetPersistentAppUIPresignedURL
+elasticmapreduce:GetSession
+elasticmapreduce:GetSessionEndpoint
 elasticmapreduce:GetStudioSessionMapping
 elasticmapreduce:LinkRepository
 elasticmapreduce:ListBootstrapActions
@@ -7935,6 +7938,7 @@ elasticmapreduce:ListNotebookExecutions
 elasticmapreduce:ListReleaseLabels
 elasticmapreduce:ListRepositories
 elasticmapreduce:ListSecurityConfigurations
+elasticmapreduce:ListSessions
 elasticmapreduce:ListSteps
 elasticmapreduce:ListStudioSessionMappings
 elasticmapreduce:ListStudios
@@ -7960,9 +7964,11 @@ elasticmapreduce:SetUnhealthyNodeReplacement
 elasticmapreduce:SetVisibleToAllUsers
 elasticmapreduce:StartEditor
 elasticmapreduce:StartNotebookExecution
+elasticmapreduce:StartSession
 elasticmapreduce:StopEditor
 elasticmapreduce:StopNotebookExecution
 elasticmapreduce:TerminateJobFlows
+elasticmapreduce:TerminateSession
 elasticmapreduce:UnlinkRepository
 elasticmapreduce:UpdateEditor
 elasticmapreduce:UpdateRepository
