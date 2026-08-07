@@ -20568,6 +20568,7 @@ transform-custom:DeleteSource
 transform-custom:DeleteTransformationPackage
 transform-custom:ExecuteTransformation
 transform-custom:GetAnalysis
+transform-custom:GetAnalysisArtifactDownloadUrl
 transform-custom:GetCampaign
 transform-custom:GetFinding
 transform-custom:GetFindingGroups
@@ -20577,6 +20578,7 @@ transform-custom:GetRepository
 transform-custom:GetSource
 transform-custom:GetTransformationPackageUrl
 transform-custom:ListAnalyses
+transform-custom:ListAnalysisArtifacts
 transform-custom:ListCampaignRepositories
 transform-custom:ListCampaigns
 transform-custom:ListFindings
