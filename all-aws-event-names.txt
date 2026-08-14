@@ -2350,6 +2350,8 @@ bedrock:BatchDeleteAdvancedPromptOptimizationJob
 bedrock:BatchDeleteEvaluationJob
 bedrock:CallWithBearerToken
 bedrock:CancelAutomatedReasoningPolicyBuildWorkflow
+bedrock:CancelInvoke
+bedrock:CheckIngestedDocumentAcl
 bedrock:CopyBlueprintStage
 bedrock:CountTokens
 bedrock:CreateAdvancedPromptOptimizationJob
@@ -2409,6 +2411,7 @@ bedrock:DeleteFoundationModelAgreement
 bedrock:DeleteGuardrail
 bedrock:DeleteImportedModel
 bedrock:DeleteInferenceProfile
+bedrock:DeleteInvoke
 bedrock:DeleteKnowledgeBase
 bedrock:DeleteKnowledgeBaseDocuments
 bedrock:DeleteMarketplaceModelAgreement
@@ -2466,8 +2469,10 @@ bedrock:GetFoundationModelAvailability
 bedrock:GetGuardrail
 bedrock:GetImportedModel
 bedrock:GetInferenceProfile
+bedrock:GetIngestedDocumentAcl
 bedrock:GetIngestionJob
 bedrock:GetInvocationStep
+bedrock:GetInvoke
 bedrock:GetKnowledgeBase
 bedrock:GetKnowledgeBaseDocuments
 bedrock:GetMarketplaceModelEndpoint
