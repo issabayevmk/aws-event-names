@@ -21818,6 +21818,7 @@ GetTroubleshootingRecommendation:workspaces
 ImportClientBranding:workspaces
 ImportCustomWorkspaceImage:workspaces
 ImportWorkspaceImage:workspaces
+InvokeOnboardingAgent:workspaces
 InvokeTroubleshootingInvestigation:workspaces
 ListAccountLinks:workspaces
 ListAvailableManagementCidrRanges:workspaces
@@ -21834,6 +21835,7 @@ ModifyWorkspaceAccessProperties:workspaces
 ModifyWorkspaceCreationProperties:workspaces
 ModifyWorkspaceProperties:workspaces
 ModifyWorkspaceState:workspaces
+Personalization:workspaces
 RebootWorkspaces:workspaces
 RebuildWorkspaces:workspaces
 RegisterWorkspaceDirectory:workspaces
