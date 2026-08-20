@@ -2379,6 +2379,7 @@ bedrock:CreateCustomModelDeployment
 bedrock:CreateDataAutomationLibrary
 bedrock:CreateDataAutomationProject
 bedrock:CreateDataSource
+bedrock:CreateDataSourceToken
 bedrock:CreateEvaluationJob
 bedrock:CreateFlow
 bedrock:CreateFlowAlias
@@ -2468,6 +2469,7 @@ bedrock:GetDataAutomationLibraryIngestionJob
 bedrock:GetDataAutomationProject
 bedrock:GetDataAutomationStatus
 bedrock:GetDataSource
+bedrock:GetDataSourceAuthorizationUrl
 bedrock:GetDocumentContent
 bedrock:GetEvaluationJob
 bedrock:GetExecutionFlowSnapshot
@@ -7680,6 +7682,7 @@ eks-mcp:CallPrivilegedTool
 eks-mcp:CallReadOnlyTool
 eks-mcp:InvokeMcp
 eks:AccessKubernetesApi
+eks:ActivateCertificateAuthority
 eks:AssociateAccessPolicy
 eks:AssociateEncryptionConfig
 eks:AssociateIdentityProviderConfig
@@ -7687,6 +7690,7 @@ eks:CancelUpdate
 eks:CreateAccessEntry
 eks:CreateAddon
 eks:CreateCapability
+eks:CreateCertificateAuthority
 eks:CreateCluster
 eks:CreateEksAnywhereSubscription
 eks:CreateFargateProfile
@@ -7695,6 +7699,7 @@ eks:CreatePodIdentityAssociation
 eks:DeleteAccessEntry
 eks:DeleteAddon
 eks:DeleteCapability
+eks:DeleteCertificateAuthority
 eks:DeleteCluster
 eks:DeleteEksAnywhereSubscription
 eks:DeleteFargateProfile
@@ -7706,6 +7711,7 @@ eks:DescribeAddon
 eks:DescribeAddonConfiguration
 eks:DescribeAddonVersions
 eks:DescribeCapability
+eks:DescribeCertificateAuthority
 eks:DescribeCluster
 eks:DescribeClusterVersions
 eks:DescribeEksAnywhereSubscription
@@ -7723,6 +7729,7 @@ eks:ListAccessPolicies
 eks:ListAddons
 eks:ListAssociatedAccessPolicies
 eks:ListCapabilities
+eks:ListCertificateAuthorities
 eks:ListClusters
 eks:ListDashboardData
 eks:ListDashboardResources
