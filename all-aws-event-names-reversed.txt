@@ -11965,6 +11965,7 @@ DeleteMicrovmImage:lambda
 DeleteMicrovmImageVersion:lambda
 DeleteNetworkConnector:lambda
 DeleteProvisionedConcurrencyConfig:lambda
+DeleteResourcePolicy:lambda
 DisableReplication:lambda
 EnableReplication:lambda
 GetAccountSettings:lambda
@@ -11992,6 +11993,7 @@ GetMicrovmImageVersion:lambda
 GetNetworkConnector:lambda
 GetPolicy:lambda
 GetProvisionedConcurrencyConfig:lambda
+GetResourcePolicy:lambda
 GetRuntimeManagementConfig:lambda
 InvokeAsync:lambda
 InvokeFunction:lambda
@@ -12028,6 +12030,7 @@ PutFunctionEventInvokeConfig:lambda
 PutFunctionRecursionConfig:lambda
 PutFunctionScalingConfig:lambda
 PutProvisionedConcurrencyConfig:lambda
+PutResourcePolicy:lambda
 PutRuntimeManagementConfig:lambda
 RemoveLayerVersionPermission:lambda
 RemovePermission:lambda
