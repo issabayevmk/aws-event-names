@@ -15846,8 +15846,6 @@ quicksight:DescribeAppPermissions
 quicksight:DescribeApprovalPolicy
 quicksight:DescribeAssetBundleExportJob
 quicksight:DescribeAssetBundleImportJob
-quicksight:DescribeAutomationGroup
-quicksight:DescribeAutomationGroupPermissions
 quicksight:DescribeAutomationJob
 quicksight:DescribeBrand
 quicksight:DescribeBrandAssignment
@@ -15923,8 +15921,8 @@ quicksight:ListApprovalPolicies
 quicksight:ListApps
 quicksight:ListAssetBundleExportJobs
 quicksight:ListAssetBundleImportJobs
-quicksight:ListAutomationGroups
 quicksight:ListBrands
+quicksight:ListCustomPermissionAssignments
 quicksight:ListCustomPermissions
 quicksight:ListCustomerManagedKeys
 quicksight:ListDashboardVersions
@@ -15983,7 +15981,6 @@ quicksight:SearchActionConnectors
 quicksight:SearchAgents
 quicksight:SearchAnalyses
 quicksight:SearchApps
-quicksight:SearchAutomationGroups
 quicksight:SearchDashboards
 quicksight:SearchDataSets
 quicksight:SearchDataSources
@@ -16019,7 +16016,6 @@ quicksight:UpdateAnalysisPermissions
 quicksight:UpdateAppPermissions
 quicksight:UpdateApplicationWithTokenExchangeGrant
 quicksight:UpdateApprovalPolicy
-quicksight:UpdateAutomationGroupPermissions
 quicksight:UpdateBrand
 quicksight:UpdateBrandAssignment
 quicksight:UpdateBrandPublishedVersion
