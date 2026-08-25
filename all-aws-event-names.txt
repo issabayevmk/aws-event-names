@@ -5395,6 +5395,8 @@ customer-verification:CreateCustomerVerificationDetails
 customer-verification:CreateUploadUrls
 customer-verification:GetCustomerVerificationDetails
 customer-verification:GetCustomerVerificationEligibility
+customer-verification:GetInheritanceConfig
+customer-verification:PutInheritanceConfig
 customer-verification:UpdateCustomerVerificationDetails
 databrew:BatchDeleteRecipeVersion
 databrew:CreateDataset
