@@ -20215,6 +20215,7 @@ support-console:GetQuestionnaire
 support-console:SaveFeedback
 support:AddAttachmentsToSet
 support:AddCommunicationToCase
+support:AddRelatedItemToCase
 support:CreateCase
 support:DescribeAttachment
 support:DescribeCaseAttributes
@@ -20224,6 +20225,7 @@ support:DescribeCommunication
 support:DescribeCommunications
 support:DescribeCreateCaseOptions
 support:DescribeIssueTypes
+support:DescribeRelatedItems
 support:DescribeServices
 support:DescribeSeverityLevels
 support:DescribeSupportLevel
@@ -20232,6 +20234,8 @@ support:DescribeTrustedAdvisorCheckRefreshStatuses
 support:DescribeTrustedAdvisorCheckResult
 support:DescribeTrustedAdvisorCheckSummaries
 support:DescribeTrustedAdvisorChecks
+support:DisconnectLiveContactForCase
+support:DownloadAttachment
 support:GetInteraction
 support:InitiateCallForCase
 support:InitiateChatForCase
@@ -20247,6 +20251,7 @@ support:SearchForCases
 support:StartInteraction
 support:UpdateCaseSeverity
 support:UpdateInteraction
+support:UploadAttachment
 supportapp:CreateSlackChannelConfiguration
 supportapp:DeleteAccountAlias
 supportapp:DeleteSlackChannelConfiguration
