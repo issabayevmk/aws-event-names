@@ -11716,12 +11716,16 @@ kendra:UpdateQuerySuggestionsBlockList
 kendra:UpdateQuerySuggestionsConfig
 kendra:UpdateThesaurus
 kinesis:AddTagsToStream
+kinesis:AssociateStreamsWithChannel
+kinesis:CreateChannel
 kinesis:CreateStream
 kinesis:DecreaseStreamRetentionPeriod
+kinesis:DeleteChannel
 kinesis:DeleteResourcePolicy
 kinesis:DeleteStream
 kinesis:DeregisterStreamConsumer
 kinesis:DescribeAccountSettings
+kinesis:DescribeChannel
 kinesis:DescribeLimits
 kinesis:DescribeStream
 kinesis:DescribeStreamConsumer
@@ -11733,6 +11737,7 @@ kinesis:GetResourcePolicy
 kinesis:GetShardIterator
 kinesis:IncreaseStreamRetentionPeriod
 kinesis:InjectApiError
+kinesis:ListChannels
 kinesis:ListShards
 kinesis:ListStreamConsumers
 kinesis:ListStreams
@@ -11751,6 +11756,7 @@ kinesis:SubscribeToShard
 kinesis:TagResource
 kinesis:UntagResource
 kinesis:UpdateAccountSettings
+kinesis:UpdateChannel
 kinesis:UpdateMaxRecordSize
 kinesis:UpdateShardCount
 kinesis:UpdateStreamMode
