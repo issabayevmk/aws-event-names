@@ -4966,6 +4966,7 @@ connect:CreateDataTable
 connect:CreateDataTableAttribute
 connect:CreateEmailAddress
 connect:CreateEvaluationForm
+connect:CreateExtractionDefinition
 connect:CreateHoursOfOperation
 connect:CreateHoursOfOperationOverride
 connect:CreateInstance
@@ -5004,6 +5005,7 @@ connect:DeleteDataTable
 connect:DeleteDataTableAttribute
 connect:DeleteEmailAddress
 connect:DeleteEvaluationForm
+connect:DeleteExtractionDefinition
 connect:DeleteHoursOfOperation
 connect:DeleteHoursOfOperationOverride
 connect:DeleteInstance
@@ -5041,6 +5043,7 @@ connect:DescribeDataTable
 connect:DescribeDataTableAttribute
 connect:DescribeEmailAddress
 connect:DescribeEvaluationForm
+connect:DescribeExtractionDefinition
 connect:DescribeForecastingPlanningSchedulingIntegration
 connect:DescribeHoursOfOperation
 connect:DescribeHoursOfOperationOverride
@@ -5123,6 +5126,7 @@ connect:ListDefaultVocabularies
 connect:ListEntitySecurityProfiles
 connect:ListEvaluationFormVersions
 connect:ListEvaluationForms
+connect:ListExtractionDefinitions
 connect:ListFlowAssociations
 connect:ListHoursOfOperationOverrides
 connect:ListHoursOfOperations
@@ -5253,6 +5257,7 @@ connect:UpdateDataTableMetadata
 connect:UpdateDataTablePrimaryValues
 connect:UpdateEmailAddressMetadata
 connect:UpdateEvaluationForm
+connect:UpdateExtractionDefinition
 connect:UpdateHoursOfOperation
 connect:UpdateHoursOfOperationOverride
 connect:UpdateInstanceAttribute
