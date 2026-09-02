@@ -4498,6 +4498,7 @@ cognito-idp:AddUserPoolClientSecret
 cognito-idp:AdminAddUserToGroup
 cognito-idp:AdminConfirmSignUp
 cognito-idp:AdminCreateUser
+cognito-idp:AdminDeleteSoftwareToken
 cognito-idp:AdminDeleteUser
 cognito-idp:AdminDeleteUserAttributes
 cognito-idp:AdminDisableProviderForUser
@@ -5090,6 +5091,7 @@ connect:EvaluateDataTableValues
 connect:GetAttachedFile
 connect:GetContactAttributes
 connect:GetContactMetrics
+connect:GetCrossRegionRouting
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
 connect:GetEffectiveHoursOfOperations
@@ -5252,6 +5254,7 @@ connect:UpdateContactFlowModuleMetadata
 connect:UpdateContactFlowName
 connect:UpdateContactRoutingData
 connect:UpdateContactSchedule
+connect:UpdateCrossRegionRouting
 connect:UpdateDataTableAttribute
 connect:UpdateDataTableMetadata
 connect:UpdateDataTablePrimaryValues
@@ -9792,6 +9795,8 @@ groundtruthlabeling:UpdateBatch
 guardduty:AcceptAdministratorInvitation
 guardduty:AcceptInvitation
 guardduty:ArchiveFindings
+guardduty:CreateCustomDetectionRuleAssociation
+guardduty:CreateCustomDetectionRuleOrgConfiguration
 guardduty:CreateDetector
 guardduty:CreateFilter
 guardduty:CreateIPSet
@@ -9804,6 +9809,8 @@ guardduty:CreateThreatEntitySet
 guardduty:CreateThreatIntelSet
 guardduty:CreateTrustedEntitySet
 guardduty:DeclineInvitations
+guardduty:DeleteCustomDetectionRuleAssociation
+guardduty:DeleteCustomDetectionRuleOrgConfiguration
 guardduty:DeleteDetector
 guardduty:DeleteFilter
 guardduty:DeleteIPSet
@@ -9824,6 +9831,9 @@ guardduty:DisassociateMembers
 guardduty:EnableOrganizationAdminAccount
 guardduty:GetAdministratorAccount
 guardduty:GetCoverageStatistics
+guardduty:GetCustomDetectionRule
+guardduty:GetCustomDetectionRuleAssociation
+guardduty:GetCustomDetectionRuleOrgConfiguration
 guardduty:GetDetector
 guardduty:GetFilter
 guardduty:GetFindings
@@ -9845,6 +9855,9 @@ guardduty:GetTrustedEntitySet
 guardduty:GetUsageStatistics
 guardduty:InviteMembers
 guardduty:ListCoverage
+guardduty:ListCustomDetectionRuleAssociations
+guardduty:ListCustomDetectionRuleOrgConfigurations
+guardduty:ListCustomDetectionRules
 guardduty:ListDetectors
 guardduty:ListFilters
 guardduty:ListFindings
@@ -9868,6 +9881,8 @@ guardduty:StopMonitoringMembers
 guardduty:TagResource
 guardduty:UnarchiveFindings
 guardduty:UntagResource
+guardduty:UpdateCustomDetectionRuleAssociation
+guardduty:UpdateCustomDetectionRuleOrgConfiguration
 guardduty:UpdateDetector
 guardduty:UpdateFilter
 guardduty:UpdateFindingsFeedback
