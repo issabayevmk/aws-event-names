@@ -8537,6 +8537,7 @@ DeleteEnvironment:evs
 DeleteEnvironmentConnector:evs
 DeleteEnvironmentHost:evs
 DisassociateEipFromVlan:evs
+GetAccountSettings:evs
 GetDepotUrl:evs
 GetEnvironment:evs
 GetVersions:evs
@@ -8546,6 +8547,7 @@ ListEnvironmentVlans:evs
 ListEnvironments:evs
 ListTagsForResource:evs
 ListVmEntitlements:evs
+PutAccountSettings:evs
 TagResource:evs
 UntagResource:evs
 UpdateEnvironmentConnector:evs
