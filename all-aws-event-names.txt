@@ -5131,6 +5131,7 @@ connect:ListDataTableValues
 connect:ListDataTables
 connect:ListDefaultVocabularies
 connect:ListEntitySecurityProfiles
+connect:ListEvaluationFormAIVersions
 connect:ListEvaluationFormVersions
 connect:ListEvaluationForms
 connect:ListExtractionDefinitions
