@@ -16827,7 +16827,9 @@ resiliencehub:ListSystemEvents
 resiliencehub:ListSystems
 resiliencehub:ListTagsForResource
 resiliencehub:ListTestRecommendations
+resiliencehub:ListTestRunDependencies
 resiliencehub:ListTestRunEvents
+resiliencehub:ListTestRunSourceEvents
 resiliencehub:ListTestRunSources
 resiliencehub:ListTestRuns
 resiliencehub:ListTestSources
