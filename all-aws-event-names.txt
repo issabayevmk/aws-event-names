@@ -18905,6 +18905,8 @@ servicequotas:TagResource
 servicequotas:UntagResource
 servicequotas:UpdateAutoManagement
 ses:AllowVendedLogDeliveryForResource
+ses:ApplyTrackingConfigurationOverrides
+ses:AssociateEmailIdentityCertificate
 ses:BatchGetMetricData
 ses:CancelExportJob
 ses:CloneReceiptRuleSet
@@ -18986,6 +18988,7 @@ ses:DescribeActiveReceiptRuleSet
 ses:DescribeConfigurationSet
 ses:DescribeReceiptRule
 ses:DescribeReceiptRuleSet
+ses:DisassociateEmailIdentityCertificate
 ses:GetAccount
 ses:GetAccount
 ses:GetAccountSendingEnabled
@@ -19069,6 +19072,7 @@ ses:ListDomainDeliverabilityCampaigns
 ses:ListDomainDeliverabilityCampaigns
 ses:ListEmailIdentities
 ses:ListEmailIdentities
+ses:ListEmailIdentityCertificates
 ses:ListEmailTemplates
 ses:ListExportJobs
 ses:ListIdentities
@@ -19167,6 +19171,7 @@ ses:UntagResource
 ses:UntagResource
 ses:UpdateAccountSendingEnabled
 ses:UpdateArchive
+ses:UpdateConfigurationSet
 ses:UpdateConfigurationSetEventDestination
 ses:UpdateConfigurationSetEventDestination
 ses:UpdateConfigurationSetEventDestination
