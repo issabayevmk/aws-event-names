@@ -18478,6 +18478,7 @@ BatchGetThreatModelJobTasks:securityagent
 BatchGetThreatModelJobs:securityagent
 BatchGetThreatModels:securityagent
 BatchGetThreats:securityagent
+BatchGetValidationRuns:securityagent
 BatchUpdateSecurityRequirements:securityagent
 CreateAgentSpace:securityagent
 CreateApplication:securityagent
@@ -18524,6 +18525,7 @@ ListCodeReviewJobsForCodeReview:securityagent
 ListCodeReviews:securityagent
 ListDesignReviewComments:securityagent
 ListDesignReviews:securityagent
+ListDiscoveredDomains:securityagent
 ListDiscoveredEndpoints:securityagent
 ListFindings:securityagent
 ListIntegratedResources:securityagent
@@ -18547,6 +18549,7 @@ StartCodeRemediation:securityagent
 StartCodeReviewJob:securityagent
 StartPentestJob:securityagent
 StartThreatModelJob:securityagent
+StartValidationRun:securityagent
 StopCodeReviewJob:securityagent
 StopPentestJob:securityagent
 StopThreatModelJob:securityagent
@@ -18556,6 +18559,7 @@ UntagResource:securityagent
 UpdateAgentSpace:securityagent
 UpdateApplication:securityagent
 UpdateCodeReview:securityagent
+UpdateDiscoveredDomains:securityagent
 UpdateFinding:securityagent
 UpdateIntegratedResources:securityagent
 UpdatePentest:securityagent
@@ -19371,6 +19375,7 @@ DiscardRegistrationVersion:sms-voice
 GetConfigurationSetEventDestinations:sms-voice
 GetProtectConfigurationCountryRuleSet:sms-voice
 GetResourcePolicy:sms-voice
+ListAvailablePhoneNumbers:sms-voice
 ListConfigurationSets:sms-voice
 ListNotifyCountries:sms-voice
 ListPoolOriginationIdentities:sms-voice
