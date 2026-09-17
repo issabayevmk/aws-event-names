@@ -9984,6 +9984,7 @@ DeleteResource:healthlake
 DescribeDataTransformationJob:healthlake
 DescribeFHIRBulkDeleteJob:healthlake
 DescribeFHIRBulkMemberMatchJob:healthlake
+DescribeFHIRBulkPatchJob:healthlake
 DescribeFHIRDatastore:healthlake
 DescribeFHIRExportJob:healthlake
 DescribeFHIRExportJobWithGet:healthlake
@@ -10022,6 +10023,7 @@ SearchWithPost:healthlake
 StartDataTransformationJob:healthlake
 StartFHIRBulkDeleteJob:healthlake
 StartFHIRBulkMemberMatchJob:healthlake
+StartFHIRBulkPatchJob:healthlake
 StartFHIRExportJob:healthlake
 StartFHIRExportJobWithGet:healthlake
 StartFHIRExportJobWithPost:healthlake
