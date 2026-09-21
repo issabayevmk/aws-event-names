@@ -2670,6 +2670,7 @@ DeletePricingRule:billingconductor
 DisassociateAccounts:billingconductor
 DisassociatePricingRules:billingconductor
 GetBillingGroupCostReport:billingconductor
+GetBillingTransferPreference:billingconductor
 ListAccountAssociations:billingconductor
 ListBillingGroupCostReports:billingconductor
 ListBillingGroups:billingconductor
@@ -2684,6 +2685,7 @@ ListTagsForResource:billingconductor
 TagResource:billingconductor
 UntagResource:billingconductor
 UpdateBillingGroup:billingconductor
+UpdateBillingTransferPreference:billingconductor
 UpdateCustomLineItem:billingconductor
 UpdatePricingPlan:billingconductor
 UpdatePricingRule:billingconductor
