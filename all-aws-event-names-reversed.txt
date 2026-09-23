@@ -21413,6 +21413,8 @@ UpdateManagedRuleSetVersionExpiryDate:wafv2
 UpdateRegexPatternSet:wafv2
 UpdateRuleGroup:wafv2
 UpdateWebACL:wafv2
+ValidateNetworkSecurityManagerRuleConfiguration:wafv2
+ValidateNetworkSecurityManagerWebACLConfiguration:wafv2
 AuthenticatePackager:wam
 AssociateLenses:wellarchitected
 AssociateProfiles:wellarchitected
