@@ -1586,11 +1586,13 @@ DeleteSession:aws-external-anthropic
 DeleteSkill:aws-external-anthropic
 DeleteVault:aws-external-anthropic
 DeleteWebhook:aws-external-anthropic
+DisableKey:aws-external-anthropic
 GetAccountStatus:aws-external-anthropic
 GetAgent:aws-external-anthropic
 GetBatchInference:aws-external-anthropic
 GetEnvironment:aws-external-anthropic
 GetFile:aws-external-anthropic
+GetKey:aws-external-anthropic
 GetMemoryStore:aws-external-anthropic
 GetModel:aws-external-anthropic
 GetSession:aws-external-anthropic
@@ -1603,6 +1605,7 @@ ListAgents:aws-external-anthropic
 ListBatchInferences:aws-external-anthropic
 ListEnvironments:aws-external-anthropic
 ListFiles:aws-external-anthropic
+ListKeys:aws-external-anthropic
 ListMemoryStores:aws-external-anthropic
 ListModels:aws-external-anthropic
 ListSessions:aws-external-anthropic
@@ -1613,11 +1616,13 @@ ListVaults:aws-external-anthropic
 ListWebhooks:aws-external-anthropic
 ListWorkspaces:aws-external-anthropic
 ProcessEnvironmentWork:aws-external-anthropic
+RegisterKey:aws-external-anthropic
 RotateWebhookSecret:aws-external-anthropic
 TagResource:aws-external-anthropic
 UntagResource:aws-external-anthropic
 UpdateAgent:aws-external-anthropic
 UpdateEnvironment:aws-external-anthropic
+UpdateKey:aws-external-anthropic
 UpdateMemoryStore:aws-external-anthropic
 UpdateSession:aws-external-anthropic
 UpdateSkill:aws-external-anthropic
@@ -10389,6 +10394,7 @@ DeleteIdentityStore:identitystore
 DeleteUser:identitystore
 DescribeGroup:identitystore
 DescribeGroupMembership:identitystore
+DescribeIdentityStore:identitystore
 DescribeRegion:identitystore
 DescribeUser:identitystore
 GetGroupId:identitystore
@@ -10398,6 +10404,7 @@ IsMemberInGroups:identitystore
 ListGroupMemberships:identitystore
 ListGroupMembershipsForMember:identitystore
 ListGroups:identitystore
+ListIdentityStores:identitystore
 ListRegions:identitystore
 ListUsers:identitystore
 RemoveRegion:identitystore
