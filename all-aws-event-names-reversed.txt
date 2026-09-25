@@ -7608,6 +7608,7 @@ ReleaseHosts:ec2
 ReleaseIpamPoolAllocation:ec2
 ReplaceIamInstanceProfileAssociation:ec2
 ReplaceImageCriteriaInAllowedImagesSettings:ec2
+ReplaceImageInstanceTypeSpecification:ec2
 ReplaceNetworkAclAssociation:ec2
 ReplaceNetworkAclEntry:ec2
 ReplaceRoute:ec2
@@ -7658,6 +7659,7 @@ UpdateCapacityManagerOrganizationsAccess:ec2
 UpdateInterruptibleCapacityReservationAllocation:ec2
 UpdateSecurityGroupRuleDescriptionsEgress:ec2
 UpdateSecurityGroupRuleDescriptionsIngress:ec2
+ValidateSecurityGroupQuotasForInterface:ec2
 WithdrawByoipCidr:ec2
 AcknowledgeMessage:ec2messages
 DeleteMessage:ec2messages
