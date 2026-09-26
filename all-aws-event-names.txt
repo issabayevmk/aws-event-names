@@ -18041,6 +18041,7 @@ sagemaker:AccessModelPackage
 sagemaker:AddAssociation
 sagemaker:AddTags
 sagemaker:AssociateTrialComponent
+sagemaker:AttachClusterNodeNetworkInterface
 sagemaker:AttachClusterNodeVolume
 sagemaker:BatchAddClusterNodes
 sagemaker:BatchDeleteClusterNodes
@@ -18694,6 +18695,7 @@ securityagent:GetIntegration
 securityagent:GetProviderRegistrationManifest
 securityagent:GetSecurityRequirement
 securityagent:GetSecurityRequirementPack
+securityagent:HandleProviderCallback
 securityagent:HandleProviderRegistrationCallback
 securityagent:ImportSecurityRequirements
 securityagent:InitiateProviderRegistration
@@ -18743,6 +18745,7 @@ securityagent:UpdateCodeReview
 securityagent:UpdateDiscoveredDomains
 securityagent:UpdateFinding
 securityagent:UpdateIntegratedResources
+securityagent:UpdateIntegration
 securityagent:UpdatePentest
 securityagent:UpdatePrivateConnectionCertificate
 securityagent:UpdateSecurityRequirement
