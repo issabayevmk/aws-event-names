@@ -1290,6 +1290,7 @@ arc-region-switch:ListPlans
 arc-region-switch:ListPlansInRegion
 arc-region-switch:ListRoute53HealthChecks
 arc-region-switch:ListRoute53HealthChecksInRegion
+arc-region-switch:ListServiceQuotaWarnings
 arc-region-switch:ListTagsForResource
 arc-region-switch:PutResourcePolicy
 arc-region-switch:StartPlanExecution
@@ -20333,6 +20334,7 @@ sso:UpdateProfile
 sso:UpdateSSOConfiguration
 sso:UpdateTrust
 sso:UpdateTrustedTokenIssuer
+startups:GetSpendSummary
 states:CreateActivity
 states:CreateStateMachine
 states:CreateStateMachineAlias
