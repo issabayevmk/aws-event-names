@@ -19726,6 +19726,7 @@ Unsubscribe:sns
 UntagResource:sns
 VerifySMSSandboxPhoneNumber:sns
 AssociateWhatsAppBusinessAccount:social-messaging
+CreateWhatsAppDataset:social-messaging
 CreateWhatsAppFlow:social-messaging
 CreateWhatsAppMessageTemplate:social-messaging
 CreateWhatsAppMessageTemplateFromLibrary:social-messaging
@@ -19737,6 +19738,7 @@ DeprecateWhatsAppFlow:social-messaging
 DisassociateWhatsAppBusinessAccount:social-messaging
 GetLinkedWhatsAppBusinessAccount:social-messaging
 GetLinkedWhatsAppBusinessAccountPhoneNumber:social-messaging
+GetWhatsAppBusinessPublicKey:social-messaging
 GetWhatsAppCallPermission:social-messaging
 GetWhatsAppFlow:social-messaging
 GetWhatsAppFlowPreview:social-messaging
@@ -19751,7 +19753,9 @@ ListWhatsAppTemplateLibrary:social-messaging
 PostWhatsAppMessageMedia:social-messaging
 PublishWhatsAppFlow:social-messaging
 PutWhatsAppBusinessAccountEventDestinations:social-messaging
+PutWhatsAppBusinessPublicKey:social-messaging
 SendWhatsAppCallEvent:social-messaging
+SendWhatsAppConversionEvent:social-messaging
 SendWhatsAppMessage:social-messaging
 TagResource:social-messaging
 UntagResource:social-messaging
