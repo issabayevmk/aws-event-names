@@ -162,7 +162,9 @@ ListRegions:account
 PutAccountName:account
 PutAlternateContact:account
 PutContactInformation:account
+SendPhoneNumberVerification:account
 StartPrimaryEmailUpdate:account
+VerifyPhoneNumber:account
 CreateCertificateAuthority:acm-pca
 CreateCertificateAuthorityAuditReport:acm-pca
 CreatePermission:acm-pca
@@ -17860,11 +17862,13 @@ ListIndexes:s3vectors
 ListTagsForResource:s3vectors
 ListVectorBuckets:s3vectors
 ListVectors:s3vectors
+PutVectorBucketDefaultIndexMode:s3vectors
 PutVectorBucketPolicy:s3vectors
 PutVectors:s3vectors
 QueryVectors:s3vectors
 TagResource:s3vectors
 UntagResource:s3vectors
+UpdateIndexMode:s3vectors
 SendConversation:sagemaker-data-science-assistant
 DeleteEarthObservationJob:sagemaker-geospatial
 DeleteVectorEnrichmentJob:sagemaker-geospatial
