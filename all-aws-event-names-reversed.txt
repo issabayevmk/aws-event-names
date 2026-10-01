@@ -2652,6 +2652,8 @@ GetResourcePolicy:billing
 GetSellerOfRecord:billing
 ListBillingViewSegments:billing
 ListBillingViews:billing
+ListBusinessSupportAccountCharges:billing
+ListBusinessSupportSubscriptionHistory:billing
 ListEnterpriseSupportLinkedAccountCharges:billing
 ListSourceViewsForBillingView:billing
 ListTagsForResource:billing
@@ -3911,6 +3913,7 @@ CreateIntegration:cloudwatch
 CreateOmniDashboard:cloudwatch
 CreateOmniThread:cloudwatch
 CreateOneTimeDeepLinkCode:cloudwatch
+CreateResourceMetricsConfiguration:cloudwatch
 CreateServiceLevelObjective:cloudwatch
 CreateSpace:cloudwatch
 CreateView:cloudwatch
@@ -3931,6 +3934,7 @@ DeleteMetricStream:cloudwatch
 DeleteOmniDashboard:cloudwatch
 DeleteOmniThread:cloudwatch
 DeletePipelineRule:cloudwatch
+DeleteResourceMetricsConfiguration:cloudwatch
 DeleteServiceLevelObjective:cloudwatch
 DeleteSpace:cloudwatch
 DeleteView:cloudwatch
@@ -3970,6 +3974,7 @@ GetOmniDashboard:cloudwatch
 GetOmniThread:cloudwatch
 GetPreferences:cloudwatch
 GetRecords:cloudwatch
+GetResourceMetricsConfiguration:cloudwatch
 GetService:cloudwatch
 GetServiceData:cloudwatch
 GetServiceLevelObjective:cloudwatch
@@ -4040,9 +4045,11 @@ UpdateDomain:cloudwatch
 UpdateDomainForOrganization:cloudwatch
 UpdateIngestionEndpoint:cloudwatch
 UpdateIntegration:cloudwatch
+UpdateOTelEnrichment:cloudwatch
 UpdateOmniDashboard:cloudwatch
 UpdateOmniThread:cloudwatch
 UpdatePreferences:cloudwatch
+UpdateResourceMetricsConfiguration:cloudwatch
 UpdateServiceLevelObjective:cloudwatch
 UpdateSpace:cloudwatch
 UpdateView:cloudwatch
@@ -12062,6 +12069,9 @@ CreateMicrovmAuthToken:lambda
 CreateMicrovmImage:lambda
 CreateMicrovmShellAuthToken:lambda
 CreateNetworkConnector:lambda
+CreateWebFunction:lambda
+CreateWebFunctionEndpoint:lambda
+CreateWebFunctionRevision:lambda
 DeleteAlias:lambda
 DeleteCapacityProvider:lambda
 DeleteCodeSigningConfig:lambda
@@ -12077,6 +12087,9 @@ DeleteMicrovmImageVersion:lambda
 DeleteNetworkConnector:lambda
 DeleteProvisionedConcurrencyConfig:lambda
 DeleteResourcePolicy:lambda
+DeleteWebFunction:lambda
+DeleteWebFunctionEndpoint:lambda
+DeleteWebFunctionRevision:lambda
 DisableReplication:lambda
 EnableReplication:lambda
 GetAccountSettings:lambda
@@ -12106,9 +12119,14 @@ GetPolicy:lambda
 GetProvisionedConcurrencyConfig:lambda
 GetResourcePolicy:lambda
 GetRuntimeManagementConfig:lambda
+GetWebAccountSettings:lambda
+GetWebFunction:lambda
+GetWebFunctionEndpoint:lambda
+GetWebFunctionRevision:lambda
 InvokeAsync:lambda
 InvokeFunction:lambda
 InvokeFunctionUrl:lambda
+InvokeWebFunctionEndpoint:lambda
 ListAliases:lambda
 ListCapacityProviders:lambda
 ListCodeSigningConfigs:lambda
@@ -12131,6 +12149,9 @@ ListNetworkConnectors:lambda
 ListProvisionedConcurrencyConfigs:lambda
 ListTags:lambda
 ListVersionsByFunction:lambda
+ListWebFunctionEndpoints:lambda
+ListWebFunctionRevisions:lambda
+ListWebFunctions:lambda
 PassCapacityProvider:lambda
 PassNetworkConnector:lambda
 PublishLayerVersion:lambda
@@ -12167,6 +12188,7 @@ UpdateFunctionUrlConfig:lambda
 UpdateMicrovmImage:lambda
 UpdateMicrovmImageVersion:lambda
 UpdateNetworkConnector:lambda
+UpdateWebFunctionEndpoint:lambda
 CreateAdditionalNode:launchwizard
 CreateDeployment:launchwizard
 CreateSettingsSet:launchwizard
@@ -18535,6 +18557,7 @@ CreateMembership:security-ir
 GetCase:security-ir
 GetCaseAttachmentDownloadUrl:security-ir
 GetCaseAttachmentUploadUrl:security-ir
+GetFindingMetrics:security-ir
 GetMembership:security-ir
 ListCaseEdits:security-ir
 ListCases:security-ir
