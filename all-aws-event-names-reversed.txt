@@ -287,9 +287,11 @@ CallForwardedTool:agentaccess-mcp
 CheckConnectionStatus:agentaccess-mcp
 DoubleClick:agentaccess-mcp
 GetScreenshot:agentaccess-mcp
+GetSessionInfo:agentaccess-mcp
 HoldKey:agentaccess-mcp
 InvokeMcp:agentaccess-mcp
 KeyPress:agentaccess-mcp
+LaunchApplication:agentaccess-mcp
 LeftClick:agentaccess-mcp
 LeftClickDrag:agentaccess-mcp
 LeftMouseDown:agentaccess-mcp
@@ -298,6 +300,7 @@ MiddleClick:agentaccess-mcp
 MovePointer:agentaccess-mcp
 RightClick:agentaccess-mcp
 Scroll:agentaccess-mcp
+ToggleAppSwitcher:agentaccess-mcp
 TripleClick:agentaccess-mcp
 TypeText:agentaccess-mcp
 AllowVendedLogDeliveryForResource:aidevops
@@ -2654,13 +2657,17 @@ ListBillingViewSegments:billing
 ListBillingViews:billing
 ListBusinessSupportAccountCharges:billing
 ListBusinessSupportSubscriptionHistory:billing
+ListCreditEntitlementPeriods:billing
+ListCreditEntitlements:billing
 ListEnterpriseSupportLinkedAccountCharges:billing
 ListSourceViewsForBillingView:billing
 ListTagsForResource:billing
 PutContractInformation:billing
 PutResourcePolicy:billing
 RedeemCredits:billing
+SplitCredit:billing
 TagResource:billing
+TransferCredit:billing
 UntagResource:billing
 UpdateBillingPreferences:billing
 UpdateBillingView:billing
@@ -4024,6 +4031,7 @@ PutMetricAlarm:cloudwatch
 PutMetricData:cloudwatch
 PutMetricStream:cloudwatch
 PutPipelineRule:cloudwatch
+PutRecords:cloudwatch
 QueryTraces:cloudwatch
 SearchPrincipals:cloudwatch
 SetAlarmState:cloudwatch
@@ -9589,6 +9597,8 @@ GetStages:glue
 GetStatement:glue
 GetStorage:glue
 GetStorageUnit:glue
+GetSystemLogsForJobRun:glue
+GetSystemLogsForSession:glue
 GetTable:glue
 GetTableOptimizer:glue
 GetTableVersion:glue
@@ -18735,6 +18745,7 @@ BatchImportFindings:securityhub
 BatchUpdateAutomationRules:securityhub
 BatchUpdateFindings:securityhub
 BatchUpdateStandardsControlAssociations:securityhub
+CancelExportJobV2:securityhub
 ConnectorRegistrationsV2:securityhub
 CreateActionTarget:securityhub
 CreateAggregatorV2:securityhub
@@ -18791,6 +18802,7 @@ GetConnectorV2:securityhub
 GetControlFindingSummary:securityhub
 GetCoverageStatisticsV2:securityhub
 GetEnabledStandards:securityhub
+GetExportJobV2:securityhub
 GetFindingAggregator:securityhub
 GetFindingHistory:securityhub
 GetFindings:securityhub
@@ -18822,6 +18834,7 @@ ListConnectors:securityhub
 ListConnectorsV2:securityhub
 ListControlEvaluationSummaries:securityhub
 ListEnabledProductsForImport:securityhub
+ListExportJobsV2:securityhub
 ListExposuresByRemediationV2:securityhub
 ListFindingAggregators:securityhub
 ListFreeTrialStatusesV2:securityhub
@@ -18835,6 +18848,7 @@ SendFindingEvents:securityhub
 SendInsightEvents:securityhub
 StartConfigurationPolicyAssociation:securityhub
 StartConfigurationPolicyDisassociation:securityhub
+StartExportJobV2:securityhub
 TagResource:securityhub
 UntagResource:securityhub
 UpdateActionTarget:securityhub
