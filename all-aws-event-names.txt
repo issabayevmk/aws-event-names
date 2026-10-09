@@ -162,6 +162,7 @@ account:ListRegions
 account:PutAccountName
 account:PutAlternateContact
 account:PutContactInformation
+account:ReopenAccount
 account:SendPhoneNumberVerification
 account:StartPrimaryEmailUpdate
 account:VerifyPhoneNumber
@@ -6062,6 +6063,7 @@ deadline:ListJobParameterDefinitions
 deadline:ListJobs
 deadline:ListLicenseEndpoints
 deadline:ListLimits
+deadline:ListMemberships
 deadline:ListMeteredProducts
 deadline:ListMonitors
 deadline:ListQueueEnvironments
