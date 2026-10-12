@@ -193,6 +193,7 @@ acm:AddTagsToCertificate
 acm:CreateAcmeDomainValidation
 acm:CreateAcmeEndpoint
 acm:CreateAcmeExternalAccountBinding
+acm:CreateTimeStamp
 acm:DeleteAcmeDomainValidation
 acm:DeleteAcmeEndpoint
 acm:DeleteAcmeExternalAccountBinding
@@ -12185,6 +12186,7 @@ lambda:ListMicrovmImageBuilds
 lambda:ListMicrovmImageVersions
 lambda:ListMicrovmImages
 lambda:ListMicrovms
+lambda:ListNetworkConnectorVersions
 lambda:ListNetworkConnectors
 lambda:ListProvisionedConcurrencyConfigs
 lambda:ListTags
@@ -18620,6 +18622,8 @@ securityagent:BatchDeletePentests
 securityagent:BatchDeleteSecurityRequirements
 securityagent:BatchDeleteThreatModels
 securityagent:BatchDeleteThreats
+securityagent:BatchDisassociateFindingIssue
+securityagent:BatchExportFindings
 securityagent:BatchGetAgentSpaces
 securityagent:BatchGetArtifactMetadata
 securityagent:BatchGetCodeReviewJobTasks
