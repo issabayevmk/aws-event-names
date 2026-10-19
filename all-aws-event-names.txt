@@ -22044,6 +22044,7 @@ workspaces-instances:ListInstanceTypes
 workspaces-instances:ListRegions
 workspaces-instances:ListTagsForResource
 workspaces-instances:ListWorkspaceInstances
+workspaces-instances:ModifyVolume
 workspaces-instances:TagResource
 workspaces-instances:UntagResource
 workspaces-web:AssociateBrowserSettings
