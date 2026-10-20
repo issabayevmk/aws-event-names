@@ -2533,6 +2533,8 @@ CreatePrompt:bedrock
 CreatePromptRouter:bedrock
 CreatePromptVersion:bedrock
 CreateProvisionedModelThroughput:bedrock
+CreateRetrievalInstruction:bedrock
+CreateRetrievalInstructionVersion:bedrock
 CreateSession:bedrock
 DeleteAgent:bedrock
 DeleteAgentActionGroup:bedrock
@@ -2566,6 +2568,7 @@ DeletePrompt:bedrock
 DeletePromptRouter:bedrock
 DeleteProvisionedModelThroughput:bedrock
 DeleteResourcePolicy:bedrock
+DeleteRetrievalInstruction:bedrock
 DeleteSession:bedrock
 DeregisterMarketplaceModelEndpoint:bedrock
 DetectGeneratedContent:bedrock
@@ -2632,6 +2635,7 @@ GetPrompt:bedrock
 GetPromptRouter:bedrock
 GetProvisionedModelThroughput:bedrock
 GetResourcePolicy:bedrock
+GetRetrievalInstruction:bedrock
 GetSession:bedrock
 GetUseCaseForModelAccess:bedrock
 IngestKnowledgeBaseDocuments:bedrock
@@ -2695,6 +2699,8 @@ ListModelInvocationJobs:bedrock
 ListPromptRouters:bedrock
 ListPrompts:bedrock
 ListProvisionedModelThroughputs:bedrock
+ListRetrievalInstructionVersions:bedrock
+ListRetrievalInstructions:bedrock
 ListSessions:bedrock
 ListTagsForResource:bedrock
 OptimizePrompt:bedrock
@@ -2744,12 +2750,17 @@ UpdateKnowledgeBase:bedrock
 UpdateMarketplaceModelEndpoint:bedrock
 UpdatePrompt:bedrock
 UpdateProvisionedModelThroughput:bedrock
+UpdateRetrievalInstruction:bedrock
 UpdateSession:bedrock
 ValidateFlowDefinition:bedrock
+AssociateContract:billing
 AssociateSourceViews:billing
+CancelContractualInvestmentAttestation:billing
 CreateBillingView:billing
+CreateContractualInvestmentAttestation:billing
 DeleteBillingView:billing
 DeleteResourcePolicy:billing
+DisassociateContract:billing
 DisassociateSourceViews:billing
 GetBillingData:billing
 GetBillingDetails:billing
@@ -2769,6 +2780,10 @@ ListBillingViewSegments:billing
 ListBillingViews:billing
 ListBusinessSupportAccountCharges:billing
 ListBusinessSupportSubscriptionHistory:billing
+ListContracts:billing
+ListContractualInvestmentAttestations:billing
+ListContractualInvestmentSummaries:billing
+ListContractualInvestments:billing
 ListCreditEntitlementPeriods:billing
 ListCreditEntitlements:billing
 ListEnterpriseSupportLinkedAccountCharges:billing
@@ -16522,6 +16537,7 @@ AddTagsToResource:rds
 ApplyPendingMaintenanceAction:rds
 AuthorizeDBSecurityGroupIngress:rds
 BacktrackDBCluster:rds
+CancelDBCapacityReservation:rds
 CancelExportTask:rds
 CopyCustomDBEngineVersion:rds
 CopyDBClusterParameterGroup:rds
@@ -16531,6 +16547,7 @@ CopyDBSnapshot:rds
 CopyOptionGroup:rds
 CreateBlueGreenDeployment:rds
 CreateCustomDBEngineVersion:rds
+CreateDBCapacityReservation:rds
 CreateDBCluster:rds
 CreateDBClusterEndpoint:rds
 CreateDBClusterParameterGroup:rds
@@ -16575,6 +16592,7 @@ DeregisterDBProxyTargets:rds
 DescribeAccountAttributes:rds
 DescribeBlueGreenDeployments:rds
 DescribeCertificates:rds
+DescribeDBCapacityReservations:rds
 DescribeDBClusterAutomatedBackups:rds
 DescribeDBClusterBacktracks:rds
 DescribeDBClusterEndpoints:rds
@@ -16631,6 +16649,7 @@ ModifyActivityStream:rds
 ModifyCertificates:rds
 ModifyCurrentDBClusterCapacity:rds
 ModifyCustomDBEngineVersion:rds
+ModifyDBCapacityReservation:rds
 ModifyDBCluster:rds
 ModifyDBClusterEndpoint:rds
 ModifyDBClusterParameterGroup:rds
@@ -16758,6 +16777,7 @@ UntagResource:redshift-serverless
 UpdateAutonomicsDenylist:redshift-serverless
 UpdateCustomDomainAssociation:redshift-serverless
 UpdateEndpointAccess:redshift-serverless
+UpdateLakehouseConfiguration:redshift-serverless
 UpdateNamespace:redshift-serverless
 UpdateScheduledAction:redshift-serverless
 UpdateSnapshot:redshift-serverless
@@ -16905,6 +16925,7 @@ ModifyCustomDomainAssociation:redshift
 ModifyEndpointAccess:redshift
 ModifyEventSubscription:redshift
 ModifyIntegration:redshift
+ModifyLakehouseConfiguration:redshift
 ModifyQev2IdcApplication:redshift
 ModifyRedshiftIdcApplication:redshift
 ModifySavedQuery:redshift
