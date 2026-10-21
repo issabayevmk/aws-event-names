@@ -14295,6 +14295,7 @@ network-firewall:AttachRuleGroupsToProxyConfiguration
 network-firewall:CreateContainerAssociation
 network-firewall:CreateFirewall
 network-firewall:CreateFirewallPolicy
+network-firewall:CreateFirewallPolicyV2
 network-firewall:CreateProxy
 network-firewall:CreateProxyConfiguration
 network-firewall:CreateProxyRuleGroup
@@ -14305,6 +14306,7 @@ network-firewall:CreateVpcEndpointAssociation
 network-firewall:DeleteContainerAssociation
 network-firewall:DeleteFirewall
 network-firewall:DeleteFirewallPolicy
+network-firewall:DeleteFirewallPolicyV2
 network-firewall:DeleteNetworkFirewallTransitGatewayAttachment
 network-firewall:DeleteProxy
 network-firewall:DeleteProxyConfiguration
@@ -14318,6 +14320,7 @@ network-firewall:DescribeContainerAssociation
 network-firewall:DescribeFirewall
 network-firewall:DescribeFirewallMetadata
 network-firewall:DescribeFirewallPolicy
+network-firewall:DescribeFirewallPolicyV2
 network-firewall:DescribeFlowOperation
 network-firewall:DescribeLoggingConfiguration
 network-firewall:DescribeProxy
@@ -14337,6 +14340,7 @@ network-firewall:GetAnalysisReportResults
 network-firewall:ListAnalysisReports
 network-firewall:ListContainerAssociations
 network-firewall:ListFirewallPolicies
+network-firewall:ListFirewallPoliciesV2
 network-firewall:ListFirewalls
 network-firewall:ListFlowOperationResults
 network-firewall:ListFlowOperations
@@ -14362,6 +14366,7 @@ network-firewall:UpdateFirewallDescription
 network-firewall:UpdateFirewallEncryptionConfiguration
 network-firewall:UpdateFirewallPolicy
 network-firewall:UpdateFirewallPolicyChangeProtection
+network-firewall:UpdateFirewallPolicyV2
 network-firewall:UpdateLoggingConfiguration
 network-firewall:UpdateProxy
 network-firewall:UpdateProxyConfiguration
