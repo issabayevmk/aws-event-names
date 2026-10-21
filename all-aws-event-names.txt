@@ -6929,6 +6929,7 @@ dynamodb:DescribeTable
 dynamodb:DescribeTableReplicaAutoScaling
 dynamodb:DescribeTimeToLive
 dynamodb:DisableKinesisStreamingDestination
+dynamodb:DisassociateTableReplica
 dynamodb:EnableKinesisStreamingDestination
 dynamodb:ExportTableToPointInTime
 dynamodb:GetAbacStatus
