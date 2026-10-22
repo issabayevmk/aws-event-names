@@ -12139,6 +12139,7 @@ kms:CreateAlias
 kms:CreateCustomKeyStore
 kms:CreateGrant
 kms:CreateKey
+kms:Decapsulate
 kms:Decrypt
 kms:DeleteAlias
 kms:DeleteCustomKeyStore
@@ -12151,6 +12152,7 @@ kms:DisableKeyRotation
 kms:DisconnectCustomKeyStore
 kms:EnableKey
 kms:EnableKeyRotation
+kms:Encapsulate
 kms:Encrypt
 kms:GenerateDataKey
 kms:GenerateDataKeyPair
@@ -18814,7 +18816,6 @@ securityagent:BatchDeleteCodeReviews
 securityagent:BatchDeletePentests
 securityagent:BatchDeleteSecurityRequirements
 securityagent:BatchDeleteThreatModels
-securityagent:BatchDeleteThreats
 securityagent:BatchDisassociateFindingIssue
 securityagent:BatchExportFindings
 securityagent:BatchGetAgentSpaces
