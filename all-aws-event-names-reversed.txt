@@ -11817,6 +11817,7 @@ ListStreamSessions:ivs
 ListStreams:ivs
 ListTagsForResource:ivs
 PutMetadata:ivs
+RevokeConnectionToken:ivs
 StartComposition:ivs
 StartParticipantReplication:ivs
 StartViewerSessionRevocation:ivs
@@ -14563,6 +14564,7 @@ GetTransitGatewayPeering:networkmanager
 GetTransitGatewayRegistrations:networkmanager
 GetTransitGatewayRouteTableAttachment:networkmanager
 GetVpcAttachment:networkmanager
+ListAttachmentNatConfigurations:networkmanager
 ListAttachmentRoutingPolicyAssociations:networkmanager
 ListAttachments:networkmanager
 ListConnectPeers:networkmanager
@@ -14584,6 +14586,7 @@ StartOrganizationServiceAccessUpdate:networkmanager
 StartRouteAnalysis:networkmanager
 TagResource:networkmanager
 UntagResource:networkmanager
+UpdateAttachmentNatConfiguration:networkmanager
 UpdateConnection:networkmanager
 UpdateCoreNetwork:networkmanager
 UpdateDevice:networkmanager
