@@ -22395,6 +22395,7 @@ workspaces:UpdateWorkspaceImagePermission
 workspaces:UpdateWorkspacesPool
 xray:BatchGetTraceSummaryById
 xray:BatchGetTraces
+xray:CallWithBearerToken
 xray:CancelTraceRetrieval
 xray:CreateGroup
 xray:CreateSamplingRule
