@@ -340,6 +340,7 @@ GetAssetContent:aidevops
 GetAssetFile:aidevops
 GetAssociation:aidevops
 GetBacklogTask:aidevops
+GetCatalogCapability:aidevops
 GetKnowledgeItem:aidevops
 GetOperatorApp:aidevops
 GetRecommendation:aidevops
@@ -354,6 +355,9 @@ ListAssetVersions:aidevops
 ListAssets:aidevops
 ListAssociations:aidevops
 ListBacklogTasks:aidevops
+ListCatalogCapabilities:aidevops
+ListCatalogCapabilityFiles:aidevops
+ListCatalogCapabilityTypes:aidevops
 ListChats:aidevops
 ListExecutions:aidevops
 ListGoals:aidevops
@@ -370,6 +374,7 @@ ListWebhooks:aidevops
 RegisterService:aidevops
 RevokeAccessToken:aidevops
 RotateAccessToken:aidevops
+SearchAssets:aidevops
 SearchServiceAccessibleResource:aidevops
 SendMessage:aidevops
 TagResource:aidevops
@@ -7912,6 +7917,7 @@ PutReplicationConfiguration:ecr
 PutSigningConfiguration:ecr
 RegisterPullTimeUpdateExclusion:ecr
 ReplicateImage:ecr
+ReplicateImageDelete:ecr
 SetRepositoryPolicy:ecr
 StartImageScan:ecr
 StartLifecyclePolicyPreview:ecr
