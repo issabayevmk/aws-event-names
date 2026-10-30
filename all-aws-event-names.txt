@@ -4120,6 +4120,7 @@ cloudwatch:GetOTelEnrichment
 cloudwatch:GetOmniDashboard
 cloudwatch:GetOmniThread
 cloudwatch:GetPreferences
+cloudwatch:GetProfileRecords
 cloudwatch:GetRecords
 cloudwatch:GetResourceMetricsConfiguration
 cloudwatch:GetService
@@ -4171,6 +4172,7 @@ cloudwatch:PutMetricAlarm
 cloudwatch:PutMetricData
 cloudwatch:PutMetricStream
 cloudwatch:PutPipelineRule
+cloudwatch:PutProfileRecords
 cloudwatch:PutRecords
 cloudwatch:QueryTraces
 cloudwatch:SearchPrincipals
