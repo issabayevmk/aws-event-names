@@ -440,6 +440,7 @@ StopWorkflowRun:airflow-serverless
 TagResource:airflow-serverless
 UntagResource:airflow-serverless
 UpdateWorkflow:airflow-serverless
+AccessAirflowResource:airflow
 CreateCliToken:airflow
 CreateEnvironment:airflow
 CreateWebLoginToken:airflow
@@ -4699,6 +4700,7 @@ ListCustomizations:codewhisperer
 ListProfiles:codewhisperer
 ListTagsForResource:codewhisperer
 TagResource:codewhisperer
+TestOtelConnection:codewhisperer
 UntagResource:codewhisperer
 UpdateCustomization:codewhisperer
 UpdateProfile:codewhisperer
@@ -4792,6 +4794,7 @@ DescribeManagedLoginBrandingByClient:cognito-idp
 DescribeResourceServer:cognito-idp
 DescribeRiskConfiguration:cognito-idp
 DescribeTerms:cognito-idp
+DescribeTermsByClient:cognito-idp
 DescribeUserImportJob:cognito-idp
 DescribeUserPool:cognito-idp
 DescribeUserPoolClient:cognito-idp
@@ -4800,6 +4803,7 @@ DisassociateWebACL:cognito-idp
 ForgetDevice:cognito-idp
 ForgotPassword:cognito-idp
 GetCSVHeader:cognito-idp
+GetClientToken:cognito-idp
 GetDevice:cognito-idp
 GetGroup:cognito-idp
 GetIdentityProviderByIdentifier:cognito-idp
