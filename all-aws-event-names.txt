@@ -6942,6 +6942,8 @@ dsql:UpdateStream
 dynamodb:AssociateTableReplica
 dynamodb:BatchGetItem
 dynamodb:BatchWriteItem
+dynamodb:BulkPutItems
+dynamodb:CancelBulkOperation
 dynamodb:ConditionCheckItem
 dynamodb:CreateBackup
 dynamodb:CreateGlobalTable
@@ -6955,6 +6957,7 @@ dynamodb:DeleteResourcePolicy
 dynamodb:DeleteTable
 dynamodb:DeleteTableReplica
 dynamodb:DescribeBackup
+dynamodb:DescribeBulkOperation
 dynamodb:DescribeContinuousBackups
 dynamodb:DescribeContributorInsights
 dynamodb:DescribeEndpoints
@@ -6982,6 +6985,7 @@ dynamodb:GetShardIterator
 dynamodb:ImportTable
 dynamodb:InjectError
 dynamodb:ListBackups
+dynamodb:ListBulkOperations
 dynamodb:ListContributorInsights
 dynamodb:ListExports
 dynamodb:ListGlobalTables
@@ -7005,6 +7009,7 @@ dynamodb:RestoreTableToPointInTime
 dynamodb:Scan
 dynamodb:SearchVectors
 dynamodb:StartAwsBackupJob
+dynamodb:StartBulkOperation
 dynamodb:TagResource
 dynamodb:UntagResource
 dynamodb:UpdateAbacStatus
