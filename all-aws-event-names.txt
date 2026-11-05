@@ -1409,6 +1409,7 @@ assurance:GetFramework
 assurance:GetInvitation
 assurance:GetPermissionSet
 assurance:GetProject
+assurance:GetResourceActivitiesQueryResults
 assurance:GetTask
 assurance:ListAssessmentAnnotations
 assurance:ListAssessmentJournalRecords
@@ -1443,6 +1444,7 @@ assurance:RejectInvitation
 assurance:RevokePermissionSet
 assurance:StartAssessment
 assurance:StartAssessmentReportExport
+assurance:StartResourceActivitiesQuery
 assurance:TagResource
 assurance:UntagResource
 assurance:UpdateAnnotation
@@ -1456,7 +1458,6 @@ assurance:UpdateFramework
 assurance:UpdatePermissionSet
 assurance:UpdateProject
 assurance:UpdateTask
-assurance:VendConnectionAccessToken
 athena:BatchGetNamedQuery
 athena:BatchGetPreparedStatement
 athena:BatchGetQueryExecution
@@ -2346,6 +2347,7 @@ bedrock-agentcore:InvokeCodeInterpreter
 bedrock-agentcore:InvokeGateway
 bedrock-agentcore:InvokeHarness
 bedrock-agentcore:InvokeRegistryMcp
+bedrock-agentcore:InvokeWebAnswer
 bedrock-agentcore:InvokeWebSearch
 bedrock-agentcore:ListABTests
 bedrock-agentcore:ListActors
@@ -5507,6 +5509,7 @@ connect:UpdateInstanceStorageConfig
 connect:UpdateMetricContent
 connect:UpdateMetricMetadata
 connect:UpdateNotificationContent
+connect:UpdateOutboundEmailContactMessage
 connect:UpdateParticipantAuthentication
 connect:UpdateParticipantRoleConfig
 connect:UpdatePhoneNumber
@@ -10252,6 +10255,7 @@ guardduty:UpdateThreatEntitySet
 guardduty:UpdateThreatIntelSet
 guardduty:UpdateTrustedEntitySet
 health-agent:ActivateSubscription
+health-agent:BatchRefillPatientPharmacyPrescriptions
 health-agent:CancelAppointment
 health-agent:CreateAgent
 health-agent:CreateDomain
@@ -10281,6 +10285,7 @@ health-agent:ListIntegrations
 health-agent:ListPatientAppointments
 health-agent:ListPatientInsuranceCoverages
 health-agent:ListPatientMedications
+health-agent:ListPatientPharmacyPrescriptions
 health-agent:ListProviders
 health-agent:ListSessionRecords
 health-agent:ListSubscriptions
@@ -15556,15 +15561,19 @@ payment-cryptography:VerifyCardValidationData
 payment-cryptography:VerifyMac
 payment-cryptography:VerifyPinData
 payments:AcceptFinancingApplicationTerms
+payments:CreateConnectedAccount
 payments:CreateFinancingApplication
 payments:CreatePaymentInstrument
+payments:DeleteConnectedAccount
 payments:DeletePaymentInstrument
+payments:GetConnectedAccount
 payments:GetFinancingApplication
 payments:GetFinancingLine
 payments:GetFinancingLineWithdrawal
 payments:GetFinancingOption
 payments:GetPaymentInstrument
 payments:GetPaymentStatus
+payments:ListConnectedAccounts
 payments:ListFinancingApplications
 payments:ListFinancingLineWithdrawals
 payments:ListFinancingLines
@@ -16268,6 +16277,7 @@ qldb:UpdateLedger
 qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
 quicksight:AllowVendedLogDeliveryForResource
+quicksight:AuthorizeOAuthAccess
 quicksight:BatchCreateTopicReviewedAnswer
 quicksight:BatchDeleteKnowledgeBase
 quicksight:BatchDeleteTopicReviewedAnswer
@@ -16275,6 +16285,8 @@ quicksight:BatchDescribeUserLimits
 quicksight:BatchGetPreferences
 quicksight:BatchUpdatePreferences
 quicksight:CancelIngestion
+quicksight:CreateAccessControlApplication
+quicksight:CreateAccessControlApplicationSecret
 quicksight:CreateAccountCustomization
 quicksight:CreateAccountSubscription
 quicksight:CreateActionConnector
@@ -16297,11 +16309,13 @@ quicksight:CreateFolderMembership
 quicksight:CreateGroup
 quicksight:CreateGroupMembership
 quicksight:CreateIAMPolicyAssignment
+quicksight:CreateInboundConnector
 quicksight:CreateIngestion
 quicksight:CreateKnowledgeBase
 quicksight:CreateLimitsProfile
 quicksight:CreateNamespace
 quicksight:CreateOAuthClientApplication
+quicksight:CreateOAuthToken
 quicksight:CreateReader
 quicksight:CreateRefreshSchedule
 quicksight:CreateRoleMembership
@@ -16314,6 +16328,8 @@ quicksight:CreateTopic
 quicksight:CreateTopicRefreshSchedule
 quicksight:CreateUser
 quicksight:CreateVPCConnection
+quicksight:DeleteAccessControlApplication
+quicksight:DeleteAccessControlApplicationSecret
 quicksight:DeleteAccountCustomPermission
 quicksight:DeleteAccountCustomization
 quicksight:DeleteAccountSubscription
@@ -16341,6 +16357,7 @@ quicksight:DeleteGroup
 quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
 quicksight:DeleteIdentityPropagationConfig
+quicksight:DeleteInboundConnector
 quicksight:DeleteKnowledgeBase
 quicksight:DeleteLimitsProfile
 quicksight:DeleteNamespace
@@ -16359,6 +16376,7 @@ quicksight:DeleteUser
 quicksight:DeleteUserByPrincipalId
 quicksight:DeleteUserCustomPermission
 quicksight:DeleteVPCConnection
+quicksight:DescribeAccessControlApplication
 quicksight:DescribeAccountCustomPermission
 quicksight:DescribeAccountCustomization
 quicksight:DescribeAccountSettings
@@ -16404,6 +16422,7 @@ quicksight:DescribeFolderResolvedPermissions
 quicksight:DescribeGroup
 quicksight:DescribeGroupMembership
 quicksight:DescribeIAMPolicyAssignment
+quicksight:DescribeInboundConnector
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
 quicksight:DescribeKeyRegistration
@@ -16444,6 +16463,7 @@ quicksight:GetFlowPermissions
 quicksight:GetGroupMapping
 quicksight:GetIdentityContext
 quicksight:GetSessionEmbedUrl
+quicksight:ListAccessControlApplications
 quicksight:ListActionConnectors
 quicksight:ListAgents
 quicksight:ListAnalyses
@@ -16472,6 +16492,8 @@ quicksight:ListGroups
 quicksight:ListIAMPolicyAssignments
 quicksight:ListIAMPolicyAssignmentsForUser
 quicksight:ListIdentityPropagationConfigs
+quicksight:ListInboundConnectorApplicationAssociations
+quicksight:ListInboundConnectors
 quicksight:ListIngestions
 quicksight:ListKMSKeysForUser
 quicksight:ListKnowledgeBases
@@ -16507,6 +16529,7 @@ quicksight:RegisterCustomerManagedKey
 quicksight:RegisterUser
 quicksight:RemoveCustomerManagedKey
 quicksight:RestoreAnalysis
+quicksight:RevokeOAuthToken
 quicksight:ScopeDownPolicy
 quicksight:SearchActionConnectors
 quicksight:SearchAgents
@@ -16536,6 +16559,8 @@ quicksight:TagResource
 quicksight:UnpublishFlow
 quicksight:Unsubscribe
 quicksight:UntagResource
+quicksight:UpdateAccessControlApplication
+quicksight:UpdateAccessControlApplicationSecret
 quicksight:UpdateAccountCustomPermission
 quicksight:UpdateAccountCustomization
 quicksight:UpdateAccountSettings
@@ -16575,6 +16600,8 @@ quicksight:UpdateFolderPermissions
 quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIdentityPropagationConfig
+quicksight:UpdateInboundConnector
+quicksight:UpdateInboundConnectorApplicationAssociations
 quicksight:UpdateIpRestriction
 quicksight:UpdateKeyRegistration
 quicksight:UpdateKnowledgeBase
@@ -17657,6 +17684,7 @@ route53domains:RejectDomainTransferFromAnotherAwsAccount
 route53domains:RenewDomain
 route53domains:ResendContactReachabilityEmail
 route53domains:ResendOperationAuthorization
+route53domains:RestoreDomain
 route53domains:RetrieveDomainAuthCode
 route53domains:TransferDomain
 route53domains:TransferDomainToAnotherAwsAccount
