@@ -287,6 +287,7 @@ agent-registry:UpdateRegistryRecord
 agent-registry:UpdateRegistryRecordStatus
 agentaccess-mcp:CallForwardedTool
 agentaccess-mcp:CheckConnectionStatus
+agentaccess-mcp:CloseSession
 agentaccess-mcp:DoubleClick
 agentaccess-mcp:GetScreenshot
 agentaccess-mcp:GetSessionInfo
@@ -16435,6 +16436,7 @@ quicksight:DescribeQPersonalizationConfiguration
 quicksight:DescribeQuickIndexCapacity
 quicksight:DescribeQuickSightQSearchConfiguration
 quicksight:DescribeRefreshSchedule
+quicksight:DescribeResourcePermissions
 quicksight:DescribeRoleCustomPermission
 quicksight:DescribeSelfUpgradeConfiguration
 quicksight:DescribeSpace
