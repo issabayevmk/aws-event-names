@@ -1470,12 +1470,14 @@ athena:CreateNamedQuery
 athena:CreateNotebook
 athena:CreatePreparedStatement
 athena:CreatePresignedNotebookUrl
+athena:CreateSystemTableConfiguration
 athena:CreateWorkGroup
 athena:DeleteCapacityReservation
 athena:DeleteDataCatalog
 athena:DeleteNamedQuery
 athena:DeleteNotebook
 athena:DeletePreparedStatement
+athena:DeleteSystemTableConfiguration
 athena:DeleteWorkGroup
 athena:ExportNotebook
 athena:GetCalculationExecution
@@ -1502,6 +1504,7 @@ athena:GetResourceDashboard
 athena:GetSession
 athena:GetSessionEndpoint
 athena:GetSessionStatus
+athena:GetSystemTableConfiguration
 athena:GetTable
 athena:GetTableMetadata
 athena:GetTables
@@ -1520,6 +1523,7 @@ athena:ListNotebookSessions
 athena:ListPreparedStatements
 athena:ListQueryExecutions
 athena:ListSessions
+athena:ListSystemTableStatuses
 athena:ListTableMetadata
 athena:ListTagsForResource
 athena:ListWorkGroups
@@ -1539,6 +1543,7 @@ athena:UpdateNamedQuery
 athena:UpdateNotebook
 athena:UpdateNotebookMetadata
 athena:UpdatePreparedStatement
+athena:UpdateSystemTableConfiguration
 athena:UpdateWorkGroup
 auditmanager:AssociateAssessmentReportEvidenceFolder
 auditmanager:BatchAssociateAssessmentReportEvidence
@@ -16642,12 +16647,14 @@ ram:AssociateResourceSharePermission
 ram:CreatePermission
 ram:CreatePermissionVersion
 ram:CreateResourceShare
+ram:DeleteCustomerManagedPermissionPolicy
 ram:DeletePermission
 ram:DeletePermissionVersion
 ram:DeleteResourceShare
 ram:DisassociateResourceShare
 ram:DisassociateResourceSharePermission
 ram:EnableSharingWithAwsOrganization
+ram:GetCustomerManagedPermissionPolicy
 ram:GetPermission
 ram:GetResourcePolicies
 ram:GetResourceShareAssociations
@@ -16665,11 +16672,13 @@ ram:ListResources
 ram:ListSourceAssociations
 ram:PromotePermissionCreatedFromPolicy
 ram:PromoteResourceShareCreatedFromPolicy
+ram:PutCustomerManagedPermissionPolicy
 ram:RejectResourceShareInvitation
 ram:ReplacePermissionAssociations
 ram:SetDefaultPermissionVersion
 ram:TagResource
 ram:UntagResource
+ram:UpdatePermission
 ram:UpdateResourceShare
 rbin:CreateRule
 rbin:DeleteRule
@@ -20352,6 +20361,7 @@ ssm:DeleteParameters
 ssm:DeletePatchBaseline
 ssm:DeleteResourceDataSync
 ssm:DeleteResourcePolicy
+ssm:DeregisterDefaultHostManagementConfiguration
 ssm:DeregisterManagedInstance
 ssm:DeregisterPatchBaselineForPatchGroup
 ssm:DeregisterTargetFromMaintenanceWindow
@@ -20450,6 +20460,7 @@ ssm:PutConfigurePackageResult
 ssm:PutInventory
 ssm:PutParameter
 ssm:PutResourcePolicy
+ssm:RegisterDefaultHostManagementConfiguration
 ssm:RegisterDefaultPatchBaseline
 ssm:RegisterManagedInstance
 ssm:RegisterPatchBaselineForPatchGroup
