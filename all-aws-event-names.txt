@@ -13932,6 +13932,7 @@ mgn:CreateApplication
 mgn:CreateConnector
 mgn:CreateLaunchConfigurationTemplate
 mgn:CreateNetworkMigrationDefinition
+mgn:CreateRemoteSourceAction
 mgn:CreateReplicationConfigurationTemplate
 mgn:CreateVcenterClientForMgn
 mgn:CreateWave
@@ -13940,6 +13941,7 @@ mgn:DeleteConnector
 mgn:DeleteJob
 mgn:DeleteLaunchConfigurationTemplate
 mgn:DeleteNetworkMigrationDefinition
+mgn:DeleteRemoteSourceAction
 mgn:DeleteReplicationConfigurationTemplate
 mgn:DeleteSourceServer
 mgn:DeleteVcenterClient
@@ -13965,6 +13967,7 @@ mgn:GetAgentRuntimeConfigurationForMgn
 mgn:GetAgentSnapshotCreditsForMgn
 mgn:GetChannelCommandsForMgn
 mgn:GetLaunchConfiguration
+mgn:GetLaunchConfigurationDefaults
 mgn:GetNetworkMigrationDefinition
 mgn:GetNetworkMigrationMapperSegmentConstruct
 mgn:GetReplicationConfiguration
@@ -13989,10 +13992,15 @@ mgn:ListNetworkMigrationDeployedStacksDeletions
 mgn:ListNetworkMigrationDeployments
 mgn:ListNetworkMigrationExecutionArtifacts
 mgn:ListNetworkMigrationExecutions
+mgn:ListNetworkMigrationInsights
 mgn:ListNetworkMigrationMapperSegmentConstructs
 mgn:ListNetworkMigrationMapperSegments
 mgn:ListNetworkMigrationMappingUpdates
 mgn:ListNetworkMigrationMappings
+mgn:ListRemoteSourceActionInvocationResults
+mgn:ListRemoteSourceActionInvocations
+mgn:ListRemoteSourceActionJobs
+mgn:ListRemoteSourceActions
 mgn:ListSourceServerActions
 mgn:ListTagsForResource
 mgn:ListTemplateActions
@@ -14029,6 +14037,7 @@ mgn:StartNetworkMigrationDeployedStacksDeletion
 mgn:StartNetworkMigrationDeployment
 mgn:StartNetworkMigrationMapping
 mgn:StartNetworkMigrationMappingUpdate
+mgn:StartRemoteSourceActionJob
 mgn:StartReplication
 mgn:StartSnapshotGroupForMgn
 mgn:StartTest
@@ -14047,10 +14056,12 @@ mgn:UpdateAgentSourcePropertiesForMgn
 mgn:UpdateApplication
 mgn:UpdateConnector
 mgn:UpdateLaunchConfiguration
+mgn:UpdateLaunchConfigurationDefaults
 mgn:UpdateLaunchConfigurationTemplate
 mgn:UpdateNetworkMigrationDefinition
 mgn:UpdateNetworkMigrationMapperSegment
 mgn:UpdateNetworkMigrationMapperSegmentConstruct
+mgn:UpdateRemoteSourceAction
 mgn:UpdateReplicationConfiguration
 mgn:UpdateReplicationConfigurationTemplate
 mgn:UpdateSourceServer
