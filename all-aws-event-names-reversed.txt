@@ -4145,6 +4145,7 @@ GetServiceLevelObjective:cloudwatch
 GetSpace:cloudwatch
 GetSpaceCredentials:cloudwatch
 GetSpaceCredentialsForOrganization:cloudwatch
+GetSpaceDataAccess:cloudwatch
 GetTelemetryQueryResults:cloudwatch
 GetTopologyDiscoveryStatus:cloudwatch
 GetTopologyMap:cloudwatch
@@ -9350,6 +9351,7 @@ UpdateSnapshot:fsx
 UpdateStorageVirtualMachine:fsx
 UpdateVolume:fsx
 AcceptMatch:gamelift
+AllowVendedLogDeliveryForResource:gamelift
 ClaimGameServer:gamelift
 CreateAlias:gamelift
 CreateBuild:gamelift
@@ -14975,6 +14977,7 @@ UpdateOdbPeeringConnection:odb
 UpdateOutboundIntegration:odb
 AbortMultipartReadSetUpload:omics
 AcceptShare:omics
+AuthorizeRunProcessing:omics
 BatchDeleteReadSet:omics
 CancelAnnotationImportJob:omics
 CancelRun:omics

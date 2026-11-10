@@ -4145,6 +4145,7 @@ cloudwatch:GetServiceLevelObjective
 cloudwatch:GetSpace
 cloudwatch:GetSpaceCredentials
 cloudwatch:GetSpaceCredentialsForOrganization
+cloudwatch:GetSpaceDataAccess
 cloudwatch:GetTelemetryQueryResults
 cloudwatch:GetTopologyDiscoveryStatus
 cloudwatch:GetTopologyMap
@@ -9350,6 +9351,7 @@ fsx:UpdateSnapshot
 fsx:UpdateStorageVirtualMachine
 fsx:UpdateVolume
 gamelift:AcceptMatch
+gamelift:AllowVendedLogDeliveryForResource
 gamelift:ClaimGameServer
 gamelift:CreateAlias
 gamelift:CreateBuild
@@ -14975,6 +14977,7 @@ odb:UpdateOdbPeeringConnection
 odb:UpdateOutboundIntegration
 omics:AbortMultipartReadSetUpload
 omics:AcceptShare
+omics:AuthorizeRunProcessing
 omics:BatchDeleteReadSet
 omics:CancelAnnotationImportJob
 omics:CancelRun
