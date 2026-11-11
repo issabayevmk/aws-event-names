@@ -18252,6 +18252,7 @@ GetNamespace:s3tables
 GetTable:s3tables
 GetTableBucket:s3tables
 GetTableBucketEncryption:s3tables
+GetTableBucketLogging:s3tables
 GetTableBucketMaintenanceConfiguration:s3tables
 GetTableBucketMetricsConfiguration:s3tables
 GetTableBucketPolicy:s3tables
@@ -18275,6 +18276,7 @@ ListTableMigrations:s3tables
 ListTables:s3tables
 ListTagsForResource:s3tables
 PutTableBucketEncryption:s3tables
+PutTableBucketLogging:s3tables
 PutTableBucketMaintenanceConfiguration:s3tables
 PutTableBucketMetricsConfiguration:s3tables
 PutTableBucketPolicy:s3tables
