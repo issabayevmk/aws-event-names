@@ -435,6 +435,7 @@ aiops:UpdateInvestigationEvent
 aiops:UpdateInvestigationGroup
 aiops:UpdateReport
 aiops:ValidateInvestigationGroup
+airflow-serverless:CreateAirflowUiUrl
 airflow-serverless:CreateWorkflow
 airflow-serverless:DeleteWorkflow
 airflow-serverless:GetTaskInstance
@@ -1125,6 +1126,7 @@ appstream:UpdateApplication
 appstream:UpdateDirectoryConfig
 appstream:UpdateEntitlement
 appstream:UpdateFleet
+appstream:UpdateImageBuilder
 appstream:UpdateImagePermissions
 appstream:UpdateStack
 appstream:UpdateThemeForStack
@@ -4092,6 +4094,7 @@ cloudwatch:DeleteDomainForOrganization
 cloudwatch:DeleteIngestionEndpoint
 cloudwatch:DeleteInsightRules
 cloudwatch:DeleteIntegration
+cloudwatch:DeleteMetricDataQueryDefinition
 cloudwatch:DeleteMetricStream
 cloudwatch:DeleteOmniDashboard
 cloudwatch:DeleteOmniThread
@@ -4129,6 +4132,7 @@ cloudwatch:GetInsightRuleReport
 cloudwatch:GetIntegration
 cloudwatch:GetIntelligenceConfiguration
 cloudwatch:GetMetricData
+cloudwatch:GetMetricDataQueryDefinition
 cloudwatch:GetMetricStatistics
 cloudwatch:GetMetricStream
 cloudwatch:GetMetricWidgetImage
@@ -4164,6 +4168,7 @@ cloudwatch:ListEntitiesForMetric
 cloudwatch:ListIngestionEndpoints
 cloudwatch:ListIntegrations
 cloudwatch:ListManagedInsightRules
+cloudwatch:ListMetricDataQueryDefinitions
 cloudwatch:ListMetricStreams
 cloudwatch:ListMetrics
 cloudwatch:ListOmniDashboards
@@ -4187,6 +4192,7 @@ cloudwatch:PutLogAlarm
 cloudwatch:PutManagedInsightRules
 cloudwatch:PutMetricAlarm
 cloudwatch:PutMetricData
+cloudwatch:PutMetricDataQueryDefinition
 cloudwatch:PutMetricStream
 cloudwatch:PutPipelineRule
 cloudwatch:PutProfileRecords
@@ -18970,15 +18976,19 @@ sdb:ListExports
 sdb:PutAttributes
 sdb:Select
 sdb:StartDomainExport
+secretsmanager:AcceptCrossAccountReplication
+secretsmanager:AssociateCrossAccountReplica
 secretsmanager:BatchGetSecretValue
 secretsmanager:CancelRotateSecret
 secretsmanager:CreateSecret
 secretsmanager:DeleteResourcePolicy
 secretsmanager:DeleteSecret
 secretsmanager:DescribeSecret
+secretsmanager:DisassociateCrossAccountReplica
 secretsmanager:GetRandomPassword
 secretsmanager:GetResourcePolicy
 secretsmanager:GetSecretValue
+secretsmanager:ListResourcePolicies
 secretsmanager:ListSecretVersionIds
 secretsmanager:ListSecrets
 secretsmanager:PutResourcePolicy
@@ -19203,6 +19213,7 @@ securityhub:GetAdhocInsightResults
 securityhub:GetAdministratorAccount
 securityhub:GetAggregatorV2
 securityhub:GetAutomationRuleV2
+securityhub:GetCSPMOrganizationsImportStatus
 securityhub:GetConfigurationPolicy
 securityhub:GetConfigurationPolicyAssociation
 securityhub:GetConnector
@@ -19255,6 +19266,7 @@ securityhub:ListOrganizationAdminAccounts
 securityhub:ListSecurityControlDefinitions
 securityhub:ListStandardsControlAssociations
 securityhub:ListTagsForResource
+securityhub:PutCSPMOrganizationsImportStatus
 securityhub:SendFindingEvents
 securityhub:SendInsightEvents
 securityhub:StartConfigurationPolicyAssociation
@@ -21356,6 +21368,7 @@ transfer:UpdateWebAppCustomization
 transform-custom:BatchCreateFindings
 transform-custom:BatchUpdateFindings
 transform-custom:CompleteTransformationPackageUpload
+transform-custom:ContributeKnowledgeItems
 transform-custom:ConverseStream
 transform-custom:CreateAnalysis
 transform-custom:CreateCampaign
@@ -21369,6 +21382,7 @@ transform-custom:DeleteFinding
 transform-custom:DeleteKnowledgeItem
 transform-custom:DeleteRemediation
 transform-custom:DeleteRepository
+transform-custom:DeleteResourcePolicy
 transform-custom:DeleteSource
 transform-custom:DeleteTransformationPackage
 transform-custom:ExecuteTransformation
@@ -21380,6 +21394,7 @@ transform-custom:GetFindingGroups
 transform-custom:GetKnowledgeItem
 transform-custom:GetRemediation
 transform-custom:GetRepository
+transform-custom:GetResourcePolicy
 transform-custom:GetSource
 transform-custom:GetTransformationPackageUrl
 transform-custom:ListAnalyses
@@ -21394,6 +21409,7 @@ transform-custom:ListSources
 transform-custom:ListTagsForResource
 transform-custom:ListTransformationPackageMetadata
 transform-custom:ListTransformationPackageShares
+transform-custom:PutResourcePolicy
 transform-custom:SendTelemetryEvent
 transform-custom:ShareTransformationPackage
 transform-custom:TagResource
