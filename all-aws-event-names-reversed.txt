@@ -290,6 +290,7 @@ CheckConnectionStatus:agentaccess-mcp
 CloseSession:agentaccess-mcp
 DoubleClick:agentaccess-mcp
 ExecuteSequence:agentaccess-mcp
+GetCurrentUser:agentaccess-mcp
 GetScreenshot:agentaccess-mcp
 GetSessionInfo:agentaccess-mcp
 HoldKey:agentaccess-mcp
@@ -304,6 +305,7 @@ MiddleClick:agentaccess-mcp
 MovePointer:agentaccess-mcp
 RightClick:agentaccess-mcp
 Scroll:agentaccess-mcp
+SwitchUser:agentaccess-mcp
 ToggleAppSwitcher:agentaccess-mcp
 TripleClick:agentaccess-mcp
 TypeText:agentaccess-mcp
@@ -3738,7 +3740,9 @@ PublishType:cloudformation
 RecordHandlerProgress:cloudformation
 RegisterPublisher:cloudformation
 RegisterType:cloudformation
+RemoveAlias:cloudformation
 RollbackStack:cloudformation
+SetAlias:cloudformation
 SetStackPolicy:cloudformation
 SetTypeConfiguration:cloudformation
 SetTypeDefaultVersion:cloudformation
@@ -10261,6 +10265,7 @@ ListDetectors:guardduty
 ListFilters:guardduty
 ListFindings:guardduty
 ListIPSets:guardduty
+ListInvestigationRecords:guardduty
 ListInvestigations:guardduty
 ListInvitations:guardduty
 ListMalwareProtectionPlans:guardduty
@@ -14900,6 +14905,7 @@ UpdateTelemetryRuleForOrganization:observabilityadmin
 ValidateTelemetryPipelineConfiguration:observabilityadmin
 AcceptMarketplaceRegistration:odb
 AssociateIamRoleToResource:odb
+AssociateVirtualMachinesToCloudVmCluster:odb
 AssociateVirtualMachinesToExadbVmCluster:odb
 CreateAutonomousDatabase:odb
 CreateAutonomousDatabaseBackup:odb
@@ -14927,6 +14933,7 @@ DeleteOdbNetwork:odb
 DeleteOdbPeeringConnection:odb
 DeleteResourcePolicy:odb
 DisassociateIamRoleFromResource:odb
+DisassociateVirtualMachinesFromCloudVmCluster:odb
 DisassociateVirtualMachinesFromExadbVmCluster:odb
 FailoverAutonomousDatabase:odb
 GetAutonomousDatabase:odb
@@ -14981,7 +14988,10 @@ TagResource:odb
 UntagResource:odb
 UpdateAutonomousDatabase:odb
 UpdateAutonomousDatabaseBackup:odb
+UpdateCloudAutonomousVmCluster:odb
 UpdateCloudExadataInfrastructure:odb
+UpdateCloudExadataInfrastructureStorageCapacity:odb
+UpdateCloudVmCluster:odb
 UpdateExadbVmCluster:odb
 UpdateExascaleCloudExadataInfrastructure:odb
 UpdateExascaleDbStorageVault:odb
