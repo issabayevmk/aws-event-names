@@ -19139,6 +19139,7 @@ securityagent:ListThreatModelJobs
 securityagent:ListThreatModels
 securityagent:ListThreats
 securityagent:PutDesignReviewFeedback
+securityagent:ResumePentestJob
 securityagent:StartCodeRemediation
 securityagent:StartCodeReviewJob
 securityagent:StartPentestJob
