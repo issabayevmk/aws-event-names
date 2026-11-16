@@ -20966,6 +20966,7 @@ support:RefreshTrustedAdvisorCheck
 support:ResolveCase
 support:ResolveInteraction
 support:SearchForCases
+support:SearchInteractions
 support:StartInteraction
 support:UpdateCaseSeverity
 support:UpdateInteraction
