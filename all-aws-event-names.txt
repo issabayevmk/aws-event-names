@@ -4236,6 +4236,7 @@ cloudwatch:GetMetricDataQueryDefinition
 cloudwatch:GetMetricStatistics
 cloudwatch:GetMetricStream
 cloudwatch:GetMetricWidgetImage
+cloudwatch:GetMonitoringAssessment
 cloudwatch:GetOTelEnrichment
 cloudwatch:GetOmniAgentAsset
 cloudwatch:GetOmniDashboard
@@ -4272,6 +4273,8 @@ cloudwatch:ListManagedInsightRules
 cloudwatch:ListMetricDataQueryDefinitions
 cloudwatch:ListMetricStreams
 cloudwatch:ListMetrics
+cloudwatch:ListMonitoringAssessmentResults
+cloudwatch:ListMonitoringAssessments
 cloudwatch:ListOmniAgentAssets
 cloudwatch:ListOmniDashboards
 cloudwatch:ListOmniThreads
@@ -4303,6 +4306,7 @@ cloudwatch:QueryTraces
 cloudwatch:SearchPrincipals
 cloudwatch:SetAlarmState
 cloudwatch:StartMetricStreams
+cloudwatch:StartMonitoringAssessment
 cloudwatch:StartOTelEnrichment
 cloudwatch:StartOmniThreadSession
 cloudwatch:StartTelemetryQuery
@@ -4584,6 +4588,7 @@ codeconnections:GetIndividualAccessToken
 codeconnections:GetInstallationUrl
 codeconnections:GetRepositoryLink
 codeconnections:GetRepositorySyncStatus
+codeconnections:GetResourcePolicy
 codeconnections:GetResourceSyncStatus
 codeconnections:GetSyncBlockerSummary
 codeconnections:GetSyncConfiguration
@@ -9101,6 +9106,7 @@ finops-agent:GetConnection
 finops-agent:GetDocumentContent
 finops-agent:GetDocumentMetadata
 finops-agent:GetIntegration
+finops-agent:GetOrganizationAccess
 finops-agent:GetTask
 finops-agent:GetTurn
 finops-agent:ListAgentSpaces
@@ -9120,6 +9126,7 @@ finops-agent:UpdateAgentSpace
 finops-agent:UpdateAutomation
 finops-agent:UpdateConnection
 finops-agent:UpdateDocument
+finops-agent:UpdateOrganizationAccess
 finspace-api:GetProgrammaticAccessCredentials
 finspace:ConnectKxCluster
 finspace:CreateEnvironment
@@ -16116,10 +16123,13 @@ pipes:StopPipe
 pipes:TagResource
 pipes:UntagResource
 pipes:UpdatePipe
+polly:CreateVoice
 polly:DeleteLexicon
+polly:DeleteVoice
 polly:DescribeVoices
 polly:GetLexicon
 polly:GetSpeechSynthesisTask
+polly:GetVoice
 polly:ListLexicons
 polly:ListSpeechSynthesisTasks
 polly:ListTagsForResource
@@ -17163,9 +17173,13 @@ rds:DescribeSourceRegions
 rds:DescribeTenantDatabases
 rds:DescribeValidDBInstanceModifications
 rds:DisableHttpEndpoint
+rds:DisableInternetAccessGateway
+rds:DisableVpcNetworking
 rds:DownloadCompleteDBLogFile
 rds:DownloadDBLogFilePortion
 rds:EnableHttpEndpoint
+rds:EnableInternetAccessGateway
+rds:EnableVpcNetworking
 rds:FailoverDBCluster
 rds:FailoverGlobalCluster
 rds:ListTagsForResource
@@ -18235,6 +18249,8 @@ rtbfabric:DeleteOutboundExternalLink
 rtbfabric:DeleteRequesterGateway
 rtbfabric:DeleteResponderGateway
 rtbfabric:DisassociateCertificate
+rtbfabric:GetAvailableModule
+rtbfabric:GetAvailableModuleVersion
 rtbfabric:GetCertificateAssociation
 rtbfabric:GetInboundExternalLink
 rtbfabric:GetLink
@@ -18242,12 +18258,17 @@ rtbfabric:GetLinkRoutingRule
 rtbfabric:GetOutboundExternalLink
 rtbfabric:GetRequesterGateway
 rtbfabric:GetResponderGateway
+rtbfabric:GetUpdate
+rtbfabric:ListAvailableModuleVersions
+rtbfabric:ListAvailableModules
 rtbfabric:ListCertificateAssociations
 rtbfabric:ListLinkRoutingRules
 rtbfabric:ListLinks
 rtbfabric:ListRequesterGateways
 rtbfabric:ListResponderGateways
 rtbfabric:ListTagsForResource
+rtbfabric:ListUpdates
+rtbfabric:PutLinkFlows
 rtbfabric:RejectLink
 rtbfabric:TagResource
 rtbfabric:UntagResource
