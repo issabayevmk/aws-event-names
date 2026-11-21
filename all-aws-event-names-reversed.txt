@@ -16691,9 +16691,11 @@ AllowVendedLogDeliveryForResource:quicksight
 AuthorizeOAuthAccess:quicksight
 BatchCreateTopicReviewedAnswer:quicksight
 BatchDeleteKnowledgeBase:quicksight
+BatchDeletePolicyAssignmentByPolicy:quicksight
 BatchDeleteTopicReviewedAnswer:quicksight
 BatchDescribeUserLimits:quicksight
 BatchGetPreferences:quicksight
+BatchPutPolicyAssignmentByPolicy:quicksight
 BatchUpdatePreferences:quicksight
 CancelIngestion:quicksight
 CreateAccessControlApplication:quicksight
@@ -16723,6 +16725,7 @@ CreateIAMPolicyAssignment:quicksight
 CreateInboundConnector:quicksight
 CreateIngestion:quicksight
 CreateKnowledgeBase:quicksight
+CreateKnowledgeBaseRefreshSchedule:quicksight
 CreateLimitsProfile:quicksight
 CreateNamespace:quicksight
 CreateOAuthClientApplication:quicksight
@@ -16770,9 +16773,11 @@ DeleteIAMPolicyAssignment:quicksight
 DeleteIdentityPropagationConfig:quicksight
 DeleteInboundConnector:quicksight
 DeleteKnowledgeBase:quicksight
+DeleteKnowledgeBaseRefreshSchedule:quicksight
 DeleteLimitsProfile:quicksight
 DeleteNamespace:quicksight
 DeleteOAuthClientApplication:quicksight
+DeletePolicyAssignment:quicksight
 DeleteRefreshSchedule:quicksight
 DeleteRoleCustomPermission:quicksight
 DeleteRoleMembership:quicksight
@@ -16839,6 +16844,7 @@ DescribeIpRestriction:quicksight
 DescribeKeyRegistration:quicksight
 DescribeKnowledgeBase:quicksight
 DescribeKnowledgeBasePermissions:quicksight
+DescribeKnowledgeBaseRefreshSchedule:quicksight
 DescribeLimitsProfile:quicksight
 DescribeNamespace:quicksight
 DescribeOAuthClientApplication:quicksight
@@ -16870,10 +16876,12 @@ GetAnonymousUserEmbedUrl:quicksight
 GetAuthCode:quicksight
 GetCustomPermissionsSummary:quicksight
 GetDashboardEmbedUrl:quicksight
+GetEffectiveCustomPermissions:quicksight
 GetFlowMetadata:quicksight
 GetFlowPermissions:quicksight
 GetGroupMapping:quicksight
 GetIdentityContext:quicksight
+GetPolicyAssignment:quicksight
 GetSessionEmbedUrl:quicksight
 ListAccessControlApplications:quicksight
 ListActionConnectors:quicksight
@@ -16908,10 +16916,12 @@ ListInboundConnectorApplicationAssociations:quicksight
 ListInboundConnectors:quicksight
 ListIngestions:quicksight
 ListKMSKeysForUser:quicksight
+ListKnowledgeBaseRefreshSchedules:quicksight
 ListKnowledgeBases:quicksight
 ListLimitsProfiles:quicksight
 ListNamespaces:quicksight
 ListOAuthClientApplications:quicksight
+ListPrincipalsForPolicy:quicksight
 ListRefreshSchedules:quicksight
 ListRoleMemberships:quicksight
 ListSelfUpgrades:quicksight
@@ -16936,6 +16946,7 @@ PassDataSource:quicksight
 PassTopic:quicksight
 PredictQAResults:quicksight
 PutDataSetRefreshProperties:quicksight
+PutPolicyAssignment:quicksight
 QuickSuiteUsageMetrics:quicksight
 RegisterCustomerManagedKey:quicksight
 RegisterUser:quicksight
@@ -17018,6 +17029,7 @@ UpdateIpRestriction:quicksight
 UpdateKeyRegistration:quicksight
 UpdateKnowledgeBase:quicksight
 UpdateKnowledgeBasePermissions:quicksight
+UpdateKnowledgeBaseRefreshSchedule:quicksight
 UpdateLimitsProfile:quicksight
 UpdateOAuthClientApplication:quicksight
 UpdatePublicSharingSettings:quicksight
@@ -18811,6 +18823,7 @@ UpdateRun:sagemaker-mlflow
 AuthorizeVpce:sagemaker-unified-studio-mcp
 AccessModelPackage:sagemaker
 AddAssociation:sagemaker
+AddInferenceGateway:sagemaker
 AddTags:sagemaker
 AssociateTrialComponent:sagemaker
 AttachClusterNodeNetworkInterface:sagemaker
@@ -18839,6 +18852,7 @@ CreateArtifact:sagemaker
 CreateAutoMLJob:sagemaker
 CreateAutoMLJobV2:sagemaker
 CreateCluster:sagemaker
+CreateClusterExtension:sagemaker
 CreateClusterSchedulerConfig:sagemaker
 CreateCodeRepository:sagemaker
 CreateCompilationJob:sagemaker
@@ -18855,6 +18869,7 @@ CreateEndpointConfig:sagemaker
 CreateExperiment:sagemaker
 CreateFeatureGroup:sagemaker
 CreateFlowDefinition:sagemaker
+CreateGlobalInferenceGateway:sagemaker
 CreateHub:sagemaker
 CreateHubContentPresignedUrls:sagemaker
 CreateHubContentReference:sagemaker
@@ -18915,6 +18930,7 @@ DeleteAppImageConfig:sagemaker
 DeleteArtifact:sagemaker
 DeleteAssociation:sagemaker
 DeleteCluster:sagemaker
+DeleteClusterExtension:sagemaker
 DeleteClusterSchedulerConfig:sagemaker
 DeleteCodeRepository:sagemaker
 DeleteCompilationJob:sagemaker
@@ -18931,6 +18947,7 @@ DeleteEndpointPolicy:sagemaker
 DeleteExperiment:sagemaker
 DeleteFeatureGroup:sagemaker
 DeleteFlowDefinition:sagemaker
+DeleteGlobalInferenceGateway:sagemaker
 DeleteHub:sagemaker
 DeleteHubContent:sagemaker
 DeleteHubContentReference:sagemaker
@@ -18986,8 +19003,10 @@ DescribeAppImageConfig:sagemaker
 DescribeArtifact:sagemaker
 DescribeAutoMLJob:sagemaker
 DescribeAutoMLJobV2:sagemaker
+DescribeCapacityReservation:sagemaker
 DescribeCluster:sagemaker
 DescribeClusterEvent:sagemaker
+DescribeClusterExtension:sagemaker
 DescribeClusterInference:sagemaker
 DescribeClusterNode:sagemaker
 DescribeClusterSchedulerConfig:sagemaker
@@ -19007,6 +19026,7 @@ DescribeExperiment:sagemaker
 DescribeFeatureGroup:sagemaker
 DescribeFeatureMetadata:sagemaker
 DescribeFlowDefinition:sagemaker
+DescribeGlobalInferenceGateway:sagemaker
 DescribeHub:sagemaker
 DescribeHubContent:sagemaker
 DescribeHumanLoop:sagemaker
@@ -19043,6 +19063,7 @@ DescribePipelineExecution:sagemaker
 DescribeProcessingJob:sagemaker
 DescribeProject:sagemaker
 DescribeReservedCapacity:sagemaker
+DescribeResourceAssociations:sagemaker
 DescribeSharedModel:sagemaker
 DescribeSpace:sagemaker
 DescribeStudioLifecycleConfig:sagemaker
@@ -19064,6 +19085,7 @@ EnableSagemakerServicecatalogPortfolio:sagemaker
 ExecuteSamplingOperation:sagemaker
 ExecuteTrainingOperation:sagemaker
 ExtendTrainingPlan:sagemaker
+GetCapacityReservationUsage:sagemaker
 GetDeployments:sagemaker
 GetDeviceFleetReport:sagemaker
 GetDeviceRegistration:sagemaker
@@ -19081,6 +19103,8 @@ ImportHubContent:sagemaker
 InvokeEndpoint:sagemaker
 InvokeEndpointAsync:sagemaker
 InvokeEndpointWithResponseStream:sagemaker
+InvokeGlobalInferenceGateway:sagemaker
+InvokeGlobalInferenceGatewayWithResponseStream:sagemaker
 InvokeInferenceRouter:sagemaker
 InvokeInferenceRouterAsync:sagemaker
 ListAIBenchmarkJobs:sagemaker
@@ -19095,7 +19119,10 @@ ListArtifacts:sagemaker
 ListAssociations:sagemaker
 ListAutoMLJobs:sagemaker
 ListCandidatesForAutoMLJob:sagemaker
+ListCapacityReservations:sagemaker
 ListClusterEvents:sagemaker
+ListClusterExtensionVersions:sagemaker
+ListClusterExtensions:sagemaker
 ListClusterNodes:sagemaker
 ListClusterSchedulerConfigs:sagemaker
 ListClusters:sagemaker
@@ -19114,6 +19141,7 @@ ListEndpoints:sagemaker
 ListExperiments:sagemaker
 ListFeatureGroups:sagemaker
 ListFlowDefinitions:sagemaker
+ListGlobalInferenceGateways:sagemaker
 ListHubContentVersions:sagemaker
 ListHubContents:sagemaker
 ListHubs:sagemaker
@@ -19124,6 +19152,7 @@ ListImageVersions:sagemaker
 ListImages:sagemaker
 ListInferenceComponents:sagemaker
 ListInferenceExperiments:sagemaker
+ListInferenceGateways:sagemaker
 ListInferenceRecommendationsJobSteps:sagemaker
 ListInferenceRecommendationsJobs:sagemaker
 ListInferenceRouters:sagemaker
@@ -19187,6 +19216,7 @@ PutRecord:sagemaker
 PutResourcePolicy:sagemaker
 QueryLineage:sagemaker
 RegisterDevices:sagemaker
+RemoveInferenceGateway:sagemaker
 RenderUiTemplate:sagemaker
 RetryPipelineExecution:sagemaker
 Sample:sagemaker
@@ -19234,6 +19264,7 @@ UpdateAction:sagemaker
 UpdateAppImageConfig:sagemaker
 UpdateArtifact:sagemaker
 UpdateCluster:sagemaker
+UpdateClusterExtension:sagemaker
 UpdateClusterInference:sagemaker
 UpdateClusterSchedulerConfig:sagemaker
 UpdateClusterSoftware:sagemaker
@@ -19248,6 +19279,7 @@ UpdateEndpointWeightsAndCapacities:sagemaker
 UpdateExperiment:sagemaker
 UpdateFeatureGroup:sagemaker
 UpdateFeatureMetadata:sagemaker
+UpdateGlobalInferenceGateway:sagemaker
 UpdateHub:sagemaker
 UpdateHubContent:sagemaker
 UpdateHubContentReference:sagemaker
@@ -20275,6 +20307,7 @@ TagResource:signer
 UntagResource:signer
 Authenticate:signin
 AuthorizeOAuth2Access:signin
+BatchRevokeSessions:signin
 CreateAccount:signin
 CreateBearerToken:signin
 CreateOAuth2PublicClient:signin
@@ -20284,8 +20317,10 @@ DeleteConsoleAuthorizationConfiguration:signin
 DeleteResourcePermissionStatement:signin
 GetConsoleAuthorizationConfiguration:signin
 GetResourcePolicy:signin
+GetSession:signin
 IntrospectOAuth2Token:signin
 ListResourcePermissionStatements:signin
+ListSessions:signin
 ListTrustedIdentityPropagationApplicationsForConsole:signin
 PutConsoleAuthorizationConfiguration:signin
 PutResourcePermissionStatement:signin
@@ -21714,6 +21749,7 @@ StartStreamTranscription:transcribe
 StartStreamTranscriptionWebSocket:transcribe
 StartTranscriptionJob:transcribe
 TagResource:transcribe
+TranscribeAudio:transcribe
 UntagResource:transcribe
 UpdateCallAnalyticsCategory:transcribe
 UpdateLanguageModel:transcribe
