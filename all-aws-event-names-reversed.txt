@@ -237,6 +237,7 @@ UpdateCertificateOptions:acm
 AssociateAccounts:aco-automation
 CreateAutomationRule:aco-automation
 DeleteAutomationRule:aco-automation
+DeleteOrganizationEnrollmentConfiguration:aco-automation
 DisassociateAccounts:aco-automation
 GetAutomationEvent:aco-automation
 GetAutomationRule:aco-automation
@@ -248,9 +249,12 @@ ListAutomationEvents:aco-automation
 ListAutomationRulePreview:aco-automation
 ListAutomationRulePreviewSummaries:aco-automation
 ListAutomationRules:aco-automation
+ListOrganizationEnrollmentConfigurations:aco-automation
+ListOrganizationalUnits:aco-automation
 ListRecommendedActionSummaries:aco-automation
 ListRecommendedActions:aco-automation
 ListTagsForResource:aco-automation
+PutOrganizationEnrollmentConfiguration:aco-automation
 RollbackAutomationEvent:aco-automation
 StartAutomationEvent:aco-automation
 TagResource:aco-automation
